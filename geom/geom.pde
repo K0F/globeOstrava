@@ -2,28 +2,26 @@
 
 Globe globe;
 
+
 void setup(){
 
   size(1280,720,OPENGL);
 
-  globe = new Globe("5_night_8k.jpg");
+  globe = new Globe("5_night_8k_sm.jpg");
   ortho();
 }
 
 
 void draw(){
-
   background(0);
-
-
   globe.draw();
-
 }
 
 
 class Globe{
   PImage bg;
   PImage texmap;
+  PGraphics basemap;
 
   int sDetail = 35;  // Sphere detail setting
   float rotationX = 0;
@@ -48,6 +46,8 @@ class Globe{
   Globe(String filename){
     texmap = loadImage(filename);
     texmap.filter(GRAY);
+    basemap = createGraphics(texmap.width,texmap.height,P2D);
+
   initializeSphere(sDetail);
     pos = new PVector(width/2,height/2,0);
     axis = new PVector(0.1,1,0);
@@ -56,6 +56,10 @@ class Globe{
 
   void draw(){
     move();
+
+    basemap.beginDraw();
+    basemap.image(texmap,0,0);
+    basemap.endDraw();
 
     renderGlobe();
 
@@ -89,7 +93,7 @@ class Globe{
     fill(200);
     noStroke();
     textureMode(IMAGE);  
-    texturedSphere(globeRadius, texmap);
+    texturedSphere(globeRadius, basemap);
     popMatrix();  
     popMatrix();
     rotationX += velocityX;
