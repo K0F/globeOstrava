@@ -142,7 +142,7 @@ class Globe{
   }
 
   void move(){
-    velocityX = 5;
+    velocityY = 0.5;
   }
 
   void renderGlobe() {
