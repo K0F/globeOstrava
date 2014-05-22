@@ -18,6 +18,16 @@ void draw(){
 }
 
 
+class Plane{
+  PVector pos;
+
+  Plane (PVector _pos){
+    pos = new PVector(_pos.x,_pos.y,_pos.z);
+  }
+}
+
+
+
 class Globe{
   PImage bg;
   PImage texmap;
