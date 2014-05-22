@@ -12,6 +12,15 @@ void setup(){
   ortho();
 }
 
+void init(){
+  
+  frame.removeNotify();
+  frame.setUndecorated(true);
+  frame.addNotify();
+  super.init();
+
+}
+
 
 ////////////////////////////////////////////////////////
 
@@ -28,6 +37,10 @@ void keyPressed(){
 
 
 void draw(){
+
+  if(frameCount<5)
+    frame.setLocation(0,0);
+
   background(0);
   globe.draw();
 }
