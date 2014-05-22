@@ -13,7 +13,7 @@ void setup(){
 }
 
 void init(){
-  
+
   frame.removeNotify();
   frame.setUndecorated(true);
   frame.addNotify();
@@ -99,7 +99,7 @@ class Globe{
     //texmap.filter(GRAY);
     basemap = createGraphics(texmap.width,texmap.height,P2D);
 
-  initializeSphere(sDetail);
+    initializeSphere(sDetail);
     pos = new PVector(width/2,height/2,0);
     axis = new PVector(0.1,1,0);
     angle = 0;
@@ -109,40 +109,40 @@ class Globe{
     move();
 
     basemap.beginDraw();
-    
+
     if(TEXTURE)
-    basemap.image(texmap,0,0);
-    
+      basemap.image(texmap,0,0);
+
     if(!TEXTURE){
-    basemap.background(0);
-    for(float f = 0 ; f < texmap.width ; f+=texmap.width/24.0){
-      basemap.stroke(255,120);
-      basemap.line(f,0,f,texmap.height);
+      basemap.background(0);
+      for(float f = 0 ; f < texmap.width ; f+=texmap.width/24.0){
+        basemap.stroke(255,120);
+        basemap.line(f,0,f,texmap.height);
+      }
+
+      for(float f = 0 ; f < texmap.height ; f+=texmap.height/12.0){
+        basemap.stroke(255,120);
+        basemap.line(0,f,texmap.width,f);
+      }
     }
-    
-    for(float f = 0 ; f < texmap.height ; f+=texmap.height/12.0){
-      basemap.stroke(255,120);
-      basemap.line(0,f,texmap.width,f);
-    }
-    }
-    
+
     basemap.endDraw();
 
     renderGlobe();
 
     fill(0,120);
     stroke(255,90);
-/*
-    pushMatrix();
-    translate(pos.x,pos.y,pos.z);
-    rotate(angle,axis.x,axis.y,axis.z);
-    texturedSphere(diameter, map);
-    popMatrix();
-    */
+    /*
+       pushMatrix();
+       translate(pos.x,pos.y,pos.z);
+       rotate(angle,axis.x,axis.y,axis.z);
+       texturedSphere(diameter, map);
+       popMatrix();
+     */
   }
 
   void move(){
-    rotationX = 10;
+    velocityX = 5;
   }
 
   void renderGlobe() {
