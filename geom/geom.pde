@@ -2,14 +2,29 @@
 
 Globe globe;
 
+boolean TEXTURE = false;
 
 void setup(){
 
-  size(1280,720,OPENGL);
+  size(1600,900,OPENGL);
 
-  globe = new Globe("5_night_8k_sm.jpg");
+  globe = new Globe("The-globe-at-night.jpg");
   ortho();
 }
+
+
+////////////////////////////////////////////////////////
+
+
+void keyPressed(){
+
+  if(key=='t'){
+    TEXTURE=!TEXTURE;
+  }
+
+}
+
+////////////////////////////////////////////////////////
 
 
 void draw(){
@@ -18,14 +33,28 @@ void draw(){
 }
 
 
+////////////////////////////////////////////////////////
+
+
 class Plane{
   PVector pos;
+  ArrayList trace;
 
-  Plane (PVector _pos){
+  Plane(PVector _pos){
+    trace = new ArrayList();
     pos = new PVector(_pos.x,_pos.y,_pos.z);
+  }
+
+  void trace(){
+    trace.add(new PVector(pos.x,pos.y,pos.z));
+
+    if(trace.size()>100){
+      trace.remove(0);
+    }
   }
 }
 
+////////////////////////////////////////////////////////
 
 
 class Globe{
@@ -33,12 +62,12 @@ class Globe{
   PImage texmap;
   PGraphics basemap;
 
-  int sDetail = 35;  // Sphere detail setting
+  int sDetail = 140;  // Sphere detail setting
   float rotationX = 0;
   float rotationY = 0;
   float velocityX = 0;
   float velocityY = 0;
-  float globeRadius = 400;
+  float globeRadius = 900;
   float pushBack = 0;
 
   float[] cx, cz, sphereX, sphereY, sphereZ;
@@ -50,12 +79,11 @@ class Globe{
   PVector axis;
   PVector pos;
   float angle;
-  float diameter = 300.0;
 
 
   Globe(String filename){
     texmap = loadImage(filename);
-    texmap.filter(GRAY);
+    //texmap.filter(GRAY);
     basemap = createGraphics(texmap.width,texmap.height,P2D);
 
   initializeSphere(sDetail);
@@ -68,7 +96,23 @@ class Globe{
     move();
 
     basemap.beginDraw();
+    
+    if(TEXTURE)
     basemap.image(texmap,0,0);
+    
+    if(!TEXTURE){
+    basemap.background(0);
+    for(float f = 0 ; f < texmap.width ; f+=texmap.width/24.0){
+      basemap.stroke(255,120);
+      basemap.line(f,0,f,texmap.height);
+    }
+    
+    for(float f = 0 ; f < texmap.height ; f+=texmap.height/12.0){
+      basemap.stroke(255,120);
+      basemap.line(0,f,texmap.width,f);
+    }
+    }
+    
     basemap.endDraw();
 
     renderGlobe();
@@ -96,7 +140,7 @@ class Globe{
     strokeWeight(2);
     smooth();
     popMatrix();
-    lights();    
+    //lights();    
     pushMatrix();
     rotateX( radians(-rotationX) );  
     rotateY( radians(270 - rotationY) );
@@ -221,5 +265,3 @@ class Globe{
 
   }
 }
-
-
