@@ -1,6 +1,6 @@
 #!/bin/bash
 startx &
-sleep 5
+sleep 1
 export DISPLAY=:0.0
 xdotool mousemove 1024 768
 cd ~/globeOstrava
