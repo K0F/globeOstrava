@@ -2,11 +2,11 @@
 
 Globe globe;
 
-boolean TEXTURE = false;
+boolean TEXTURE = true;
 
 void setup(){
 
-  size(1600,900,OPENGL);
+  size(1024,768,OPENGL);
 
   globe = new Globe("The-globe-at-night.jpg");
   ortho();
@@ -142,8 +142,9 @@ class Globe{
   }
 
   void move(){
-    angle += 0.01;
+    rotationX = 0.5;
   }
+
   void renderGlobe() {
     pushMatrix();
     translate(pos.x, pos.y, pushBack);
