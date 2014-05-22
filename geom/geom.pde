@@ -8,6 +8,7 @@ void setup(){
 
   size(1024,768,OPENGL);
 
+  noCursor();
   globe = new Globe("The-globe-at-night.jpg");
   ortho();
 }
