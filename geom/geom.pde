@@ -1,15 +1,72 @@
-
+PShader custom;
+PShape sphere;
 
 Globe globe;
 
+float time = 0.0;
+
 boolean TEXTURE = true;
+
+void INIT_SHADER() {
+  custom.set("NR_Ammount", 0.04);
+
+  custom.set("AmbientColour", 0.2, 0.2, 0.2);
+  custom.set("DiffuseColour", 0.8, 0.8, 0.8);
+  custom.set("SpecularColour", 0.8, 0.8, 0.8);
+  custom.set("AmbientIntensity", 0.4);
+  custom.set("DiffuseIntensity", 0.9);
+  custom.set("SpecularIntensity", 0.7);
+  custom.set("Roughness", 0.5);
+  custom.set("Sharpness", 0.01);
+
+  custom.set("diffuseTexture", globe.texmap);
+  custom.set("normalTexture", globe.texmap);
+
+  custom.set("time", time);
+
+
+  // custom.set("inTexcoord", 300,300);
+}
+
+////////////////////////////////////////////////////////
+
+void keyPressed() {
+
+  if(key=='t'){
+    TEXTURE=!TEXTURE;
+    return;
+  }
+
+  try {
+    println("---------------------------------");
+    println("reloading shader");
+    //resetShader();
+    custom = loadShader("frag.glsl", "vert.glsl");
+    INIT_SHADER();
+    shader(custom);
+    println("---------------------------------");
+  } 
+  catch(Exception e) {
+    println(e);
+  }
+}
+////////////////////////////////////////////////////////
 
 void setup(){
 
-  size(1024,768,OPENGL);
+  size(1024,768,P3D);
+
+  custom = loadShader("frag.glsl", "vert.glsl");
+
+  globe = new Globe("The-globe-at-night.jpg");
+
+  sphere = loadShape("globe.obj");
+  sphere.scale(100);
 
   noCursor();
-  globe = new Globe("The-globe-at-night.jpg");
+
+  INIT_SHADER();
+
   ortho();
 }
 
@@ -26,24 +83,18 @@ void init(){
 ////////////////////////////////////////////////////////
 
 
-void keyPressed(){
-
-  if(key=='t'){
-    TEXTURE=!TEXTURE;
-  }
-
-}
-
-////////////////////////////////////////////////////////
-
-
 void draw(){
-
-  if(frameCount<5)
+  //placement hack
+  if(frameCount<=1)
     frame.setLocation(0,0);
 
+
   background(0);
-  globe.draw();
+  pointLight(250, 250, 250, (sin(frameCount/300.0))*1000, 1000, 1000); 
+  shader(custom);
+  translate(width/2,height/2,0);
+  shape(sphere);
+  //globe.draw();
 }
 
 
