@@ -29,7 +29,7 @@ uniform float time;
 
 void main()
 { 
-  float w = 0.18*(1.0-Sharpness);
+  float w = 0.38*(1.0-Sharpness);
 
   vec3 l = normalize(L);
   vec3 n = normalize(N);
@@ -53,7 +53,7 @@ void main()
   */
 
   gl_FragColor = vec4(
-  (normal*NR*3.0)*DiffuseIntensity*diff+SpecularColour*SpecularIntensity*vec3(1.0,0.95,0.5)*(specular*NR*normal*20.0),1.0
+  (normal*NR*3.0)*diff+SpecularColour*SpecularIntensity*specular*NR*normal*20.0,1.0
   );
 
 }
