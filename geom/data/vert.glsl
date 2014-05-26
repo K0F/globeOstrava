@@ -21,17 +21,13 @@ uniform float time;
 
 void main() {
   light_pos = lightPosition[0];
-  
 
   N = normalize(normalMatrix * inNormal); 
   P = inVertex.xyz;
   V = -vec3(modelviewMatrix * inVertex);
   L = vec3(modelviewMatrix * (lightPosition[0] - inVertex));
 
-	
-
   TexCoord = inTexcoord;
-
   gl_Position = projmodelviewMatrix * inVertex;
 }
 

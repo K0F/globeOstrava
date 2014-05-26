@@ -20,7 +20,7 @@ void INIT_SHADER() {
   custom.set("Sharpness", 0.01);
 
   custom.set("diffuseTexture", globe.texmap);
-  custom.set("normalTexture", globe.texmap);
+  custom.set("normalTexture", loadImage("normal.png"));
 
   custom.set("time", time);
 
@@ -90,11 +90,11 @@ void draw(){
 
 
   background(0);
-  pointLight(250, 250, 250, (sin(frameCount/300.0))*1000, 1000, 1000); 
+  pointLight(250, 250, 240, (sin(frameCount/300.0))*1000, 1000, 750); 
   shader(custom);
-  translate(width/2,height/2,0);
-  shape(sphere);
-  //globe.draw();
+  //translate(width/2,height/2,0);
+  //shape(sphere);
+  globe.draw();
 }
 
 

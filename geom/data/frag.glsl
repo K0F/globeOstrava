@@ -42,16 +42,18 @@ void main()
   float NR = max(dot(normal, light_pos),0.0);
 
   float diffuse = dot(l,n);
-  float specular = smoothstep(0.72-w,0.72+w,pow(max(0.0,dot(n,h)),1.0/Roughness));
+  float specular = smoothstep(0.32-w,0.32+w,pow(max(0.0,dot(n,h)),1.0/Roughness));
  
  /*
   gl_FragColor = vec4(
   diff*DiffuseIntensity +
   AmbientColour*AmbientIntensity +
-  SpecularColour*specular*SpecularIntensity
+  SpecularColour*specular*SpecularIntensity*normal*NR
   ,1);
   */
-  
-  gl_FragColor = vec4(diff+specular,1.0);
+
+  gl_FragColor = vec4(
+  (normal*NR*3.0)*DiffuseIntensity*diff+SpecularColour*SpecularIntensity*vec3(1.0,0.95,0.5)*(specular*NR*normal*20.0),1.0
+  );
 
 }
