@@ -1,5 +1,6 @@
 #!/bin/bash
 PATH=$PATH:/home/kof/bin
+sleep 5
 startx &
 sleep 1
 export DISPLAY=:0.0
