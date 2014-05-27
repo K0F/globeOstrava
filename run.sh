@@ -1,4 +1,5 @@
 #!/bin/bash
+pkill x
 PATH=$PATH:/home/kof/bin
 startx &
 sleep 1
