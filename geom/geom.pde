@@ -88,9 +88,10 @@ void draw(){
   if(frameCount<=1)
     frame.setLocation(0,0);
 
+ // custom.set("diffuseTexture", globe.texmap);
 
   background(0);
-  pointLight(250, 250, 240, (sin(frameCount/300.0))*1000, 1000, 750); 
+  pointLight(250, 250, 240, -100, 1000, 750); 
   shader(custom);
   //translate(width/2,height/2,0);
   //shape(sphere);
@@ -194,7 +195,7 @@ class Globe{
   }
 
   void move(){
-    velocityY = 0.5;
+    //velocityY = 0.5;
   }
 
   void renderGlobe() {
