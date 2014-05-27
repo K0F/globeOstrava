@@ -1,5 +1,6 @@
 #!/bin/bash
-pkill x
+pkill X
+sleep 1
 PATH=$PATH:/home/kof/bin
 startx &
 sleep 1
