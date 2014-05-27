@@ -329,6 +329,5 @@ class Globe{
     }
     vertex(sphereX[voff]*r, sphereY[voff]*r, sphereZ[voff]*r, u, v);
     endShape();
-
   }
 }
