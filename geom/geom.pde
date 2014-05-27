@@ -60,7 +60,7 @@ void setup(){
 
   custom = loadShader("frag.glsl", "vert.glsl");
 
-  globe = new Globe("srtm_ramp2.world.5400x2700.jpg");
+  globe = new Globe("The-globe-at-night.jpg");
 
   //sphere = loadShape("globe.obj");
   //sphere.scale(100);
@@ -92,7 +92,7 @@ void draw(){
   if(frameCount<=1)
     frame.setLocation(0,0);
 
- // custom.set("diffuseTexture", globe.texmap);
+  //custom.set("diffuseTexture", globe.basemap);
 
   background(0);
   pointLight(250, 250, 240, -100, 1000, 750); 
@@ -154,8 +154,8 @@ class Globe{
   Globe(String filename){
     texmap = loadImage(filename);
     //texmap.filter(GRAY);
-    basemap = createGraphics(texmap.width,texmap.height,P2D);
 
+    basemap = createGraphics(texmap.width,texmap.height,P2D);
     initializeSphere(sDetail);
     pos = new PVector(width/2,height/2,0);
     axis = new PVector(0.1,1,0);
@@ -173,6 +173,7 @@ class Globe{
     if(!TEXTURE){
       basemap.background(0);
       for(float f = 0 ; f < texmap.width ; f+=texmap.width/24.0){
+        basemap.strokeWeight(10);
         basemap.stroke(255,120);
         basemap.line(f,0,f,texmap.height);
       }
@@ -187,8 +188,8 @@ class Globe{
 
     renderGlobe();
 
-    fill(0,120);
-    stroke(255,90);
+    //fill(0,120);
+    //stroke(255,90);
     /*
        pushMatrix();
        translate(pos.x,pos.y,pos.z);
