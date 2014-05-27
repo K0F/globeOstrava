@@ -63,7 +63,7 @@ void setup(){
   sphere = loadShape("globe.obj");
   sphere.scale(100);
 
-//  noCursor();
+  noCursor();
 
   INIT_SHADER();
 
