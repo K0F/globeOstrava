@@ -1,7 +1,6 @@
 #!/bin/bash
-pkill X
-sleep 1
 PATH=$PATH:/home/kof/bin
+sleep 10
 startx &
 sleep 1
 export DISPLAY=:0.0
