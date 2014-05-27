@@ -8,7 +8,7 @@ xset b off
 xdotool mousemove 1024 768
 cd ~/globeOstrava
 git commit -am "change @ production machine `date`"
-git push
 git pull
+git push
 cd geom
 pp
