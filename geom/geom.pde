@@ -1,6 +1,8 @@
 PShader custom;
 PShape sphere;
 
+Airports aData;
+
 Globe globe;
 
 float time = 0.0;
@@ -58,10 +60,12 @@ void setup(){
 
   custom = loadShader("frag.glsl", "vert.glsl");
 
-  globe = new Globe("The-globe-at-night.jpg");
+  globe = new Globe("srtm_ramp2.world.5400x2700.jpg");
 
-  sphere = loadShape("globe.obj");
-  sphere.scale(100);
+  //sphere = loadShape("globe.obj");
+  //sphere.scale(100);
+
+  aData = new Airports("airports.dat");
 
   noCursor();
 
