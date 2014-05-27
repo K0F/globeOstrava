@@ -53,7 +53,7 @@ void main()
   */
 
   gl_FragColor = vec4(
-  ((1-normal)*NR*0.2)*diff+SpecularColour*SpecularIntensity*specular*(1-normal),1.0
+  ((1-normal)*NR*0.18)*diff+SpecularColour*SpecularIntensity*specular*(1-normal*NR),1.0
   );
 
 }
