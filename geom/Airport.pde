@@ -1,8 +1,11 @@
-float min_lon = 12.406;
-float max_lon = 18.844;
+boolean DRAW_LINES = false;
 
-float min_lat = 48.5868;
-float max_lat = 51.0515;
+
+float min_lon = -180.0;
+float max_lon = 180.0;
+
+float min_lat = 90.0;
+float max_lat = -90.0;
 
 
 class Airports{
@@ -32,9 +35,9 @@ class Airports{
             new Airport(
               parseInt(radek[0]),
               radek[1],
-              radek[2],
               radek[3],
-              parseFloat(radek[5]), 
+              radek[4],
+              parseFloat(radek[7]), 
               parseFloat(radek[6]) 
               ));
       }
@@ -59,8 +62,25 @@ class Airport{
     lon = _lon;
     lat = _lat;
 
-    x = map(lon, min_lon, max_lon, 0, width);
-    y = map(lat, min_lat, max_lat, height, 0);
+    x = map(lon, min_lon, max_lon, 0, 2048);
+    y = map(lat, min_lat, max_lat, 0, 1024);
+
+  }
+
+  void plot(PGraphics _lay){
+
+  _lay.noStroke();
+  _lay.fill(255,0,0,155);
+  _lay.rectMode(CENTER);
+  if(DRAW_LINES)
+  for(int i = 0 ; i < 3;i++){
+    int sel = (int)random(aData.airports.size());
+    Airport tmp = (Airport)aData.airports.get(sel);
+    _lay.stroke(255,128,0,5);
+    _lay.line(x,y,tmp.x,tmp.y);
+  }
+  _lay.rect(x,y,2.5,1.25);
+
 
   }
 }

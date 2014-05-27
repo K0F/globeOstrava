@@ -1,6 +1,8 @@
 PShader custom;
 PShape sphere;
 
+PGraphics airplanesLayer;
+
 Airports aData;
 
 Globe globe;
@@ -23,6 +25,7 @@ void INIT_SHADER() {
 
   custom.set("diffuseTexture", globe.texmap);
   custom.set("normalTexture", loadImage("normal.png"));
+  custom.set("airplanesLayer", airplanesLayer);
 
   custom.set("time", time);
 
@@ -58,14 +61,43 @@ void setup(){
 
   size(1024,768,P3D);
 
+  println("loading shaders ... ");
+
   custom = loadShader("frag.glsl", "vert.glsl");
+
+  print("OK!");
+  println("");
 
   globe = new Globe("The-globe-at-night.jpg");
 
+
+  println("loading airport data ... ");
+  
+  aData = new Airports("airports.dat");
+
+  print("OK!");
+  println("");
+
+  println("drawing airport data ... ");
+  
+  airplanesLayer = createGraphics(2048,1024,JAVA2D);
+  airplanesLayer.beginDraw();
+  //airplanesLayer.background(0);
+
+  
+  for(int i = 0 ; i < aData.airports.size();i++){
+    Airport tmp = (Airport)aData.airports.get(i);
+    tmp.plot(airplanesLayer);
+  }
+  airplanesLayer.endDraw();
+
+  airplanesLayer.save("data/airplanesLocation.png");
+
+  print("OK!");
+  println("");
   //sphere = loadShape("globe.obj");
   //sphere.scale(100);
 
-  aData = new Airports("airports.dat");
 
   noCursor();
 
@@ -109,6 +141,7 @@ void draw(){
 class Plane{
   PVector pos;
   ArrayList trace;
+  Airport A,B;
 
   Plane(PVector _pos){
     trace = new ArrayList();
@@ -203,6 +236,18 @@ class Globe{
     velocityY = -0.05;
   }
 
+  void renderAirports(){
+
+    pushMatrix();
+    translate(pos.x, pos.y, pushBack);
+    
+    pushMatrix();
+    rotateX( radians(-rotationX) );  
+    rotateY( radians(270 - rotationY) );
+    popMatrix();
+    popMatrix();
+  }
+
   void renderGlobe() {
     pushMatrix();
     translate(pos.x, pos.y, pushBack);
@@ -218,7 +263,7 @@ class Globe{
     rotateY( radians(270 - rotationY) );
     fill(200);
     noStroke();
-    textureMode(IMAGE);  
+    //textureMode(IMAGE);  
     texturedSphere(globeRadius, basemap);
     popMatrix();  
     popMatrix();

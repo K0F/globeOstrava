@@ -5,6 +5,7 @@ precision mediump int;
 
 uniform sampler2D diffuseTexture;
 uniform sampler2D normalTexture;
+uniform sampler2D airplanesLayer;
 
 uniform float NR_Ammount;
 uniform vec3 AmbientColour;
@@ -37,6 +38,8 @@ void main()
   vec3 h = normalize(l+v);
 
   vec3 diff = texture2D(diffuseTexture,TexCoord).rgb;
+  vec3 airportsL = texture2D(airplanesLayer,TexCoord).rgb;
+  float alL =  texture2D(airplanesLayer,TexCoord).a;
   vec3 normal = normalize(texture2D(normalTexture,TexCoord).rgb * 2.0 - 1.0) * NR_Ammount;
 
   float NR = max(dot(normal, light_pos),0.0);
@@ -51,9 +54,9 @@ void main()
   SpecularColour*specular*SpecularIntensity*normal*NR
   ,1);
   */
-
   gl_FragColor = vec4(
-  ((1-normal)*NR*0.18)*diff+SpecularColour*SpecularIntensity*specular*(1-normal*NR),1.0
+  alL*airportsL+((1-normal)*NR*0.18)*diff+SpecularColour*SpecularIntensity*specular*(1-normal*NR),1.0
   );
+
 
 }
