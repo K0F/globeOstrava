@@ -1,7 +1,10 @@
 PShader custom;
 PShape sphere;
 
+boolean RANDOM_DRAW = false;
+
 PGraphics airplanesLayer;
+PImage normalTexture;
 
 Airports aData;
 
@@ -24,7 +27,7 @@ void INIT_SHADER() {
   custom.set("Sharpness", 0.01);
 
   custom.set("diffuseTexture", globe.texmap);
-  custom.set("normalTexture", loadImage("normal.png"));
+  custom.set("normalTexture", normalTexture);
   custom.set("airplanesLayer", airplanesLayer);
 
   custom.set("time", time);
@@ -47,8 +50,8 @@ void keyPressed() {
     println("reloading shader");
     //resetShader();
     custom = loadShader("frag.glsl", "vert.glsl");
-    INIT_SHADER();
-    shader(custom);
+   // INIT_SHADER();
+   // shader(custom);
     println("---------------------------------");
   } 
   catch(Exception e) {
@@ -64,12 +67,12 @@ void setup(){
   println("loading shaders ... ");
 
   custom = loadShader("frag.glsl", "vert.glsl");
-
+  normalTexture = loadImage("normal.png");
   print("OK!");
   println("");
 
   globe = new Globe("The-globe-at-night.jpg");
-
+  
 
   println("loading airport data ... ");
   
@@ -120,11 +123,32 @@ void init(){
 
 
 void draw(){
-  //placement hack
+
+  if(RANDOM_DRAW)
+if(frameCount%2==0){
+  
+
+  airplanesLayer.beginDraw();
+  int sel1 = (int)random(aData.airports.size());
+  Airport tmp1 = (Airport)aData.airports.get(sel1);
+  
+  for(int i = 0 ; i < 20;i++){
+  int sel2 = (int)random(aData.airports.size());
+  Airport tmp2 = (Airport)aData.airports.get(sel2);
+  airplanesLayer.stroke(255,15);
+  airplanesLayer.line(tmp1.x,tmp1.y,tmp2.x,tmp2.y);
+  }
+  airplanesLayer.endDraw();
+
+
+  //custom.set("diffuseTexture", globe.texmap);
+  custom.set("normalTexture", normalTexture);  
+  custom.set("airplanesLayer", airplanesLayer);
+}
+//placement hack
   if(frameCount<=1)
     frame.setLocation(0,0);
 
-  //custom.set("diffuseTexture", globe.basemap);
 
   background(0);
   pointLight(250, 250, 240, -100, 1000, 750); 
