@@ -28,7 +28,7 @@ class Plane{
   }
 
   void move(){
-    PVector dir = new PVector(B.x-A.x,B.y-A.y);
+    PVector dir = new PVector(B.x-pos.x,B.y-pos.y);
     dir.normalize();
     dir.mult(speed);
     pos.add(dir);
@@ -36,7 +36,6 @@ class Plane{
     float d = dist(pos.x,pos.y,B.x,B.y);
     if(d<2.0){
       B = (Airport)aData.airports.get((int)random(aData.airports.size()));
-
     }
 
     trace();
