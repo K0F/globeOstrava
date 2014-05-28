@@ -27,9 +27,11 @@ class Airports{
 
     airports = new ArrayList();
 
+    
     for (int i = 0 ; i < raw.length ; i++) {
       String radek[] = splitTokens(raw[i], ",\"");
 
+      if(radek.length==11)
       try {  
         airports.add(
             new Airport(
