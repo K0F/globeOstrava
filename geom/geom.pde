@@ -1,7 +1,7 @@
 PShader custom;
 PShape sphere;
 
-boolean RANDOM_DRAW = true;
+boolean RANDOM_DRAW = false;
 
 PGraphics airplanesLayer;
 PImage normalTexture;
