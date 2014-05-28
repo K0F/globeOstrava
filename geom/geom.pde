@@ -90,7 +90,7 @@ void setup(){
   }
   airplanesLayer.endDraw();
 
-  airplanesLayer.save("data/airplanesLocation.png");
+  //airplanesLayer.save("data/airplanesLocation.png");
 
 
   println("loading airport data ... ");
