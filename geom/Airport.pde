@@ -64,8 +64,8 @@ class Airport{
     lon = _lon;
     lat = _lat;
 
-    x = map(lon, min_lon, max_lon, 0, 2048);
-    y = map(lat, min_lat, max_lat, 0, 1024);
+    x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
+    y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );
 
   }
 

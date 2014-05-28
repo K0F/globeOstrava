@@ -1,12 +1,17 @@
 PShader custom;
 PShape sphere;
 
+boolean DRAW_PLANES = true;
+int NUM_PLANES = 700;
+
+
 boolean RANDOM_DRAW = false;
 
 PGraphics airplanesLayer;
 PImage normalTexture;
 
 Airports aData;
+ArrayList planes;
 
 Globe globe;
 
@@ -73,21 +78,12 @@ void setup(){
 
   globe = new Globe("The-globe-at-night.jpg");
   
-
-  println("loading airport data ... ");
-  
-  aData = new Airports("airports.dat");
-
-  print("OK!");
-  println("");
-
-  println("drawing airport data ... ");
-  
-  airplanesLayer = createGraphics(2048,1024,JAVA2D);
+  airplanesLayer = createGraphics(2048,1024,P2D);
   airplanesLayer.beginDraw();
   //airplanesLayer.background(0);
 
-  
+  aData = new Airports("airports.dat");
+    
   for(int i = 0 ; i < aData.airports.size();i++){
     Airport tmp = (Airport)aData.airports.get(i);
     tmp.plot(airplanesLayer);
@@ -95,6 +91,21 @@ void setup(){
   airplanesLayer.endDraw();
 
   airplanesLayer.save("data/airplanesLocation.png");
+
+
+  println("loading airport data ... ");
+  
+
+  print("OK!");
+  println("");
+
+  println("drawing airport data ... ");
+  
+  planes = new ArrayList();
+
+  for(int i = 0 ; i < NUM_PLANES;i++)
+    planes.add(new Plane());
+
 
   print("OK!");
   println("");
@@ -124,11 +135,18 @@ void init(){
 
 void draw(){
 
-  if(RANDOM_DRAW)
-if(frameCount%2==0){
   
-
+  if(DRAW_PLANES){
   airplanesLayer.beginDraw();
+  background(0,-1);
+  for(int i = 0 ; i< planes.size();i++){
+    Plane tmp = (Plane)planes.get(i);
+    tmp.draw(airplanesLayer);
+  }
+
+  airplanesLayer.endDraw();
+  
+/*
   int sel1 = (int)random(aData.airports.size());
   Airport tmp1 = (Airport)aData.airports.get(sel1);
   
@@ -140,11 +158,13 @@ if(frameCount%2==0){
   }
   airplanesLayer.endDraw();
 
-
+*/
   //custom.set("diffuseTexture", globe.texmap);
   custom.set("normalTexture", normalTexture);  
   custom.set("airplanesLayer", airplanesLayer);
-}
+  }
+
+
 //placement hack
   if(frameCount<=1)
     frame.setLocation(0,0);
@@ -160,27 +180,6 @@ if(frameCount%2==0){
 
 
 ////////////////////////////////////////////////////////
-
-
-class Plane{
-  PVector pos;
-  ArrayList trace;
-  Airport A,B;
-
-  Plane(PVector _pos){
-    trace = new ArrayList();
-    pos = new PVector(_pos.x,_pos.y,_pos.z);
-  }
-
-  void trace(){
-    trace.add(new PVector(pos.x,pos.y,pos.z));
-
-    if(trace.size()>100){
-      trace.remove(0);
-    }
-  }
-}
-
 ////////////////////////////////////////////////////////
 
 
