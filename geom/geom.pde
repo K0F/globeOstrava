@@ -2,7 +2,7 @@ PShader custom;
 PShape sphere;
 
 boolean DRAW_PLANES = true;
-int NUM_PLANES = 700;
+int NUM_PLANES = 2000;
 
 
 boolean RANDOM_DRAW = false;
