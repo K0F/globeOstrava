@@ -1,18 +1,9 @@
-boolean DRAW_LINES = false;
-
-
-float min_lon = -180.0;
-float max_lon = 180.0;
-
-float min_lat = 90.0;
-float max_lat = -90.0;
-
 
 class Airports{
   String [] raw;
 
   ArrayList airports;
-
+  
 
   Airports(String _filename){
 
@@ -51,6 +42,9 @@ class Airports{
 }
 
 class Airport{
+
+  ArrayList links;
+
 
   String code,country,name;
   int ID;

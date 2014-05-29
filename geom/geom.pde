@@ -1,9 +1,22 @@
 PShader custom;
 PShape sphere;
 
-boolean DRAW_PLANES = true;
-int NUM_PLANES = 2000;
 
+///////////////////////////////
+boolean DRAW_LINES = false;
+
+
+float min_lon = -180.0;
+float max_lon = 180.0;
+
+float min_lat = 90.0;
+float max_lat = -90.0;
+
+
+boolean DRAW_PLANES = true;
+int NUM_PLANES = 1000;
+
+/////////////////////////////////
 
 boolean RANDOM_DRAW = false;
 
