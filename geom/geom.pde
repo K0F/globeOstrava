@@ -1,6 +1,7 @@
 PShader custom;
 PShape sphere;
 
+boolean DEBUG = true;
 
 ///////////////////////////////
 boolean DRAW_LINES = false;
@@ -23,6 +24,7 @@ boolean RANDOM_DRAW = false;
 PGraphics airplanesLayer;
 PImage normalTexture;
 
+RouteMap routemap;
 Airports aData;
 ArrayList planes;
 
@@ -96,7 +98,9 @@ void setup(){
   //airplanesLayer.background(0);
 
   aData = new Airports("airports.dat");
-    
+   
+  routemap = new RoadMap("routes.dat");
+
   for(int i = 0 ; i < aData.airports.size();i++){
     Airport tmp = (Airport)aData.airports.get(i);
     tmp.plot(airplanesLayer);
