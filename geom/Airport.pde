@@ -3,21 +3,16 @@ class Airports{
   String [] raw;
 
   ArrayList airports;
-  
 
   Airports(String _filename){
-
     parse(_filename);
-
   }
-
 
   void parse(String _filename) {
     raw = loadStrings(_filename);
     println("Pocet letist: "+raw.length);
 
     airports = new ArrayList();
-
     
     for (int i = 0 ; i < raw.length ; i++) {
       String radek[] = splitTokens(raw[i], ",\"");

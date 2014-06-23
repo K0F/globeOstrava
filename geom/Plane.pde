@@ -1,6 +1,4 @@
 
-
-
 class Plane{
   PVector pos;
   ArrayList trace;
