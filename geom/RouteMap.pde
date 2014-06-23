@@ -6,6 +6,7 @@ class RouteMap{
   Airports airports;
   ArrayList routes;
 
+  
   RouteMap(String _filename){
 
 
@@ -29,13 +30,15 @@ class RouteMap{
   void parse(){
 
     for(int i = 0 ; i < raw.length; i++){
-      routes.add()
+      String tmp = raw[i];
+      String [] data = splitTokens(tmp,",");
+
+      int a = parseInt(data[3]);
+      int b = parseInt(data[5]);
+
+      routes.add(new Route(i,a,b));
+      
     }
   }
-
-
-
-
-
 
 }
