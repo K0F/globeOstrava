@@ -1,6 +1,6 @@
 
 class RouteMap{
-  String raw;
+  String raw[];
 
   String filename;
   Airports airports;
