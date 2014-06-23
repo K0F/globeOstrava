@@ -70,8 +70,8 @@ void keyPressed() {
     println("reloading shader");
     //resetShader();
     custom = loadShader("frag.glsl", "vert.glsl");
-   // INIT_SHADER();
-   // shader(custom);
+    // INIT_SHADER();
+    // shader(custom);
     println("---------------------------------");
   } 
   catch(Exception e) {
@@ -92,14 +92,14 @@ void setup(){
   println("");
 
   globe = new Globe("The-globe-at-night.jpg");
-  
+
   airplanesLayer = createGraphics(2048,1024,P2D);
   airplanesLayer.beginDraw();
   //airplanesLayer.background(0);
 
   aData = new Airports("airports.dat");
-   
-  routemap = new RoadMap("routes.dat");
+
+  routemap = new RouteMap("routes.dat");
 
   for(int i = 0 ; i < aData.airports.size();i++){
     Airport tmp = (Airport)aData.airports.get(i);
@@ -110,22 +110,26 @@ void setup(){
   //airplanesLayer.save("data/airplanesLocation.png");
 
 
-  println("loading airport data ... ");
-  
+  if(DEBUG){
+    println("loading airport data ... ");
 
-  print("OK!");
-  println("");
 
-  println("drawing airport data ... ");
-  
+    print("OK!");
+    println("");
+
+    println("drawing airport data ... ");
+  }
+
   planes = new ArrayList();
 
   for(int i = 0 ; i < NUM_PLANES;i++)
     planes.add(new Plane());
 
 
-  print("OK!");
-  println("");
+  if(DEBUG){
+    print("OK!");
+    println("");
+  }
   //sphere = loadShape("globe.obj");
   //sphere.scale(100);
 
@@ -152,37 +156,37 @@ void init(){
 
 void draw(){
 
-  
+
   if(DRAW_PLANES){
-  airplanesLayer.beginDraw();
-  background(0,-1);
-  for(int i = 0 ; i< planes.size();i++){
-    Plane tmp = (Plane)planes.get(i);
-    tmp.draw(airplanesLayer);
+    airplanesLayer.beginDraw();
+    background(0,-1);
+    for(int i = 0 ; i< planes.size();i++){
+      Plane tmp = (Plane)planes.get(i);
+      tmp.draw(airplanesLayer);
+    }
+
+    airplanesLayer.endDraw();
+
+    /*
+       int sel1 = (int)random(aData.airports.size());
+       Airport tmp1 = (Airport)aData.airports.get(sel1);
+
+       for(int i = 0 ; i < 20;i++){
+       int sel2 = (int)random(aData.airports.size());
+       Airport tmp2 = (Airport)aData.airports.get(sel2);
+       airplanesLayer.stroke(255,15);
+       airplanesLayer.line(tmp1.x,tmp1.y,tmp2.x,tmp2.y);
+       }
+       airplanesLayer.endDraw();
+
+     */
+    //custom.set("diffuseTexture", globe.texmap);
+    custom.set("normalTexture", normalTexture);  
+    custom.set("airplanesLayer", airplanesLayer);
   }
 
-  airplanesLayer.endDraw();
-  
-/*
-  int sel1 = (int)random(aData.airports.size());
-  Airport tmp1 = (Airport)aData.airports.get(sel1);
-  
-  for(int i = 0 ; i < 20;i++){
-  int sel2 = (int)random(aData.airports.size());
-  Airport tmp2 = (Airport)aData.airports.get(sel2);
-  airplanesLayer.stroke(255,15);
-  airplanesLayer.line(tmp1.x,tmp1.y,tmp2.x,tmp2.y);
-  }
-  airplanesLayer.endDraw();
 
-*/
-  //custom.set("diffuseTexture", globe.texmap);
-  custom.set("normalTexture", normalTexture);  
-  custom.set("airplanesLayer", airplanesLayer);
-  }
-
-
-//placement hack
+  //placement hack
   if(frameCount<=1)
     frame.setLocation(0,0);
 
@@ -280,7 +284,7 @@ class Globe{
 
     pushMatrix();
     translate(pos.x, pos.y, pushBack);
-    
+
     pushMatrix();
     rotateX( radians(-rotationX) );  
     rotateY( radians(270 - rotationY) );
