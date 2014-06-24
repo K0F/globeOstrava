@@ -37,7 +37,7 @@ class Airports{
 
   ArrayList getByID(int _id){
     ArrayList by_id = new ArrayList();
-    for(int i = 0; i < airports.size()){
+    for(int i = 0; i < airports.size();i++){
       Airport tmp = airports.get(i);
       if(tmp.ID==_id){
         by_id.add(tmp);
