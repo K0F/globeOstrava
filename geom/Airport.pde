@@ -21,6 +21,7 @@ class Airports{
         try {  
           airports.add(
               new Airport(
+              this,
                 parseInt(radek[0]),
                 radek[1],
                 radek[3],
@@ -65,6 +66,8 @@ class Airport{
     lat = _lat;
 
     parent = _parent;
+
+    destinations = routemap.getDestinations(ID);
 
     x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
     y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );
