@@ -37,7 +37,7 @@ class RouteMap{
       Route tmp = (Route)routes.get(i);
 
       Airport a = tmp.A;
-      Airport b = tmp.A;
+      Airport b = tmp.B;
 
       if(a.ID==src||b.ID==src){
 

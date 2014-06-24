@@ -96,10 +96,10 @@ void setup(){
   airplanesLayer = createGraphics(2048,1024,P2D);
   airplanesLayer.beginDraw();
   //airplanesLayer.background(0);
+  routemap = new RouteMap("routes.dat");
 
   aData = new Airports("airports.dat");
 
-  routemap = new RouteMap("routes.dat");
 
   for(int i = 0 ; i < aData.airports.size();i++){
     Airport tmp = (Airport)aData.airports.get(i);
