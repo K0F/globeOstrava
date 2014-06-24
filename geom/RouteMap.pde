@@ -14,7 +14,7 @@ class RouteMap{
       println("loading route data");
 
     filename = _filename;
-    airports = aData;
+    //airports = aData;
 
     routes = new ArrayList();
 
