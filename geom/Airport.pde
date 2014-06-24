@@ -49,7 +49,7 @@ class Airports{
 }
 
 class Airport{
-  ArrayList links;
+  ArrayList destinations;
 
   String code,country,name;
   int ID;
