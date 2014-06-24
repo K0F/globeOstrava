@@ -13,33 +13,44 @@ class Airports{
     println("Pocet letist: "+raw.length);
 
     airports = new ArrayList();
-    
+
     for (int i = 0 ; i < raw.length ; i++) {
       String radek[] = splitTokens(raw[i], ",\"");
 
       if(radek.length==11)
-      try {  
-        airports.add(
-            new Airport(
-              parseInt(radek[0]),
-              radek[1],
-              radek[3],
-              radek[4],
-              parseFloat(radek[7]), 
-              parseFloat(radek[6]) 
-              ));
-      }
+        try {  
+          airports.add(
+              new Airport(
+                parseInt(radek[0]),
+                radek[1],
+                radek[3],
+                radek[4],
+                parseFloat(radek[7]), 
+                parseFloat(radek[6]) 
+                ));
+        }
       catch(Exception e) {
         ;
       }
     }
   }
+
+  ArrayList getByID(int _id){
+    ArrayList by_id = new ArrayList();
+    for(int i = 0; i < airports.size()){
+      Airport tmp = airports.get(i);
+      if(tmp.ID==_id){
+        by_id.add(tmp);
+      }
+
+    }
+  return by_id;
+  }
+
 }
 
 class Airport{
-
   ArrayList links;
-
 
   String code,country,name;
   int ID;
@@ -55,23 +66,19 @@ class Airport{
 
     x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
     y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );
-
   }
 
   void plot(PGraphics _lay){
-
-  _lay.noStroke();
-  _lay.fill(255,0,0,155);
-  _lay.rectMode(CENTER);
-  if(DRAW_LINES)
-  for(int i = 0 ; i < 3;i++){
-    int sel = (int)random(aData.airports.size());
-    Airport tmp = (Airport)aData.airports.get(sel);
-    _lay.stroke(255,128,0,5);
-    _lay.line(x,y,tmp.x,tmp.y);
-  }
-  _lay.rect(x,y,2.5,1.25);
-
-
+    _lay.noStroke();
+    _lay.fill(255,0,0,155);
+    _lay.rectMode(CENTER);
+    if(DRAW_LINES)
+      for(int i = 0 ; i < 3;i++){
+        int sel = (int)random(aData.airports.size());
+        Airport tmp = (Airport)aData.airports.get(sel);
+        _lay.stroke(255,128,0,5);
+        _lay.line(x,y,tmp.x,tmp.y);
+      }
+    _lay.rect(x,y,2.5,1.25);
   }
 }

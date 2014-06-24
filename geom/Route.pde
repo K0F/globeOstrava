@@ -16,8 +16,6 @@ class Route{
 
   Route(int _id,Airport _A, Airport _B){
     id = _id;
-    srcid = _srcid;
-    destid = _destid;
 
     A = _A;
     B = _B;
