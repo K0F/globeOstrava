@@ -31,6 +31,22 @@ class RouteMap{
   }
 
 
+  ArrayList getDestinations(int src){
+    ArrayList result = new ArrayList();
+    for(int i = 0 ; i < routes.size();i++){
+      Route tmp = (Route)routes.get(i);
+
+      Airport a = tmp.A;
+      Airport b = tmp.A;
+
+      if(a.ID==src||b.ID==src){
+
+        result.add(tmp);
+      }
+    }
+  }
+
+
   void parse(){
 
     for(int i = 0 ; i < raw.length; i++){

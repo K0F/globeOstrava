@@ -50,18 +50,21 @@ class Airports{
 
 class Airport{
   ArrayList destinations;
+  Airports parent;
 
   String code,country,name;
   int ID;
   float lon,lat,x,y;
 
-  Airport(int _ID,String _name, String _country, String _code, float _lon, float _lat){
+  Airport(Airports _parent, int _ID,String _name, String _country, String _code, float _lon, float _lat){
     name = _name;
     country = _country;
     code = _code;
     ID = _ID;
     lon = _lon;
     lat = _lat;
+
+    parent = _parent;
 
     x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
     y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );
