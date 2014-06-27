@@ -94,8 +94,9 @@ void setup(){
   //airplanesLayer.background(0);
 
   aData = new Airports("airports.dat");
-  routemap = new RouteMap("routes.dat");
 
+  routemap = new RouteMap("routes.dat");
+  
   aData.getDestinations();
 
   for(int i = 0 ; i < aData.airports.size();i++){
