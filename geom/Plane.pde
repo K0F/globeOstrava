@@ -3,19 +3,20 @@ class Plane{
   PVector pos;
   ArrayList trace;
   Airport A,B;
+  Route route;
   float speed = 5.0;
 
   Plane(){
     speed = random(0.01,1.0);
     trace = new ArrayList();
-    A = (Airport)aData.airports.get((int)random(aData.airports.size()));
-    B = (Airport)aData.airports.get((int)random(aData.airports.size()));
+    Route tmp = (Route)routemap.routes.get((int)random(aData.airports.size()));
+    A = (Airport)route.A;
+    B = (Airport)route.B;
     pos = new PVector(A.x,A.y);
   }
 
   void draw(PGraphics _tmp){
     move();
-
     for(int i = 1 ; i< trace.size();i++){
       PVector tmp2 = (PVector)trace.get(i-1);
       PVector tmp1 = (PVector)trace.get(i);
@@ -32,12 +33,13 @@ class Plane{
     pos.add(dir);
 
     float d = dist(pos.x,pos.y,B.x,B.y);
+
     if(d<2.0){
-      B = (Airport)aData.airports.get((int)random(aData.airports.size()));
+      A = B;
+      B = (Airport)B.pickRandomDestination();
     }
 
     trace();
-
   }
 
   void trace(){

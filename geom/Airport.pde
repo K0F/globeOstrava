@@ -1,4 +1,5 @@
-////////////////////////////////////////////////////
+
+
 
 class Airports{
   String [] raw;
@@ -49,16 +50,6 @@ class Airports{
       println("*** DEBUG *** got "+airports.size()+" airports out of "+raw.length);
   }
 
-  Airport getByID(int _id){
-    ArrayList by_id = new ArrayList();
-    for(int i = 0; i < airports.size();i++){
-      Airport tmp = (Airport)airports.get(i);
-      if(tmp.ID==_id){
-        by_id.add(tmp);
-      }
-    }
-    return (Airport)by_id.get(0);
-  }
 }
 ////////////////////////////////////////////////////
 
@@ -98,6 +89,11 @@ class Airport{
 
   void getDestinations(){
     destinations = routemap.getDestinations(ID);
+  }
+
+  Airport pickRandomDestination(){
+    return (Airport)destinations.get((int)random(destinations.size()));
+
   }
 
   void plot(PGraphics _lay){

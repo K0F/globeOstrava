@@ -6,13 +6,11 @@ boolean DEBUG = true;
 ///////////////////////////////
 boolean DRAW_LINES = false;
 
-
 float min_lon = -180.0;
 float max_lon = 180.0;
 
 float min_lat = 90.0;
 float max_lat = -90.0;
-
 
 boolean DRAW_PLANES = true;
 int NUM_PLANES = 1000;
@@ -31,7 +29,6 @@ ArrayList planes;
 Globe globe;
 
 float time = 0.0;
-
 boolean TEXTURE = true;
 
 void INIT_SHADER() {
@@ -51,7 +48,6 @@ void INIT_SHADER() {
   custom.set("airplanesLayer", airplanesLayer);
 
   custom.set("time", time);
-
 
   // custom.set("inTexcoord", 300,300);
 }
@@ -97,8 +93,8 @@ void setup(){
   airplanesLayer.beginDraw();
   //airplanesLayer.background(0);
 
-  routemap = new RouteMap("routes.dat");
   aData = new Airports("airports.dat");
+  routemap = new RouteMap("routes.dat");
 
   aData.getDestinations();
 
@@ -110,14 +106,10 @@ void setup(){
 
   //airplanesLayer.save("data/airplanesLocation.png");
 
-
   if(DEBUG){
     println("loading airport data ... ");
-
-
     print("OK!");
     println("");
-
     println("drawing airport data ... ");
   }
 
@@ -126,14 +118,12 @@ void setup(){
   for(int i = 0 ; i < NUM_PLANES;i++)
     planes.add(new Plane());
 
-
   if(DEBUG){
     print("OK!");
     println("");
   }
   //sphere = loadShape("globe.obj");
   //sphere.scale(100);
-
 
   noCursor();
 
@@ -143,12 +133,10 @@ void setup(){
 }
 
 void init(){
-
   frame.removeNotify();
   frame.setUndecorated(true);
   frame.addNotify();
   super.init();
-
 }
 
 
@@ -179,7 +167,9 @@ void draw(){
        airplanesLayer.endDraw();
 
      */
-    //custom.set("diffuseTexture", globe.texmap);
+  
+  
+  //custom.set("diffuseTexture", globe.texmap);
     custom.set("normalTexture", normalTexture);  
     custom.set("airplanesLayer", airplanesLayer);
   }
@@ -201,6 +191,27 @@ void draw(){
 
 ////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////
+
+Airport getAirportByID(int _id){
+  ArrayList by_id = new ArrayList();
+  
+  first:
+  for(int i = 0; i < aData.airports.size();i++){
+    Airport tmp = (Airport)aData.airports.get(i);
+    if(tmp.ID==_id){
+      by_id.add(tmp);
+      break first;
+    }
+  }
+  if(by_id.size()>0){
+  return (Airport)by_id.get(0);
+  }else{
+    return null;
+  }
+}
+//////////////////////////////////////////////////
+
+
 
 
 class Globe{

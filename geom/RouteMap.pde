@@ -29,14 +29,16 @@ class RouteMap{
   ArrayList getDestinations(int src){
     ArrayList result = new ArrayList();
     for(int i = 0 ; i < routes.size();i++){
+      try{
       Route tmp = (Route)routes.get(i);
 
       Airport a = tmp.A;
       Airport b = tmp.B;
 
-      if(a.ID==src||b.ID==src){
+      if(a.ID==src || b.ID==src){
         result.add(tmp);
       }
+      }catch(Exception e){;}
     }
     return result;
   }
@@ -51,8 +53,8 @@ class RouteMap{
       int a = parseInt(data[3]);
       int b = parseInt(data[5]);
 
-      Airport A = aData.airports.getByID(a);
-      Airport B = aData.airports.getByID(b);
+      Airport A = getAirportByID(a);
+      Airport B = getAirportByID(b);
 
       routes.add(new Route(i,A,B));
     }
