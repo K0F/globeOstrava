@@ -1,3 +1,5 @@
+////////////////////////////////////////////////////
+
 class Airports{
   String [] raw;
 
@@ -5,6 +7,15 @@ class Airports{
 
   Airports(String _filename){
     parse(_filename);
+  }
+
+  void getDestinations(){
+
+    for(int i = 0 ; i < airports.size();i++){
+      Airport tmp =  (Airport)airports.get(i);
+      tmp.getDestinations();
+    }
+
   }
 
   void parse(String _filename) {
@@ -16,12 +27,11 @@ class Airports{
     for (int i = 0 ; i < raw.length ; i++) {
       String radek[] = splitTokens(raw[i], ",\"");
 
-      
       if(radek.length==11)      
-      try {  
+        try {  
           airports.add(
               new Airport(
-              this,
+                this,
                 parseInt(radek[0]),
                 radek[1],
                 radek[3],
@@ -39,7 +49,7 @@ class Airports{
       println("*** DEBUG *** got "+airports.size()+" airports out of "+raw.length);
   }
 
-  ArrayList getByID(int _id){
+  Airport getByID(int _id){
     ArrayList by_id = new ArrayList();
     for(int i = 0; i < airports.size();i++){
       Airport tmp = (Airport)airports.get(i);
@@ -47,9 +57,10 @@ class Airports{
         by_id.add(tmp);
       }
     }
-  return by_id;
+    return (Airport)by_id.get(0);
   }
 }
+////////////////////////////////////////////////////
 
 class Airport{
   ArrayList destinations;
@@ -67,7 +78,6 @@ class Airport{
 
     parent = _parent;
 
-    //destinations = routemap.getDestinations(ID);
 
     x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
     y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );
@@ -82,12 +92,12 @@ class Airport{
     lon = _lon;
     lat = _lat;
 
-    //parent = _parent;
-
-    //destinations = routemap.getDestinations(ID);
-
     x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
     y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );
+  }
+
+  void getDestinations(){
+    destinations = routemap.getDestinations(ID);
   }
 
   void plot(PGraphics _lay){
@@ -105,3 +115,4 @@ class Airport{
     _lay.rect(x,y,2.5,1.25);
   }
 }
+////////////////////////////////////////////////////

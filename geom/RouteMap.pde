@@ -1,9 +1,9 @@
+////////////////////////////////////////////////////
 class RouteMap{
   String raw[];
 
   String filename;
   ArrayList routes;
-
 
   RouteMap(String _filename){
 
@@ -24,9 +24,7 @@ class RouteMap{
 
     if(DEBUG)
       println(routes.size()+" routes sucessfully parsed");
-
   }
-
 
   ArrayList getDestinations(int src){
     ArrayList result = new ArrayList();
@@ -53,6 +51,9 @@ class RouteMap{
 
       int a = parseInt(data[3]);
       int b = parseInt(data[5]);
+
+      Airport A = aData.airports.getByID(a);
+      Airport B = aData.airports.getByID(b);
 
       routes.add(new Route(i,a,b));
     }

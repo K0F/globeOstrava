@@ -97,11 +97,10 @@ void setup(){
   airplanesLayer.beginDraw();
   //airplanesLayer.background(0);
 
+  routemap = new RouteMap("routes.dat");
   aData = new Airports("airports.dat");
 
-  routemap = new RouteMap("routes.dat");
-
-
+  aData.getDestinations();
 
   for(int i = 0 ; i < aData.airports.size();i++){
     Airport tmp = (Airport)aData.airports.get(i);
@@ -157,8 +156,6 @@ void init(){
 
 
 void draw(){
-
-
   if(DRAW_PLANES){
     airplanesLayer.beginDraw();
     background(0,-1);
@@ -369,7 +366,6 @@ class Globe{
     }
     sDetail = res;
   }
-
 
   // Generic routine to draw textured sphere
   void texturedSphere(float r, PImage t) {
