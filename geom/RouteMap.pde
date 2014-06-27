@@ -35,7 +35,6 @@ class RouteMap{
       Airport b = tmp.B;
 
       if(a.ID==src||b.ID==src){
-
         result.add(tmp);
       }
     }
@@ -55,7 +54,7 @@ class RouteMap{
       Airport A = aData.airports.getByID(a);
       Airport B = aData.airports.getByID(b);
 
-      routes.add(new Route(i,a,b));
+      routes.add(new Route(i,A,B));
     }
   }
 }
