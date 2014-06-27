@@ -1,4 +1,3 @@
-
 class Airports{
   String [] raw;
 
@@ -17,8 +16,9 @@ class Airports{
     for (int i = 0 ; i < raw.length ; i++) {
       String radek[] = splitTokens(raw[i], ",\"");
 
-      if(radek.length==11)
-        try {  
+      
+      if(radek.length==11)      
+      try {  
           airports.add(
               new Airport(
               this,
@@ -31,9 +31,12 @@ class Airports{
                 ));
         }
       catch(Exception e) {
-        ;
+        println("something went terribly wrong during parsing "+_filename+" file! chef");
       }
     }
+
+    if(DEBUG)
+      println("*** DEBUG *** got "+airports.size()+" airports out of "+raw.length);
   }
 
   ArrayList getByID(int _id){
@@ -46,7 +49,6 @@ class Airports{
     }
   return by_id;
   }
-
 }
 
 class Airport{
@@ -57,7 +59,22 @@ class Airport{
   int ID;
   float lon,lat,x,y;
 
+  Airport(Airports _parent, int _ID, float _lon, float _lat){
+    parent = _parent;
+    ID = _ID;
+    lon = _lon;
+    lat = _lat;
+
+    parent = _parent;
+
+    //destinations = routemap.getDestinations(ID);
+
+    x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
+    y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );
+  }
+
   Airport(Airports _parent, int _ID,String _name, String _country, String _code, float _lon, float _lat){
+    parent = _parent;
     name = _name;
     country = _country;
     code = _code;
@@ -65,9 +82,9 @@ class Airport{
     lon = _lon;
     lat = _lat;
 
-    parent = _parent;
+    //parent = _parent;
 
-    destinations = routemap.getDestinations(ID);
+    //destinations = routemap.getDestinations(ID);
 
     x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
     y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );
@@ -82,6 +99,7 @@ class Airport{
         int sel = (int)random(aData.airports.size());
         Airport tmp = (Airport)aData.airports.get(sel);
         _lay.stroke(255,128,0,5);
+        _lay.line(x,y,tmp.x,tmp.y);
         _lay.line(x,y,tmp.x,tmp.y);
       }
     _lay.rect(x,y,2.5,1.25);

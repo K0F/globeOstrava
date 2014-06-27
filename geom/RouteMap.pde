@@ -1,14 +1,11 @@
-
 class RouteMap{
   String raw[];
 
   String filename;
-  Airports airports;
   ArrayList routes;
 
 
   RouteMap(String _filename){
-
 
     if(DEBUG)
       println("loading route data");
@@ -60,5 +57,4 @@ class RouteMap{
       routes.add(new Route(i,a,b));
     }
   }
-
 }
