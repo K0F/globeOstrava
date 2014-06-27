@@ -27,18 +27,24 @@ class RouteMap{
   }
 
   ArrayList getDestinations(int src){
+
     ArrayList result = new ArrayList();
+
     for(int i = 0 ; i < routes.size();i++){
       try{
-      Route tmp = (Route)routes.get(i);
+        Route tmp = (Route)routes.get(i);
 
-      Airport a = tmp.A;
-      Airport b = tmp.B;
+        Airport a = tmp.A;
+        Airport b = tmp.B;
 
-      if(a.ID==src || b.ID==src){
-        result.add(tmp);
+        if(a.ID==src || b.ID==src){
+          result.add(tmp);
+        }
+      }catch(Exception e){
+        if(DEBUG)
+          println("error "+e+" "+i);
+        ;
       }
-      }catch(Exception e){;}
     }
     return result;
   }

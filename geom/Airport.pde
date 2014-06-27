@@ -1,6 +1,4 @@
 
-
-
 class Airports{
   String [] raw;
 
@@ -68,7 +66,6 @@ class Airport{
     lat = _lat;
 
     parent = _parent;
-
 
     x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
     y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );

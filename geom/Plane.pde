@@ -10,10 +10,14 @@ class Plane{
     speed = random(0.01,1.0);
     trace = new ArrayList();
     Route tmp = (Route)routemap.routes.get((int)random(aData.airports.size()));
-    
+   
+   try{
     A = (Airport)route.A;
     B = (Airport)route.B;
-    
+    }catch(Exception e){
+    println(e);
+    }
+
     pos = new PVector(A.x,A.y);
   }
 

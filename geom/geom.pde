@@ -78,7 +78,7 @@ void keyPressed() {
 
 void setup(){
 
-  size(1600,900,P3D);
+  size(1600,900,OPENGL);
 
   println("loading shaders ... ");
 
@@ -91,18 +91,24 @@ void setup(){
 
   airplanesLayer = createGraphics(2048,1024,P2D);
   airplanesLayer.beginDraw();
+  
   //airplanesLayer.background(0);
 
+  //load Airport data
   aData = new Airports("airports.dat");
 
+  //load route data
   routemap = new RouteMap("routes.dat");
   
+  // get all destinations for each airport
   aData.getDestinations();
 
+  
   for(int i = 0 ; i < aData.airports.size();i++){
     Airport tmp = (Airport)aData.airports.get(i);
     tmp.plot(airplanesLayer);
   }
+
   airplanesLayer.endDraw();
 
   //airplanesLayer.save("data/airplanesLocation.png");
@@ -140,9 +146,7 @@ void init(){
   super.init();
 }
 
-
 ////////////////////////////////////////////////////////
-
 
 void draw(){
   if(DRAW_PLANES){
@@ -169,17 +173,14 @@ void draw(){
 
      */
   
-  
   //custom.set("diffuseTexture", globe.texmap);
     custom.set("normalTexture", normalTexture);  
     custom.set("airplanesLayer", airplanesLayer);
   }
 
-
   //placement hack
   if(frameCount<=1)
     frame.setLocation(0,0);
-
 
   background(0);
   pointLight(250, 250, 240, -100, 1000, 750); 
