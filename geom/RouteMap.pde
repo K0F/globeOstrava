@@ -40,10 +40,10 @@ class RouteMap{
         if(a.ID==src || b.ID==src){
           result.add(tmp);
         }
+
       }catch(Exception e){
         if(DEBUG)
           println("error "+e+" "+i);
-        ;
       }
     }
     return result;
