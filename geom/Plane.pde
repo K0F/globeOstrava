@@ -29,7 +29,6 @@ class Plane{
       _tmp.stroke(255,128,12,map(i,0,trace.size(),0,255));
       _tmp.line(tmp1.x,tmp1.y,tmp2.x,tmp2.y);
     }
-
   }
 
   void move(){

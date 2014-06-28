@@ -27,9 +27,7 @@ class RouteMap{
   }
 
   ArrayList getDestinations(int src){
-
     ArrayList result = new ArrayList();
-
     for(int i = 0 ; i < routes.size();i++){
       try{
         Route tmp = (Route)routes.get(i);
@@ -48,7 +46,6 @@ class RouteMap{
     }
     return result;
   }
-
 
   void parse(){
 
