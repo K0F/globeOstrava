@@ -78,7 +78,7 @@ void keyPressed() {
 
 void setup(){
 
-  size(1600,900,OPENGL);
+  size(1024,768,OPENGL);
 
   println("loading shaders ... ");
 
@@ -94,13 +94,14 @@ void setup(){
   
   //airplanesLayer.background(0);
 
+
   //load Airport data
   aData = new Airports("airports.dat");
 
   //load route data
   routemap = new RouteMap("routes.dat");
   
-  // get all destinations for each airport
+    // get all destinations for each airport
   aData.getDestinations();
 
   

@@ -9,16 +9,15 @@ class Plane{
   Plane(){
     speed = random(0.01,1.0);
     trace = new ArrayList();
-    Route tmp = (Route)routemap.routes.get((int)random(aData.airports.size()));
-   
-   try{
-    A = (Airport)route.A;
-    B = (Airport)route.B;
-    }catch(Exception e){
-    println(e);
-    }
+    try{
+      Route tmp = (Route)routemap.routes.get((int)random(aData.airports.size()));
 
-    pos = new PVector(A.x,A.y);
+      A = (Airport)route.A;
+      B = (Airport)route.B;
+      pos = new PVector(A.x,A.y);
+    }catch(Exception e){
+      println(e);
+    }
   }
 
   void draw(PGraphics _tmp){
@@ -32,19 +31,23 @@ class Plane{
   }
 
   void move(){
-    PVector dir = new PVector(B.x-pos.x,B.y-pos.y);
-    dir.normalize();
-    dir.mult(speed);
-    pos.add(dir);
+    try{
+      PVector dir = new PVector(B.x-pos.x,B.y-pos.y);
+      dir.normalize();
+      dir.mult(speed);
+      pos.add(dir);
 
-    float d = dist(pos.x,pos.y,B.x,B.y);
+      float d = dist(pos.x,pos.y,B.x,B.y);
 
-    if(d<2.0){
-      A = B;
-      B = (Airport)B.pickRandomDestination();
+      if(d<2.0){
+        A = B;
+        B = (Airport)B.pickRandomDestination();
+      }
+
+      trace();
+    }catch(Exception e){
+
     }
-
-    trace();
   }
 
   void trace(){

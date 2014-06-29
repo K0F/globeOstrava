@@ -40,8 +40,8 @@ class RouteMap{
         }
 
       }catch(Exception e){
-        if(DEBUG)
-          println("error "+e+" "+i);
+        //if(DEBUG)
+        //println(" error "+ e +" "+i);
       }
     }
     return result;
@@ -53,13 +53,16 @@ class RouteMap{
       String tmp = raw[i];
       String [] data = splitTokens(tmp,",");
 
-      int a = parseInt(data[3]);
-      int b = parseInt(data[5]);
+      if(raw.length==7){
 
-      Airport A = getAirportByID(a);
-      Airport B = getAirportByID(b);
+        int a = parseInt(data[3]);
+        int b = parseInt(data[5]);
 
-      routes.add(new Route(i,A,B));
+        Airport A = getAirportByID(a);
+        Airport B = getAirportByID(b);
+
+        routes.add(new Route(i,A,B));
+      }
     }
   }
 }
