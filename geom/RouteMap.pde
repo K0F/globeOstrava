@@ -13,7 +13,6 @@ class RouteMap{
     filename = _filename;
     //airports = aData;
 
-    routes = new ArrayList();
 
     raw = loadStrings(filename);
 
@@ -40,8 +39,8 @@ class RouteMap{
         }
 
       }catch(Exception e){
-        //if(DEBUG)
-        //println(" error "+ e +" "+i);
+        if(DEBUG)
+          println(" error while adding route "+ e +" "+i);
       }
     }
     return result;
@@ -49,11 +48,13 @@ class RouteMap{
 
   void parse(){
 
+    routes = new ArrayList();
+
     for(int i = 0 ; i < raw.length; i++){
       String tmp = raw[i];
       String [] data = splitTokens(tmp,",");
 
-      if(raw.length==7){
+      if(data.length==9){
 
         int a = parseInt(data[3]);
         int b = parseInt(data[5]);
@@ -61,7 +62,15 @@ class RouteMap{
         Airport A = getAirportByID(a);
         Airport B = getAirportByID(b);
 
-        routes.add(new Route(i,A,B));
+        try{
+          if(DEBUG)
+            println("adding new route "+A.ID + " " + B.ID);
+
+          routes.add(new Route(i,A,B));
+        }catch(Exception e){
+          ;}
+      }else{
+        println("got wrong number of parameters"+raw.length);
       }
     }
   }

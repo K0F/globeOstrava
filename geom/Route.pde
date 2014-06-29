@@ -11,7 +11,7 @@ class Route{
     destid = _destid;
   }
 
-  Route(int _id,Airport _A, Airport _B){
+  Route(int _id, Airport _A, Airport _B){
     id = _id;
 
     A = _A;

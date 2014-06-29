@@ -14,9 +14,11 @@ class Plane{
 
       A = (Airport)route.A;
       B = (Airport)route.B;
+
       pos = new PVector(A.x,A.y);
+    
     }catch(Exception e){
-      println(e);
+      println("error while creating plane "+e);
     }
   }
 

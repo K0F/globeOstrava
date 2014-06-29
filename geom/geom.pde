@@ -78,7 +78,7 @@ void keyPressed() {
 
 void setup(){
 
-  size(1024,768,OPENGL);
+  size(1024,768,P3D);
 
   println("loading shaders ... ");
 
@@ -181,7 +181,7 @@ void draw(){
 
   //placement hack
   if(frameCount<=1)
-    frame.setLocation(0,0);
+    frame.setLocation(800,0);
 
   background(0);
   pointLight(250, 250, 240, -100, 1000, 750); 
