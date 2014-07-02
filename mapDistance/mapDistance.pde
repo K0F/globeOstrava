@@ -6,12 +6,16 @@ float x =0, y=0;
 
 
 PVector a,b;
+PVector i1,i2;
 
 void setup(){
   size(801,401);
 
   a = new PVector(100,130);
   b = new PVector(width-120,height-77);
+
+  i1 = new PVector(0,0);
+  i2 = new PVector(0,0);
 }
 
 
@@ -31,13 +35,45 @@ void draw(){
   }
 
 
-  intersected = intersect(20, height/2, width-20, (height/2)-20, 10, 10, mouseX, mouseY);
+  a.x = mouseX;
+  a.y = mouseY;
+
+  //spodi hrana
+  intersected = intersect(a.x, a.y, lerp(a.x,b.x,10), lerp(a.y,b.y,10),0,height,width,height);
+  if (intersected == DO_INTERSECT){ i2 = new PVector(x,y); ellipse(x, y, 5, 5);}
+  //prava katna
+  intersected = intersect(a.x, a.y, lerp(a.x,b.x,10), lerp(a.y,b.y,10),width,0,width,height);
+  if (intersected == DO_INTERSECT){ i2 = new PVector(x,y); ellipse(x, y, 5, 5);}
+  //leva katna
+  intersected = intersect(a.x, a.y, lerp(a.x,b.x,-10), lerp(a.y,b.y,-10),0,0,0,height);
+  if (intersected == DO_INTERSECT){ i1 = new PVector(x,y); ellipse(x, y, 5, 5);}
+  //horni katna
+  intersected = intersect(a.x, a.y, lerp(a.x,b.x,-10), lerp(a.y,b.y,-10),0,0,width,0);
+  if (intersected == DO_INTERSECT){ i1 = new PVector(x,y); ellipse(x, y, 5, 5);}
 
   rect(a.x,a.y,10,10);
   rect(b.x,b.y,10,10);
 
 
-if (intersected == DO_INTERSECT) ellipse(x, y, 5, 5);
+}
+
+
+class Agent{
+
+  PVector pos,acc,vel;
+
+  Agent(){
+    pos = new PVector(a.x,a.y);
+  }
+
+  void move(){
+    vel.add(acc);
+    pos.add(vel);
+
+    acc = new PVector();
+
+  }
+
 }
 
 
