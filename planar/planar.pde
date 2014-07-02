@@ -78,7 +78,7 @@ void keyPressed() {
 
 void setup(){
 
-  size(1024,768,P3D);
+  size(1024,512,P3D);
 
   println("loading shaders ... ");
 
@@ -181,14 +181,18 @@ void draw(){
 
   //placement hack
   if(frameCount<=1)
-    frame.setLocation(800,0);
+    frame.setLocation(1600-width,0);
 
   background(0);
-  pointLight(250, 250, 240, -100, 1000, 750); 
-  shader(custom);
+ // pointLight(250, 250, 240, -100, 1000, 750); 
+  //shader(custom);
   //translate(width/2,height/2,0);
   //shape(sphere);
-  globe.draw();
+   globe.draw();
+  
+  image(globe.basemap,0,0,width,height);
+  image(globe.texmap,0,0,width,height);
+  image(airplanesLayer,0,0,width,height);
 }
 
 
@@ -277,7 +281,7 @@ class Globe{
 
     basemap.endDraw();
 
-    renderGlobe();
+    //renderGlobe();
 
     //fill(0,120);
     //stroke(255,90);
