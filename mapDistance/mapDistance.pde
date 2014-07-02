@@ -8,6 +8,10 @@ float x =0, y=0;
 PVector a,b;
 PVector i1,i2;
 
+ArrayList agents;
+
+int NUM = 10;
+
 void setup(){
   size(801,401);
 
@@ -16,11 +20,16 @@ void setup(){
 
   i1 = new PVector(0,0);
   i2 = new PVector(0,0);
+
+  agents = new ArrayList();
+
+  for(int i = 0 ; i < NUM;i++)
+    agents.add(new Agent());
 }
 
 
 void draw(){
-        int intersected;
+  int intersected;
 
   background(0);
 
@@ -55,22 +64,53 @@ void draw(){
   rect(b.x,b.y,10,10);
 
 
+  for(Object o: agents){
+
+    Agent tmp = (Agent)o;
+    tmp.draw();
+
+  }
+
 }
 
 
 class Agent{
 
   PVector pos,acc,vel;
+  float speed = 4.0;
 
   Agent(){
     pos = new PVector(a.x,a.y);
+    acc = new PVector(0,0);
+    vel = new PVector(0,0);
+    speed= random(1.0,10.0);
+  }
+
+  void draw(){
+    move();
+
+    ellipse(pos.x,pos.y,5,5);
+
   }
 
   void move(){
     vel.add(acc);
+    vel.normalize();
+    vel.mult(speed);
+
     pos.add(vel);
 
-    acc = new PVector();
+
+    boolean direct = true;
+
+
+
+    acc = new PVector(b.x-pos.x,b.y-pos.y);
+    acc.normalize();
+
+    if(dist(pos.x,pos.y,b.x,b.y)<=speed+1)
+      pos = new PVector(a.x,a.y);
+    //acc.mult(0.99);
 
   }
 
