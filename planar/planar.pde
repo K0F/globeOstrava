@@ -13,11 +13,14 @@ float min_lat = 90.0;
 float max_lat = -90.0;
 
 boolean DRAW_PLANES = true;
-int NUM_PLANES = 2000;
+int NUM_PLANES = 10000;
 
 /////////////////////////////////
 
 boolean RANDOM_DRAW = false;
+
+
+boolean render = true;
 
 PGraphics airplanesLayer;
 PImage normalTexture;
@@ -78,7 +81,7 @@ void keyPressed() {
 
 void setup(){
 
-  size(1600,900,P3D);
+  size(1280,720,P3D);
 
   println("loading shaders ... ");
 
@@ -184,15 +187,24 @@ void draw(){
     frame.setLocation(1600-width,0);
 
   background(0);
- // pointLight(250, 250, 240, -100, 1000, 750); 
-//  shader(custom);
   //translate(width/2,height/2,0);
   //shape(sphere);
    globe.draw();
  
  // image(globe.basemap,0,0,width,height);
  // image(globe.texmap,0,0,width,height);
+  
+//  pointLight(250, 250, 240, -100, 1000, 750); 
+//  shader(custom);
+
+
+
   image(airplanesLayer,0,0,width,height);
+
+
+  if(render){
+    saveFrame("/home/kof/render/ostrava/frame#####.png");
+  }
 }
 
 
