@@ -68,7 +68,7 @@ class Airport{
     parent = _parent;
 
     x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
-    y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );
+    y = map(lat, min_lat, max_lat, 0, airplanesLayer.height);
   }
 
   Airport(Airports _parent, int _ID,String _name, String _country, String _code, float _lon, float _lat){
@@ -81,7 +81,7 @@ class Airport{
     lat = _lat;
 
     x = map(lon, min_lon, max_lon, 0, airplanesLayer.width);
-    y = map(lat, min_lat, max_lat, airplanesLayer.height, 0 );
+    y = map(lat, min_lat, max_lat, 0, airplanesLayer.height );
   }
 
   void getDestinations(){

@@ -78,7 +78,7 @@ void keyPressed() {
 
 void setup(){
 
-  size(1024,512,P3D);
+  size(1600,900,P3D);
 
   println("loading shaders ... ");
 
@@ -190,8 +190,8 @@ void draw(){
   //shape(sphere);
    globe.draw();
  
-  image(globe.basemap,0,0,width,height);
-  image(globe.texmap,0,0,width,height);
+ // image(globe.basemap,0,0,width,height);
+ // image(globe.texmap,0,0,width,height);
   image(airplanesLayer,0,0,width,height);
 }
 
