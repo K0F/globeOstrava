@@ -82,7 +82,7 @@ class Agent{
   Agent(){
     pos = new PVector(a.x,a.y);
     acc = new PVector(0,0);
-    vel = new PVector(0,0);
+    vel = new PVector(mouseX-pmouseX,mouseY-pmouseY);
     speed= random(1.0,10.0);
   }
 

@@ -13,7 +13,7 @@ float min_lat = 90.0;
 float max_lat = -90.0;
 
 boolean DRAW_PLANES = true;
-int NUM_PLANES = 1000;
+int NUM_PLANES = 2000;
 
 /////////////////////////////////
 
@@ -89,11 +89,12 @@ void setup(){
 
   globe = new Globe("The-globe-at-night.jpg");
 
+ 
+  //airplanesLayer.background(0);
+
   airplanesLayer = createGraphics(2048,1024,P2D);
   airplanesLayer.beginDraw();
   
-  //airplanesLayer.background(0);
-
 
   //load Airport data
   aData = new Airports("airports.dat");
@@ -104,7 +105,6 @@ void setup(){
     // get all destinations for each airport
   aData.getDestinations();
 
-  
   for(int i = 0 ; i < aData.airports.size();i++){
     Airport tmp = (Airport)aData.airports.get(i);
     tmp.plot(airplanesLayer);
@@ -185,11 +185,11 @@ void draw(){
 
   background(0);
  // pointLight(250, 250, 240, -100, 1000, 750); 
-  //shader(custom);
+//  shader(custom);
   //translate(width/2,height/2,0);
   //shape(sphere);
    globe.draw();
-  
+ 
   image(globe.basemap,0,0,width,height);
   image(globe.texmap,0,0,width,height);
   image(airplanesLayer,0,0,width,height);

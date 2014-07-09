@@ -90,7 +90,6 @@ class Airport{
 
   Airport pickRandomDestination(){
     return (Airport)destinations.get((int)random(destinations.size()));
-
   }
 
   void plot(PGraphics _lay){
