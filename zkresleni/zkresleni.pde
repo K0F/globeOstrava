@@ -8,21 +8,25 @@ PShader fisheye;
 PGraphics canvas;
 PImage img;
 
+PImage snap;
+
 boolean useFishEye = true;
 
 void setup() {
-  size(1600,900,P3D);  
+  size(1245,789,P3D);  
   canvas = createGraphics(width, height, P3D);
+
+  snap = loadImage("snap_crop.jpg");
 
   fisheye = loadShader("FishEye.glsl");
   fisheye.set("aperture", 180.0);  
 }
 
 void draw() {
+ 
   canvas.beginDraw();
   canvas.ortho();
   canvas.background(0);
-
 /*
 canvas.stroke(255);
 
@@ -48,6 +52,11 @@ canvas.stroke(255);
     shader(fisheye);
   } 
   image(canvas, 0, 0, width, height);
+  
+  resetShader();
+  tint(255,100);
+  image(snap,0,0);
+  noTint();
 }
 
 void mousePressed() {
