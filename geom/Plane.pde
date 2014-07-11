@@ -12,8 +12,9 @@ class Plane{
     try{
       Route tmp = (Route)routemap.routes.get((int)random(aData.airports.size()));
 
-      A = (Airport)route.A;
-      B = (Airport)route.B;
+      route = tmp;
+      A = (Airport)tmp.A;
+      B = (Airport)tmp.B;
 
       pos = new PVector(A.x,A.y);
     

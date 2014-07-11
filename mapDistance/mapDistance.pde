@@ -103,9 +103,13 @@ class Agent{
 
     boolean direct = true;
 
-
-
+    float primka = dist(b.x,b.y,pos.x,pos.y);
+    float wrap = dist()
+    
+    if()
     acc = new PVector(b.x-pos.x,b.y-pos.y);
+
+
     acc.normalize();
 
     if(dist(pos.x,pos.y,b.x,b.y)<=speed+1)

@@ -42,7 +42,7 @@ class Plane{
 
       float d = dist(pos.x,pos.y,B.x,B.y);
 
-      if(d<=speed){
+      if(d<=(speed*2)){
         A = B;
         B = (Airport)B.pickRandomDestination();
       }
@@ -54,9 +54,10 @@ class Plane{
   }
 
   void trace(){
+    if(frameCount%3==0)
     trace.add(new PVector(pos.x,pos.y,pos.z));
 
-    if(trace.size()>50){
+    if(trace.size()>50/3){
 
       trace.remove(0);
     }

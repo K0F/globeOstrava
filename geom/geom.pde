@@ -13,7 +13,7 @@ float min_lat = 90.0;
 float max_lat = -90.0;
 
 boolean DRAW_PLANES = true;
-int NUM_PLANES = 1000;
+int NUM_PLANES = 3000;
 
 /////////////////////////////////
 
