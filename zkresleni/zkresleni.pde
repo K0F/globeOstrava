@@ -9,7 +9,7 @@ PGraphics canvas;
 PImage img;
 
 PImage snap;
-PImage wrapTexture;
+PImage wrapTextureX,wrapTextureY;
 
 boolean useFishEye = true;
 
@@ -18,11 +18,12 @@ void setup() {
   canvas = createGraphics(width, height, P3D);
 
   snap = loadImage("snap_crop.jpg");
-  wrapTexture = loadImage("test.png");
+  wrapTextureX = loadImage("testX.png");
+  wrapTextureY = loadImage("testY.png");
 
   fisheye = loadShader("FishEye.glsl");
-  fisheye.set("aperture", 180.0);  
-  fisheye.set("wrapTexture", wrapTexture);  
+  fisheye.set("wrapTextureX", wrapTextureX);  
+  fisheye.set("wrapTextureY", wrapTextureY);  
 }
 
 void init(){
