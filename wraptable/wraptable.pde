@@ -26,7 +26,7 @@ void setup(){
 
   for(int y = 0 ; y < h;y++){
     String tmp[] = splitTokens(lines[y],";");
-    for(int x = 0 ; x < tmp.length;x++){
+    for(int x = 0 ; x < w;x++){
       String sub[] = splitTokens(tmp[x],",");
       float X = parseFloat(sub[0]);
       float Y = parseFloat(sub[1]);
@@ -45,6 +45,8 @@ void setup(){
   println("lowX: "+lowX+", highX: "+highX);
   println("lowY: "+lowY+", highY: "+highY);
 
+  
+
   mapX = createGraphics(w,h,JAVA2D);
   mapX.loadPixels();
   
@@ -53,12 +55,9 @@ void setup(){
 
 
   for(int i = 0 ; i < valsX.length;i++){
-    mapX.set(i%w,(int)(i/(w+0.0)),getColorFromInt((int)valsX[i]+10000));
-    mapY.set(i%w,(int)(i/(w+0.0)),getColorFromInt((int)valsY[i]+10000));
+    mapX.set(i%w,(int)(i/(w+0.0)),getColorFromInt((int)map(valsX[i],lowX,highX,0,65535) ));
+    mapY.set(i%w,(int)(i/(w+0.0)),getColorFromInt((int)map(valsY[i],lowY,highY,0,65535) ));
   }
-
-
-
 
   mapX.save("testX.png");
   mapY.save("testY.png");
