@@ -52,6 +52,6 @@ void main(void) {
     float u = r * cos(phi) + 0.5;
     float v = r * sin(phi) + 0.5;
 
-    gl_FragColor = texture2D(textureSampler, vec2(u, v) / stFactor) * vertColor;
+    gl_FragColor = texture2D(textureSampler, vec2(u, v) / stFactor ) * vertColor;
   }
 }
