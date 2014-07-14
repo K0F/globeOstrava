@@ -14,6 +14,9 @@ void setup(){
   h = lines.length;
   w = splitTokens(lines[0],";").length;
   
+  println("dimmensions: "+w+" x "+h);
+
+
   valsX = new float[w*h];
   valsY = new float[w*h];
 
