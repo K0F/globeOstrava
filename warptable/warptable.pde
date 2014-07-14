@@ -1,5 +1,3 @@
-
-
 String [] lines;
 float valsX[],valsY[];
 int w,h;
@@ -16,10 +14,8 @@ void setup(){
 
   println("dimmensions: "+w+" x "+h);
 
-
   valsX = new float[w*h];
   valsY = new float[w*h];
-
 
   float lowX = 1000, highX=-19200;
   float lowY = 1000, highY=-19200;
