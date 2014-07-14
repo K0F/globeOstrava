@@ -26,10 +26,10 @@ void setup(){
       String sub[] = splitTokens(tmp[x],",");
       float X = parseFloat(sub[0]);
       float Y = parseFloat(sub[1]);
-      
+
       lowX = min(lowX,X);
       lowY = min(lowY,Y);
-      
+
       highX = max(highX,X);
       highY = max(highY,Y);
 
@@ -38,25 +38,29 @@ void setup(){
     }
   }
 
-  println("lowX: "+lowX+", highX: "+highX);
-  println("lowY: "+lowY+", highY: "+highY);
+  println("lowX: "+lowX+", highX: "+highX+", rozsah: "+(highX-lowX));
+  println("lowY: "+lowY+", highY: "+highY+", rozsah: "+(highY-lowY));
 
-  
+
 
   mapX = createGraphics(w,h,JAVA2D);
   mapX.loadPixels();
-  
+
   mapY = createGraphics(w,h,JAVA2D);
   mapY.loadPixels();
 
+  for(int y = 0 ; y < h;y++){
+    for(int x = 0 ; x < w;x++){
+      int idx = y*w+x;
+      mapX.set(x,y,getColorFromInt((int)map(valsX[idx],lowX,highX,0,65535) ));
+      mapY.set(x,y,getColorFromInt((int)map(valsY[idx],lowY,highY,0,65535) ));
 
-  for(int i = 0 ; i < valsX.length;i++){
-    mapX.set(i%w,(int)(i/(w+0.0)),getColorFromInt((int)map(valsX[i],lowX,highX,0,65535) ));
-    mapY.set(i%w,(int)(i/(w+0.0)),getColorFromInt((int)map(valsY[i],lowY,highY,0,65535) ));
+
+    }
   }
 
-  mapX.save("testX.png");
-  mapY.save("testY.png");
+  //mapX.save("testX.png");
+ // mapY.save("testY.png");
 }
 
 color getColorFromInt(int i) {

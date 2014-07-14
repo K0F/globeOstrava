@@ -1,9 +1,3 @@
-/**
- * Fish Eye
- * 
- * This fish-eye shader is useful for dome projection.
- */
-
 PShader fisheye;
 PGraphics canvas;
 PImage img;
@@ -36,6 +30,7 @@ void init(){
 }
 
 void draw() {
+  fisheye.set("time", frameCount+1.0);  
 
   if(frameCount<2)
     frame.setLocation(0,0);
@@ -57,9 +52,9 @@ void draw() {
   canvas.lights();
   canvas.stroke(255);
   canvas.fill(0);
-  canvas.translate(width/2+sx, height/2+sy, 0);
-  canvas.rotateX(HALF_PI+mouseX/100.0);
-  canvas.rotateY(mouseY/100.0);  
+  canvas.translate(mouseX, mouseY, 0);
+  canvas.rotateY(HALF_PI+mouseX/100.0*-1);
+  canvas.rotateX(mouseY/100.0*-1);  
   canvas.sphere(200);  
   canvas.endDraw(); 
   

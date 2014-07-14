@@ -14,6 +14,8 @@ const vec3 bitShifts = vec3(z,y,x);
 uniform sampler2D wrapTextureX;
 uniform sampler2D wrapTextureY;
 
+uniform float time;
+
 uniform sampler2D textureSampler;
 uniform mat4 texcoordMatrix;
 
@@ -24,12 +26,10 @@ const float PI = 3.1415926535;
 
 float unpack (vec3 colour)
 {
-
   const vec3 bitShifts = vec3(
       1.0 / (256.0 * 256.0 * 256.0),
       1.0 / (256.0 * 256.0),
       1.0 / 256.0);
-      
 
   return (dot(colour , bitShifts));
 }
@@ -39,10 +39,10 @@ void main(void) {
   vec2 stFactor = vec2(1.0 / abs(texcoordMatrix[0][0]), 1.0 / abs(texcoordMatrix[1][1]));  
   vec2 pos = (2.0 * vertTexcoord.st * stFactor - 1.0);
 
-  float X = clamp(unpack(texture2D(wrapTextureX,pos)),0f,65536f)*1920;
-  float Y = clamp(unpack(texture2D(wrapTextureY,pos)),0f,65536f)*1080;
+  float X = unpack(texture2D(wrapTextureX,vertTexcoord.st).rgb)*time;//((clamp(unpack(texture2D(wrapTextureX,vertTexcoord)),0f,65536f)*1569.2)-489.6)/1079.6;
+  float Y = unpack(texture2D(wrapTextureY,vertTexcoord.st).rgb)*time;//((clamp(unpack(texture2D(wrapTextureY,vertTexcoord)),0f,65536f)*2721.9)-1630.4)/1091.5;
 
-  vec2 pos2 = vec2(X,Y);
+  vec2 pos2 = vec2(X,Y).xy;
 
   /*
      float l = length(pos);
@@ -64,5 +64,5 @@ void main(void) {
      float v = r * sin(phi) + 0.5;
    */
 
-  gl_FragColor = texture2D(textureSampler, pos2 ) * vertColor;
+  gl_FragColor = texture2D(textureSampler, pos2.xy ) * vertColor;
 }
