@@ -52,8 +52,8 @@ void setup(){
   for(int y = 0 ; y < h;y++){
     for(int x = 0 ; x < w;x++){
       int idx = y*w+x;
-      mapX.set(x,y,getColorFromInt((int)(valsX[idx]*10.0) ));
-      mapY.set(x,y,getColorFromInt((int)(valsY[idx]*10.0) ));
+      mapX.set(x,y,pack(map(valsX[idx],lowX,highX,0,255*255)));
+      mapY.set(x,y,pack(map(valsY[idx],lowY,highY,0,255*255)));
     }
   }
 
@@ -61,6 +61,12 @@ void setup(){
   mapY.save("testY.png");
 }
 
+color pack(float f){
+  float b = floor(f / (256.0 * 256.0));
+  float g = floor((f - b * 256.0 * 256.0) / 256.0);
+  float r = floor(f % 256);
+  return color(r,g,b);
+}
 color getColorFromInt(int i) {
   int B_MASK = 255;
   int G_MASK = 255<<8;
