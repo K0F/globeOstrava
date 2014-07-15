@@ -52,15 +52,13 @@ void setup(){
   for(int y = 0 ; y < h;y++){
     for(int x = 0 ; x < w;x++){
       int idx = y*w+x;
-      mapX.set(x,y,getColorFromInt((int)map(valsX[idx],lowX,highX,0,65535) ));
-      mapY.set(x,y,getColorFromInt((int)map(valsY[idx],lowY,highY,0,65535) ));
-
-
+      mapX.set(x,y,getColorFromInt((int)(valsX[idx]*10.0) ));
+      mapY.set(x,y,getColorFromInt((int)(valsY[idx]*10.0) ));
     }
   }
 
-  //mapX.save("testX.png");
- // mapY.save("testY.png");
+  mapX.save("testX.png");
+  mapY.save("testY.png");
 }
 
 color getColorFromInt(int i) {
