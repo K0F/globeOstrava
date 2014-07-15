@@ -40,12 +40,14 @@ void main(void) {
 
   float X = (packColor(texture2D(wrapTextureX,gl_FragCoord.xy / resolution.xy).rgb)+(vec2(0,0)));
   float Y = (packColor(texture2D(wrapTextureY,gl_FragCoord.xy / resolution.xy).rgb)+(vec2(0,0)));
+  
+  vec2 uv = vec2(X/256.0,Y/256.0).xy;
+  vec4 shift = texture2D(textureSampler, uv.xy);
 
-  vec2 def = vec2(
-  smoothstep(-489.6,1079.6,gl_FragCoord.x / resolution.x),
-  smoothstep(-1630.4,1091.5,gl_FragCoord.y / resolution.y));
+  /*vec2 def = vec2(
+  smoothstep(-489.6,1079.6,shift.x),
+  smoothstep(-1630.4,1091.5,shift.y));
+*/
 
-  vec2 uv = vec2(X,Y)/(vec2(255.0,255.0)/2.0) * def   ;
-
-  gl_FragColor = texture2D(textureSampler, uv.xy ) * vertColor;
+  gl_FragColor = shift * vertColor;
 }

@@ -57,7 +57,7 @@ void draw() {
   canvas.translate(mouseX, mouseY, 0);
   canvas.rotateY(HALF_PI+mouseX/100.0*-1);
   canvas.rotateX(mouseY/100.0*-1);  
-  canvas.sphere(200);  
+  canvas.sphere(380);  
   canvas.endDraw(); 
 
   if (useFishEye == true) {
