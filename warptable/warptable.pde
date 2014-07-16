@@ -52,8 +52,8 @@ void setup(){
   for(int y = 0 ; y < h;y++){
     for(int x = 0 ; x < w;x++){
       int idx = y*w+x;
-      mapX.set(x,y,pack(map(valsX[idx],lowX,highX,0,255*255.0)));
-      mapY.set(x,y,pack(map(valsY[idx],lowY,highY,0,255*255.0)));
+      mapX.set(x,y,pack(map(valsX[idx],-1920,1920,0,255*255.0)));
+      mapY.set(x,y,pack(map(valsY[idx],-1080,1080,0,255*255.0)));
     }
   }
 

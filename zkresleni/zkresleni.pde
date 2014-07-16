@@ -17,7 +17,7 @@ void setup() {
 
   fisheye = loadShader("FishEye.glsl");
   fisheye.set("wrapTextureX", wrapTextureX);  
-  fisheye.set("wrapTextureY", wrapTextureY);  
+  fisheye.set("wrapTextureY", wrapTextureX);  
   fisheye.set("rx", (float)width);  
   fisheye.set("ry", (float)height);  
 }
@@ -41,23 +41,27 @@ void draw() {
   canvas.ortho();
   canvas.background(0);
   canvas.stroke(255);
-
+/*  
   for (int i = 0; i < width; i += 20) {
     canvas.line(i, 0, i, height);
   }
-  for (int i = 0; i < height; i += 20) {
+*/
+for (int i = 0; i < height; i += 20) {
     canvas.line(0, i, width, i);
   }
-
+    canvas.line(0, 0, width, 0);
+ 
+  canvas.fill(255);
+  canvas.rect(0,0,width,frameCount/10.0);
 
 
   canvas.lights();
   canvas.stroke(255);
-  canvas.fill(0);
+  canvas.fill(255);
   canvas.translate(mouseX, mouseY, 0);
-  canvas.rotateY(HALF_PI+mouseX/100.0*-1);
-  canvas.rotateX(mouseY/100.0*-1);  
-  canvas.sphere(380);  
+  // canvas.rotateX(HALF_PI);
+//  canvas.rotateX(mouseY/100.0*-1);  
+  canvas.ellipse(0,0,200,200);  
   canvas.endDraw(); 
 
   if (useFishEye == true) {
@@ -83,6 +87,9 @@ void keyPressed(){
     sx--;
   }else if(keyCode==RIGHT){
     sx++;
+  }else{
+    save("projectionDeform.png");
+
   }
 
 }
