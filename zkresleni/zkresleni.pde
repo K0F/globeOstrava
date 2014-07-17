@@ -8,7 +8,7 @@ PImage wrapTextureX,wrapTextureY;
 boolean useFishEye = true;
 
 void setup() {
-  size(1920,1080,P3D);  
+  size(1280,720,P3D);  
   canvas = createGraphics(width, height, P3D);
 
   snap = loadImage("snap_crop.jpg");
@@ -17,7 +17,7 @@ void setup() {
 
   fisheye = loadShader("FishEye.glsl");
   fisheye.set("wrapTextureX", wrapTextureX);  
-  fisheye.set("wrapTextureY", wrapTextureX);  
+  fisheye.set("wrapTextureY", wrapTextureY);  
   fisheye.set("rx", (float)width);  
   fisheye.set("ry", (float)height);  
 }
@@ -41,27 +41,25 @@ void draw() {
   canvas.ortho();
   canvas.background(0);
   canvas.stroke(255);
-/*  
   for (int i = 0; i < width; i += 20) {
     canvas.line(i, 0, i, height);
   }
-*/
 for (int i = 0; i < height; i += 20) {
     canvas.line(0, i, width, i);
   }
     canvas.line(0, 0, width, 0);
  
-  canvas.fill(255);
-  canvas.rect(0,0,width,frameCount/10.0);
+//  canvas.fill(255);
+//  canvas.rect(0,0,width,frameCount/10.0);
 
 
   canvas.lights();
   canvas.stroke(255);
-  canvas.fill(255);
-  canvas.translate(mouseX, mouseY, 0);
-  // canvas.rotateX(HALF_PI);
-//  canvas.rotateX(mouseY/100.0*-1);  
-  canvas.ellipse(0,0,200,200);  
+  canvas.fill(0);
+  canvas.translate(width/2, height/2, 0);
+  canvas.rotateY(frameCount/100.0);
+  canvas.rotateX(frameCount/200.0);  
+  canvas.sphere(720/2);  
   canvas.endDraw(); 
 
   if (useFishEye == true) {

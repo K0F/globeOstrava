@@ -49,11 +49,13 @@ void setup(){
   mapY = createGraphics(w,h,JAVA2D);
   mapY.loadPixels();
 
+  float ratio = (height/(width+0.0));
+
   for(int y = 0 ; y < h;y++){
     for(int x = 0 ; x < w;x++){
       int idx = y*w+x;
-      mapX.set(x,y,pack(map(valsX[idx],-1920,1920,0,255*255.0)));
-      mapY.set(x,y,pack(map(valsY[idx],-1080,1080,0,255*255.0)));
+      mapX.set(x,y,pack(map(valsX[idx],0,1,0,255*255.0)));
+      mapY.set(x,y,pack(map(valsY[idx],0,1,0,255*255.0)));
     }
   }
 
