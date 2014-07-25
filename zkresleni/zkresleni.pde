@@ -1,34 +1,36 @@
-PShader fisheye;
+
 PGraphics canvas;
 PImage img;
 
 PImage snap;
 PImage wrapTextureX,wrapTextureY;
 
+PShader warpShader;
+
 PImage reference;
 
-boolean useFishEye = true;
+boolean usewarpShader = true;
 
 void setup() {
   size(1920,1080,P3D);  
   canvas = createGraphics(width, height, P3D);
-
   reloadShaders();
 }
 
 void reloadShaders(){
 
   snap = loadImage("snap_crop.jpg");
-  wrapTextureX = loadImage("testX.png");
-  wrapTextureY = loadImage("testY.png");
+  wrapTextureX = loadImage("textureX.png");
+  wrapTextureY = loadImage("textureY.png");
 
   reference = loadImage("table.png");
 
-  fisheye = loadShader("FishEye.glsl");
-  fisheye.set("wrapTextureX", wrapTextureX);  
-  fisheye.set("wrapTextureY", wrapTextureY);  
-  fisheye.set("rx", (float)width);  
-  fisheye.set("ry", (float)height);  
+  warpShader = loadShader("warp4.glsl");
+
+  warpShader.set("width", width);
+  warpShader.set("height", height);      
+  warpShader.set("mapx", wrapTextureX);  
+  warpShader.set("mapy", wrapTextureY);  
 
 }
 
@@ -42,50 +44,51 @@ void init(){
 }
 
 void draw() {
-  fisheye.set("time", millis()/1000.0);  
+  warpShader.set("time", millis()/1000.0);  
 
   if(frameCount<2)
     frame.setLocation(0,0);
 
   canvas.beginDraw();
-/*
-canvas.image(reference,0,0);
-  canvas.camera();
+
+  //canvas.image(reference,0,0);
+  // canvas.camera();
+
+  canvas.background(255);
   canvas.stroke(0,90);
   for (int i = 0; i < width; i += 20) {
     canvas.line(i, 0, i, height);
   }
-for (int i = 0; i < height; i += 20) {
+  for (int i = 0; i < height; i += 20) {
     canvas.line(0, i, width, i);
   }
-    canvas.line(0, 0, width, 0);
- */
- canvas.background(0);
- canvas.ortho();
-  float fov = (((mouseX*10.0)+1.0)/(width+0.0));
-  float cameraZ = (height/2.0) / tan(fov/2.0);
-  
-  canvas.camera(0,0,0,0,0,1000,0,1,0);
-  canvas.perspective(fov, float(width)/float(height),cameraZ/10.0, cameraZ*10.0);
-  
-//  canvas.fill(255);
-//  canvas.rect(0,0,width,frameCount/10.0);
+  //  canvas.line(0, 0, width, 0);
+
+  //canvas.ortho();
+  //float fov = (((mouseX*10.0)+1.0)/(width+0.0));
+  //float cameraZ = (height/2.0) / tan(fov/2.0);
+
+  //canvas.camera(0,0,0,0,0,1000,0,1,0);
+  //canvas.perspective(fov, float(width)/float(height),cameraZ/10.0, cameraZ*10.0);
+
+  //  canvas.fill(255);
+  //  canvas.rect(0,0,width,frameCount/10.0);
 
 
   canvas.lights();
   canvas.stroke(255);
   canvas.noFill();//fill(0);
   //canvas.translate(width/2, 540, 0);
-  canvas.rotateX(HALF_PI);
-  canvas.rotateY(frameCount/200.0);  
+  // canvas.rotateX(HALF_PI);
+  //canvas.rotateY(frameCount/200.0);  
 
-  canvas.sphere(1080/2);  
+  //canvas.sphere(1080/2);  
   canvas.endDraw(); 
-  
-  if (useFishEye == true) {
-    shader(fisheye);
+
+  if (usewarpShader == true) {
+    shader(warpShader);
   } 
-  
+
   image(canvas, 0, 0, width, height);
   /* 
      resetShader();
@@ -107,7 +110,7 @@ void keyPressed(){
   }else if(keyCode==RIGHT){
     sx++;
   }else{
-  //reloadShaders();
+    //reloadShaders();
     save("projectionDeform.png");
 
   }
@@ -115,10 +118,76 @@ void keyPressed(){
 }
 
 void mousePressed() {
-  if (useFishEye) {
-    useFishEye = false;
+  if (usewarpShader) {
+    usewarpShader = false;
     resetShader();    
   } else {
-    useFishEye = true;
+    usewarpShader = true;
   }
 }
+
+
+PImage createTextureFromLookup(PVector[][] lookup, int coordinateID) {
+  PImage tex=createImage(sketchWidth(), sketchHeight(), ARGB);
+  tex.loadPixels();
+  for (int x = 0; x <tex.width; x++) {
+    for (int y = 0; y <tex.height; y++) {
+      double val;
+      if(coordinateID==1){
+        val=lookup[x][y].x;
+      }else{
+        val=lookup[x][y].y;
+      }
+      tex.pixels[x+y*tex.width]=convertCoordinateToColor(val);
+    }
+  }
+  tex.updatePixels();
+  return tex;
+}
+
+int convertCoordinateToColor(double val) {
+  if(val<0){
+    val=0;
+  }
+  int ival=(int)val;
+  int cr=(int)(ival/256);
+  int cg=(int)(ival-cr*256);
+  int cb=(int)((val-ival)*256);
+
+  return (int)((0xff<<24)|(cr<<16)|(cg<<8)|(cb));
+}
+
+double convertColorToCoordinate(int _color) {
+  int p3=(_color & 0x000000FF);
+  int p2=(_color & 0x0000FF00)>>8;
+  int p1=(_color & 0x00FF0000)>>16;
+  return (p1<<8)+p2+(p3/256.0);
+}
+
+void loadMapsFromImages(String mapXFile, String mapYFile){
+  wrapTextureX = loadImage(mapXFile);
+  wrapTextureY = loadImage(mapYFile);
+}
+
+double mapDouble(double val, double min1, double max1, double min2, double max2){
+  double out=(val-min1)/(max1-min1)*(max2-min2)+min2;
+  if(out<min2){
+    out=min2;
+  }
+  if(out>max2){
+    out=max2;
+  }
+  return out;
+}
+
+PVector getVectorFromTextures(int idx, PImage ximg, PImage yimg) {
+  int[] px=ximg.pixels;
+  int[] py=yimg.pixels;
+  double newX=convertColorToCoordinate(px[idx]);
+  if(newX<0){
+    newX=0;
+  }
+  double newY=convertColorToCoordinate(py[idx]);
+  return new PVector((float)newX, (float)newY);
+}
+
