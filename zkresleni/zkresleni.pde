@@ -19,16 +19,16 @@ void setup() {
 void reloadShaders(){
 
   snap = loadImage("snap_crop.jpg");
-  wrapTextureX = loadImage("testX.png");
-  wrapTextureY = loadImage("testY.png");
+  wrapTextureX = loadImage("textureX.png");
+  wrapTextureY = loadImage("textureY.png");
 
   reference = loadImage("table.png");
 
-  fisheye = loadShader("FishEye.glsl");
+  fisheye = loadShader("warp4.glsl");
   fisheye.set("wrapTextureX", wrapTextureX);  
   fisheye.set("wrapTextureY", wrapTextureY);  
-  fisheye.set("rx", (float)width);  
-  fisheye.set("ry", (float)height);  
+  fisheye.set("width", (float)width);  
+  fisheye.set("height", (float)height);  
 
 }
 
