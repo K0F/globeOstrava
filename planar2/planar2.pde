@@ -3,11 +3,13 @@ JSONObject json;
 ArrayList tracks;
 ArrayList planes;
 
-int NUM_PLANES = 15000;
+int NUM_PLANES = 10000;
 
 String filenames[];
 
-boolean render = false;
+PImage shadow, diffuse;
+
+boolean render = true;
 
 void setup() {
   size(1920,1080);
@@ -18,6 +20,11 @@ void setup() {
 
   planes = new ArrayList();
 
+
+  shadow = loadImage("shade.png");
+  diffuse = loadImage("The-globe-at-night.jpg");
+  diffuse.filter(GRAY);
+
   for(int i = 0 ; i < NUM_PLANES;i++){
     planes.add(new Plane());
   }
@@ -27,25 +34,35 @@ void setup() {
 }
 
 void draw(){
-  fill(0,15);
-  rect(0,0,width,height);
+
+  image(diffuse,0,0,width,height);
+
+  //  fill(0,15);
+  //  rect(0,0,width,height);
 
   noFill();
-  stroke(255,150);
+  strokeWeight(1);
+  stroke(255,5);
 
   /*
-  for(Object o:tracks){
-    Track tmp = (Track)o;
-    tmp.plot();
-  }*/
+     for(Object o:tracks){
+     Track tmp = (Track)o;
+     tmp.plot();
+     }*/
 
- for(int i = 0 ; i < planes.size();i++){
- try{
-    Plane tmp = (Plane)planes.get(i);
-    tmp.plot();
+  image(shadow,width-(frameCount%width),0,width,height);
+  image(shadow,width-(frameCount%width+width),0,width,height);
+
+
+  for(int i = 0 ; i < planes.size();i++){
+    try{
+      Plane tmp = (Plane)planes.get(i);
+      tmp.plot();
     }catch(Exception e){
-    println("weird error");}
+      println("weird error");}
   }
+
+
 
   if(frameCount==1){
     save("screenshot.png");
@@ -63,36 +80,40 @@ class Plane{
   PVector pos,vel;
   int current;
   PVector target;
-  
+  ArrayList trail; 
 
   Plane(){
     route = (Track)tracks.get((int)random(tracks.size()));
     pos = (PVector)route.waypoints.get(0);
     target = new PVector(pos.x,pos.y);
     vel = new PVector(0,0);
+    trail = new ArrayList();
 
     try{
-    target = (PVector)route.waypoints.get(1);
+      target = (PVector)route.waypoints.get(1);
     }catch(Exception e){ 
       planes.remove(this);
-    ;}
+      ;}
   }
 
   void move(){
-    
+
     pos.add(vel);
     vel = new PVector(target.x-pos.x,target.y-pos.y);
     vel.normalize();
     vel.mult(0.1);
     vel.x *= 1/cos(pos.y/(height+0.0));
+    
+    if(frameCount%5==0);
+    trail.add(new PVector(pos.x,pos.y));
 
     if(dist(pos.x,pos.y,target.x,target.y)<1){
       current++;
       if(current<route.waypoints.size()){
-      target = (PVector)route.waypoints.get(current);
+        target = (PVector)route.waypoints.get(current);
       }else{
         planes.add(new Plane());
-        planes.remove(this);
+        //planes.remove(this);
 
       }
 
@@ -100,8 +121,15 @@ class Plane{
   }
 
   void plot(){
-  move();
-  point(pos.x,pos.y);
+    move();
+    point(pos.x,pos.y);
+    for(int i = 1 ; i < trail.size();i++){
+
+      PVector a = (PVector)trail.get(i-1);
+      PVector b = (PVector)trail.get(i);
+      line(a.x,a.y,b.x,b.y);
+
+    }
   }
 
 
@@ -130,7 +158,7 @@ class Track{
 void readAll(){
   tracks = new ArrayList();
 
-  java.io.File folder = new java.io.File(dataPath(""));
+  java.io.File folder = new java.io.File(dataPath("airports"));
 
   java.io.FilenameFilter txtFilter = new java.io.FilenameFilter() {
     public boolean accept(File dir, String name) {
@@ -145,7 +173,7 @@ void readAll(){
   // display the filenames
   for (int i = 0; i < filenames.length; i++) {
     //println("parsing "+filenames[i]);
-    parseFile(filenames[i]);
+    parseFile("airports/"+filenames[i]);
   }
 }
 
