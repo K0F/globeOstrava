@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Selawik",
+                "cityCode": "WLK",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/WLK?codeType=fs",
+                "elevationFeet": 25,
+                "faa": "PASK",
+                "fs": "WLK",
+                "iata": "WLK",
+                "icao": "PASK",
+                "latitude": 66.602778,
+                "localTime": "2014-07-26T04:36:31.561",
+                "longitude": -159.983333,
+                "name": "Selawik Airport",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/WLK?codeType=fs",
+                "weatherZone": "AKZ209"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "WLK",
+            "requestedCode": "PASK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PASK/dep"
+    }
+}

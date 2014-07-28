@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mbuji Mayi",
+                "cityCode": "MJM",
+                "classification": 4,
+                "countryCode": "CD",
+                "countryName": "The Democratic Republic of The Congo",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MJM?codeType=fs",
+                "elevationFeet": 2221,
+                "fs": "MJM",
+                "iata": "MJM",
+                "icao": "FZWA",
+                "latitude": -6.15,
+                "localTime": "2014-07-27T18:16:51.203",
+                "longitude": 23.633333,
+                "name": "Mbuji Mayi Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Lubumbashi",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MJM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MJM",
+            "requestedCode": "MJM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MJM/dep"
+    }
+}

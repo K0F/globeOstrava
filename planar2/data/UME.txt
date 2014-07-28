@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Umea",
+                "cityCode": "UME",
+                "classification": 3,
+                "countryCode": "SE",
+                "countryName": "Sweden",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UME?codeType=fs",
+                "elevationFeet": 22,
+                "fs": "UME",
+                "iata": "UME",
+                "icao": "ESNU",
+                "latitude": 63.793332,
+                "localTime": "2014-07-27T18:13:50.644",
+                "longitude": 20.289539,
+                "name": "Umea Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Stockholm",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UME?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UME",
+            "requestedCode": "UME"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UME/dep"
+    }
+}

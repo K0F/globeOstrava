@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Beaver",
+                "cityCode": "WBQ",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/WBQ?codeType=fs",
+                "elevationFeet": 365,
+                "faa": "WBQ",
+                "fs": "WBQ",
+                "iata": "WBQ",
+                "latitude": 66.362222,
+                "localTime": "2014-07-26T03:05:37.108",
+                "longitude": -147.408333,
+                "name": "Beaver Airport",
+                "postalCode": "99724",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/WBQ?codeType=fs",
+                "weatherZone": "AKZ220"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "WBQ",
+            "requestedCode": "WBQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/WBQ/dep"
+    }
+}

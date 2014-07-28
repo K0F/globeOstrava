@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Talladega",
+                "cityCode": "ASN",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ASN?codeType=fs",
+                "elevationFeet": 528,
+                "faa": "ASN",
+                "fs": "ASN",
+                "iata": "ASN",
+                "icao": "KASN",
+                "latitude": 33.433333,
+                "localTime": "2014-07-26T10:12:22.698",
+                "longitude": -86.1,
+                "name": "Talladega Airport",
+                "regionName": "North America",
+                "stateCode": "AL",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ASN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ASN",
+            "requestedCode": "ASN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ASN/dep"
+    }
+}

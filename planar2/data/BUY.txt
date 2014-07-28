@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bunbury",
+                "cityCode": "BUY",
+                "classification": 5,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BUY?codeType=fs",
+                "elevationFeet": 53,
+                "fs": "BUY",
+                "iata": "BUY",
+                "icao": "YBUN",
+                "latitude": -33.316667,
+                "localTime": "2014-07-27T00:24:29.636",
+                "longitude": 115.633333,
+                "name": "Bunbury Airport",
+                "regionName": "Oceania",
+                "stateCode": "WA",
+                "timeZoneRegionName": "Australia/Perth",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BUY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BUY",
+            "requestedCode": "BUY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BUY/dep"
+    }
+}

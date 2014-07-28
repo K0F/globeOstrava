@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Clovis",
+                "cityCode": "CVN",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CVN?codeType=fs",
+                "elevationFeet": 4216,
+                "faa": "CVN",
+                "fs": "CVN",
+                "iata": "CVN",
+                "icao": "KCVN",
+                "latitude": 34.427222,
+                "localTime": "2014-07-26T05:05:27.800",
+                "longitude": -103.078889,
+                "name": "Clovis Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "NM",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CVN?codeType=fs",
+                "weatherZone": "NMZ535"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CVN",
+            "requestedCode": "CVN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CVN/dep"
+    }
+}

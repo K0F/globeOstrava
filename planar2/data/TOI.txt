@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Troy",
+                "cityCode": "TOI",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TOI?codeType=fs",
+                "elevationFeet": 397,
+                "faa": "TOI",
+                "fs": "TOI",
+                "iata": "TOI",
+                "icao": "KTOI",
+                "latitude": 31.8,
+                "localTime": "2014-07-26T07:43:08.084",
+                "longitude": -85.966667,
+                "name": "Troy Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "AL",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TOI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TOI",
+            "requestedCode": "TOI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TOI/dep"
+    }
+}

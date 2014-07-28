@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Pristina",
+                "cityCode": "PRN",
+                "classification": 4,
+                "countryCode": "RS",
+                "countryName": "Republic of Serbia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PRN?codeType=fs",
+                "elevationFeet": 1789,
+                "fs": "PRN",
+                "iata": "PRN",
+                "icao": "LYPR",
+                "latitude": 42.573611,
+                "localTime": "2014-07-26T17:20:33.037",
+                "longitude": 21.035556,
+                "name": "Pristina International Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Belgrade",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PRN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PRN",
+            "requestedCode": "PRN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PRN/dep"
+    }
+}

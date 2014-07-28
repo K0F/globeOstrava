@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Battle Mountain",
+                "cityCode": "BAM",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BAM?codeType=fs",
+                "elevationFeet": 4532,
+                "faa": "BAM",
+                "fs": "BAM",
+                "iata": "BAM",
+                "icao": "KBAM",
+                "latitude": 40.633333,
+                "localTime": "2014-07-26T09:20:25.468",
+                "longitude": -116.933333,
+                "name": "Lander County Airport",
+                "regionName": "North America",
+                "stateCode": "NV",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BAM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BAM",
+            "requestedCode": "BAM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BAM/dep"
+    }
+}

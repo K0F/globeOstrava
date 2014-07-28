@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Great Barrington",
+                "cityCode": "GBR",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GBR?codeType=fs",
+                "elevationFeet": 739,
+                "faa": "GBR",
+                "fs": "GBR",
+                "iata": "GBR",
+                "icao": "KGBR",
+                "latitude": 42.2,
+                "localTime": "2014-07-26T08:43:52.761",
+                "longitude": -73.366667,
+                "name": "Great Barrington Airport",
+                "regionName": "North America",
+                "stateCode": "MA",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GBR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GBR",
+            "requestedCode": "GBR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GBR/dep"
+    }
+}

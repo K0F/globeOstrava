@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Santa Fe",
+                "cityCode": "SFN",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SFN?codeType=fs",
+                "elevationFeet": 56,
+                "fs": "SFN",
+                "iata": "SFN",
+                "icao": "SAAV",
+                "latitude": -31.716667,
+                "localTime": "2014-07-27T13:32:15.796",
+                "longitude": -60.816667,
+                "name": "Santa Fe Airport",
+                "regionName": "South America",
+                "stateCode": "SF",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SFN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SFN",
+            "requestedCode": "SFN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SFN/dep"
+    }
+}

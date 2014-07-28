@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kazan",
+                "cityCode": "KZN",
+                "classification": 3,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KZN?codeType=fs",
+                "elevationFeet": 407,
+                "fs": "KZN",
+                "iata": "KZN",
+                "icao": "UWKD",
+                "latitude": 55.608439,
+                "localTime": "2014-07-27T20:38:19.543",
+                "longitude": 49.29824,
+                "name": "Kazan Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Moscow",
+                "utcOffsetHours": 4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KZN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KZN",
+            "requestedCode": "KZN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KZN/dep"
+    }
+}

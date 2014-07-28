@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Miquelon",
+                "cityCode": "MQC",
+                "classification": 5,
+                "countryCode": "PM",
+                "countryName": "St. Pierre and Miquelon",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MQC?codeType=fs",
+                "elevationFeet": 10,
+                "fs": "MQC",
+                "iata": "MQC",
+                "icao": "LFVM",
+                "latitude": 47.05,
+                "localTime": "2014-07-27T14:21:10.561",
+                "longitude": -56.333333,
+                "name": "Miquelon Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Miquelon",
+                "utcOffsetHours": -2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MQC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MQC",
+            "requestedCode": "MQC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MQC/dep"
+    }
+}

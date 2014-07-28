@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Zielona Gora",
+                "cityCode": "IEG",
+                "classification": 4,
+                "countryCode": "PL",
+                "countryName": "Poland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IEG?codeType=fs",
+                "elevationFeet": 194,
+                "fs": "IEG",
+                "iata": "IEG",
+                "icao": "EPZG",
+                "latitude": 51.933333,
+                "localTime": "2014-07-27T18:13:30.180",
+                "longitude": 15.516667,
+                "name": "Babimost Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Warsaw",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IEG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IEG",
+            "requestedCode": "IEG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IEG/dep"
+    }
+}

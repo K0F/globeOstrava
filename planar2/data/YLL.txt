@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lloydminster",
+                "cityCode": "YLL",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YLL?codeType=fs",
+                "elevationFeet": 2194,
+                "fs": "YLL",
+                "iata": "YLL",
+                "icao": "CYLL",
+                "latitude": 53.31297,
+                "localTime": "2014-07-27T10:05:29.048",
+                "longitude": -110.072718,
+                "name": "Lloydminster Airport",
+                "regionName": "North America",
+                "stateCode": "AB",
+                "timeZoneRegionName": "America/Edmonton",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YLL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YLL",
+            "requestedCode": "YLL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YLL/dep"
+    }
+}

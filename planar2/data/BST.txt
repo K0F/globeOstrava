@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bost",
+                "cityCode": "BST",
+                "classification": 4,
+                "countryCode": "AF",
+                "countryName": "Afghanistan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BST?codeType=fs",
+                "elevationFeet": 2464,
+                "fs": "BST",
+                "iata": "BST",
+                "icao": "OABT",
+                "latitude": 31.55,
+                "localTime": "2014-07-26T19:43:09.603",
+                "longitude": 64.366667,
+                "name": "Bost Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kabul",
+                "utcOffsetHours": 4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BST?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BST",
+            "requestedCode": "BST"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BST/dep"
+    }
+}

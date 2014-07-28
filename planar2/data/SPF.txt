@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Spearfish",
+                "cityCode": "SPF",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SPF?codeType=fs",
+                "elevationFeet": 3931,
+                "faa": "SPF",
+                "fs": "SPF",
+                "iata": "SPF",
+                "icao": "KSPF",
+                "latitude": 44.5,
+                "localTime": "2014-07-26T09:22:00.751",
+                "longitude": -103.866667,
+                "name": "Black Hills Airport",
+                "regionName": "North America",
+                "stateCode": "SD",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SPF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SPF",
+            "requestedCode": "SPF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SPF/dep"
+    }
+}

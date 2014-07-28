@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Greenwood",
+                "cityCode": "GWO",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GWO?codeType=fs",
+                "elevationFeet": 162,
+                "faa": "GWO",
+                "fs": "GWO",
+                "iata": "GWO",
+                "icao": "KGWO",
+                "latitude": 33.495,
+                "localTime": "2014-07-26T07:42:48.991",
+                "longitude": -90.088889,
+                "name": "Leflore Airport",
+                "regionName": "North America",
+                "stateCode": "MS",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GWO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GWO",
+            "requestedCode": "GWO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GWO/dep"
+    }
+}

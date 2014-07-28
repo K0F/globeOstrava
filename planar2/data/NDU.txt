@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rundu",
+                "cityCode": "NDU",
+                "classification": 4,
+                "countryCode": "NA",
+                "countryName": "Namibia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NDU?codeType=fs",
+                "elevationFeet": 3625,
+                "fs": "NDU",
+                "iata": "NDU",
+                "icao": "FYRU",
+                "latitude": -17.955779,
+                "localTime": "2014-07-27T16:50:54.686",
+                "longitude": 19.723513,
+                "name": "Rundu Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Windhoek",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NDU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NDU",
+            "requestedCode": "NDU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NDU/dep"
+    }
+}

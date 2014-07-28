@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sihanoukville",
+                "cityCode": "KOS",
+                "classification": 4,
+                "countryCode": "KH",
+                "countryName": "Cambodia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KOS?codeType=fs",
+                "elevationFeet": 5,
+                "fs": "KOS",
+                "iata": "KOS",
+                "icao": "VDSV",
+                "latitude": 10.580739,
+                "localTime": "2014-07-27T23:00:19.541",
+                "longitude": 103.639079,
+                "name": "Sihanouk International Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Phnom_Penh",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KOS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KOS",
+            "requestedCode": "KOS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KOS/dep"
+    }
+}

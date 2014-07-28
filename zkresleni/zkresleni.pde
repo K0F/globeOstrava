@@ -25,12 +25,20 @@ void reloadShaders(){
 
   reference = loadImage("table.png");
 
+<<<<<<< HEAD
   warpShader = loadShader("warp4.glsl");
 
   warpShader.set("width", width);
   warpShader.set("height", height);      
   warpShader.set("mapx", wrapTextureX);  
   warpShader.set("mapy", wrapTextureY);  
+=======
+  fisheye = loadShader("warp4.glsl");
+  fisheye.set("wrapTextureX", wrapTextureX);  
+  fisheye.set("wrapTextureY", wrapTextureY);  
+  fisheye.set("width", (float)width);  
+  fisheye.set("height", (float)height);  
+>>>>>>> shader_implement
 
 }
 

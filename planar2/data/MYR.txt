@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Myrtle Beach",
+                "cityCode": "MYR",
+                "classification": 3,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MYR?codeType=fs",
+                "elevationFeet": 25,
+                "faa": "MYR",
+                "fs": "MYR",
+                "iata": "MYR",
+                "icao": "KMYR",
+                "latitude": 33.682676,
+                "localTime": "2014-07-26T07:03:31.154",
+                "longitude": -78.922944,
+                "name": "Myrtle Beach International Airport",
+                "postalCode": "29577",
+                "regionName": "North America",
+                "stateCode": "SC",
+                "street1": "1100 Jetport Road",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MYR?codeType=fs",
+                "weatherZone": "SCZ034"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MYR",
+            "requestedCode": "MYR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MYR/dep"
+    }
+}

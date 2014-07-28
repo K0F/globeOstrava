@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bryansk",
+                "cityCode": "BZK",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BZK?codeType=fs",
+                "elevationFeet": 645,
+                "fs": "BZK",
+                "iata": "BZK",
+                "icao": "UUBP",
+                "latitude": 53.213911,
+                "localTime": "2014-07-26T19:13:43.600",
+                "longitude": 34.176383,
+                "name": "Bryansk International Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Moscow",
+                "utcOffsetHours": 4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BZK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BZK",
+            "requestedCode": "BZK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BZK/dep"
+    }
+}

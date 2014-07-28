@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bridgetown",
+                "cityCode": "BGI",
+                "classification": 3,
+                "countryCode": "BB",
+                "countryName": "Barbados",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BGI?codeType=fs",
+                "elevationFeet": 169,
+                "fs": "BGI",
+                "iata": "BGI",
+                "icao": "TBPB",
+                "latitude": 13.080732,
+                "localTime": "2014-07-27T12:36:45.406",
+                "longitude": -59.487835,
+                "name": "Grantley Adams International Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Barbados",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BGI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BGI",
+            "requestedCode": "BGI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BGI/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Middle Caicos",
+                "cityCode": "MDS",
+                "classification": 5,
+                "countryCode": "TC",
+                "countryName": "Turks and Caicos Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MDS?codeType=fs",
+                "elevationFeet": 10,
+                "fs": "MDS",
+                "iata": "MDS",
+                "icao": "MBMC",
+                "latitude": 21.783333,
+                "localTime": "2014-07-26T09:20:17.645",
+                "longitude": -71.716667,
+                "name": "Middle Caicos Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Grand_Turk",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MDS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MDS",
+            "requestedCode": "MDS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MDS/dep"
+    }
+}

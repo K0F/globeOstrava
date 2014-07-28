@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Komatsu",
+                "cityCode": "KMQ",
+                "classification": 3,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KMQ?codeType=fs",
+                "elevationFeet": 18,
+                "fs": "KMQ",
+                "iata": "KMQ",
+                "icao": "RJNK",
+                "latitude": 36.402369,
+                "localTime": "2014-07-28T01:31:15.370",
+                "longitude": 136.413428,
+                "name": "Komatsu Airport",
+                "regionName": "Asia",
+                "street1": "Yo21 Ukiyanagimachi",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KMQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KMQ",
+            "requestedCode": "KMQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KMQ/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sanandaj",
+                "cityCode": "SDG",
+                "classification": 4,
+                "countryCode": "IR",
+                "countryName": "Iran",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SDG?codeType=fs",
+                "elevationFeet": 4618,
+                "fs": "SDG",
+                "iata": "SDG",
+                "icao": "OICS",
+                "latitude": 35.251473,
+                "localTime": "2014-07-27T20:59:18.050",
+                "longitude": 47.013766,
+                "name": "Sanandaj Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Tehran",
+                "utcOffsetHours": 4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SDG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SDG",
+            "requestedCode": "SDG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SDG/dep"
+    }
+}

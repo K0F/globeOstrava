@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Apia",
+                "cityCode": "APW",
+                "classification": 4,
+                "countryCode": "WS",
+                "countryName": "Samoa",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/APW?codeType=fs",
+                "elevationFeet": 58,
+                "fs": "APW",
+                "iata": "APW",
+                "icao": "NSFA",
+                "latitude": -13.832793,
+                "localTime": "2014-07-28T05:27:28.530",
+                "longitude": -171.997244,
+                "name": "Faleolo Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Apia",
+                "utcOffsetHours": 13.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/APW?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "APW",
+            "requestedCode": "APW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/APW/dep"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rosario",
+                "cityCode": "ROS",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ROS?codeType=fs",
+                "elevationFeet": 85,
+                "fs": "ROS",
+                "iata": "ROS",
+                "icao": "SAAR",
+                "latitude": -32.933333,
+                "localTime": "2014-07-26T12:21:12.007",
+                "longitude": -60.783333,
+                "name": "Fisherton Airport",
+                "regionName": "South America",
+                "stateCode": "SF",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ROS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ROS",
+            "requestedCode": "ROS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ROS/dep"
+    }
+}

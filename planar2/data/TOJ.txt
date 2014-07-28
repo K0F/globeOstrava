@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Madrid",
+                "cityCode": "MAD",
+                "classification": 5,
+                "countryCode": "ES",
+                "countryName": "Spain and Canary Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TOJ?codeType=fs",
+                "elevationFeet": 1994,
+                "fs": "TOJ",
+                "iata": "TOJ",
+                "icao": "LETO",
+                "latitude": 40.455556,
+                "localTime": "2014-07-27T17:54:24.107",
+                "longitude": -3.546667,
+                "name": "Torrejon Air Force Base",
+                "regionName": "Europe",
+                "stateCode": "SP",
+                "timeZoneRegionName": "Europe/Madrid",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TOJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TOJ",
+            "requestedCode": "TOJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TOJ/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Zamboanga",
+                "cityCode": "ZAM",
+                "classification": 4,
+                "countryCode": "PH",
+                "countryName": "Philippines",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ZAM?codeType=fs",
+                "elevationFeet": 30,
+                "fs": "ZAM",
+                "iata": "ZAM",
+                "icao": "RPMZ",
+                "latitude": 6.919294,
+                "localTime": "2014-07-28T00:32:01.900",
+                "longitude": 122.062259,
+                "name": "Zamboanga Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Manila",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ZAM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ZAM",
+            "requestedCode": "ZAM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ZAM/dep"
+    }
+}

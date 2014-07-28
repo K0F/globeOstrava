@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Walla Walla",
+                "cityCode": "ALW",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ALW?codeType=fs",
+                "elevationFeet": 1205,
+                "faa": "ALW",
+                "fs": "ALW",
+                "iata": "ALW",
+                "icao": "KALW",
+                "latitude": 46.094722,
+                "localTime": "2014-07-26T05:37:39.019",
+                "longitude": -118.291111,
+                "name": "Walla Walla Airport",
+                "regionName": "North America",
+                "stateCode": "WA",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ALW?codeType=fs",
+                "weatherZone": "WAZ029"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ALW",
+            "requestedCode": "ALW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ALW/dep"
+    }
+}

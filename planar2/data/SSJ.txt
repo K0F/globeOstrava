@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sandnessjoen",
+                "cityCode": "SSJ",
+                "classification": 4,
+                "countryCode": "NO",
+                "countryName": "Norway",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SSJ?codeType=fs",
+                "elevationFeet": 54,
+                "fs": "SSJ",
+                "iata": "SSJ",
+                "icao": "ENST",
+                "latitude": 65.959944,
+                "localTime": "2014-07-27T18:13:14.323",
+                "longitude": 12.476518,
+                "name": "Stokka Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Oslo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SSJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SSJ",
+            "requestedCode": "SSJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SSJ/dep"
+    }
+}

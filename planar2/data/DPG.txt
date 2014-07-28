@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dugway",
+                "cityCode": "DPG",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DPG?codeType=fs",
+                "elevationFeet": 4348,
+                "faa": "DPG",
+                "fs": "DPG",
+                "iata": "DPG",
+                "icao": "KDPG",
+                "latitude": 40.233333,
+                "localTime": "2014-07-26T09:14:56.197",
+                "longitude": -112.75,
+                "name": "Michael Army Air Field",
+                "regionName": "North America",
+                "stateCode": "UT",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DPG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DPG",
+            "requestedCode": "DPG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DPG/dep"
+    }
+}

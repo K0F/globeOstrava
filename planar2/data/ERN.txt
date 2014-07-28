@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Eirunepe",
+                "cityCode": "ERN",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ERN?codeType=fs",
+                "elevationFeet": 412,
+                "fs": "ERN",
+                "iata": "ERN",
+                "icao": "SWEI",
+                "latitude": -6.583333,
+                "localTime": "2014-07-27T12:02:54.795",
+                "longitude": -69.883333,
+                "name": "Eirunepe Airport",
+                "regionName": "South America",
+                "stateCode": "AM",
+                "timeZoneRegionName": "America/Porto_Velho",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ERN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ERN",
+            "requestedCode": "ERN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ERN/dep"
+    }
+}

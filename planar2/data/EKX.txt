@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Elizabethtown",
+                "cityCode": "EKX",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/EKX?codeType=fs",
+                "elevationFeet": 775,
+                "faa": "EKX",
+                "fs": "EKX",
+                "iata": "EKX",
+                "icao": "KEKX",
+                "latitude": 37.688889,
+                "localTime": "2014-07-26T11:15:11.194",
+                "longitude": -85.927778,
+                "name": "Elizabethtown Airport",
+                "regionName": "North America",
+                "stateCode": "KY",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/EKX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "EKX",
+            "requestedCode": "EKX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/EKX/dep"
+    }
+}

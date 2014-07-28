@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tamky",
+                "cityCode": "TMK",
+                "classification": 4,
+                "countryCode": "VN",
+                "countryName": "Viet Nam",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TMK?codeType=fs",
+                "fs": "TMK",
+                "iata": "TMK",
+                "latitude": 15.566667,
+                "localTime": "2014-07-26T23:17:31.324",
+                "longitude": 108.483333,
+                "name": "Tamky Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Ho_Chi_Minh",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TMK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TMK",
+            "requestedCode": "TMK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TMK/dep"
+    }
+}

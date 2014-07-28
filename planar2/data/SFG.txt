@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saint Martin",
+                "cityCode": "SFG",
+                "classification": 4,
+                "countryCode": "MF",
+                "countryName": "Saint Martin",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SFG?codeType=fs",
+                "elevationFeet": 20,
+                "fs": "SFG",
+                "iata": "SFG",
+                "icao": "TFFG",
+                "latitude": 18.100555,
+                "localTime": "2014-07-27T12:36:50.156",
+                "longitude": -63.04889,
+                "name": "Esperance Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Marigot",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SFG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SFG",
+            "requestedCode": "SFG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SFG/dep"
+    }
+}

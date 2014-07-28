@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mason City",
+                "cityCode": "MCW",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MCW?codeType=fs",
+                "elevationFeet": 1213,
+                "faa": "MCW",
+                "fs": "MCW",
+                "iata": "MCW",
+                "icao": "KMCW",
+                "latitude": 43.156944,
+                "localTime": "2014-07-26T07:36:01.132",
+                "longitude": -93.329444,
+                "name": "Mason City Airport",
+                "postalCode": "50401",
+                "regionName": "North America",
+                "stateCode": "IA",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MCW?codeType=fs",
+                "weatherZone": "IAZ017"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MCW",
+            "requestedCode": "MCW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MCW/dep"
+    }
+}

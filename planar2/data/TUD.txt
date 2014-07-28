@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tambacounda",
+                "cityCode": "TUD",
+                "classification": 5,
+                "countryCode": "SN",
+                "countryName": "Senegal",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TUD?codeType=fs",
+                "elevationFeet": 161,
+                "fs": "TUD",
+                "iata": "TUD",
+                "icao": "GOTT",
+                "latitude": 13.736111,
+                "localTime": "2014-07-27T16:17:25.733",
+                "longitude": -13.658333,
+                "name": "Tambacounda Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Dakar",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TUD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TUD",
+            "requestedCode": "TUD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TUD/dep"
+    }
+}

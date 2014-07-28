@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Santo Domingo",
+                "cityCode": "STD",
+                "classification": 4,
+                "countryCode": "VE",
+                "countryName": "Venezuela",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/STD?codeType=fs",
+                "elevationFeet": 1083,
+                "fs": "STD",
+                "iata": "STD",
+                "icao": "SVSO",
+                "latitude": 7.583333,
+                "localTime": "2014-07-27T11:18:53.419",
+                "longitude": -72.066667,
+                "name": "Mayo Guerrero Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Caracas",
+                "utcOffsetHours": -4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/STD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "STD",
+            "requestedCode": "STD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/STD/dep"
+    }
+}

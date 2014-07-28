@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rampart",
+                "cityCode": "RMP",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RMP?codeType=fs",
+                "elevationFeet": 275,
+                "faa": "RMP",
+                "fs": "RMP",
+                "iata": "RMP",
+                "latitude": 65.508333,
+                "localTime": "2014-07-26T08:28:13.347",
+                "longitude": -150.140278,
+                "name": "Rampart Airport",
+                "postalCode": "99767",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RMP?codeType=fs",
+                "weatherZone": "AKZ221"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RMP",
+            "requestedCode": "RMP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RMP/dep"
+    }
+}

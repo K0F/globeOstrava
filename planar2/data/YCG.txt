@@ -1,0 +1,446 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "QK",
+                "iata": "QK",
+                "icao": "JZA",
+                "name": "Jazz"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Castlegar",
+                "cityCode": "YCG",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YCG?codeType=fs",
+                "elevationFeet": 0,
+                "fs": "YCG",
+                "iata": "YCG",
+                "icao": "CYCG",
+                "latitude": 49.295556,
+                "localTime": "2014-07-27T09:04:37.663",
+                "longitude": -117.632222,
+                "name": "Castlegar Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "BC",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Vancouver",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YCG?codeType=fs"
+            },
+            {
+                "active": true,
+                "city": "Vancouver",
+                "cityCode": "YVR",
+                "classification": 1,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YVR?codeType=fs",
+                "elevationFeet": 14,
+                "fs": "YVR",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "latitude": 49.194697,
+                "localTime": "2014-07-27T09:04:37.675",
+                "longitude": -123.179191,
+                "name": "Vancouver International Airport",
+                "postalCode": "V7B 1Y7",
+                "regionName": "North America",
+                "stateCode": "BC",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Vancouver",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YVR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "YVR",
+            "bearing": 266.13963025134973,
+            "carrierFsCode": "QK",
+            "delayMinutes": 6,
+            "departureAirportFsCode": "YCG",
+            "departureDate": {
+                "dateLocal": "2014-07-27T08:35:00.000",
+                "dateUtc": "2014-07-27T15:35:00.000Z"
+            },
+            "equipment": "DH3",
+            "flightId": 410476602,
+            "flightNumber": "8247",
+            "heading": 272.9315434174722,
+            "legacyRoute": "CYCG..BOOTH.CANUC3.CYVR",
+            "positions": [
+                {
+                    "altitudeFt": 20000,
+                    "date": "2014-07-27T15:59:10.000Z",
+                    "lat": 49.4167,
+                    "lon": -119.4833,
+                    "source": "ASDI",
+                    "speedMph": 265
+                },
+                {
+                    "altitudeFt": 20000,
+                    "date": "2014-07-27T15:58:10.000Z",
+                    "lat": 49.4167,
+                    "lon": -119.3833,
+                    "source": "ASDI",
+                    "speedMph": 265
+                },
+                {
+                    "altitudeFt": 20000,
+                    "date": "2014-07-27T15:57:10.000Z",
+                    "lat": 49.4167,
+                    "lon": -119.2833,
+                    "source": "ASDI",
+                    "speedMph": 265
+                },
+                {
+                    "altitudeFt": 20000,
+                    "date": "2014-07-27T15:56:10.000Z",
+                    "lat": 49.4167,
+                    "lon": -119.1833,
+                    "source": "ASDI",
+                    "speedMph": 253
+                },
+                {
+                    "altitudeFt": 20000,
+                    "date": "2014-07-27T15:55:10.000Z",
+                    "lat": 49.4,
+                    "lon": -119.1,
+                    "source": "ASDI",
+                    "speedMph": 242
+                },
+                {
+                    "altitudeFt": 20000,
+                    "date": "2014-07-27T15:54:10.000Z",
+                    "lat": 49.4,
+                    "lon": -119.0,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 19700,
+                    "date": "2014-07-27T15:53:10.000Z",
+                    "lat": 49.4,
+                    "lon": -118.9167,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 18900,
+                    "date": "2014-07-27T15:52:10.000Z",
+                    "lat": 49.4,
+                    "lon": -118.85,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 18200,
+                    "date": "2014-07-27T15:51:10.000Z",
+                    "lat": 49.4,
+                    "lon": -118.7667,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 17900,
+                    "date": "2014-07-27T15:50:10.000Z",
+                    "lat": 49.3833,
+                    "lon": -118.7,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 17300,
+                    "date": "2014-07-27T15:49:10.000Z",
+                    "lat": 49.3833,
+                    "lon": -118.6167,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 16600,
+                    "date": "2014-07-27T15:48:10.000Z",
+                    "lat": 49.3833,
+                    "lon": -118.5333,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 15800,
+                    "date": "2014-07-27T15:47:10.000Z",
+                    "lat": 49.3833,
+                    "lon": -118.4333,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 15000,
+                    "date": "2014-07-27T15:46:10.000Z",
+                    "lat": 49.3833,
+                    "lon": -118.3667,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 14200,
+                    "date": "2014-07-27T15:45:10.000Z",
+                    "lat": 49.3667,
+                    "lon": -118.2833,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 13300,
+                    "date": "2014-07-27T15:44:10.000Z",
+                    "lat": 49.3667,
+                    "lon": -118.2,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 12100,
+                    "date": "2014-07-27T15:43:10.000Z",
+                    "lat": 49.3667,
+                    "lon": -118.1333,
+                    "source": "ASDI",
+                    "speedMph": 219
+                },
+                {
+                    "altitudeFt": 11100,
+                    "date": "2014-07-27T15:42:10.000Z",
+                    "lat": 49.3667,
+                    "lon": -118.05,
+                    "source": "ASDI",
+                    "speedMph": 207
+                },
+                {
+                    "altitudeFt": 10200,
+                    "date": "2014-07-27T15:41:10.000Z",
+                    "lat": 49.3333,
+                    "lon": -117.9833,
+                    "source": "ASDI",
+                    "speedMph": 196
+                },
+                {
+                    "altitudeFt": 9300,
+                    "date": "2014-07-27T15:40:10.000Z",
+                    "lat": 49.3333,
+                    "lon": -117.9,
+                    "source": "ASDI",
+                    "speedMph": 173
+                }
+            ],
+            "waypoints": [
+                {
+                    "lat": 49.2833,
+                    "lon": -117.6167
+                },
+                {
+                    "lat": 49.3,
+                    "lon": -117.7667
+                },
+                {
+                    "lat": 49.3167,
+                    "lon": -117.95
+                },
+                {
+                    "lat": 49.3167,
+                    "lon": -118.1333
+                },
+                {
+                    "lat": 49.3167,
+                    "lon": -118.15
+                },
+                {
+                    "lat": 49.3333,
+                    "lon": -118.4167
+                },
+                {
+                    "lat": 49.35,
+                    "lon": -118.6
+                },
+                {
+                    "lat": 49.35,
+                    "lon": -118.6167
+                },
+                {
+                    "lat": 49.3667,
+                    "lon": -118.7667
+                },
+                {
+                    "lat": 49.3833,
+                    "lon": -119.1
+                },
+                {
+                    "lat": 49.3833,
+                    "lon": -119.2333
+                },
+                {
+                    "lat": 49.45,
+                    "lon": -120.5667
+                },
+                {
+                    "lat": 49.5,
+                    "lon": -121.85
+                },
+                {
+                    "lat": 49.5167,
+                    "lon": -122.0333
+                },
+                {
+                    "lat": 49.4833,
+                    "lon": -122.1167
+                },
+                {
+                    "lat": 49.4667,
+                    "lon": -122.1667
+                },
+                {
+                    "lat": 49.45,
+                    "lon": -122.2
+                },
+                {
+                    "lat": 49.4,
+                    "lon": -122.3333
+                },
+                {
+                    "lat": 49.4,
+                    "lon": -122.35
+                },
+                {
+                    "lat": 49.3333,
+                    "lon": -122.5
+                },
+                {
+                    "lat": 49.2833,
+                    "lon": -122.6167
+                },
+                {
+                    "lat": 49.2667,
+                    "lon": -122.65
+                },
+                {
+                    "lat": 49.2667,
+                    "lon": -122.7167
+                },
+                {
+                    "lat": 49.2333,
+                    "lon": -122.85
+                },
+                {
+                    "lat": 49.2333,
+                    "lon": -122.9
+                },
+                {
+                    "lat": 49.2333,
+                    "lon": -122.9667
+                },
+                {
+                    "lat": 49.25,
+                    "lon": -123.0
+                },
+                {
+                    "lat": 49.25,
+                    "lon": -123.0167
+                },
+                {
+                    "lat": 49.2667,
+                    "lon": -123.1167
+                },
+                {
+                    "lat": 49.2667,
+                    "lon": -123.1667
+                },
+                {
+                    "lat": 49.2667,
+                    "lon": -123.1833
+                },
+                {
+                    "lat": 49.2667,
+                    "lon": -123.2333
+                },
+                {
+                    "lat": 49.2833,
+                    "lon": -123.3
+                },
+                {
+                    "lat": 49.2833,
+                    "lon": -123.3167
+                },
+                {
+                    "lat": 49.3,
+                    "lon": -123.4333
+                },
+                {
+                    "lat": 49.3167,
+                    "lon": -123.5333
+                },
+                {
+                    "lat": 49.3,
+                    "lon": -123.5167
+                },
+                {
+                    "lat": 49.2833,
+                    "lon": -123.45
+                },
+                {
+                    "lat": 49.2667,
+                    "lon": -123.4
+                },
+                {
+                    "lat": 49.2667,
+                    "lon": -123.4
+                },
+                {
+                    "lat": 49.2333,
+                    "lon": -123.3333
+                },
+                {
+                    "lat": 49.2333,
+                    "lon": -123.2833
+                },
+                {
+                    "lat": 49.2333,
+                    "lon": -123.2833
+                },
+                {
+                    "lat": 49.2,
+                    "lon": -123.2333
+                },
+                {
+                    "lat": 49.1833,
+                    "lon": -123.1833
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "YCG",
+            "requestedCode": "YCG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YCG/dep"
+    }
+}

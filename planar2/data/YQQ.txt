@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Comox",
+                "cityCode": "YQQ",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YQQ?codeType=fs",
+                "elevationFeet": 84,
+                "fs": "YQQ",
+                "iata": "YQQ",
+                "icao": "CYQQ",
+                "latitude": 49.705865,
+                "localTime": "2014-07-27T09:06:04.743",
+                "longitude": -124.907815,
+                "name": "Comox Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "BC",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Vancouver",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YQQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YQQ",
+            "requestedCode": "YQQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YQQ/dep"
+    }
+}

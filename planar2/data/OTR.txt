@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Coto 47",
+                "cityCode": "OTR",
+                "classification": 5,
+                "countryCode": "CR",
+                "countryName": "Costa Rica",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OTR?codeType=fs",
+                "elevationFeet": 26,
+                "fs": "OTR",
+                "iata": "OTR",
+                "icao": "MRCC",
+                "latitude": 8.566667,
+                "localTime": "2014-07-27T10:26:32.636",
+                "longitude": -82.933333,
+                "name": "Coto 47 Airport",
+                "regionName": "Central America",
+                "timeZoneRegionName": "America/Costa_Rica",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OTR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OTR",
+            "requestedCode": "OTR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OTR/dep"
+    }
+}

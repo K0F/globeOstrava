@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Caxias do Sul",
+                "cityCode": "CXJ",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CXJ?codeType=fs",
+                "elevationFeet": 2467,
+                "fs": "CXJ",
+                "iata": "CXJ",
+                "icao": "SBCX",
+                "latitude": -29.195077,
+                "localTime": "2014-07-27T13:33:19.227",
+                "longitude": -51.187466,
+                "name": "Hugo Cantergiani Regional Airport",
+                "regionName": "South America",
+                "stateCode": "RS",
+                "timeZoneRegionName": "America/Sao_Paulo",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CXJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CXJ",
+            "requestedCode": "CXJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CXJ/dep"
+    }
+}

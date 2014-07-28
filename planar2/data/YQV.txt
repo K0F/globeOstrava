@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Yorkton",
+                "cityCode": "YQV",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YQV?codeType=fs",
+                "elevationFeet": 1606,
+                "fs": "YQV",
+                "iata": "YQV",
+                "icao": "CYQV",
+                "latitude": 51.264097,
+                "localTime": "2014-07-27T10:06:09.542",
+                "longitude": -102.459351,
+                "name": "Yorkton Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "SK",
+                "timeZoneRegionName": "America/Regina",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YQV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YQV",
+            "requestedCode": "YQV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YQV/dep"
+    }
+}

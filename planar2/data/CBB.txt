@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cochabamba",
+                "cityCode": "CBB",
+                "classification": 3,
+                "countryCode": "BO",
+                "countryName": "Bolivia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CBB?codeType=fs",
+                "elevationFeet": 8360,
+                "fs": "CBB",
+                "iata": "CBB",
+                "icao": "SLCB",
+                "latitude": -17.413954,
+                "localTime": "2014-07-27T12:35:38.575",
+                "longitude": -66.178896,
+                "name": "J Wilsterman Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/La_Paz",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CBB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CBB",
+            "requestedCode": "CBB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CBB/dep"
+    }
+}

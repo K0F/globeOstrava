@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dalaman",
+                "cityCode": "DLM",
+                "classification": 4,
+                "countryCode": "TR",
+                "countryName": "Turkey",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DLM?codeType=fs",
+                "elevationFeet": 11,
+                "fs": "DLM",
+                "iata": "DLM",
+                "icao": "LTBS",
+                "latitude": 36.717554,
+                "localTime": "2014-07-27T19:24:24.096",
+                "longitude": 28.794546,
+                "name": "Dalaman Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Istanbul",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DLM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DLM",
+            "requestedCode": "DLM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DLM/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Vryburg",
+                "cityCode": "VRU",
+                "classification": 5,
+                "countryCode": "ZA",
+                "countryName": "South Africa",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VRU?codeType=fs",
+                "elevationFeet": 3920,
+                "fs": "VRU",
+                "iata": "VRU",
+                "icao": "FAVB",
+                "latitude": -26.916667,
+                "localTime": "2014-07-27T18:14:34.688",
+                "longitude": 24.75,
+                "name": "Vryburg Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Johannesburg",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VRU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "VRU",
+            "requestedCode": "VRU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/VRU/dep"
+    }
+}

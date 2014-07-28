@@ -1,0 +1,52 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mobile",
+                "cityCode": "MOB",
+                "classification": 3,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MOB?codeType=fs",
+                "elevationFeet": 219,
+                "faa": "MOB",
+                "fs": "MOB",
+                "iata": "MOB",
+                "icao": "KMOB",
+                "latitude": 30.681085,
+                "localTime": "2014-07-26T06:05:44.167",
+                "longitude": -88.244753,
+                "name": "Mobile Regional Airport",
+                "postalCode": "36608-0004",
+                "regionName": "North America",
+                "stateCode": "AL",
+                "street1": "8400 Airport Blvd.",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MOB?codeType=fs",
+                "weatherZone": "ALZ063"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MOB",
+            "requestedCode": "MOB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MOB/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Quito",
+                "cityCode": "UIO",
+                "classification": 2,
+                "countryCode": "EC",
+                "countryName": "Ecuador",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UIO?codeType=fs",
+                "elevationFeet": 7827,
+                "fs": "UIO",
+                "iata": "UIO",
+                "icao": "SEQM",
+                "latitude": -0.123811,
+                "localTime": "2014-07-27T11:34:51.208",
+                "longitude": -78.355976,
+                "name": "Mariscal Sucre International Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Guayaquil",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UIO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UIO",
+            "requestedCode": "UIO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UIO/dep"
+    }
+}

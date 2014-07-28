@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sunyani",
+                "cityCode": "NYI",
+                "classification": 4,
+                "countryCode": "GH",
+                "countryName": "Ghana",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NYI?codeType=fs",
+                "elevationFeet": 983,
+                "fs": "NYI",
+                "iata": "NYI",
+                "icao": "DGSN",
+                "latitude": 7.360586,
+                "localTime": "2014-07-27T16:08:25.832",
+                "longitude": -2.329254,
+                "name": "Sunyani Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Accra",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NYI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NYI",
+            "requestedCode": "NYI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NYI/dep"
+    }
+}

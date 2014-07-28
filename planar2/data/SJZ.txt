@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sao Jorge Island",
+                "cityCode": "SJZ",
+                "classification": 4,
+                "countryCode": "PT",
+                "countryName": "Portugal",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SJZ?codeType=fs",
+                "elevationFeet": 311,
+                "fs": "SJZ",
+                "iata": "SJZ",
+                "icao": "LPSJ",
+                "latitude": 38.664616,
+                "localTime": "2014-07-27T16:23:27.943",
+                "longitude": -28.16843,
+                "name": "Sao Jorge Island Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Atlantic/Azores",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SJZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SJZ",
+            "requestedCode": "SJZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SJZ/dep"
+    }
+}

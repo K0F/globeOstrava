@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kiwayu",
+                "cityCode": "KWY",
+                "classification": 5,
+                "countryCode": "KE",
+                "countryName": "Kenya",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KWY?codeType=fs",
+                "elevationFeet": 50,
+                "fs": "KWY",
+                "iata": "KWY",
+                "latitude": -2.016667,
+                "localTime": "2014-07-27T18:52:03.316",
+                "longitude": 41.266667,
+                "name": "Kiwayu Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Nairobi",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KWY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KWY",
+            "requestedCode": "KWY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KWY/dep"
+    }
+}

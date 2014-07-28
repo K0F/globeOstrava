@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Petropavlovsk-Kamchatsky",
+                "cityCode": "PKC",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PKC?codeType=fs",
+                "elevationFeet": 131,
+                "fs": "PKC",
+                "iata": "PKC",
+                "icao": "UHPP",
+                "latitude": 53.016667,
+                "localTime": "2014-07-28T04:37:41.950",
+                "longitude": 158.65,
+                "name": "Petropavlovsk-Kamchatsky Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Kamchatka",
+                "utcOffsetHours": 12.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PKC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PKC",
+            "requestedCode": "PKC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PKC/dep"
+    }
+}

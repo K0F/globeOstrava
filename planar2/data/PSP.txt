@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Palm Springs",
+                "cityCode": "PSP",
+                "classification": 3,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PSP?codeType=fs",
+                "elevationFeet": 474,
+                "faa": "PSP",
+                "fs": "PSP",
+                "iata": "PSP",
+                "icao": "KPSP",
+                "latitude": 33.822976,
+                "localTime": "2014-07-26T05:34:52.938",
+                "longitude": -116.508444,
+                "name": "Palm Springs Municipal Airport",
+                "postalCode": "92262",
+                "regionName": "North America",
+                "stateCode": "CA",
+                "street1": "3400 East Tahquitz-Canyon Way",
+                "street2": "",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PSP?codeType=fs",
+                "weatherZone": "CAZ061"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PSP",
+            "requestedCode": "PSP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PSP/dep"
+    }
+}

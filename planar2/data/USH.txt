@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ushuaia",
+                "cityCode": "USH",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/USH?codeType=fs",
+                "elevationFeet": 92,
+                "fs": "USH",
+                "iata": "USH",
+                "icao": "SAWH",
+                "latitude": -54.839347,
+                "localTime": "2014-07-27T13:32:50.126",
+                "longitude": -68.312449,
+                "name": "Islas Malvinas Airport",
+                "regionName": "South America",
+                "stateCode": "TF",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/USH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "USH",
+            "requestedCode": "USH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/USH/dep"
+    }
+}

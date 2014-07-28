@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sainte Marie",
+                "cityCode": "SMS",
+                "classification": 4,
+                "countryCode": "MG",
+                "countryName": "Madagascar",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SMS?codeType=fs",
+                "elevationFeet": 182,
+                "fs": "SMS",
+                "iata": "SMS",
+                "icao": "FMMS",
+                "latitude": -17.083333,
+                "localTime": "2014-07-26T16:19:13.007",
+                "longitude": 49.816667,
+                "name": "Sainte Marie Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Indian/Antananarivo",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SMS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SMS",
+            "requestedCode": "SMS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SMS/dep"
+    }
+}

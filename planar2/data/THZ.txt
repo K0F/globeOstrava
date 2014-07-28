@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tahoua",
+                "cityCode": "THZ",
+                "classification": 4,
+                "countryCode": "NE",
+                "countryName": "Niger",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/THZ?codeType=fs",
+                "elevationFeet": 1266,
+                "fs": "THZ",
+                "iata": "THZ",
+                "icao": "DRRT",
+                "latitude": 14.872778,
+                "localTime": "2014-07-27T17:08:55.100",
+                "longitude": 5.263889,
+                "name": "Tahoua Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Niamey",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/THZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "THZ",
+            "requestedCode": "THZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/THZ/dep"
+    }
+}

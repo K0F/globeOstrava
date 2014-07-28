@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Enniskillen",
+                "cityCode": "ENK",
+                "classification": 5,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ENK?codeType=fs",
+                "elevationFeet": 155,
+                "fs": "ENK",
+                "iata": "ENK",
+                "icao": "EGAB",
+                "latitude": 54.35,
+                "localTime": "2014-07-27T17:10:45.024",
+                "longitude": -7.633333,
+                "name": "Saint Angelo Airport",
+                "regionName": "Europe",
+                "stateCode": "NI",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ENK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ENK",
+            "requestedCode": "ENK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ENK/dep"
+    }
+}

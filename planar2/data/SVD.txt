@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saint Vincent",
+                "cityCode": "SVD",
+                "classification": 4,
+                "countryCode": "VC",
+                "countryName": "Saint Vincent and the Grenadines",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SVD?codeType=fs",
+                "elevationFeet": 66,
+                "fs": "SVD",
+                "iata": "SVD",
+                "icao": "TVSV",
+                "latitude": 13.14604,
+                "localTime": "2014-07-27T12:37:19.790",
+                "longitude": -61.21038,
+                "name": "E. T. Joshua",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/St_Vincent",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SVD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SVD",
+            "requestedCode": "SVD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SVD/dep"
+    }
+}

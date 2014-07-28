@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kake",
+                "cityCode": "KAE",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KAE?codeType=fs",
+                "elevationFeet": 172,
+                "faa": "PAFE",
+                "fs": "KAE",
+                "iata": "KAE",
+                "icao": "PAFE",
+                "latitude": 56.966667,
+                "localTime": "2014-07-26T04:35:21.090",
+                "longitude": -133.95,
+                "name": "Kake Sea Plane Base",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KAE?codeType=fs",
+                "weatherZone": "AKZ026"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KAE",
+            "requestedCode": "PAFE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PAFE/dep"
+    }
+}

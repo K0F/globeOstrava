@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Otu",
+                "cityCode": "OTU",
+                "classification": 5,
+                "countryCode": "CO",
+                "countryName": "Colombia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OTU?codeType=fs",
+                "elevationFeet": 2000,
+                "fs": "OTU",
+                "iata": "OTU",
+                "icao": "SKOT",
+                "latitude": 7.0,
+                "localTime": "2014-07-27T11:35:24.571",
+                "longitude": -74.716667,
+                "name": "Otu Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Bogota",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OTU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OTU",
+            "requestedCode": "OTU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OTU/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Takapoto",
+                "cityCode": "TKP",
+                "classification": 4,
+                "countryCode": "PF",
+                "countryName": "French Polynesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TKP?codeType=fs",
+                "elevationFeet": 13,
+                "fs": "TKP",
+                "iata": "TKP",
+                "icao": "NTGT",
+                "latitude": -15.45,
+                "localTime": "2014-07-27T06:27:42.783",
+                "longitude": -145.141667,
+                "name": "Takapoto Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Tahiti",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TKP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TKP",
+            "requestedCode": "TKP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TKP/dep"
+    }
+}

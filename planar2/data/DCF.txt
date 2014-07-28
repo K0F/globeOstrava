@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dominica",
+                "cityCode": "DOM",
+                "classification": 4,
+                "countryCode": "DM",
+                "countryName": "Dominica",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DCF?codeType=fs",
+                "elevationFeet": 14,
+                "fs": "DCF",
+                "iata": "DCF",
+                "icao": "TDCF",
+                "latitude": 15.5,
+                "localTime": "2014-07-27T12:36:46.596",
+                "longitude": -61.333333,
+                "name": "Cane Field Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Dominica",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DCF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DCF",
+            "requestedCode": "DCF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DCF/dep"
+    }
+}

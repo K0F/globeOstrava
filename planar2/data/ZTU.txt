@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Zaqatala",
+                "classification": 4,
+                "countryCode": "AZ",
+                "countryName": "Azerbaijan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ZTU?codeType=fs",
+                "elevationFeet": 1250,
+                "fs": "ZTU",
+                "iata": "ZTU",
+                "icao": "UBBY",
+                "latitude": 41.56166,
+                "localTime": "2014-07-27T20:51:48.507",
+                "longitude": 46.664789,
+                "name": "Zaqatala Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Baku",
+                "utcOffsetHours": 5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ZTU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ZTU",
+            "requestedCode": "ZTU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ZTU/dep"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lake Havasu City",
+                "cityCode": "HII",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HII?codeType=fs",
+                "elevationFeet": 735,
+                "faa": "HII",
+                "fs": "HII",
+                "iata": "HII",
+                "icao": "KHII",
+                "latitude": 34.569693,
+                "localTime": "2014-07-26T09:27:07.269",
+                "longitude": -114.359729,
+                "name": "Lake Havasu City Municipal Airport",
+                "postalCode": "86404",
+                "regionName": "North America",
+                "stateCode": "AZ",
+                "street1": "5600 North Highway 95",
+                "timeZoneRegionName": "America/Phoenix",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HII?codeType=fs",
+                "weatherZone": "AZZ002"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HII",
+            "requestedCode": "HII"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HII/dep"
+    }
+}

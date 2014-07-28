@@ -1,0 +1,158 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "HZ",
+                "iata": "HZ",
+                "icao": "SHU",
+                "name": "Aurora"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Irkutsk",
+                "cityCode": "IKT",
+                "classification": 3,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IKT?codeType=fs",
+                "elevationFeet": 1673,
+                "fs": "IKT",
+                "iata": "IKT",
+                "icao": "UIII",
+                "latitude": 52.273309,
+                "localTime": "2014-07-28T01:37:47.151",
+                "longitude": 104.356071,
+                "name": "Irkutsk Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Irkutsk",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IKT?codeType=fs"
+            },
+            {
+                "active": true,
+                "city": "Khabarovsk",
+                "cityCode": "KHV",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KHV?codeType=fs",
+                "elevationFeet": 246,
+                "fs": "KHV",
+                "iata": "KHV",
+                "icao": "UHHH",
+                "latitude": 48.524564,
+                "localTime": "2014-07-28T03:37:47.166",
+                "longitude": 135.168616,
+                "name": "Novyy Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Vladivostok",
+                "utcOffsetHours": 11.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KHV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "KHV",
+            "bearing": 93.15700306508663,
+            "carrierFsCode": "HZ",
+            "delayMinutes": 23,
+            "departureAirportFsCode": "IKT",
+            "departureDate": {
+                "dateLocal": "2014-07-28T00:45:00.000",
+                "dateUtc": "2014-07-27T15:45:00.000Z"
+            },
+            "equipment": "319",
+            "flightId": 410914350,
+            "flightNumber": "5653",
+            "heading": 84.57145722922249,
+            "positions": [
+                {
+                    "altitudeFt": 37000,
+                    "date": "2014-07-27T16:33:44.000Z",
+                    "lat": 52.6349,
+                    "lon": 108.653,
+                    "source": "AirNav",
+                    "speedMph": 529
+                },
+                {
+                    "altitudeFt": 36875,
+                    "date": "2014-07-27T16:30:39.000Z",
+                    "lat": 52.5148,
+                    "lon": 97.5558,
+                    "source": "AirNav",
+                    "speedMph": 517
+                },
+                {
+                    "altitudeFt": 36525,
+                    "date": "2014-07-27T16:30:05.000Z",
+                    "lat": 52.5148,
+                    "lon": 97.5558,
+                    "source": "AirNav",
+                    "speedMph": 517
+                },
+                {
+                    "altitudeFt": 32400,
+                    "date": "2014-07-27T16:25:50.000Z",
+                    "lat": 52.3888,
+                    "lon": 107.03,
+                    "source": "AirNav",
+                    "speedMph": 523
+                },
+                {
+                    "altitudeFt": 31950,
+                    "date": "2014-07-27T16:25:36.000Z",
+                    "lat": 52.3826,
+                    "lon": 106.991,
+                    "source": "AirNav",
+                    "speedMph": 523
+                },
+                {
+                    "altitudeFt": 31350,
+                    "date": "2014-07-27T16:24:47.000Z",
+                    "lat": 52.3401,
+                    "lon": 106.728,
+                    "source": "AirNav"
+                },
+                {
+                    "altitudeFt": 30100,
+                    "date": "2014-07-27T16:24:21.000Z",
+                    "lat": 52.3399,
+                    "lon": 106.727,
+                    "source": "AirNav",
+                    "speedMph": 524
+                },
+                {
+                    "altitudeFt": 30100,
+                    "date": "2014-07-27T16:23:57.000Z",
+                    "lat": 52.3276,
+                    "lon": 106.652,
+                    "source": "AirNav",
+                    "speedMph": 521
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "IKT",
+            "requestedCode": "IKT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IKT/dep"
+    }
+}

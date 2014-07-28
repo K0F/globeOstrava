@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Uberlandia",
+                "cityCode": "UDI",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UDI?codeType=fs",
+                "elevationFeet": 3105,
+                "fs": "UDI",
+                "iata": "UDI",
+                "icao": "SBUL",
+                "latitude": -18.884568,
+                "localTime": "2014-07-27T13:34:14.775",
+                "longitude": -48.225824,
+                "name": "Uberlandia-Ten. Cel. Av. Cesar Bombonato Airport",
+                "regionName": "South America",
+                "stateCode": "MG",
+                "timeZoneRegionName": "America/Sao_Paulo",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UDI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UDI",
+            "requestedCode": "UDI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UDI/dep"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kekaha",
+                "cityCode": "BKH",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BKH?codeType=fs",
+                "elevationFeet": 8,
+                "faa": "PHBK",
+                "fs": "BKH",
+                "iata": "BKH",
+                "icao": "PHBK",
+                "latitude": 22.017555,
+                "localTime": "2014-07-26T05:24:48.728",
+                "longitude": -159.765001,
+                "name": "Barking Sands Airport",
+                "regionName": "North America",
+                "stateCode": "HI",
+                "timeZoneRegionName": "Pacific/Honolulu",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BKH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BKH",
+            "requestedCode": "PHBK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PHBK/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kuusamo",
+                "cityCode": "KAO",
+                "classification": 4,
+                "countryCode": "FI",
+                "countryName": "Finland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KAO?codeType=fs",
+                "elevationFeet": 866,
+                "fs": "KAO",
+                "iata": "KAO",
+                "icao": "EFKS",
+                "latitude": 65.990278,
+                "localTime": "2014-07-27T19:10:27.193",
+                "longitude": 29.233889,
+                "name": "Kuusamo Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Helsinki",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KAO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KAO",
+            "requestedCode": "KAO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KAO/dep"
+    }
+}

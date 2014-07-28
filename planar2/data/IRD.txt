@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ishurdi",
+                "cityCode": "IRD",
+                "classification": 4,
+                "countryCode": "BD",
+                "countryName": "Bangladesh",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IRD?codeType=fs",
+                "elevationFeet": 43,
+                "fs": "IRD",
+                "iata": "IRD",
+                "icao": "VGIS",
+                "latitude": 24.153424,
+                "localTime": "2014-07-27T22:39:21.514",
+                "longitude": 89.048828,
+                "name": "Ishurdi Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Dhaka",
+                "utcOffsetHours": 6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IRD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IRD",
+            "requestedCode": "IRD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IRD/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Port Sudan",
+                "cityCode": "PZU",
+                "classification": 4,
+                "countryCode": "SD",
+                "countryName": "Sudan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PZU?codeType=fs",
+                "elevationFeet": 138,
+                "fs": "PZU",
+                "iata": "PZU",
+                "icao": "HSSP",
+                "latitude": 19.577778,
+                "localTime": "2014-07-27T18:51:49.505",
+                "longitude": 37.213889,
+                "name": "Port Sudan Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Khartoum",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PZU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PZU",
+            "requestedCode": "PZU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PZU/dep"
+    }
+}

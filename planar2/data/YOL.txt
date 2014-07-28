@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Yola",
+                "cityCode": "YOL",
+                "classification": 4,
+                "countryCode": "NG",
+                "countryName": "Nigeria",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YOL?codeType=fs",
+                "elevationFeet": 583,
+                "fs": "YOL",
+                "iata": "YOL",
+                "icao": "DNYO",
+                "latitude": 9.266729,
+                "localTime": "2014-07-27T17:08:51.036",
+                "longitude": 12.428114,
+                "name": "Yola Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Lagos",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YOL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YOL",
+            "requestedCode": "YOL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YOL/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Balmaceda",
+                "cityCode": "BBA",
+                "classification": 4,
+                "countryCode": "CL",
+                "countryName": "Chile",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BBA?codeType=fs",
+                "elevationFeet": 1722,
+                "fs": "BBA",
+                "iata": "BBA",
+                "icao": "SCBA",
+                "latitude": -45.916667,
+                "localTime": "2014-07-27T12:34:22.162",
+                "longitude": -71.695,
+                "name": "Teniente Vidal Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Santiago",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BBA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BBA",
+            "requestedCode": "BBA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BBA/dep"
+    }
+}

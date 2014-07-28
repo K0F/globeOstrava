@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Williams Lake",
+                "cityCode": "YWL",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YWL?codeType=fs",
+                "elevationFeet": 3085,
+                "fs": "YWL",
+                "iata": "YWL",
+                "icao": "CYWL",
+                "latitude": 52.184722,
+                "localTime": "2014-07-27T09:06:53.987",
+                "longitude": -122.044444,
+                "name": "Williams Lake Airport",
+                "regionName": "North America",
+                "stateCode": "BC",
+                "timeZoneRegionName": "America/Vancouver",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YWL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YWL",
+            "requestedCode": "YWL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YWL/dep"
+    }
+}

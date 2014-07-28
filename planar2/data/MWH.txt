@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Moses Lake",
+                "cityCode": "MWH",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MWH?codeType=fs",
+                "elevationFeet": 1185,
+                "faa": "MWH",
+                "fs": "MWH",
+                "iata": "MWH",
+                "icao": "KMWH",
+                "latitude": 47.205,
+                "localTime": "2014-07-26T09:25:02.046",
+                "longitude": -119.315556,
+                "name": "Grant County International Airport",
+                "regionName": "North America",
+                "stateCode": "WA",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MWH?codeType=fs",
+                "weatherZone": "WAZ034"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MWH",
+            "requestedCode": "MWH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MWH/dep"
+    }
+}

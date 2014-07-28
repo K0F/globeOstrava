@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Omaha",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OFF?codeType=fs",
+                "elevationFeet": 999,
+                "faa": "OFF",
+                "fs": "OFF",
+                "iata": "OFF",
+                "icao": "KOFF",
+                "latitude": 41.118376,
+                "localTime": "2014-07-27T10:54:14.959",
+                "longitude": -95.913037,
+                "name": "Offutt Air Force Base",
+                "regionName": "North America",
+                "stateCode": "NE",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OFF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OFF",
+            "requestedCode": "OFF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OFF/dep"
+    }
+}

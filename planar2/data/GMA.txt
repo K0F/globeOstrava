@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Gemena",
+                "cityCode": "GMA",
+                "classification": 4,
+                "countryCode": "CD",
+                "countryName": "The Democratic Republic of The Congo",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GMA?codeType=fs",
+                "elevationFeet": 1377,
+                "fs": "GMA",
+                "iata": "GMA",
+                "icao": "FZFK",
+                "latitude": 3.235278,
+                "localTime": "2014-07-27T17:16:37.284",
+                "longitude": 19.771111,
+                "name": "Gemena Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Kinshasa",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GMA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GMA",
+            "requestedCode": "GMA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GMA/dep"
+    }
+}

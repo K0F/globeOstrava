@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Alliance",
+                "cityCode": "AIA",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AIA?codeType=fs",
+                "elevationFeet": 3931,
+                "faa": "AIA",
+                "fs": "AIA",
+                "iata": "AIA",
+                "icao": "KAIA",
+                "latitude": 42.051667,
+                "localTime": "2014-07-26T06:37:35.776",
+                "longitude": -102.806667,
+                "name": "Alliance Airport",
+                "regionName": "North America",
+                "stateCode": "NE",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AIA?codeType=fs",
+                "weatherZone": "NEZ003"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AIA",
+            "requestedCode": "AIA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AIA/dep"
+    }
+}

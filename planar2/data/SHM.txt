@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Shirahama",
+                "cityCode": "SHM",
+                "classification": 4,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SHM?codeType=fs",
+                "elevationFeet": 295,
+                "fs": "SHM",
+                "iata": "SHM",
+                "icao": "RJBD",
+                "latitude": 33.661389,
+                "localTime": "2014-07-28T01:30:47.154",
+                "longitude": 135.358056,
+                "name": "Shirahama Airport",
+                "regionName": "Asia",
+                "street1": "3031-56 Sonota",
+                "street2": "Nishimuro District",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SHM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SHM",
+            "requestedCode": "SHM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SHM/dep"
+    }
+}

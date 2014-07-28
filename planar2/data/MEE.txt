@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mare",
+                "cityCode": "MEE",
+                "classification": 4,
+                "countryCode": "NC",
+                "countryName": "New Caledonia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MEE?codeType=fs",
+                "elevationFeet": 141,
+                "fs": "MEE",
+                "iata": "MEE",
+                "icao": "NWWR",
+                "latitude": -21.482312,
+                "localTime": "2014-07-28T03:27:59.734",
+                "longitude": 168.036082,
+                "name": "Mare Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Noumea",
+                "utcOffsetHours": 11.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MEE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MEE",
+            "requestedCode": "MEE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MEE/dep"
+    }
+}

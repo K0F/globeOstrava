@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mount Pleasant",
+                "cityCode": "MPN",
+                "classification": 4,
+                "countryCode": "FK",
+                "countryName": "Falkland Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MPN?codeType=fs",
+                "elevationFeet": 244,
+                "fs": "MPN",
+                "iata": "MPN",
+                "icao": "EGYP",
+                "latitude": -51.816667,
+                "localTime": "2014-07-27T13:12:11.091",
+                "longitude": -58.45,
+                "name": "Mount Pleasant Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "Atlantic/Stanley",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MPN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MPN",
+            "requestedCode": "MPN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MPN/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bujumbura",
+                "cityCode": "BJM",
+                "classification": 4,
+                "countryCode": "BI",
+                "countryName": "Burundi",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BJM?codeType=fs",
+                "elevationFeet": 2582,
+                "fs": "BJM",
+                "iata": "BJM",
+                "icao": "HBBA",
+                "latitude": -3.383333,
+                "localTime": "2014-07-27T18:17:53.012",
+                "longitude": 29.366667,
+                "name": "Bujumbura International Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Bujumbura",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BJM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BJM",
+            "requestedCode": "BJM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BJM/dep"
+    }
+}

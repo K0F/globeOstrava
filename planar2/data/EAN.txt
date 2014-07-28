@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Wheatland",
+                "cityCode": "EAN",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/EAN?codeType=fs",
+                "elevationFeet": 4775,
+                "faa": "EAN",
+                "fs": "EAN",
+                "iata": "EAN",
+                "icao": "KEAN",
+                "latitude": 42.05,
+                "localTime": "2014-07-26T09:15:03.212",
+                "longitude": -104.966667,
+                "name": "Phifer Field",
+                "regionName": "North America",
+                "stateCode": "WY",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/EAN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "EAN",
+            "requestedCode": "EAN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/EAN/dep"
+    }
+}

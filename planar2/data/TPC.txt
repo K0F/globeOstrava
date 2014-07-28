@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tarapoa",
+                "cityCode": "TPC",
+                "classification": 5,
+                "countryCode": "EC",
+                "countryName": "Ecuador",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TPC?codeType=fs",
+                "elevationFeet": 787,
+                "fs": "TPC",
+                "iata": "TPC",
+                "icao": "SETR",
+                "latitude": -1.416667,
+                "localTime": "2014-07-27T11:34:53.382",
+                "longitude": -76.783333,
+                "name": "Tarapoa Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Guayaquil",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TPC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TPC",
+            "requestedCode": "TPC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TPC/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Governor's Harbour",
+                "cityCode": "GHB",
+                "classification": 4,
+                "countryCode": "BS",
+                "countryName": "Bahamas",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GHB?codeType=fs",
+                "elevationFeet": 20,
+                "fs": "GHB",
+                "iata": "GHB",
+                "icao": "MYEM",
+                "latitude": 25.277398,
+                "localTime": "2014-07-27T12:27:07.370",
+                "longitude": -76.326771,
+                "name": "Governor's Harbour Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Nassau",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GHB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GHB",
+            "requestedCode": "GHB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GHB/dep"
+    }
+}

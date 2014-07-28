@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Leonora",
+                "cityCode": "LNO",
+                "classification": 5,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LNO?codeType=fs",
+                "elevationFeet": 1217,
+                "fs": "LNO",
+                "iata": "LNO",
+                "icao": "YLEO",
+                "latitude": -28.879344,
+                "localTime": "2014-07-27T23:53:16.482",
+                "longitude": 121.316924,
+                "name": "Leonora Airport",
+                "regionName": "Oceania",
+                "stateCode": "WA",
+                "timeZoneRegionName": "Australia/Perth",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LNO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LNO",
+            "requestedCode": "LNO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LNO/dep"
+    }
+}

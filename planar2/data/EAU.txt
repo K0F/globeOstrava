@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Eau Claire",
+                "cityCode": "EAU",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/EAU?codeType=fs",
+                "elevationFeet": 907,
+                "faa": "EAU",
+                "fs": "EAU",
+                "iata": "EAU",
+                "icao": "KEAU",
+                "latitude": 44.864444,
+                "localTime": "2014-07-26T07:35:31.492",
+                "longitude": -91.487222,
+                "name": "Eau Claire Airport",
+                "postalCode": "54703",
+                "regionName": "North America",
+                "stateCode": "WI",
+                "street1": "3800 Starr Avenue",
+                "street2": "",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/EAU?codeType=fs",
+                "weatherZone": "WIZ028"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "EAU",
+            "requestedCode": "EAU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/EAU/dep"
+    }
+}

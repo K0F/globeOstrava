@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Scottsbluff",
+                "cityCode": "BFF",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BFF?codeType=fs",
+                "elevationFeet": 3967,
+                "faa": "BFF",
+                "fs": "BFF",
+                "iata": "BFF",
+                "icao": "KBFF",
+                "latitude": 41.875278,
+                "localTime": "2014-07-26T06:37:06.509",
+                "longitude": -103.601111,
+                "name": "Scotts Bluff County Airport",
+                "postalCode": "69341-0690",
+                "regionName": "North America",
+                "stateCode": "NE",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BFF?codeType=fs",
+                "weatherZone": "NEZ019"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BFF",
+            "requestedCode": "BFF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BFF/dep"
+    }
+}

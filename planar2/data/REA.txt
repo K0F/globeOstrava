@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Reao, Tuamoto Island",
+                "cityCode": "REA",
+                "classification": 4,
+                "countryCode": "PF",
+                "countryName": "French Polynesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/REA?codeType=fs",
+                "elevationFeet": 7,
+                "fs": "REA",
+                "iata": "REA",
+                "icao": "NTGE",
+                "latitude": -18.5,
+                "localTime": "2014-07-27T06:27:35.398",
+                "longitude": -136.4,
+                "name": "Reao Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Tahiti",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/REA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "REA",
+            "requestedCode": "REA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/REA/dep"
+    }
+}

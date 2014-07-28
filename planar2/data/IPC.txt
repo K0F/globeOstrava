@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Easter Island",
+                "cityCode": "IPC",
+                "classification": 4,
+                "countryCode": "CL",
+                "countryName": "Chile",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IPC?codeType=fs",
+                "elevationFeet": 227,
+                "fs": "IPC",
+                "iata": "IPC",
+                "icao": "SCIP",
+                "latitude": -27.116667,
+                "localTime": "2014-07-27T10:34:33.561",
+                "longitude": -109.366667,
+                "name": "Mataveri International Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "Pacific/Easter",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IPC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IPC",
+            "requestedCode": "IPC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IPC/dep"
+    }
+}

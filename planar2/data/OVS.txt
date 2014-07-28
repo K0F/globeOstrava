@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sovetsky",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OVS?codeType=fs",
+                "elevationFeet": 370,
+                "fs": "OVS",
+                "iata": "OVS",
+                "icao": "USHS",
+                "latitude": 61.332088,
+                "localTime": "2014-07-26T18:19:55.151",
+                "longitude": 63.601887,
+                "name": "Sovetsky Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Kaliningrad",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OVS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OVS",
+            "requestedCode": "OVS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OVS/dep"
+    }
+}

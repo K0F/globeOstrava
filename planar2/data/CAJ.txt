@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Canaima",
+                "cityCode": "CAJ",
+                "classification": 4,
+                "countryCode": "VE",
+                "countryName": "Venezuela",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CAJ?codeType=fs",
+                "elevationFeet": 1294,
+                "fs": "CAJ",
+                "iata": "CAJ",
+                "icao": "SVCN",
+                "latitude": 6.240634,
+                "localTime": "2014-07-27T12:06:23.135",
+                "longitude": -62.853511,
+                "name": "Canaima Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Caracas",
+                "utcOffsetHours": -4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CAJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CAJ",
+            "requestedCode": "CAJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CAJ/dep"
+    }
+}

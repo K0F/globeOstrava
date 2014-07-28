@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tamale",
+                "cityCode": "TML",
+                "classification": 4,
+                "countryCode": "GH",
+                "countryName": "Ghana",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TML?codeType=fs",
+                "elevationFeet": 591,
+                "fs": "TML",
+                "iata": "TML",
+                "icao": "DGLE",
+                "latitude": 9.409979,
+                "localTime": "2014-07-27T16:08:24.831",
+                "longitude": -0.876603,
+                "name": "Tamale Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Accra",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TML?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TML",
+            "requestedCode": "TML"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TML/dep"
+    }
+}

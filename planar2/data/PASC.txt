@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Prudhoe Bay/Deadhorse",
+                "cityCode": "SCC",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SCC?codeType=fs",
+                "elevationFeet": 61,
+                "faa": "PASC",
+                "fs": "SCC",
+                "iata": "SCC",
+                "icao": "PASC",
+                "latitude": 70.203635,
+                "localTime": "2014-07-26T03:04:14.789",
+                "longitude": -148.460109,
+                "name": "Prudhoe Bay/Deadhorse Airport",
+                "postalCode": "99734",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SCC?codeType=fs",
+                "weatherZone": "AKZ203"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SCC",
+            "requestedCode": "PASC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PASC/dep"
+    }
+}

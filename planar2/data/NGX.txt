@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Manang",
+                "cityCode": "NGX",
+                "classification": 5,
+                "countryCode": "NP",
+                "countryName": "Nepal",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NGX?codeType=fs",
+                "elevationFeet": 11137,
+                "fs": "NGX",
+                "iata": "NGX",
+                "icao": "VNMA",
+                "latitude": 28.64121,
+                "localTime": "2014-07-27T21:37:40.224",
+                "longitude": 84.088033,
+                "name": "Manang Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kathmandu",
+                "utcOffsetHours": 5.75,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NGX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NGX",
+            "requestedCode": "NGX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NGX/dep"
+    }
+}

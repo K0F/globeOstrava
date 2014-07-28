@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bandundu",
+                "cityCode": "FDU",
+                "classification": 5,
+                "countryCode": "CD",
+                "countryName": "The Democratic Republic of The Congo",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/FDU?codeType=fs",
+                "elevationFeet": 1063,
+                "fs": "FDU",
+                "iata": "FDU",
+                "icao": "FZBO",
+                "latitude": -3.305556,
+                "localTime": "2014-07-27T17:16:33.208",
+                "longitude": 17.383333,
+                "name": "Bandundu Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Kinshasa",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/FDU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "FDU",
+            "requestedCode": "FDU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/FDU/dep"
+    }
+}

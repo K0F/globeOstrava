@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Labuan Bajo",
+                "cityCode": "LBJ",
+                "classification": 4,
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LBJ?codeType=fs",
+                "elevationFeet": 225,
+                "fs": "LBJ",
+                "iata": "LBJ",
+                "icao": "WATO",
+                "latitude": -8.486215,
+                "localTime": "2014-07-27T23:46:04.553",
+                "longitude": 119.889281,
+                "name": "Komodo Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Makassar",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LBJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LBJ",
+            "requestedCode": "LBJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LBJ/dep"
+    }
+}

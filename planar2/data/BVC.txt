@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Boa Vista",
+                "cityCode": "BVC",
+                "classification": 4,
+                "countryCode": "CV",
+                "countryName": "Cape Verde",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BVC?codeType=fs",
+                "elevationFeet": 69,
+                "fs": "BVC",
+                "iata": "BVC",
+                "icao": "GVBA",
+                "latitude": 16.083333,
+                "localTime": "2014-07-27T15:17:39.546",
+                "longitude": -22.833333,
+                "name": "Rabil Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Atlantic/Cape_Verde",
+                "utcOffsetHours": -1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BVC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BVC",
+            "requestedCode": "BVC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BVC/dep"
+    }
+}

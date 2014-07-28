@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kamuela",
+                "cityCode": "MUE",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MUE?codeType=fs",
+                "elevationFeet": 2747,
+                "faa": "PHMU",
+                "fs": "MUE",
+                "iata": "MUE",
+                "icao": "PHMU",
+                "latitude": 20.002464,
+                "localTime": "2014-07-26T01:04:35.187",
+                "longitude": -155.651457,
+                "name": "Kamuela Airport",
+                "regionName": "North America",
+                "stateCode": "HI",
+                "timeZoneRegionName": "Pacific/Honolulu",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MUE?codeType=fs",
+                "weatherZone": "HIZ007"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MUE",
+            "requestedCode": "PHMU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PHMU/dep"
+    }
+}

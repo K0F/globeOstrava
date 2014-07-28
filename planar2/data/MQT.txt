@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Marquette",
+                "cityCode": "MQT",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MQT?codeType=fs",
+                "elevationFeet": 1221,
+                "faa": "SAW",
+                "fs": "MQT",
+                "iata": "MQT",
+                "icao": "KSAW",
+                "latitude": 46.353611,
+                "localTime": "2014-07-27T12:37:37.735",
+                "longitude": -87.395278,
+                "name": "Sawyer International Airport",
+                "postalCode": "49855",
+                "regionName": "North America",
+                "stateCode": "MI",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MQT?codeType=fs",
+                "weatherZone": "MIZ005"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MQT",
+            "requestedCode": "MQT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MQT/dep"
+    }
+}

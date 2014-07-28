@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Errol",
+                "cityCode": "ERR",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ERR?codeType=fs",
+                "elevationFeet": 1245,
+                "faa": "ERR",
+                "fs": "ERR",
+                "iata": "ERR",
+                "icao": "KERR",
+                "latitude": 44.783333,
+                "localTime": "2014-07-26T11:15:23.222",
+                "longitude": -71.133333,
+                "name": "Errol Airport",
+                "regionName": "North America",
+                "stateCode": "NH",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ERR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ERR",
+            "requestedCode": "ERR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ERR/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ras al-Khaimah",
+                "cityCode": "RKT",
+                "classification": 4,
+                "countryCode": "AE",
+                "countryName": "United Arab Emirates",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RKT?codeType=fs",
+                "elevationFeet": 52,
+                "fs": "RKT",
+                "iata": "RKT",
+                "icao": "OMRK",
+                "latitude": 25.616667,
+                "localTime": "2014-07-27T20:29:37.509",
+                "longitude": 55.941224,
+                "name": "Ras Al Khaimah International Airport",
+                "regionName": "Middle East",
+                "timeZoneRegionName": "Asia/Dubai",
+                "utcOffsetHours": 4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RKT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RKT",
+            "requestedCode": "RKT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RKT/dep"
+    }
+}

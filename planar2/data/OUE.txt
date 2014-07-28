@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ouesso",
+                "cityCode": "OUE",
+                "classification": 5,
+                "countryCode": "CG",
+                "countryName": "Congo",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OUE?codeType=fs",
+                "elevationFeet": 1158,
+                "fs": "OUE",
+                "iata": "OUE",
+                "icao": "FCOU",
+                "latitude": 1.616667,
+                "localTime": "2014-07-27T17:14:42.860",
+                "longitude": 16.048611,
+                "name": "Ouesso Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Brazzaville",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OUE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OUE",
+            "requestedCode": "OUE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OUE/dep"
+    }
+}

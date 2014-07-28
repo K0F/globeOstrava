@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tucuman",
+                "cityCode": "TUC",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TUC?codeType=fs",
+                "elevationFeet": 1495,
+                "fs": "TUC",
+                "iata": "TUC",
+                "icao": "SANT",
+                "latitude": -26.833333,
+                "localTime": "2014-07-27T13:32:24.944",
+                "longitude": -65.2,
+                "name": "Benj Matienzo Airport",
+                "regionName": "South America",
+                "stateCode": "TU",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TUC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TUC",
+            "requestedCode": "TUC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TUC/dep"
+    }
+}

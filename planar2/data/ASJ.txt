@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Amami O Shima",
+                "cityCode": "ASJ",
+                "classification": 4,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ASJ?codeType=fs",
+                "elevationFeet": 14,
+                "fs": "ASJ",
+                "iata": "ASJ",
+                "icao": "RJKA",
+                "latitude": 28.431522,
+                "localTime": "2014-07-27T00:12:25.685",
+                "longitude": 129.707933,
+                "name": "Amami O Shima Airport",
+                "regionName": "Asia",
+                "street1": "2231 Kasaricho Oaza Manya",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ASJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ASJ",
+            "requestedCode": "ASJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ASJ/dep"
+    }
+}

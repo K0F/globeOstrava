@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Al-Baha",
+                "cityCode": "ABT",
+                "classification": 4,
+                "countryCode": "SA",
+                "countryName": "Saudi Arabia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ABT?codeType=fs",
+                "elevationFeet": 5486,
+                "fs": "ABT",
+                "iata": "ABT",
+                "icao": "OEBA",
+                "latitude": 20.294011,
+                "localTime": "2014-07-27T19:28:41.511",
+                "longitude": 41.64002,
+                "name": "Al-Aqiq Airport",
+                "regionName": "Middle East",
+                "timeZoneRegionName": "Asia/Riyadh",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ABT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ABT",
+            "requestedCode": "ABT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ABT/dep"
+    }
+}

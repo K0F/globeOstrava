@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Victoria Falls",
+                "cityCode": "VFA",
+                "classification": 4,
+                "countryCode": "ZW",
+                "countryName": "Zimbabwe",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VFA?codeType=fs",
+                "elevationFeet": 3490,
+                "fs": "VFA",
+                "iata": "VFA",
+                "icao": "FVFA",
+                "latitude": -18.093056,
+                "localTime": "2014-07-27T18:16:19.052",
+                "longitude": 25.840278,
+                "name": "Victoria Falls Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Harare",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VFA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "VFA",
+            "requestedCode": "VFA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/VFA/dep"
+    }
+}

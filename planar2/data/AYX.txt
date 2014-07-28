@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tullahoma",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AYX?codeType=fs",
+                "elevationFeet": 1067,
+                "faa": "AYX",
+                "fs": "AYX",
+                "iata": "AYX",
+                "icao": "KAYX",
+                "latitude": 35.475778,
+                "localTime": "2014-07-26T05:12:38.147",
+                "longitude": -86.108194,
+                "name": "Arnold Afb",
+                "regionName": "North America",
+                "stateCode": "TN",
+                "timeZoneRegionName": "Pacific/Honolulu",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AYX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AYX",
+            "requestedCode": "AYX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AYX/dep"
+    }
+}

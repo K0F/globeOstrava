@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Constanta",
+                "cityCode": "CND",
+                "classification": 4,
+                "countryCode": "RO",
+                "countryName": "Romania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CND?codeType=fs",
+                "elevationFeet": 324,
+                "fs": "CND",
+                "iata": "CND",
+                "icao": "LRCK",
+                "latitude": 44.35,
+                "localTime": "2014-07-27T19:23:37.384",
+                "longitude": 28.483333,
+                "name": "Kogalniceanu Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Bucharest",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CND?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CND",
+            "requestedCode": "CND"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CND/dep"
+    }
+}

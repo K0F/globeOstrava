@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bria",
+                "cityCode": "BIV",
+                "classification": 5,
+                "countryCode": "CF",
+                "countryName": "Central African Republic",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BIV?codeType=fs",
+                "elevationFeet": 687,
+                "fs": "BIV",
+                "iata": "BIV",
+                "icao": "FEFR",
+                "latitude": 6.533333,
+                "localTime": "2014-07-26T16:13:48.590",
+                "longitude": 21.983333,
+                "name": "Bria Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Bangui",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BIV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BIV",
+            "requestedCode": "BIV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BIV/dep"
+    }
+}

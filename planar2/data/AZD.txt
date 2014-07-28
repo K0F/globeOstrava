@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Yazd",
+                "cityCode": "AZD",
+                "classification": 4,
+                "countryCode": "IR",
+                "countryName": "Iran",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AZD?codeType=fs",
+                "elevationFeet": 4055,
+                "fs": "AZD",
+                "iata": "AZD",
+                "icao": "OIYY",
+                "latitude": 31.903602,
+                "localTime": "2014-07-27T20:59:31.038",
+                "longitude": 54.283264,
+                "name": "Yazd Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Tehran",
+                "utcOffsetHours": 4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AZD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AZD",
+            "requestedCode": "AZD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AZD/dep"
+    }
+}

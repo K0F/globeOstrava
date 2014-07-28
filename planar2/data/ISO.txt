@@ -1,0 +1,52 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kinston",
+                "cityCode": "ISO",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ISO?codeType=fs",
+                "elevationFeet": 94,
+                "faa": "ISO",
+                "fs": "ISO",
+                "iata": "ISO",
+                "icao": "KISO",
+                "latitude": 35.326667,
+                "localTime": "2014-07-26T12:24:23.709",
+                "longitude": -77.616667,
+                "name": "Kinston Regional Jetport",
+                "postalCode": "28504",
+                "regionName": "North America",
+                "stateCode": "NC",
+                "street1": "2780 Jetport Road, Suite 1",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ISO?codeType=fs",
+                "weatherZone": "NCZ091"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ISO",
+            "requestedCode": "ISO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ISO/dep"
+    }
+}

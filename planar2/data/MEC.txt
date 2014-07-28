@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Manta",
+                "cityCode": "MEC",
+                "classification": 4,
+                "countryCode": "EC",
+                "countryName": "Ecuador",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MEC?codeType=fs",
+                "elevationFeet": 33,
+                "fs": "MEC",
+                "iata": "MEC",
+                "icao": "SEMT",
+                "latitude": -0.953035,
+                "localTime": "2014-07-27T11:34:48.977",
+                "longitude": -80.683999,
+                "name": "Manta Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Guayaquil",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MEC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MEC",
+            "requestedCode": "MEC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MEC/dep"
+    }
+}

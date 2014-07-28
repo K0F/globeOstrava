@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Luena",
+                "cityCode": "LUO",
+                "classification": 4,
+                "countryCode": "AO",
+                "countryName": "Angola",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LUO?codeType=fs",
+                "elevationFeet": 4364,
+                "fs": "LUO",
+                "iata": "LUO",
+                "icao": "FNUE",
+                "latitude": -11.5,
+                "localTime": "2014-07-27T16:53:18.660",
+                "longitude": 20.166667,
+                "name": "Luena Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Luanda",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LUO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LUO",
+            "requestedCode": "LUO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LUO/dep"
+    }
+}

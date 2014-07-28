@@ -1,0 +1,166 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "HG",
+                "iata": "HG",
+                "icao": "NLY",
+                "name": "NIKI"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Vienna",
+                "cityCode": "VIE",
+                "classification": 1,
+                "countryCode": "AT",
+                "countryName": "Austria",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VIE?codeType=fs",
+                "elevationFeet": 600,
+                "fs": "VIE",
+                "iata": "VIE",
+                "icao": "LOWW",
+                "latitude": 48.11972,
+                "localTime": "2014-07-27T18:18:01.175",
+                "longitude": 16.563583,
+                "name": "Vienna International Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Vienna",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VIE?codeType=fs"
+            },
+            {
+                "active": true,
+                "city": "Hurghada",
+                "cityCode": "HRG",
+                "classification": 4,
+                "countryCode": "EG",
+                "countryName": "Egypt",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HRG?codeType=fs",
+                "elevationFeet": 52,
+                "fs": "HRG",
+                "iata": "HRG",
+                "icao": "HEGN",
+                "latitude": 27.189156,
+                "localTime": "2014-07-27T18:18:01.155",
+                "longitude": 33.8055,
+                "name": "Hurghada Airport",
+                "regionName": "Middle East",
+                "timeZoneRegionName": "Africa/Cairo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HRG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "VIE",
+            "bearing": 331.72552574609676,
+            "carrierFsCode": "HG",
+            "departureAirportFsCode": "HRG",
+            "departureDate": {
+                "dateLocal": "2014-07-27T17:10:00.000",
+                "dateUtc": "2014-07-27T15:10:00.000Z"
+            },
+            "equipment": "321",
+            "flightId": 410425636,
+            "flightNumber": "2855",
+            "heading": 307.3739548050722,
+            "positions": [
+                {
+                    "altitudeFt": 32050,
+                    "date": "2014-07-27T15:43:34.000Z",
+                    "lat": 29.8735,
+                    "lon": 31.7284,
+                    "source": "AirNav",
+                    "speedMph": 528
+                },
+                {
+                    "altitudeFt": 32050,
+                    "date": "2014-07-27T15:43:00.000Z",
+                    "lat": 29.8735,
+                    "lon": 31.7284,
+                    "source": "AirNav",
+                    "speedMph": 528
+                },
+                {
+                    "altitudeFt": 32050,
+                    "date": "2014-07-27T15:42:50.000Z",
+                    "lat": 29.8584,
+                    "lon": 31.7519,
+                    "source": "AirNav",
+                    "speedMph": 528
+                },
+                {
+                    "altitudeFt": 32050,
+                    "date": "2014-07-27T15:42:25.000Z",
+                    "lat": 29.7977,
+                    "lon": 31.8464,
+                    "source": "AirNav",
+                    "speedMph": 531
+                },
+                {
+                    "altitudeFt": 32050,
+                    "date": "2014-07-27T15:41:52.000Z",
+                    "lat": 29.7977,
+                    "lon": 31.8464,
+                    "source": "AirNav",
+                    "speedMph": 531
+                },
+                {
+                    "altitudeFt": 32050,
+                    "date": "2014-07-27T15:41:39.000Z",
+                    "lat": 29.7023,
+                    "lon": 31.9877,
+                    "source": "AirNav",
+                    "speedMph": 531
+                },
+                {
+                    "altitudeFt": 32000,
+                    "date": "2014-07-27T15:40:24.000Z",
+                    "lat": 29.6768,
+                    "lon": 32.0253,
+                    "source": "AirNav",
+                    "speedMph": 527
+                },
+                {
+                    "altitudeFt": 32000,
+                    "date": "2014-07-27T15:40:03.000Z",
+                    "lat": 29.6184,
+                    "lon": 32.1115,
+                    "source": "AirNav",
+                    "speedMph": 524
+                },
+                {
+                    "altitudeFt": 32000,
+                    "date": "2014-07-27T15:39:40.000Z",
+                    "lat": 29.6131,
+                    "lon": 32.1192,
+                    "source": "AirNav",
+                    "speedMph": 525
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "HRG",
+            "requestedCode": "HRG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HRG/dep"
+    }
+}

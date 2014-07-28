@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Port Elizabeth",
+                "cityCode": "PLZ",
+                "classification": 3,
+                "countryCode": "ZA",
+                "countryName": "South Africa",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PLZ?codeType=fs",
+                "elevationFeet": 226,
+                "fs": "PLZ",
+                "iata": "PLZ",
+                "icao": "FAPE",
+                "latitude": -33.98371,
+                "localTime": "2014-07-27T16:31:32.729",
+                "longitude": 25.611421,
+                "name": "Port Elizabeth Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Johannesburg",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PLZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PLZ",
+            "requestedCode": "PLZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PLZ/dep"
+    }
+}

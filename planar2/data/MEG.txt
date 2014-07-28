@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Malange",
+                "cityCode": "MEG",
+                "classification": 5,
+                "countryCode": "AO",
+                "countryName": "Angola",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MEG?codeType=fs",
+                "elevationFeet": 3868,
+                "fs": "MEG",
+                "iata": "MEG",
+                "icao": "FNMA",
+                "latitude": -9.533333,
+                "localTime": "2014-07-27T17:15:44.453",
+                "longitude": 16.333333,
+                "name": "Malange Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Luanda",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MEG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MEG",
+            "requestedCode": "MEG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MEG/dep"
+    }
+}

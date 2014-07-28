@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Karup",
+                "cityCode": "KRP",
+                "classification": 4,
+                "countryCode": "DK",
+                "countryName": "Denmark",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KRP?codeType=fs",
+                "elevationFeet": 170,
+                "fs": "KRP",
+                "iata": "KRP",
+                "icao": "EKKA",
+                "latitude": 56.3,
+                "localTime": "2014-07-27T18:12:30.504",
+                "longitude": 9.116667,
+                "name": "Karup Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Copenhagen",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KRP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KRP",
+            "requestedCode": "KRP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KRP/dep"
+    }
+}

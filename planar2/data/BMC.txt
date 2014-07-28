@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Brigham City",
+                "cityCode": "BMC",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BMC?codeType=fs",
+                "elevationFeet": 4226,
+                "faa": "BMC",
+                "fs": "BMC",
+                "iata": "BMC",
+                "icao": "KBMC",
+                "latitude": 41.549167,
+                "localTime": "2014-07-26T05:03:36.115",
+                "longitude": -112.062222,
+                "name": "Brigham City Airport",
+                "regionName": "North America",
+                "stateCode": "UT",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BMC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BMC",
+            "requestedCode": "BMC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BMC/dep"
+    }
+}

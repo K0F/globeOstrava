@@ -1,0 +1,252 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "LU",
+                "iata": "LU",
+                "icao": "LXP",
+                "name": "LanExpress"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Puerto Montt",
+                "cityCode": "PMC",
+                "classification": 4,
+                "countryCode": "CL",
+                "countryName": "Chile",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PMC?codeType=fs",
+                "elevationFeet": 294,
+                "fs": "PMC",
+                "iata": "PMC",
+                "icao": "SCTE",
+                "latitude": -41.433726,
+                "localTime": "2014-07-27T12:34:37.792",
+                "longitude": -73.098312,
+                "name": "Tepual Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Santiago",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PMC?codeType=fs"
+            },
+            {
+                "active": true,
+                "city": "Santiago",
+                "cityCode": "SCL",
+                "classification": 2,
+                "countryCode": "CL",
+                "countryName": "Chile",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SCL?codeType=fs",
+                "elevationFeet": 1554,
+                "fs": "SCL",
+                "iata": "SCL",
+                "icao": "SCEL",
+                "latitude": -33.397175,
+                "localTime": "2014-07-27T12:34:37.815",
+                "longitude": -70.793821,
+                "name": "Arturo Merino Benitez Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Santiago",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SCL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "SCL",
+            "bearing": 125.0089243258514,
+            "carrierFsCode": "LU",
+            "departureAirportFsCode": "PMC",
+            "departureDate": {
+                "dateLocal": "2014-07-27T10:50:00.000",
+                "dateUtc": "2014-07-27T14:50:00.000Z"
+            },
+            "equipment": "320",
+            "flightId": 410456272,
+            "flightNumber": "256",
+            "heading": 177.294226097724,
+            "legacyRoute": "SCTE..SCEL",
+            "positions": [
+                {
+                    "date": "2014-07-27T16:26:20.000Z",
+                    "lat": -33.3921,
+                    "lon": -70.8025,
+                    "source": "AirNav",
+                    "speedMph": 164
+                },
+                {
+                    "altitudeFt": 29975,
+                    "date": "2014-07-27T16:23:45.000Z",
+                    "lat": -33.3073,
+                    "lon": -70.8073,
+                    "source": "AirNav",
+                    "speedMph": 170
+                },
+                {
+                    "altitudeFt": 3900,
+                    "date": "2014-07-27T16:22:00.000Z",
+                    "lat": -33.2471,
+                    "lon": -70.8104,
+                    "source": "AirNav",
+                    "speedMph": 221
+                },
+                {
+                    "altitudeFt": 4250,
+                    "date": "2014-07-27T16:21:23.000Z",
+                    "lat": -33.2186,
+                    "lon": -70.812,
+                    "source": "AirNav",
+                    "speedMph": 223
+                },
+                {
+                    "altitudeFt": 4800,
+                    "date": "2014-07-27T16:20:59.000Z",
+                    "lat": -33.1867,
+                    "lon": -70.8137,
+                    "source": "AirNav",
+                    "speedMph": 249
+                }
+            ],
+            "waypoints": [
+                {
+                    "lat": -41.4167,
+                    "lon": -73.0833
+                },
+                {
+                    "lat": -41.3167,
+                    "lon": -73.05
+                },
+                {
+                    "lat": -41.25,
+                    "lon": -73.0333
+                },
+                {
+                    "lat": -41.1667,
+                    "lon": -73.0
+                },
+                {
+                    "lat": -41.0167,
+                    "lon": -72.95
+                },
+                {
+                    "lat": -40.85,
+                    "lon": -72.9
+                },
+                {
+                    "lat": -40.4667,
+                    "lon": -72.7833
+                },
+                {
+                    "lat": -40.2667,
+                    "lon": -72.7167
+                },
+                {
+                    "lat": -40.0,
+                    "lon": -72.6333
+                },
+                {
+                    "lat": -40.0,
+                    "lon": -72.6333
+                },
+                {
+                    "lat": -39.7167,
+                    "lon": -72.55
+                },
+                {
+                    "lat": -39.6,
+                    "lon": -72.5167
+                },
+                {
+                    "lat": -39.3667,
+                    "lon": -72.45
+                },
+                {
+                    "lat": -39.1333,
+                    "lon": -72.3667
+                },
+                {
+                    "lat": -38.9,
+                    "lon": -72.3
+                },
+                {
+                    "lat": -35.5333,
+                    "lon": -71.35
+                },
+                {
+                    "lat": -35.1833,
+                    "lon": -71.25
+                },
+                {
+                    "lat": -35.15,
+                    "lon": -71.25
+                },
+                {
+                    "lat": -35.0833,
+                    "lon": -71.2333
+                },
+                {
+                    "lat": -34.85,
+                    "lon": -71.1667
+                },
+                {
+                    "lat": -34.6167,
+                    "lon": -71.1
+                },
+                {
+                    "lat": -34.15,
+                    "lon": -70.9833
+                },
+                {
+                    "lat": -34.0,
+                    "lon": -70.9333
+                },
+                {
+                    "lat": -33.7833,
+                    "lon": -70.8833
+                },
+                {
+                    "lat": -33.6333,
+                    "lon": -70.8333
+                },
+                {
+                    "lat": -33.6167,
+                    "lon": -70.8333
+                },
+                {
+                    "lat": -33.5333,
+                    "lon": -70.8167
+                },
+                {
+                    "lat": -33.45,
+                    "lon": -70.8
+                },
+                {
+                    "lat": -33.3833,
+                    "lon": -70.7667
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "PMC",
+            "requestedCode": "PMC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PMC/dep"
+    }
+}

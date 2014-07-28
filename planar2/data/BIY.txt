@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bisho",
+                "cityCode": "BIY",
+                "classification": 5,
+                "countryCode": "ZA",
+                "countryName": "South Africa",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BIY?codeType=fs",
+                "elevationFeet": 1950,
+                "fs": "BIY",
+                "iata": "BIY",
+                "icao": "FABE",
+                "latitude": -35.883333,
+                "localTime": "2014-07-27T16:29:56.207",
+                "longitude": 27.283333,
+                "name": "Bisho Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Johannesburg",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BIY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BIY",
+            "requestedCode": "BIY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BIY/dep"
+    }
+}

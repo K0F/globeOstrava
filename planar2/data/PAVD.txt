@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Valdez",
+                "cityCode": "VDZ",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VDZ?codeType=fs",
+                "elevationFeet": 120,
+                "faa": "PAVD",
+                "fs": "VDZ",
+                "iata": "VDZ",
+                "icao": "PAVD",
+                "latitude": 61.1325,
+                "localTime": "2014-07-26T04:36:25.081",
+                "longitude": -146.238889,
+                "name": "Valdez Municipal Airport",
+                "postalCode": "99686",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VDZ?codeType=fs",
+                "weatherZone": "AKZ141"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "VDZ",
+            "requestedCode": "PAVD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PAVD/dep"
+    }
+}

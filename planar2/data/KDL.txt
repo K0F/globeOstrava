@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kardla",
+                "cityCode": "KDL",
+                "classification": 4,
+                "countryCode": "EE",
+                "countryName": "Estonia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KDL?codeType=fs",
+                "elevationFeet": 17,
+                "fs": "KDL",
+                "iata": "KDL",
+                "icao": "EEKA",
+                "latitude": 58.994917,
+                "localTime": "2014-07-27T19:10:10.867",
+                "longitude": 22.824971,
+                "name": "Kardla Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Tallinn",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KDL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KDL",
+            "requestedCode": "KDL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KDL/dep"
+    }
+}

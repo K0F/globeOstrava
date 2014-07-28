@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lusaka",
+                "cityCode": "LUN",
+                "classification": 3,
+                "countryCode": "ZM",
+                "countryName": "Zambia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LUN?codeType=fs",
+                "elevationFeet": 3779,
+                "fs": "LUN",
+                "iata": "LUN",
+                "icao": "FLLS",
+                "latitude": -15.325017,
+                "localTime": "2014-07-27T18:15:02.237",
+                "longitude": 28.445748,
+                "name": "Lusaka Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Lusaka",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LUN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LUN",
+            "requestedCode": "LUN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LUN/dep"
+    }
+}

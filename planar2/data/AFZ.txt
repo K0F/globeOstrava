@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sabzevar",
+                "cityCode": "AFZ",
+                "classification": 4,
+                "countryCode": "IR",
+                "countryName": "Iran",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AFZ?codeType=fs",
+                "fs": "AFZ",
+                "iata": "AFZ",
+                "latitude": 36.171512,
+                "localTime": "2014-07-27T20:23:01.568",
+                "longitude": 57.60332,
+                "name": "Sabzevar Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Tehran",
+                "utcOffsetHours": 4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AFZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AFZ",
+            "requestedCode": "AFZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AFZ/dep"
+    }
+}

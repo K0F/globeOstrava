@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Hargeisa",
+                "cityCode": "HGA",
+                "classification": 4,
+                "countryCode": "SO",
+                "countryName": "Somalia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HGA?codeType=fs",
+                "elevationFeet": 4422,
+                "fs": "HGA",
+                "iata": "HGA",
+                "icao": "HCMH",
+                "latitude": 9.515833,
+                "localTime": "2014-07-27T19:17:54.004",
+                "longitude": 44.091667,
+                "name": "Hargeisa Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Mogadishu",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HGA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HGA",
+            "requestedCode": "HGA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HGA/dep"
+    }
+}

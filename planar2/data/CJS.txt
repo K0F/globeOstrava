@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ciudad Juarez",
+                "cityCode": "CJS",
+                "classification": 4,
+                "countryCode": "MX",
+                "countryName": "Mexico",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CJS?codeType=fs",
+                "elevationFeet": 3842,
+                "fs": "CJS",
+                "iata": "CJS",
+                "icao": "MMCS",
+                "latitude": 31.635929,
+                "localTime": "2014-07-27T10:25:19.257",
+                "longitude": -106.436098,
+                "name": "Abraham Gonzalez International Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Mazatlan",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CJS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CJS",
+            "requestedCode": "CJS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CJS/dep"
+    }
+}

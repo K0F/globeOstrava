@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kaiser/Lake Ozark",
+                "cityCode": "AIZ",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AIZ?codeType=fs",
+                "elevationFeet": 869,
+                "faa": "AIZ",
+                "fs": "AIZ",
+                "iata": "AIZ",
+                "icao": "KAIZ",
+                "latitude": 38.098333,
+                "localTime": "2014-07-26T11:29:44.867",
+                "longitude": -92.547222,
+                "name": "Lee C Fine Memorial Airport",
+                "regionName": "North America",
+                "stateCode": "MO",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AIZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AIZ",
+            "requestedCode": "AIZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AIZ/dep"
+    }
+}

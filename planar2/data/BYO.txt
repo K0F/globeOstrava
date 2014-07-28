@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bonito",
+                "cityCode": "BYO",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BYO?codeType=fs",
+                "fs": "BYO",
+                "iata": "BYO",
+                "latitude": -21.229444,
+                "localTime": "2014-07-27T11:50:51.690",
+                "longitude": -56.456111,
+                "name": "Bonito Airport",
+                "regionName": "South America",
+                "stateCode": "MS",
+                "timeZoneRegionName": "America/Campo_Grande",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BYO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BYO",
+            "requestedCode": "BYO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BYO/dep"
+    }
+}

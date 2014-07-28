@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "La Paz",
+                "cityCode": "LPB",
+                "classification": 3,
+                "countryCode": "BO",
+                "countryName": "Bolivia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LPB?codeType=fs",
+                "elevationFeet": 13313,
+                "fs": "LPB",
+                "iata": "LPB",
+                "icao": "SLLP",
+                "latitude": -16.508891,
+                "localTime": "2014-07-27T12:35:40.677",
+                "longitude": -68.176903,
+                "name": "El Alto Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/La_Paz",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LPB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LPB",
+            "requestedCode": "LPB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LPB/dep"
+    }
+}

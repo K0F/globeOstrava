@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Utrecht",
+                "cityCode": "UTC",
+                "classification": 5,
+                "countryCode": "NL",
+                "countryName": "Netherlands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UTC?codeType=fs",
+                "elevationFeet": 66,
+                "fs": "UTC",
+                "iata": "UTC",
+                "icao": "EHSB",
+                "latitude": 52.083333,
+                "localTime": "2014-07-27T18:12:19.265",
+                "longitude": 5.166667,
+                "name": "Soesterberg Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Amsterdam",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UTC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UTC",
+            "requestedCode": "UTC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UTC/dep"
+    }
+}

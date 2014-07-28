@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Petersburg",
+                "cityCode": "PSG",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PSG?codeType=fs",
+                "elevationFeet": 107,
+                "faa": "PAPG",
+                "fs": "PSG",
+                "iata": "PSG",
+                "icao": "PAPG",
+                "latitude": 56.804167,
+                "localTime": "2014-07-26T03:03:35.123",
+                "longitude": -132.9425,
+                "name": "Petersburg Municipal Airport",
+                "postalCode": "99833",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PSG?codeType=fs",
+                "weatherZone": "AKZ026"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PSG",
+            "requestedCode": "PAPG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PAPG/dep"
+    }
+}

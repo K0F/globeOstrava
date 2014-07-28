@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ayacucho",
+                "cityCode": "AYP",
+                "classification": 4,
+                "countryCode": "PE",
+                "countryName": "Peru",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AYP?codeType=fs",
+                "elevationFeet": 8917,
+                "fs": "AYP",
+                "iata": "AYP",
+                "icao": "SPHO",
+                "latitude": -13.197222,
+                "localTime": "2014-07-27T11:35:56.542",
+                "longitude": -74.247222,
+                "name": "Yanamilla Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Lima",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AYP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AYP",
+            "requestedCode": "AYP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AYP/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Khabarovsk",
+                "cityCode": "KHV",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KHV?codeType=fs",
+                "elevationFeet": 246,
+                "fs": "KHV",
+                "iata": "KHV",
+                "icao": "UHHH",
+                "latitude": 48.524564,
+                "localTime": "2014-07-28T03:37:36.679",
+                "longitude": 135.168616,
+                "name": "Novyy Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Vladivostok",
+                "utcOffsetHours": 11.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KHV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KHV",
+            "requestedCode": "KHV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KHV/dep"
+    }
+}

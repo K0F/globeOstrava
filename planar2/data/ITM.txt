@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Osaka",
+                "cityCode": "OSA",
+                "classification": 2,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ITM?codeType=fs",
+                "elevationFeet": 39,
+                "fs": "ITM",
+                "iata": "ITM",
+                "icao": "RJOO",
+                "latitude": 34.790975,
+                "localTime": "2014-07-28T01:31:25.119",
+                "longitude": 135.441719,
+                "name": "Itami Airport",
+                "regionName": "Asia",
+                "street1": "3\u4e01\u76ee555 Nishimachi, Hotarugaike, Toyonaka",
+                "street2": "Osaka Prefecture",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ITM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ITM",
+            "requestedCode": "ITM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ITM/dep"
+    }
+}

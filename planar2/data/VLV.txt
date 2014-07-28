@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Valera",
+                "cityCode": "VLV",
+                "classification": 4,
+                "countryCode": "VE",
+                "countryName": "Venezuela",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VLV?codeType=fs",
+                "elevationFeet": 2060,
+                "fs": "VLV",
+                "iata": "VLV",
+                "icao": "SVVL",
+                "latitude": 9.339167,
+                "localTime": "2014-07-27T12:06:40.721",
+                "longitude": -70.585833,
+                "name": "Carvajal Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Caracas",
+                "utcOffsetHours": -4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VLV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "VLV",
+            "requestedCode": "VLV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/VLV/dep"
+    }
+}

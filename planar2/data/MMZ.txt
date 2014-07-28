@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Maimana",
+                "cityCode": "MMZ",
+                "classification": 4,
+                "countryCode": "AF",
+                "countryName": "Afghanistan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MMZ?codeType=fs",
+                "elevationFeet": 2755,
+                "fs": "MMZ",
+                "iata": "MMZ",
+                "icao": "OAMN",
+                "latitude": 35.925463,
+                "localTime": "2014-07-27T20:58:35.004",
+                "longitude": 64.766352,
+                "name": "Maimana Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kabul",
+                "utcOffsetHours": 4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MMZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MMZ",
+            "requestedCode": "MMZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MMZ/dep"
+    }
+}

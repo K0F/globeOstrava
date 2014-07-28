@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "La Plata",
+                "cityCode": "LPG",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LPG?codeType=fs",
+                "elevationFeet": 54,
+                "fs": "LPG",
+                "iata": "LPG",
+                "icao": "SADL",
+                "latitude": -34.974952,
+                "localTime": "2014-07-27T13:32:19.584",
+                "longitude": -57.892334,
+                "name": "La Plata Airport",
+                "regionName": "South America",
+                "stateCode": "BA",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LPG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LPG",
+            "requestedCode": "LPG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LPG/dep"
+    }
+}

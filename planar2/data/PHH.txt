@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Phan Thiet",
+                "cityCode": "PHH",
+                "classification": 5,
+                "countryCode": "VN",
+                "countryName": "Viet Nam",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PHH?codeType=fs",
+                "fs": "PHH",
+                "iata": "PHH",
+                "latitude": 10.9,
+                "localTime": "2014-07-26T22:20:03.149",
+                "longitude": 108.066667,
+                "name": "Phan Thiet Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Ho_Chi_Minh",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PHH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PHH",
+            "requestedCode": "PHH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PHH/dep"
+    }
+}

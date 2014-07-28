@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Baker Lake",
+                "cityCode": "YBK",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YBK?codeType=fs",
+                "elevationFeet": 59,
+                "fs": "YBK",
+                "iata": "YBK",
+                "icao": "CYBK",
+                "latitude": 64.3,
+                "localTime": "2014-07-27T11:04:32.571",
+                "longitude": -96.083333,
+                "name": "Baker Lake Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "NU",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Winnipeg",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YBK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YBK",
+            "requestedCode": "YBK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YBK/dep"
+    }
+}

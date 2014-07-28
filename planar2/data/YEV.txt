@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Inuvik",
+                "cityCode": "YEV",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YEV?codeType=fs",
+                "elevationFeet": 224,
+                "fs": "YEV",
+                "iata": "YEV",
+                "icao": "CYEV",
+                "latitude": 68.306649,
+                "localTime": "2014-07-27T10:05:01.565",
+                "longitude": -133.49767,
+                "name": "Inuvik/Mike Zubko Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "NT",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Edmonton",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YEV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YEV",
+            "requestedCode": "YEV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YEV/dep"
+    }
+}

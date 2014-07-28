@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Las Khoreh",
+                "cityCode": "LKR",
+                "classification": 5,
+                "countryCode": "SO",
+                "countryName": "Somalia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LKR?codeType=fs",
+                "fs": "LKR",
+                "iata": "LKR",
+                "latitude": 11.15,
+                "localTime": "2014-07-26T18:17:57.321",
+                "longitude": 48.2,
+                "name": "Las Khoreh Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Mogadishu",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LKR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LKR",
+            "requestedCode": "LKR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LKR/dep"
+    }
+}

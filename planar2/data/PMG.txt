@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ponta Pora",
+                "cityCode": "PMG",
+                "classification": 5,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PMG?codeType=fs",
+                "elevationFeet": 2156,
+                "fs": "PMG",
+                "iata": "PMG",
+                "icao": "SBPP",
+                "latitude": -22.55,
+                "localTime": "2014-07-27T12:33:59.005",
+                "longitude": -55.7,
+                "name": "Ponta Pora International Airport",
+                "regionName": "South America",
+                "stateCode": "MS",
+                "timeZoneRegionName": "America/Campo_Grande",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PMG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PMG",
+            "requestedCode": "PMG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PMG/dep"
+    }
+}

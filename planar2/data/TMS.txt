@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sao Tome Island",
+                "cityCode": "TMS",
+                "classification": 4,
+                "countryCode": "ST",
+                "countryName": "Sao Tome and Principe",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TMS?codeType=fs",
+                "elevationFeet": 33,
+                "fs": "TMS",
+                "iata": "TMS",
+                "icao": "FPST",
+                "latitude": 0.378333,
+                "localTime": "2014-07-27T16:15:59.754",
+                "longitude": 6.725,
+                "name": "Sao Tome Island Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Sao_Tome",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TMS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TMS",
+            "requestedCode": "TMS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TMS/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Siglufjordur",
+                "cityCode": "SIJ",
+                "classification": 5,
+                "countryCode": "IS",
+                "countryName": "Iceland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SIJ?codeType=fs",
+                "elevationFeet": 10,
+                "fs": "SIJ",
+                "iata": "SIJ",
+                "icao": "BISI",
+                "latitude": 66.166667,
+                "localTime": "2014-07-27T16:04:22.474",
+                "longitude": -18.933333,
+                "name": "Siglufjordur Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Atlantic/Reykjavik",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SIJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SIJ",
+            "requestedCode": "SIJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SIJ/dep"
+    }
+}

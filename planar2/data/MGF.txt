@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Maringa",
+                "cityCode": "MGF",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MGF?codeType=fs",
+                "elevationFeet": 1832,
+                "fs": "MGF",
+                "iata": "MGF",
+                "icao": "SBMG",
+                "latitude": -23.383611,
+                "localTime": "2014-07-27T13:33:43.957",
+                "longitude": -51.933333,
+                "name": "Regional De Maringa",
+                "regionName": "South America",
+                "stateCode": "PR",
+                "timeZoneRegionName": "America/Sao_Paulo",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MGF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MGF",
+            "requestedCode": "MGF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MGF/dep"
+    }
+}

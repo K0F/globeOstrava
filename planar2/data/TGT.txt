@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tanga",
+                "cityCode": "TGT",
+                "classification": 5,
+                "countryCode": "TZ",
+                "countryName": "United Republic of Tanzania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TGT?codeType=fs",
+                "elevationFeet": 129,
+                "fs": "TGT",
+                "iata": "TGT",
+                "icao": "HTTG",
+                "latitude": -5.089444,
+                "localTime": "2014-07-27T19:18:40.041",
+                "longitude": 39.070278,
+                "name": "Tanga Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Dar_es_Salaam",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TGT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TGT",
+            "requestedCode": "TGT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TGT/dep"
+    }
+}

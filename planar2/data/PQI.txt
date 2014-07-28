@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Presque Isle",
+                "cityCode": "PQI",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PQI?codeType=fs",
+                "elevationFeet": 534,
+                "faa": "PQI",
+                "fs": "PQI",
+                "iata": "PQI",
+                "icao": "KPQI",
+                "latitude": 46.685,
+                "localTime": "2014-07-26T07:05:45.153",
+                "longitude": -68.0475,
+                "name": "Presque Isle Municipal Airport",
+                "postalCode": "04769",
+                "regionName": "North America",
+                "stateCode": "ME",
+                "street1": "650 Airport Drive, Suite 11",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PQI?codeType=fs",
+                "weatherZone": "MEZ002"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PQI",
+            "requestedCode": "PQI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PQI/dep"
+    }
+}

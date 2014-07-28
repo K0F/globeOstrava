@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Liege",
+                "cityCode": "LGG",
+                "classification": 4,
+                "countryCode": "BE",
+                "countryName": "Belgium",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LGG?codeType=fs",
+                "elevationFeet": 659,
+                "fs": "LGG",
+                "iata": "LGG",
+                "icao": "EBLG",
+                "latitude": 50.643334,
+                "localTime": "2014-07-27T18:09:16.785",
+                "longitude": 5.460149,
+                "name": "Bierset Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Brussels",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LGG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LGG",
+            "requestedCode": "LGG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LGG/dep"
+    }
+}

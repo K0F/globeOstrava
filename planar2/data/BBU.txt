@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bucharest",
+                "cityCode": "BUH",
+                "classification": 3,
+                "countryCode": "RO",
+                "countryName": "Romania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BBU?codeType=fs",
+                "elevationFeet": 295,
+                "fs": "BBU",
+                "iata": "BBU",
+                "icao": "LRBS",
+                "latitude": 44.495932,
+                "localTime": "2014-07-27T19:23:36.352",
+                "longitude": 26.080995,
+                "name": "Baneasa Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Bucharest",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BBU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BBU",
+            "requestedCode": "BBU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BBU/dep"
+    }
+}

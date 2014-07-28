@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bahar Dar",
+                "cityCode": "BJR",
+                "classification": 4,
+                "countryCode": "ET",
+                "countryName": "Ethiopia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BJR?codeType=fs",
+                "elevationFeet": 5999,
+                "fs": "BJR",
+                "iata": "BJR",
+                "icao": "HABD",
+                "latitude": 11.603292,
+                "localTime": "2014-07-27T19:17:45.787",
+                "longitude": 37.32324,
+                "name": "Bahar Dar Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Addis_Ababa",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BJR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BJR",
+            "requestedCode": "BJR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BJR/dep"
+    }
+}

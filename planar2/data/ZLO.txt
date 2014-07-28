@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Manzanillo",
+                "cityCode": "ZLO",
+                "classification": 4,
+                "countryCode": "MX",
+                "countryName": "Mexico",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ZLO?codeType=fs",
+                "elevationFeet": 35,
+                "fs": "ZLO",
+                "iata": "ZLO",
+                "icao": "MMZO",
+                "latitude": 19.113333,
+                "localTime": "2014-07-27T11:26:19.870",
+                "longitude": -104.350556,
+                "name": "Manzanillo Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Mexico_City",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ZLO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ZLO",
+            "requestedCode": "ZLO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ZLO/dep"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bethel",
+                "cityCode": "BET",
+                "classification": 2,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BET?codeType=fs",
+                "elevationFeet": 123,
+                "faa": "PABE",
+                "fs": "BET",
+                "iata": "BET",
+                "icao": "PABE",
+                "latitude": 60.784444,
+                "localTime": "2014-07-26T04:34:59.160",
+                "longitude": -161.831389,
+                "name": "Bethel Airport",
+                "postalCode": "99559",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BET?codeType=fs",
+                "weatherZone": "AKZ155"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BET",
+            "requestedCode": "PABE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PABE/dep"
+    }
+}

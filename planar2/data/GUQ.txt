@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Guanare",
+                "cityCode": "GUQ",
+                "classification": 5,
+                "countryCode": "VE",
+                "countryName": "Venezuela",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GUQ?codeType=fs",
+                "elevationFeet": 607,
+                "fs": "GUQ",
+                "iata": "GUQ",
+                "icao": "SVGU",
+                "latitude": 9.025278,
+                "localTime": "2014-07-27T12:06:28.453",
+                "longitude": -69.75,
+                "name": "Guanare Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Caracas",
+                "utcOffsetHours": -4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GUQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GUQ",
+            "requestedCode": "GUQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GUQ/dep"
+    }
+}

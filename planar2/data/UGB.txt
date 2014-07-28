@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Pilot Point",
+                "cityCode": "PIP",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UGB?codeType=fs",
+                "elevationFeet": 93,
+                "faa": "UGB",
+                "fs": "UGB",
+                "iata": "UGB",
+                "latitude": 57.425291,
+                "localTime": "2014-07-26T08:28:15.314",
+                "longitude": -157.74422,
+                "name": "Ugashik Bay Airport",
+                "postalCode": "99649",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UGB?codeType=fs",
+                "weatherZone": "AKZ161"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UGB",
+            "requestedCode": "UGB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UGB/dep"
+    }
+}

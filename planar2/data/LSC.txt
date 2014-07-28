@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "La Serena",
+                "cityCode": "LSC",
+                "classification": 4,
+                "countryCode": "CL",
+                "countryName": "Chile",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LSC?codeType=fs",
+                "elevationFeet": 481,
+                "fs": "LSC",
+                "iata": "LSC",
+                "icao": "SCSE",
+                "latitude": -29.917297,
+                "localTime": "2014-07-27T12:34:35.672",
+                "longitude": -71.203688,
+                "name": "La Florida Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Santiago",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LSC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LSC",
+            "requestedCode": "LSC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LSC/dep"
+    }
+}

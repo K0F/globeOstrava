@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Porto Santo (Madeira)",
+                "cityCode": "PXO",
+                "classification": 4,
+                "countryCode": "PT",
+                "countryName": "Portugal",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PXO?codeType=fs",
+                "elevationFeet": 336,
+                "fs": "PXO",
+                "iata": "PXO",
+                "icao": "LPPS",
+                "latitude": 33.070023,
+                "localTime": "2014-07-27T17:23:21.838",
+                "longitude": -16.345014,
+                "name": "Porto Santo Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Lisbon",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PXO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PXO",
+            "requestedCode": "PXO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PXO/dep"
+    }
+}

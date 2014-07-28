@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Iguazu",
+                "cityCode": "IGR",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IGR?codeType=fs",
+                "elevationFeet": 916,
+                "fs": "IGR",
+                "iata": "IGR",
+                "icao": "SARI",
+                "latitude": -25.731505,
+                "localTime": "2014-07-27T13:32:33.515",
+                "longitude": -54.476347,
+                "name": "Cataratas Airport",
+                "regionName": "South America",
+                "stateCode": "MI",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IGR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IGR",
+            "requestedCode": "IGR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IGR/dep"
+    }
+}

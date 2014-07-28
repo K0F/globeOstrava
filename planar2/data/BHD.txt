@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Belfast",
+                "cityCode": "BFS",
+                "classification": 3,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BHD?codeType=fs",
+                "elevationFeet": 15,
+                "fs": "BHD",
+                "iata": "BHD",
+                "icao": "EGAC",
+                "latitude": 54.61452,
+                "localTime": "2014-07-27T17:10:46.219",
+                "longitude": -5.870215,
+                "name": "Belfast City Airport",
+                "regionName": "Europe",
+                "stateCode": "NI",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BHD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BHD",
+            "requestedCode": "BHD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BHD/dep"
+    }
+}

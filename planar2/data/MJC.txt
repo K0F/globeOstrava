@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Man",
+                "cityCode": "MJC",
+                "classification": 5,
+                "countryCode": "CI",
+                "countryName": "Cote d'Ivoire",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MJC?codeType=fs",
+                "elevationFeet": 1089,
+                "fs": "MJC",
+                "iata": "MJC",
+                "icao": "DIMN",
+                "latitude": 7.381667,
+                "localTime": "2014-07-27T16:08:31.874",
+                "longitude": -7.528333,
+                "name": "Man Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Abidjan",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MJC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MJC",
+            "requestedCode": "MJC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MJC/dep"
+    }
+}

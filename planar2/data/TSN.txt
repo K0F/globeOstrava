@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tianjin",
+                "cityCode": "TSN",
+                "classification": 2,
+                "countryCode": "CN",
+                "countryName": "China",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TSN?codeType=fs",
+                "elevationFeet": 8,
+                "fs": "TSN",
+                "iata": "TSN",
+                "icao": "ZBTJ",
+                "latitude": 39.128273,
+                "localTime": "2014-07-27T23:47:05.319",
+                "longitude": 117.355906,
+                "name": "Tianjin Binhai International Airport",
+                "regionName": "Asia",
+                "street1": "Airport Jinchang Rd",
+                "timeZoneRegionName": "Asia/Shanghai",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TSN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TSN",
+            "requestedCode": "TSN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TSN/dep"
+    }
+}

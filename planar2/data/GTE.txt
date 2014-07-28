@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Groote Island",
+                "cityCode": "GTE",
+                "classification": 4,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GTE?codeType=fs",
+                "elevationFeet": 53,
+                "fs": "GTE",
+                "iata": "GTE",
+                "icao": "YGTE",
+                "latitude": -13.973887,
+                "localTime": "2014-07-27T01:27:32.629",
+                "longitude": 136.460016,
+                "name": "Alyangula Airport",
+                "regionName": "Oceania",
+                "stateCode": "NT",
+                "timeZoneRegionName": "Australia/Darwin",
+                "utcOffsetHours": 9.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GTE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GTE",
+            "requestedCode": "GTE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GTE/dep"
+    }
+}

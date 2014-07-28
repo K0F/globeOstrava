@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Alpena",
+                "cityCode": "APN",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/APN?codeType=fs",
+                "elevationFeet": 689,
+                "faa": "APN",
+                "fs": "APN",
+                "iata": "APN",
+                "icao": "KAPN",
+                "latitude": 45.081667,
+                "localTime": "2014-07-26T08:34:23.034",
+                "longitude": -83.555833,
+                "name": "Alpena County Regional Airport",
+                "postalCode": "49707",
+                "regionName": "North America",
+                "stateCode": "MI",
+                "street1": "Airport Road, Route 6",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/APN?codeType=fs",
+                "weatherZone": "MIZ024"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "APN",
+            "requestedCode": "APN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/APN/dep"
+    }
+}

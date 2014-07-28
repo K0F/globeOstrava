@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Soroti",
+                "cityCode": "SRT",
+                "classification": 5,
+                "countryCode": "UG",
+                "countryName": "Uganda",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SRT?codeType=fs",
+                "elevationFeet": 3697,
+                "fs": "SRT",
+                "iata": "SRT",
+                "icao": "HUSO",
+                "latitude": 1.7,
+                "localTime": "2014-07-27T19:18:44.116",
+                "longitude": 33.616667,
+                "name": "Soroti Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Kampala",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SRT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SRT",
+            "requestedCode": "SRT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SRT/dep"
+    }
+}

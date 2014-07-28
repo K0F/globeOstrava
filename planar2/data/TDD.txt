@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Trinidad",
+                "cityCode": "TDD",
+                "classification": 4,
+                "countryCode": "BO",
+                "countryName": "Bolivia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TDD?codeType=fs",
+                "elevationFeet": 509,
+                "fs": "TDD",
+                "iata": "TDD",
+                "icao": "SLTR",
+                "latitude": -14.822613,
+                "localTime": "2014-07-27T12:35:45.948",
+                "longitude": -64.919313,
+                "name": "Trinidad Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/La_Paz",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TDD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TDD",
+            "requestedCode": "TDD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TDD/dep"
+    }
+}

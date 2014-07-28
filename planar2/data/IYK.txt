@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Inyokern",
+                "cityCode": "IYK",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IYK?codeType=fs",
+                "elevationFeet": 2455,
+                "faa": "IYK",
+                "fs": "IYK",
+                "iata": "IYK",
+                "icao": "KIYK",
+                "latitude": 35.656667,
+                "localTime": "2014-07-26T09:30:12.423",
+                "longitude": -117.829167,
+                "name": "Kern County Airport",
+                "postalCode": "93527",
+                "regionName": "North America",
+                "stateCode": "CA",
+                "street1": "1669 Airport Road",
+                "street2": "",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IYK?codeType=fs",
+                "weatherZone": "CAZ098"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IYK",
+            "requestedCode": "IYK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IYK/dep"
+    }
+}

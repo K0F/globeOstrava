@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rarotonga",
+                "cityCode": "RAR",
+                "classification": 4,
+                "countryCode": "CK",
+                "countryName": "Cook Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RAR?codeType=fs",
+                "elevationFeet": 22,
+                "fs": "RAR",
+                "iata": "RAR",
+                "icao": "NCRG",
+                "latitude": -21.19992,
+                "localTime": "2014-07-27T06:27:18.823",
+                "longitude": -159.798529,
+                "name": "Rarotonga Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Rarotonga",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RAR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RAR",
+            "requestedCode": "RAR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RAR/dep"
+    }
+}

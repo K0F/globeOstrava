@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Obihiro",
+                "cityCode": "OBO",
+                "classification": 4,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OBO?codeType=fs",
+                "elevationFeet": 489,
+                "fs": "OBO",
+                "iata": "OBO",
+                "icao": "RJCB",
+                "latitude": 42.732003,
+                "localTime": "2014-07-28T01:30:48.381",
+                "longitude": 143.212437,
+                "name": "Obihiro Airport",
+                "regionName": "Asia",
+                "street1": "\u4e2d8, Nishi 9 Sen, Izumicho, 41",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OBO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OBO",
+            "requestedCode": "OBO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OBO/dep"
+    }
+}

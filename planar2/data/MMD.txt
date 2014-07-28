@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Minami Daito",
+                "cityCode": "MMD",
+                "classification": 4,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MMD?codeType=fs",
+                "elevationFeet": 158,
+                "fs": "MMD",
+                "iata": "MMD",
+                "icao": "ROMD",
+                "latitude": 25.841389,
+                "localTime": "2014-07-28T00:48:56.429",
+                "longitude": 131.247222,
+                "name": "Maridor Airport",
+                "regionName": "Asia",
+                "street1": "258 Kyuto",
+                "street2": "Shimajiri District",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MMD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MMD",
+            "requestedCode": "MMD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MMD/dep"
+    }
+}

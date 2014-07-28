@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Forster",
+                "cityCode": "FOT",
+                "classification": 5,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/FOT?codeType=fs",
+                "fs": "FOT",
+                "iata": "FOT",
+                "latitude": -32.183333,
+                "localTime": "2014-07-27T01:15:50.931",
+                "longitude": 151.516667,
+                "name": "Forster Airport",
+                "regionName": "Oceania",
+                "stateCode": "NSW",
+                "timeZoneRegionName": "Australia/Sydney",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/FOT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "FOT",
+            "requestedCode": "FOT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/FOT/dep"
+    }
+}

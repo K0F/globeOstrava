@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Freetown",
+                "cityCode": "FNA",
+                "classification": 4,
+                "countryCode": "SL",
+                "countryName": "Sierra Leone",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/FNA?codeType=fs",
+                "elevationFeet": 84,
+                "fs": "FNA",
+                "iata": "FNA",
+                "icao": "GFLL",
+                "latitude": 8.6175,
+                "localTime": "2014-07-27T16:17:01.519",
+                "longitude": -13.196944,
+                "name": "Lungi International Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Freetown",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/FNA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "FNA",
+            "requestedCode": "FNA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/FNA/dep"
+    }
+}

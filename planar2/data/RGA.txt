@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rio Grande",
+                "cityCode": "RGA",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RGA?codeType=fs",
+                "elevationFeet": 65,
+                "fs": "RGA",
+                "iata": "RGA",
+                "icao": "SAWE",
+                "latitude": -53.779167,
+                "localTime": "2014-07-27T13:32:47.764",
+                "longitude": -67.75,
+                "name": "Rio Grande Airport",
+                "regionName": "South America",
+                "stateCode": "TF",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RGA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RGA",
+            "requestedCode": "RGA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RGA/dep"
+    }
+}

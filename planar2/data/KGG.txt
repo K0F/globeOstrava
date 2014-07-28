@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kedougou",
+                "cityCode": "KGG",
+                "classification": 5,
+                "countryCode": "SN",
+                "countryName": "Senegal",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KGG?codeType=fs",
+                "elevationFeet": 584,
+                "fs": "KGG",
+                "iata": "KGG",
+                "icao": "GOTK",
+                "latitude": 12.570833,
+                "localTime": "2014-07-27T16:17:24.736",
+                "longitude": -12.217222,
+                "name": "Kedougou Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Dakar",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KGG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KGG",
+            "requestedCode": "KGG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KGG/dep"
+    }
+}

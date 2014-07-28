@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Manassas",
+                "cityCode": "MNZ",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MNZ?codeType=fs",
+                "elevationFeet": 179,
+                "faa": "HEF",
+                "fs": "MNZ",
+                "iata": "MNZ",
+                "icao": "KHEF",
+                "latitude": 38.721944,
+                "localTime": "2014-07-26T11:18:51.325",
+                "longitude": -77.518056,
+                "name": "Manassas Regional Airport",
+                "regionName": "North America",
+                "stateCode": "VA",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MNZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MNZ",
+            "requestedCode": "MNZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MNZ/dep"
+    }
+}

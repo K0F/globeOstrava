@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mountain Valley",
+                "cityCode": "MNV",
+                "classification": 5,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MNV?codeType=fs",
+                "fs": "MNV",
+                "iata": "MNV",
+                "latitude": -14.116667,
+                "localTime": "2014-07-27T00:48:50.347",
+                "longitude": 133.833333,
+                "name": "Mountain Valley Airport",
+                "regionName": "Oceania",
+                "stateCode": "NT",
+                "timeZoneRegionName": "Australia/Darwin",
+                "utcOffsetHours": 9.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MNV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MNV",
+            "requestedCode": "MNV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MNV/dep"
+    }
+}

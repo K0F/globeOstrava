@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kabul",
+                "cityCode": "KBL",
+                "classification": 3,
+                "countryCode": "AF",
+                "countryName": "Afghanistan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KBL?codeType=fs",
+                "elevationFeet": 5871,
+                "fs": "KBL",
+                "iata": "KBL",
+                "icao": "OAKB",
+                "latitude": 34.560692,
+                "localTime": "2014-07-27T20:58:32.800",
+                "longitude": 69.211521,
+                "name": "Khwaja Rawash Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kabul",
+                "utcOffsetHours": 4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KBL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KBL",
+            "requestedCode": "KBL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KBL/dep"
+    }
+}

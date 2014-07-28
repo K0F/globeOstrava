@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Johnstown",
+                "cityCode": "JST",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/JST?codeType=fs",
+                "elevationFeet": 2284,
+                "faa": "JST",
+                "fs": "JST",
+                "iata": "JST",
+                "icao": "KJST",
+                "latitude": 40.316667,
+                "localTime": "2014-07-26T12:30:57.436",
+                "longitude": -78.834444,
+                "name": "Cambria County Airport",
+                "postalCode": "15904-9438",
+                "regionName": "North America",
+                "stateCode": "PA",
+                "street1": "479 Airport Road, Suite 1",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/JST?codeType=fs",
+                "weatherZone": "PAZ024"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "JST",
+            "requestedCode": "JST"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/JST/dep"
+    }
+}

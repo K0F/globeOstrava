@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Timaru",
+                "cityCode": "TIU",
+                "classification": 4,
+                "countryCode": "NZ",
+                "countryName": "New Zealand",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TIU?codeType=fs",
+                "elevationFeet": 89,
+                "fs": "TIU",
+                "iata": "TIU",
+                "icao": "NZTU",
+                "latitude": -44.303446,
+                "localTime": "2014-07-28T04:28:22.073",
+                "longitude": 171.226325,
+                "name": "Timaru Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Auckland",
+                "utcOffsetHours": 12.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TIU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TIU",
+            "requestedCode": "TIU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TIU/dep"
+    }
+}

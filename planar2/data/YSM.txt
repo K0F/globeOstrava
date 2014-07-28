@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Fort Smith",
+                "cityCode": "YSM",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YSM?codeType=fs",
+                "elevationFeet": 673,
+                "fs": "YSM",
+                "iata": "YSM",
+                "icao": "CYSM",
+                "latitude": 60.016667,
+                "localTime": "2014-07-27T10:06:23.569",
+                "longitude": -111.966667,
+                "name": "Fort Smith Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "NT",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Edmonton",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YSM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YSM",
+            "requestedCode": "YSM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YSM/dep"
+    }
+}

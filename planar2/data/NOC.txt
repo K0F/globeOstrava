@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Knock",
+                "cityCode": "NOC",
+                "classification": 4,
+                "countryCode": "IE",
+                "countryName": "Ireland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NOC?codeType=fs",
+                "elevationFeet": 665,
+                "fs": "NOC",
+                "iata": "NOC",
+                "icao": "EIKN",
+                "latitude": 53.914002,
+                "localTime": "2014-07-27T17:12:22.334",
+                "longitude": -8.810468,
+                "name": "Ireland West Airport Knock",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Dublin",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NOC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NOC",
+            "requestedCode": "NOC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NOC/dep"
+    }
+}

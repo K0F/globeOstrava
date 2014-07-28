@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Zhaotong",
+                "cityCode": "ZAT",
+                "classification": 4,
+                "countryCode": "CN",
+                "countryName": "China",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ZAT?codeType=fs",
+                "elevationFeet": 6824,
+                "fs": "ZAT",
+                "iata": "ZAT",
+                "icao": "ZPZT",
+                "latitude": 27.316667,
+                "localTime": "2014-07-27T22:29:01.295",
+                "longitude": 103.8,
+                "name": "Zhaotong Airport",
+                "regionName": "Asia",
+                "street1": "Airport Rd.",
+                "timeZoneRegionName": "Asia/Shanghai",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ZAT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ZAT",
+            "requestedCode": "ZAT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ZAT/dep"
+    }
+}

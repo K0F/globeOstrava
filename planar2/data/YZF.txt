@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Yellowknife",
+                "cityCode": "YZF",
+                "classification": 3,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YZF?codeType=fs",
+                "elevationFeet": 675,
+                "fs": "YZF",
+                "iata": "YZF",
+                "icao": "CYZF",
+                "latitude": 62.470869,
+                "localTime": "2014-07-27T10:07:45.616",
+                "longitude": -114.4375,
+                "name": "Yellowknife Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "NT",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Edmonton",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YZF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YZF",
+            "requestedCode": "YZF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YZF/dep"
+    }
+}

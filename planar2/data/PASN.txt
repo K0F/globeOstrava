@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saint Paul Island",
+                "cityCode": "SNP",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SNP?codeType=fs",
+                "elevationFeet": 63,
+                "faa": "PASN",
+                "fs": "SNP",
+                "iata": "SNP",
+                "icao": "PASN",
+                "latitude": 57.152222,
+                "localTime": "2014-07-26T04:35:52.455",
+                "longitude": -170.217222,
+                "name": "Saint Paul Island Airport",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SNP?codeType=fs",
+                "weatherZone": "AKZ195"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SNP",
+            "requestedCode": "PASN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PASN/dep"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Terre Haute",
+                "cityCode": "HUF",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HUF?codeType=fs",
+                "elevationFeet": 589,
+                "faa": "HUF",
+                "fs": "HUF",
+                "iata": "HUF",
+                "icao": "KHUF",
+                "latitude": 39.454444,
+                "localTime": "2014-07-27T11:53:47.424",
+                "longitude": -87.3075,
+                "name": "Hulman Field",
+                "postalCode": "47803",
+                "regionName": "North America",
+                "stateCode": "IN",
+                "street1": "581 South Airport Street",
+                "street2": "",
+                "timeZoneRegionName": "America/Indiana/Indianapolis",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HUF?codeType=fs",
+                "weatherZone": "INZ051"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HUF",
+            "requestedCode": "HUF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HUF/dep"
+    }
+}

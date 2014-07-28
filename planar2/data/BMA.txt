@@ -1,0 +1,142 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "TF",
+                "iata": "TF",
+                "icao": "SCW",
+                "name": "Malmo Aviation"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Stockholm",
+                "cityCode": "STO",
+                "classification": 2,
+                "countryCode": "SE",
+                "countryName": "Sweden",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BMA?codeType=fs",
+                "elevationFeet": 47,
+                "fs": "BMA",
+                "iata": "BMA",
+                "icao": "ESSB",
+                "latitude": 59.35566,
+                "localTime": "2014-07-27T18:13:59.193",
+                "longitude": 17.946079,
+                "name": "Bromma Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Stockholm",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BMA?codeType=fs"
+            },
+            {
+                "active": true,
+                "city": "Gothenburg",
+                "cityCode": "GOT",
+                "classification": 2,
+                "countryCode": "SE",
+                "countryName": "Sweden",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GOT?codeType=fs",
+                "elevationFeet": 506,
+                "fs": "GOT",
+                "iata": "GOT",
+                "icao": "ESGG",
+                "latitude": 57.666643,
+                "localTime": "2014-07-27T18:13:59.223",
+                "longitude": 12.294878,
+                "name": "Goteborg Landvetter Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Stockholm",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GOT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "GOT",
+            "bearing": 242.99121154587866,
+            "carrierFsCode": "TF",
+            "departureAirportFsCode": "BMA",
+            "departureDate": {
+                "dateLocal": "2014-07-27T17:35:00.000",
+                "dateUtc": "2014-07-27T15:35:00.000Z"
+            },
+            "equipment": "AR1",
+            "flightId": 410396662,
+            "flightNumber": "11",
+            "heading": 256.4553749133841,
+            "positions": [
+                {
+                    "altitudeFt": 16875,
+                    "date": "2014-07-27T15:43:35.000Z",
+                    "lat": 59.1215,
+                    "lon": 17.2732,
+                    "source": "AirNav",
+                    "speedMph": 354
+                },
+                {
+                    "altitudeFt": 16875,
+                    "date": "2014-07-27T15:43:16.000Z",
+                    "lat": 59.1215,
+                    "lon": 17.2732,
+                    "source": "AirNav",
+                    "speedMph": 354
+                },
+                {
+                    "altitudeFt": 14625,
+                    "date": "2014-07-27T15:42:16.000Z",
+                    "lat": 59.1425,
+                    "lon": 17.4424,
+                    "source": "AirNav",
+                    "speedMph": 352
+                },
+                {
+                    "altitudeFt": 13825,
+                    "date": "2014-07-27T15:42:07.000Z",
+                    "lat": 59.1496,
+                    "lon": 17.5025,
+                    "source": "AirNav",
+                    "speedMph": 349
+                },
+                {
+                    "altitudeFt": 13375,
+                    "date": "2014-07-27T15:41:44.000Z",
+                    "lat": 59.1536,
+                    "lon": 17.5349,
+                    "source": "AirNav",
+                    "speedMph": 348
+                },
+                {
+                    "altitudeFt": 12025,
+                    "date": "2014-07-27T15:41:10.000Z",
+                    "lat": 59.1691,
+                    "lon": 17.6575,
+                    "source": "AirNav",
+                    "speedMph": 343
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "BMA",
+            "requestedCode": "BMA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BMA/dep"
+    }
+}

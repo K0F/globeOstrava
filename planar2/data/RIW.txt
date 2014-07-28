@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Riverton",
+                "cityCode": "RIW",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RIW?codeType=fs",
+                "elevationFeet": 5525,
+                "faa": "RIW",
+                "fs": "RIW",
+                "iata": "RIW",
+                "icao": "KRIW",
+                "latitude": 43.064444,
+                "localTime": "2014-07-27T10:24:25.177",
+                "longitude": -108.456944,
+                "name": "Riverton Airport",
+                "postalCode": "82501",
+                "regionName": "North America",
+                "stateCode": "WY",
+                "street1": "4800 Airport Road",
+                "street2": "",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RIW?codeType=fs",
+                "weatherZone": "WYZ013"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RIW",
+            "requestedCode": "RIW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RIW/dep"
+    }
+}

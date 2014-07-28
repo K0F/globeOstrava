@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tucurui",
+                "cityCode": "TUR",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TUR?codeType=fs",
+                "elevationFeet": 830,
+                "fs": "TUR",
+                "iata": "TUR",
+                "icao": "SBTU",
+                "latitude": -3.7,
+                "localTime": "2014-07-27T13:03:09.408",
+                "longitude": -49.733333,
+                "name": "Tucurui Airport",
+                "regionName": "South America",
+                "stateCode": "PA",
+                "timeZoneRegionName": "America/Belem",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TUR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TUR",
+            "requestedCode": "TUR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TUR/dep"
+    }
+}

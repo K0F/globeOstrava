@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Playa Samara",
+                "cityCode": "PLD",
+                "classification": 4,
+                "countryCode": "CR",
+                "countryName": "Costa Rica",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PLD?codeType=fs",
+                "fs": "PLD",
+                "iata": "PLD",
+                "latitude": 10.25,
+                "localTime": "2014-07-26T09:20:19.044",
+                "longitude": -85.416667,
+                "name": "Playa Samara Airport",
+                "regionName": "Central America",
+                "timeZoneRegionName": "America/Costa_Rica",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PLD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PLD",
+            "requestedCode": "PLD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PLD/dep"
+    }
+}

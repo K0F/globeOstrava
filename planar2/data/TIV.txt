@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tivat",
+                "cityCode": "TIV",
+                "classification": 4,
+                "countryCode": "ME",
+                "countryName": "Montenegro",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TIV?codeType=fs",
+                "elevationFeet": 20,
+                "fs": "TIV",
+                "iata": "TIV",
+                "icao": "LYTV",
+                "latitude": 42.403611,
+                "localTime": "2014-07-27T18:24:37.008",
+                "longitude": 18.725556,
+                "name": "Tivat Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Podgorica",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TIV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TIV",
+            "requestedCode": "TIV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TIV/dep"
+    }
+}

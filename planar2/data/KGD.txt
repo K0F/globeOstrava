@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kaliningrad",
+                "cityCode": "KGD",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KGD?codeType=fs",
+                "elevationFeet": 43,
+                "fs": "KGD",
+                "iata": "KGD",
+                "icao": "UMKK",
+                "latitude": 54.882656,
+                "localTime": "2014-07-27T19:03:02.112",
+                "longitude": 20.586646,
+                "name": "Kaliningrad Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Kaliningrad",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KGD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KGD",
+            "requestedCode": "KGD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KGD/dep"
+    }
+}

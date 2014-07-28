@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Stephenville",
+                "cityCode": "YJT",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YJT?codeType=fs",
+                "elevationFeet": 84,
+                "fs": "YJT",
+                "iata": "YJT",
+                "icao": "CYJT",
+                "latitude": 48.533333,
+                "localTime": "2014-07-27T13:30:04.617",
+                "longitude": -58.55,
+                "name": "Stephenville Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "NL",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/St_Johns",
+                "utcOffsetHours": -2.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YJT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YJT",
+            "requestedCode": "YJT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YJT/dep"
+    }
+}

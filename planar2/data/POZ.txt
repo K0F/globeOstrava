@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Poznan",
+                "cityCode": "POZ",
+                "classification": 4,
+                "countryCode": "PL",
+                "countryName": "Poland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/POZ?codeType=fs",
+                "elevationFeet": 308,
+                "fs": "POZ",
+                "iata": "POZ",
+                "icao": "EPPO",
+                "latitude": 52.414327,
+                "localTime": "2014-07-27T18:13:23.049",
+                "longitude": 16.828845,
+                "name": "Lawica Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Warsaw",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/POZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "POZ",
+            "requestedCode": "POZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/POZ/dep"
+    }
+}

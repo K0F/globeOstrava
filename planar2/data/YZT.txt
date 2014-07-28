@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Port Hardy",
+                "cityCode": "YZT",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YZT?codeType=fs",
+                "elevationFeet": 71,
+                "fs": "YZT",
+                "iata": "YZT",
+                "icao": "CYZT",
+                "latitude": 50.680556,
+                "localTime": "2014-07-27T09:07:49.598",
+                "longitude": -127.363889,
+                "name": "Port Hardy Airport",
+                "regionName": "North America",
+                "stateCode": "BC",
+                "timeZoneRegionName": "America/Vancouver",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YZT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YZT",
+            "requestedCode": "YZT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YZT/dep"
+    }
+}

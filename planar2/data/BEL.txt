@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Belem",
+                "cityCode": "BEL",
+                "classification": 3,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BEL?codeType=fs",
+                "elevationFeet": 54,
+                "fs": "BEL",
+                "iata": "BEL",
+                "icao": "SBBE",
+                "latitude": -1.389865,
+                "localTime": "2014-07-27T13:03:01.005",
+                "longitude": -48.480003,
+                "name": "Val De Cans Airport",
+                "regionName": "South America",
+                "stateCode": "PA",
+                "timeZoneRegionName": "America/Belem",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BEL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BEL",
+            "requestedCode": "BEL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BEL/dep"
+    }
+}

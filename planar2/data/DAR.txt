@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dar Es Salaam",
+                "cityCode": "DAR",
+                "classification": 3,
+                "countryCode": "TZ",
+                "countryName": "United Republic of Tanzania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DAR?codeType=fs",
+                "elevationFeet": 182,
+                "fs": "DAR",
+                "iata": "DAR",
+                "icao": "HTDA",
+                "latitude": -6.873533,
+                "localTime": "2014-07-27T19:18:31.653",
+                "longitude": 39.20211,
+                "name": "Dar Es Salaam International Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Dar_es_Salaam",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DAR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DAR",
+            "requestedCode": "DAR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DAR/dep"
+    }
+}

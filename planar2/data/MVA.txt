@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Myvatn",
+                "cityCode": "MVA",
+                "classification": 5,
+                "countryCode": "IS",
+                "countryName": "Iceland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MVA?codeType=fs",
+                "fs": "MVA",
+                "iata": "MVA",
+                "latitude": 65.616667,
+                "localTime": "2014-07-27T16:29:35.303",
+                "longitude": -16.966667,
+                "name": "Reykiahlid Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Atlantic/Reykjavik",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MVA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MVA",
+            "requestedCode": "MVA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MVA/dep"
+    }
+}

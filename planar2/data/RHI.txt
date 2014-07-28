@@ -1,0 +1,301 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "OO",
+                "iata": "OO",
+                "icao": "SKW",
+                "name": "SkyWest Airlines"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Rhinelander",
+                "cityCode": "RHI",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RHI?codeType=fs",
+                "elevationFeet": 1623,
+                "faa": "RHI",
+                "fs": "RHI",
+                "iata": "RHI",
+                "icao": "KRHI",
+                "latitude": 45.625707,
+                "localTime": "2014-07-26T07:37:34.797",
+                "longitude": -89.462533,
+                "name": "Oneida County Airport",
+                "postalCode": "54501-9178",
+                "regionName": "North America",
+                "stateCode": "WI",
+                "street1": "3375 Airport Road",
+                "street2": "",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RHI?codeType=fs",
+                "weatherZone": "WIZ010"
+            },
+            {
+                "active": true,
+                "city": "Minneapolis",
+                "cityCode": "MSP",
+                "classification": 1,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MSP?codeType=fs",
+                "elevationFeet": 841,
+                "faa": "MSP",
+                "fs": "MSP",
+                "iata": "MSP",
+                "icao": "KMSP",
+                "latitude": 44.883016,
+                "localTime": "2014-07-26T07:37:34.810",
+                "longitude": -93.210922,
+                "name": "Minneapolis-St. Paul International Airport",
+                "postalCode": "55450",
+                "regionName": "North America",
+                "stateCode": "MN",
+                "street1": "6040 28th Avenue South",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MSP?codeType=fs",
+                "weatherZone": "MNZ060"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "MSP",
+            "bearing": 249.98131100046984,
+            "carrierFsCode": "OO",
+            "delayMinutes": 15,
+            "departureAirportFsCode": "RHI",
+            "departureDate": {
+                "dateLocal": "2014-07-26T07:10:00.000",
+                "dateUtc": "2014-07-26T12:10:00.000Z"
+            },
+            "equipment": "CRJ2",
+            "flightId": 409979989,
+            "flightNumber": "7414",
+            "heading": 277.4971856891409,
+            "legacyRoute": "KRHI..CESNA..BRDIE..GOLLF.GEP7.KMSP",
+            "positions": [
+                {
+                    "altitudeFt": 18300,
+                    "date": "2014-07-26T12:31:12.000Z",
+                    "lat": 45.7003,
+                    "lon": -90.1992,
+                    "source": "ASDI",
+                    "speedMph": 323
+                },
+                {
+                    "altitudeFt": 16400,
+                    "date": "2014-07-26T12:30:11.000Z",
+                    "lat": 45.69,
+                    "lon": -90.0872,
+                    "source": "ASDI",
+                    "speedMph": 320
+                },
+                {
+                    "altitudeFt": 14400,
+                    "date": "2014-07-26T12:29:10.000Z",
+                    "lat": 45.68,
+                    "lon": -89.9756,
+                    "source": "ASDI",
+                    "speedMph": 311
+                },
+                {
+                    "altitudeFt": 12300,
+                    "date": "2014-07-26T12:28:09.000Z",
+                    "lat": 45.6697,
+                    "lon": -89.8675,
+                    "source": "ASDI",
+                    "speedMph": 290
+                },
+                {
+                    "altitudeFt": 10400,
+                    "date": "2014-07-26T12:27:08.000Z",
+                    "lat": 45.6606,
+                    "lon": -89.7669,
+                    "source": "ASDI",
+                    "speedMph": 273
+                },
+                {
+                    "altitudeFt": 7500,
+                    "date": "2014-07-26T12:26:06.000Z",
+                    "lat": 45.6517,
+                    "lon": -89.6706,
+                    "source": "ASDI",
+                    "speedMph": 250
+                },
+                {
+                    "altitudeFt": 4900,
+                    "date": "2014-07-26T12:25:05.000Z",
+                    "lat": 45.6422,
+                    "lon": -89.5756,
+                    "source": "ASDI",
+                    "speedMph": 206
+                },
+                {
+                    "altitudeFt": 2700,
+                    "date": "2014-07-26T12:24:04.000Z",
+                    "lat": 45.6297,
+                    "lon": -89.5058,
+                    "source": "ASDI",
+                    "speedMph": 186
+                }
+            ],
+            "waypoints": [
+                {
+                    "lat": 45.6167,
+                    "lon": -89.45
+                },
+                {
+                    "lat": 45.6333,
+                    "lon": -89.5167
+                },
+                {
+                    "lat": 45.6333,
+                    "lon": -89.6167
+                },
+                {
+                    "lat": 45.65,
+                    "lon": -89.7333
+                },
+                {
+                    "lat": 45.6833,
+                    "lon": -90.0
+                },
+                {
+                    "lat": 45.7,
+                    "lon": -90.25
+                },
+                {
+                    "lat": 45.7,
+                    "lon": -90.3167
+                },
+                {
+                    "lat": 45.7167,
+                    "lon": -90.3667
+                },
+                {
+                    "lat": 45.7333,
+                    "lon": -90.6333
+                },
+                {
+                    "lat": 45.7333,
+                    "lon": -90.7167
+                },
+                {
+                    "lat": 45.7667,
+                    "lon": -91.0
+                },
+                {
+                    "lat": 45.7833,
+                    "lon": -91.25
+                },
+                {
+                    "lat": 45.8667,
+                    "lon": -92.1667
+                },
+                {
+                    "lat": 45.8667,
+                    "lon": -92.1667
+                },
+                {
+                    "lat": 46.1,
+                    "lon": -93.1833
+                },
+                {
+                    "lat": 46.0333,
+                    "lon": -93.2833
+                },
+                {
+                    "lat": 45.95,
+                    "lon": -93.4
+                },
+                {
+                    "lat": 45.8333,
+                    "lon": -93.5833
+                },
+                {
+                    "lat": 45.75,
+                    "lon": -93.6833
+                },
+                {
+                    "lat": 45.75,
+                    "lon": -93.6833
+                },
+                {
+                    "lat": 45.7,
+                    "lon": -93.6667
+                },
+                {
+                    "lat": 45.5333,
+                    "lon": -93.5667
+                },
+                {
+                    "lat": 45.5,
+                    "lon": -93.55
+                },
+                {
+                    "lat": 45.4667,
+                    "lon": -93.5333
+                },
+                {
+                    "lat": 45.3333,
+                    "lon": -93.4667
+                },
+                {
+                    "lat": 45.2167,
+                    "lon": -93.4
+                },
+                {
+                    "lat": 45.1333,
+                    "lon": -93.3667
+                },
+                {
+                    "lat": 45.05,
+                    "lon": -93.3167
+                },
+                {
+                    "lat": 45.0333,
+                    "lon": -93.3
+                },
+                {
+                    "lat": 44.9833,
+                    "lon": -93.2833
+                },
+                {
+                    "lat": 44.9,
+                    "lon": -93.2333
+                },
+                {
+                    "lat": 44.8667,
+                    "lon": -93.2167
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "RHI",
+            "requestedCode": "RHI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RHI/dep"
+    }
+}

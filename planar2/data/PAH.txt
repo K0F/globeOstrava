@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Paducah",
+                "cityCode": "PAH",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PAH?codeType=fs",
+                "elevationFeet": 410,
+                "faa": "PAH",
+                "fs": "PAH",
+                "iata": "PAH",
+                "icao": "KPAH",
+                "latitude": 37.061111,
+                "localTime": "2014-07-26T07:35:36.215",
+                "longitude": -88.7725,
+                "name": "Barkley Regional Airport",
+                "postalCode": "42086",
+                "regionName": "North America",
+                "stateCode": "KY",
+                "street1": "Fisher Rd. at U.S. 60",
+                "street2": "",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PAH?codeType=fs",
+                "weatherZone": "KYZ005"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PAH",
+            "requestedCode": "PAH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PAH/dep"
+    }
+}

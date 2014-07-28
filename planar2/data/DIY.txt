@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Diyarbakir",
+                "cityCode": "DIY",
+                "classification": 4,
+                "countryCode": "TR",
+                "countryName": "Turkey",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DIY?codeType=fs",
+                "elevationFeet": 2251,
+                "fs": "DIY",
+                "iata": "DIY",
+                "icao": "LTCC",
+                "latitude": 37.903874,
+                "localTime": "2014-07-27T19:24:28.342",
+                "longitude": 40.204577,
+                "name": "Diyarbakir Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Istanbul",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DIY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DIY",
+            "requestedCode": "DIY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DIY/dep"
+    }
+}

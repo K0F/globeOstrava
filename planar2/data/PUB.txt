@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Pueblo",
+                "cityCode": "PUB",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PUB?codeType=fs",
+                "elevationFeet": 4726,
+                "faa": "PUB",
+                "fs": "PUB",
+                "iata": "PUB",
+                "icao": "KPUB",
+                "latitude": 38.292778,
+                "localTime": "2014-07-27T09:54:28.073",
+                "longitude": -104.496111,
+                "name": "Pueblo Memorial Airport",
+                "postalCode": "81001",
+                "regionName": "North America",
+                "stateCode": "CO",
+                "street1": "31201 Bryan Circle",
+                "street2": "",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PUB?codeType=fs",
+                "weatherZone": "COZ073"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PUB",
+            "requestedCode": "PUB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PUB/dep"
+    }
+}

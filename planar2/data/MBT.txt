@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Masbate",
+                "cityCode": "MBT",
+                "classification": 4,
+                "countryCode": "PH",
+                "countryName": "Philippines",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MBT?codeType=fs",
+                "elevationFeet": 50,
+                "fs": "MBT",
+                "iata": "MBT",
+                "icao": "RPVJ",
+                "latitude": 12.366667,
+                "localTime": "2014-07-26T23:58:26.469",
+                "longitude": 123.066667,
+                "name": "Masbate Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Manila",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MBT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MBT",
+            "requestedCode": "MBT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MBT/dep"
+    }
+}

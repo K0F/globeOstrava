@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Asahikawa",
+                "cityCode": "AKJ",
+                "classification": 4,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AKJ?codeType=fs",
+                "elevationFeet": 690,
+                "fs": "AKJ",
+                "iata": "AKJ",
+                "icao": "RJEC",
+                "latitude": 43.671091,
+                "localTime": "2014-07-28T01:31:00.305",
+                "longitude": 142.454546,
+                "name": "Asahikawa Airport",
+                "regionName": "Asia",
+                "street1": "Higashi 2 Sen, 16 Go9 8, Higashikagura",
+                "street2": "Kamikawa District",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AKJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AKJ",
+            "requestedCode": "AKJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AKJ/dep"
+    }
+}

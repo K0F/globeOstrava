@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saint Lucia",
+                "cityCode": "SLU",
+                "classification": 4,
+                "countryCode": "LC",
+                "countryName": "Saint Lucia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UVF?codeType=fs",
+                "elevationFeet": 11,
+                "fs": "UVF",
+                "iata": "UVF",
+                "icao": "TLPL",
+                "latitude": 13.735556,
+                "localTime": "2014-07-27T12:37:05.471",
+                "longitude": -60.952222,
+                "name": "Hewanorra Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/St_Lucia",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UVF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UVF",
+            "requestedCode": "UVF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UVF/dep"
+    }
+}

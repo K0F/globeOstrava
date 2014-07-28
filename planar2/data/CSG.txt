@@ -1,0 +1,52 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Columbus",
+                "cityCode": "CSG",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CSG?codeType=fs",
+                "elevationFeet": 397,
+                "faa": "CSG",
+                "fs": "CSG",
+                "iata": "CSG",
+                "icao": "KCSG",
+                "latitude": 32.513333,
+                "localTime": "2014-07-26T08:34:45.141",
+                "longitude": -84.941111,
+                "name": "Columbus Airport",
+                "postalCode": "31909",
+                "regionName": "North America",
+                "stateCode": "GA",
+                "street1": "3250 West Britt David Road",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CSG?codeType=fs",
+                "weatherZone": "GAZ089"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CSG",
+            "requestedCode": "CSG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CSG/dep"
+    }
+}

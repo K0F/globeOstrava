@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sidney",
+                "cityCode": "SNY",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SNY?codeType=fs",
+                "elevationFeet": 4313,
+                "faa": "SNY",
+                "fs": "SNY",
+                "iata": "SNY",
+                "icao": "KSNY",
+                "latitude": 41.099444,
+                "localTime": "2014-07-26T10:26:42.649",
+                "longitude": -102.9825,
+                "name": "Sidney Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "NE",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SNY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SNY",
+            "requestedCode": "SNY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SNY/dep"
+    }
+}

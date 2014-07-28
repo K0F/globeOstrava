@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Spring Point",
+                "cityCode": "AXP",
+                "classification": 4,
+                "countryCode": "BS",
+                "countryName": "Bahamas",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AXP?codeType=fs",
+                "elevationFeet": 11,
+                "fs": "AXP",
+                "iata": "AXP",
+                "icao": "MYAP",
+                "latitude": 22.45,
+                "localTime": "2014-07-27T12:27:06.178",
+                "longitude": -73.966667,
+                "name": "Springpoint Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Nassau",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AXP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AXP",
+            "requestedCode": "AXP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AXP/dep"
+    }
+}

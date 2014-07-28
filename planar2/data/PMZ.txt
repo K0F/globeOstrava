@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Palmar",
+                "cityCode": "PMZ",
+                "classification": 4,
+                "countryCode": "CR",
+                "countryName": "Costa Rica",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PMZ?codeType=fs",
+                "elevationFeet": 49,
+                "fs": "PMZ",
+                "iata": "PMZ",
+                "icao": "MRPM",
+                "latitude": 8.950836,
+                "localTime": "2014-07-26T09:20:22.964",
+                "longitude": -83.465981,
+                "name": "Palmur'Sur Airport",
+                "regionName": "Central America",
+                "timeZoneRegionName": "America/Costa_Rica",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PMZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PMZ",
+            "requestedCode": "PMZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PMZ/dep"
+    }
+}

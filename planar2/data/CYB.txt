@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cayman Brac Island",
+                "cityCode": "CYB",
+                "classification": 4,
+                "countryCode": "KY",
+                "countryName": "Cayman Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CYB?codeType=fs",
+                "elevationFeet": 8,
+                "fs": "CYB",
+                "iata": "CYB",
+                "icao": "MWCB",
+                "latitude": 19.690192,
+                "localTime": "2014-07-27T11:27:01.491",
+                "longitude": -79.879407,
+                "name": "Charles Kirkconnel International Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Cayman",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CYB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CYB",
+            "requestedCode": "CYB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CYB/dep"
+    }
+}

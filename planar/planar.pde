@@ -24,6 +24,7 @@ boolean render = true;
 
 PGraphics airplanesLayer;
 PImage normalTexture;
+PImage shade;
 
 RouteMap routemap;
 Airports aData;
@@ -87,6 +88,7 @@ void setup(){
 
   custom = loadShader("frag.glsl", "vert.glsl");
   normalTexture = loadImage("normal.png");
+  shade = loadImage("shade.png");
   print("OK!");
   println("");
 

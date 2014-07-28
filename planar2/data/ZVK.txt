@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Savannakhet",
+                "cityCode": "ZVK",
+                "classification": 4,
+                "countryCode": "LA",
+                "countryName": "Lao People's Democratic Republic",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ZVK?codeType=fs",
+                "elevationFeet": 509,
+                "fs": "ZVK",
+                "iata": "ZVK",
+                "icao": "VLSK",
+                "latitude": 16.553611,
+                "localTime": "2014-07-27T23:39:49.953",
+                "longitude": 104.7625,
+                "name": "Savannakhet Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Vientiane",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ZVK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ZVK",
+            "requestedCode": "ZVK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ZVK/dep"
+    }
+}

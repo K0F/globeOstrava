@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Gbadolite",
+                "cityCode": "BDT",
+                "classification": 4,
+                "countryCode": "CD",
+                "countryName": "The Democratic Republic of The Congo",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BDT?codeType=fs",
+                "elevationFeet": 1509,
+                "fs": "BDT",
+                "iata": "BDT",
+                "icao": "FZFD",
+                "latitude": 4.083333,
+                "localTime": "2014-07-27T17:16:36.264",
+                "longitude": 22.45,
+                "name": "Gbadolite Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Kinshasa",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BDT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BDT",
+            "requestedCode": "BDT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BDT/dep"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rifle",
+                "cityCode": "RIL",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RIL?codeType=fs",
+                "elevationFeet": 5520,
+                "faa": "RIL",
+                "fs": "RIL",
+                "iata": "RIL",
+                "icao": "KRIL",
+                "latitude": 39.526267,
+                "localTime": "2014-07-26T06:42:53.052",
+                "longitude": -107.725484,
+                "name": "Garfield County Airport",
+                "regionName": "North America",
+                "stateCode": "CO",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RIL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RIL",
+            "requestedCode": "RIL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RIL/dep"
+    }
+}

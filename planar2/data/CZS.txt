@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cruzeiro Do Sul",
+                "cityCode": "CZS",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CZS?codeType=fs",
+                "elevationFeet": 654,
+                "fs": "CZS",
+                "iata": "CZS",
+                "icao": "SBCZ",
+                "latitude": -7.583333,
+                "localTime": "2014-07-27T11:33:21.364",
+                "longitude": -72.783333,
+                "name": "Campo Internacional Airport",
+                "regionName": "South America",
+                "stateCode": "AC",
+                "timeZoneRegionName": "America/Rio_Branco",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CZS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CZS",
+            "requestedCode": "CZS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CZS/dep"
+    }
+}

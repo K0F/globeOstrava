@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Buyo",
+                "cityCode": "BUU",
+                "classification": 5,
+                "countryCode": "CI",
+                "countryName": "Cote d'Ivoire",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BUU?codeType=fs",
+                "fs": "BUU",
+                "iata": "BUU",
+                "latitude": 6.35,
+                "localTime": "2014-07-26T15:13:13.545",
+                "longitude": -7.083333,
+                "name": "Buyo Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Abidjan",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BUU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BUU",
+            "requestedCode": "BUU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BUU/dep"
+    }
+}

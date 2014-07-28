@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tarakan",
+                "cityCode": "TRK",
+                "classification": 4,
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TRK?codeType=fs",
+                "elevationFeet": 20,
+                "fs": "TRK",
+                "iata": "TRK",
+                "icao": "WALR",
+                "latitude": 3.327222,
+                "localTime": "2014-07-27T23:49:05.094",
+                "longitude": 117.565278,
+                "name": "Tarakan Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Makassar",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TRK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TRK",
+            "requestedCode": "TRK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TRK/dep"
+    }
+}

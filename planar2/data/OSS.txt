@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Osh",
+                "cityCode": "OSS",
+                "classification": 4,
+                "countryCode": "KG",
+                "countryName": "Kyrgyzstan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OSS?codeType=fs",
+                "elevationFeet": 2927,
+                "fs": "OSS",
+                "iata": "OSS",
+                "icao": "UAFO",
+                "latitude": 40.60769,
+                "localTime": "2014-07-27T22:37:25.093",
+                "longitude": 72.786482,
+                "name": "Osh Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Bishkek",
+                "utcOffsetHours": 6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OSS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OSS",
+            "requestedCode": "OSS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OSS/dep"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Hagerstown",
+                "cityCode": "HGR",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HGR?codeType=fs",
+                "elevationFeet": 703,
+                "faa": "HGR",
+                "fs": "HGR",
+                "iata": "HGR",
+                "icao": "KHGR",
+                "latitude": 39.707778,
+                "localTime": "2014-07-26T12:30:53.436",
+                "longitude": -77.73,
+                "name": "Wash. County Regional Airport",
+                "postalCode": "21742",
+                "regionName": "North America",
+                "stateCode": "MD",
+                "street1": "18434 Showalter Road",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HGR?codeType=fs",
+                "weatherZone": "MDZ003"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HGR",
+            "requestedCode": "HGR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HGR/dep"
+    }
+}

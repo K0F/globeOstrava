@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Buochs",
+                "cityCode": "BXO",
+                "classification": 5,
+                "countryCode": "CH",
+                "countryName": "Switzerland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BXO?codeType=fs",
+                "fs": "BXO",
+                "iata": "BXO",
+                "latitude": 46.966667,
+                "localTime": "2014-07-27T17:52:34.150",
+                "longitude": 8.383333,
+                "name": "Buochs Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Zurich",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BXO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BXO",
+            "requestedCode": "BXO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BXO/dep"
+    }
+}

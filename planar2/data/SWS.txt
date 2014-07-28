@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Swansea",
+                "cityCode": "SWS",
+                "classification": 4,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SWS?codeType=fs",
+                "elevationFeet": 260,
+                "fs": "SWS",
+                "iata": "SWS",
+                "icao": "EGFH",
+                "latitude": 51.601705,
+                "localTime": "2014-07-27T16:55:08.140",
+                "longitude": -4.066233,
+                "name": "Swansea Airport",
+                "regionName": "Europe",
+                "stateCode": "WL",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SWS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SWS",
+            "requestedCode": "SWS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SWS/dep"
+    }
+}

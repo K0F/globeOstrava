@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Prescott",
+                "cityCode": "PRC",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PRC?codeType=fs",
+                "elevationFeet": 5045,
+                "faa": "PRC",
+                "fs": "PRC",
+                "iata": "PRC",
+                "icao": "KPRC",
+                "latitude": 34.65,
+                "localTime": "2014-07-26T04:03:30.154",
+                "longitude": -112.424167,
+                "name": "Prescott Airport",
+                "postalCode": "86301",
+                "regionName": "North America",
+                "stateCode": "AZ",
+                "street1": "6546 Crystal Lane",
+                "street2": "",
+                "timeZoneRegionName": "America/Phoenix",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PRC?codeType=fs",
+                "weatherZone": "AZZ008"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PRC",
+            "requestedCode": "PRC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PRC/dep"
+    }
+}

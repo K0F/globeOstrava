@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Gaborone",
+                "cityCode": "GBE",
+                "classification": 4,
+                "countryCode": "BW",
+                "countryName": "Botswana",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GBE?codeType=fs",
+                "elevationFeet": 3299,
+                "fs": "GBE",
+                "iata": "GBE",
+                "icao": "FBSK",
+                "latitude": -24.557982,
+                "localTime": "2014-07-27T18:14:38.836",
+                "longitude": 25.924509,
+                "name": "Sir Seretse Khama International Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Gaborone",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GBE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GBE",
+            "requestedCode": "GBE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GBE/dep"
+    }
+}

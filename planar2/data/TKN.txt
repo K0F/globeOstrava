@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tokunoshima",
+                "cityCode": "TKN",
+                "classification": 4,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TKN?codeType=fs",
+                "elevationFeet": 8,
+                "fs": "TKN",
+                "iata": "TKN",
+                "icao": "RJKN",
+                "latitude": 27.833333,
+                "localTime": "2014-07-28T01:31:14.301",
+                "longitude": 128.883333,
+                "name": "Tokunoshima Airport",
+                "regionName": "Asia",
+                "street1": "306-6 Asama, Amagi",
+                "street2": "Oshima District",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TKN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TKN",
+            "requestedCode": "TKN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TKN/dep"
+    }
+}

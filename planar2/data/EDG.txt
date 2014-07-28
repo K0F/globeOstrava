@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Edgewood Arsenal",
+                "cityCode": "EDG",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/EDG?codeType=fs",
+                "elevationFeet": 30,
+                "faa": "EDG",
+                "fs": "EDG",
+                "iata": "EDG",
+                "icao": "KEDG",
+                "latitude": 39.465667,
+                "localTime": "2014-07-26T11:07:02.344",
+                "longitude": -76.360917,
+                "name": "Weide Army Air Field",
+                "regionName": "North America",
+                "stateCode": "MD",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/EDG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "EDG",
+            "requestedCode": "EDG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/EDG/dep"
+    }
+}

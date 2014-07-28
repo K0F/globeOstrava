@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Klawock",
+                "cityCode": "KLW",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KLW?codeType=fs",
+                "elevationFeet": 80,
+                "faa": "PAKW",
+                "fs": "KLW",
+                "iata": "KLW",
+                "icao": "PAKW",
+                "latitude": 55.555,
+                "localTime": "2014-07-26T04:36:33.572",
+                "longitude": -133.1,
+                "name": "Klawock Airport",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KLW?codeType=fs",
+                "weatherZone": "AKZ028"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KLW",
+            "requestedCode": "PAKW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PAKW/dep"
+    }
+}

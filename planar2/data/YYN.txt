@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Swift Current",
+                "cityCode": "YYN",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YYN?codeType=fs",
+                "elevationFeet": 2684,
+                "fs": "YYN",
+                "iata": "YYN",
+                "icao": "CYYN",
+                "latitude": 50.286404,
+                "localTime": "2014-07-27T10:07:24.075",
+                "longitude": -107.693625,
+                "name": "Swift Current Airport",
+                "regionName": "North America",
+                "stateCode": "SK",
+                "timeZoneRegionName": "America/Regina",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YYN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YYN",
+            "requestedCode": "YYN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YYN/dep"
+    }
+}

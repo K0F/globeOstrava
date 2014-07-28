@@ -1,0 +1,52 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Latrobe",
+                "cityCode": "LBE",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LBE?codeType=fs",
+                "elevationFeet": 1146,
+                "faa": "LBE",
+                "fs": "LBE",
+                "iata": "LBE",
+                "icao": "KLBE",
+                "latitude": 40.272927,
+                "localTime": "2014-07-26T12:29:37.032",
+                "longitude": -79.40855,
+                "name": "Westmoreland County Airport",
+                "postalCode": "15650-9549",
+                "regionName": "North America",
+                "stateCode": "PA",
+                "street1": "200 Pleasant Unity Road",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LBE?codeType=fs",
+                "weatherZone": "PAZ030"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LBE",
+            "requestedCode": "LBE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LBE/dep"
+    }
+}

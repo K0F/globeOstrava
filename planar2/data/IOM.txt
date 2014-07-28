@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Isle Of Man",
+                "cityCode": "IOM",
+                "classification": 3,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IOM?codeType=fs",
+                "elevationFeet": 55,
+                "fs": "IOM",
+                "iata": "IOM",
+                "icao": "EGNS",
+                "latitude": 54.086769,
+                "localTime": "2014-07-27T17:11:27.825",
+                "longitude": -4.63473,
+                "name": "Ronaldsway Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IOM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IOM",
+            "requestedCode": "IOM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IOM/dep"
+    }
+}

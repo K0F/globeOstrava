@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kiana",
+                "cityCode": "IAN",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IAN?codeType=fs",
+                "elevationFeet": 173,
+                "faa": "IAN",
+                "fs": "IAN",
+                "iata": "IAN",
+                "icao": "PAIK",
+                "latitude": 66.974752,
+                "localTime": "2014-07-26T04:37:26.037",
+                "longitude": -160.441212,
+                "name": "Bob Baker Memorial Airport",
+                "postalCode": "99749",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IAN?codeType=fs",
+                "weatherZone": "AKZ217"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IAN",
+            "requestedCode": "IAN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IAN/dep"
+    }
+}

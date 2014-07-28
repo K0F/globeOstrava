@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dakar",
+                "cityCode": "DKR",
+                "classification": 3,
+                "countryCode": "SN",
+                "countryName": "Senegal",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DKR?codeType=fs",
+                "elevationFeet": 89,
+                "fs": "DKR",
+                "iata": "DKR",
+                "icao": "GOOY",
+                "latitude": 14.744975,
+                "localTime": "2014-07-27T16:17:21.696",
+                "longitude": -17.490194,
+                "name": "Yoff Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Dakar",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DKR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DKR",
+            "requestedCode": "DKR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DKR/dep"
+    }
+}

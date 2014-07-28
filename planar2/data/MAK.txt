@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Malakal",
+                "cityCode": "MAK",
+                "classification": 4,
+                "countryCode": "SS",
+                "countryName": "South Sudan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MAK?codeType=fs",
+                "elevationFeet": 1270,
+                "fs": "MAK",
+                "iata": "MAK",
+                "icao": "HSSM",
+                "latitude": 9.555556,
+                "localTime": "2014-07-27T19:18:27.565",
+                "longitude": 31.644444,
+                "name": "Malakal Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Juba",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MAK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MAK",
+            "requestedCode": "MAK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MAK/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Chaurjhari",
+                "cityCode": "HRJ",
+                "classification": 5,
+                "countryCode": "NP",
+                "countryName": "Nepal",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HRJ?codeType=fs",
+                "elevationFeet": 1219,
+                "fs": "HRJ",
+                "iata": "HRJ",
+                "icao": "VNCJ",
+                "latitude": 28.0,
+                "localTime": "2014-07-26T18:26:03.032",
+                "longitude": 82.333333,
+                "name": "Chaurjhari Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kathmandu",
+                "utcOffsetHours": 5.75,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HRJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HRJ",
+            "requestedCode": "HRJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HRJ/dep"
+    }
+}

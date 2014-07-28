@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Damascus",
+                "cityCode": "DAM",
+                "classification": 4,
+                "countryCode": "SY",
+                "countryName": "Syrian Arab Republic",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DAM?codeType=fs",
+                "elevationFeet": 2020,
+                "fs": "DAM",
+                "iata": "DAM",
+                "icao": "OSDI",
+                "latitude": 33.411171,
+                "localTime": "2014-07-27T19:30:10.883",
+                "longitude": 36.512488,
+                "name": "Damascus International Airport",
+                "regionName": "Middle East",
+                "timeZoneRegionName": "Asia/Damascus",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DAM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DAM",
+            "requestedCode": "DAM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DAM/dep"
+    }
+}

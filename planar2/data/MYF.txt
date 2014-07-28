@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "San Diego",
+                "cityCode": "SAN",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MYF?codeType=fs",
+                "elevationFeet": 420,
+                "faa": "MYF",
+                "fs": "MYF",
+                "iata": "MYF",
+                "icao": "KMYF",
+                "latitude": 32.815449,
+                "localTime": "2014-07-27T08:55:33.513",
+                "longitude": -117.135633,
+                "name": "Montgomery Field",
+                "regionName": "North America",
+                "stateCode": "CA",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MYF?codeType=fs",
+                "weatherZone": "CAZ043"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MYF",
+            "requestedCode": "MYF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MYF/dep"
+    }
+}

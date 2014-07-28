@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Marathon",
+                "cityCode": "MTH",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MTH?codeType=fs",
+                "elevationFeet": 4,
+                "faa": "MTH",
+                "fs": "MTH",
+                "iata": "MTH",
+                "icao": "KMTH",
+                "latitude": 24.726206,
+                "localTime": "2014-07-26T12:23:30.132",
+                "longitude": -81.050937,
+                "name": "Florida Keys Marathon Airport",
+                "postalCode": "33050",
+                "regionName": "North America",
+                "stateCode": "FL",
+                "street1": "9400 Overseas Highway, Suite 200",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MTH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MTH",
+            "requestedCode": "MTH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MTH/dep"
+    }
+}
