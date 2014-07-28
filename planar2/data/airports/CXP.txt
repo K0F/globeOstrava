@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cilacap",
+                "cityCode": "CXP",
+                "classification": 5,
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CXP?codeType=fs",
+                "elevationFeet": 70,
+                "fs": "CXP",
+                "iata": "CXP",
+                "icao": "WIIL",
+                "latitude": -7.733333,
+                "localTime": "2014-07-26T22:14:26.880",
+                "longitude": 109.0,
+                "name": "Tunggul Wulung Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Jakarta",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CXP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CXP",
+            "requestedCode": "CXP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CXP/dep"
+    }
+}

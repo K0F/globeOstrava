@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sasstown",
+                "cityCode": "SAZ",
+                "classification": 5,
+                "countryCode": "LR",
+                "countryName": "Liberia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SAZ?codeType=fs",
+                "fs": "SAZ",
+                "iata": "SAZ",
+                "latitude": 4.666667,
+                "localTime": "2014-07-26T15:21:28.778",
+                "longitude": -8.433333,
+                "name": "Sasstown Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Monrovia",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SAZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SAZ",
+            "requestedCode": "SAZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SAZ/dep"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Missoula",
+                "cityCode": "MSO",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MSO?codeType=fs",
+                "elevationFeet": 3205,
+                "faa": "MSO",
+                "fs": "MSO",
+                "iata": "MSO",
+                "icao": "KMSO",
+                "latitude": 46.918965,
+                "localTime": "2014-07-26T10:30:35.639",
+                "longitude": -114.083216,
+                "name": "Johnson-Bell Field",
+                "postalCode": "59802",
+                "regionName": "North America",
+                "stateCode": "MT",
+                "street1": "5225 Highway 10 West",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MSO?codeType=fs",
+                "weatherZone": "MTZ043"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MSO",
+            "requestedCode": "MSO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MSO/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Zanjan",
+                "cityCode": "JWN",
+                "classification": 4,
+                "countryCode": "IR",
+                "countryName": "Iran",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/JWN?codeType=fs",
+                "elevationFeet": 5372,
+                "fs": "JWN",
+                "iata": "JWN",
+                "icao": "OITZ",
+                "latitude": 36.774417,
+                "localTime": "2014-07-26T20:56:56.055",
+                "longitude": 48.369855,
+                "name": "Zanjan Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Tehran",
+                "utcOffsetHours": 4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/JWN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "JWN",
+            "requestedCode": "JWN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/JWN/dep"
+    }
+}

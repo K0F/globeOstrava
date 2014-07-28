@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Pemba",
+                "cityCode": "POL",
+                "classification": 4,
+                "countryCode": "MZ",
+                "countryName": "Mozambique",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/POL?codeType=fs",
+                "elevationFeet": 331,
+                "fs": "POL",
+                "iata": "POL",
+                "icao": "FQPB",
+                "latitude": -12.988333,
+                "localTime": "2014-07-27T18:16:07.880",
+                "longitude": 40.5225,
+                "name": "Pemba Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Maputo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/POL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "POL",
+            "requestedCode": "POL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/POL/dep"
+    }
+}

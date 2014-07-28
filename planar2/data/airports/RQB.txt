@@ -1,0 +1,23 @@
+{
+    "appendix": {},
+    "error": {
+        "errorCode": "BAD_AIRPORT_CODE",
+        "errorId": "cce029be-06b9-44b7-b710-23406fb77829",
+        "errorMessage": "The given airport code was invalid. Invalid airport code: 'RQB'",
+        "httpStatusCode": 400
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "error": "BAD_AIRPORT_CODE",
+            "requestedCode": "RQB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {},
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {},
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RQB/dep"
+    }
+}

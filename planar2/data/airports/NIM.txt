@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Niamey",
+                "cityCode": "NIM",
+                "classification": 4,
+                "countryCode": "NE",
+                "countryName": "Niger",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NIM?codeType=fs",
+                "elevationFeet": 732,
+                "fs": "NIM",
+                "iata": "NIM",
+                "icao": "DRRN",
+                "latitude": 13.476534,
+                "localTime": "2014-07-27T17:08:54.064",
+                "longitude": 2.177158,
+                "name": "Niamey Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Niamey",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NIM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NIM",
+            "requestedCode": "NIM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NIM/dep"
+    }
+}

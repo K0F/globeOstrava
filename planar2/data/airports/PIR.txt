@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Pierre",
+                "cityCode": "PIR",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PIR?codeType=fs",
+                "elevationFeet": 1742,
+                "faa": "PIR",
+                "fs": "PIR",
+                "iata": "PIR",
+                "icao": "KPIR",
+                "latitude": 44.380362,
+                "localTime": "2014-07-26T07:38:05.475",
+                "longitude": -100.293192,
+                "name": "Pierre Airport",
+                "postalCode": "57501",
+                "regionName": "North America",
+                "stateCode": "SD",
+                "street1": "4001 Airport Road",
+                "street2": "",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PIR?codeType=fs",
+                "weatherZone": "SDZ035"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PIR",
+            "requestedCode": "PIR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PIR/dep"
+    }
+}

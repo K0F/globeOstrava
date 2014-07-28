@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kerry County",
+                "cityCode": "KIR",
+                "classification": 4,
+                "countryCode": "IE",
+                "countryName": "Ireland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KIR?codeType=fs",
+                "elevationFeet": 113,
+                "fs": "KIR",
+                "iata": "KIR",
+                "icao": "EIKY",
+                "latitude": 52.181475,
+                "localTime": "2014-07-27T17:12:23.353",
+                "longitude": -9.535666,
+                "name": "Kerry County Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Dublin",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KIR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KIR",
+            "requestedCode": "KIR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KIR/dep"
+    }
+}

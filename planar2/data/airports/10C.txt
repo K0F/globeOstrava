@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Greenwood/Wonder Lake",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/10C?codeType=fs",
+                "elevationFeet": 875,
+                "faa": "10C",
+                "fs": "10C",
+                "latitude": 42.426639,
+                "localTime": "2014-07-26T07:44:42.898",
+                "longitude": -88.458889,
+                "name": "Galt",
+                "regionName": "North America",
+                "stateCode": "IL",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/10C?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "10C",
+            "requestedCode": "10C"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/10C/dep"
+    }
+}

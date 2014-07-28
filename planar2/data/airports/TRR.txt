@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Trincomalee",
+                "cityCode": "TRR",
+                "classification": 4,
+                "countryCode": "LK",
+                "countryName": "Sri Lanka",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TRR?codeType=fs",
+                "elevationFeet": 10,
+                "fs": "TRR",
+                "iata": "TRR",
+                "icao": "VCCT",
+                "latitude": 8.538984,
+                "localTime": "2014-07-27T21:18:59.392",
+                "longitude": 81.181889,
+                "name": "China Bay Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Colombo",
+                "utcOffsetHours": 5.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TRR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TRR",
+            "requestedCode": "TRR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TRR/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mooresville",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/14A?codeType=fs",
+                "elevationFeet": 840,
+                "faa": "14A",
+                "fs": "14A",
+                "latitude": 35.612803,
+                "localTime": "2014-07-26T08:39:42.987",
+                "longitude": -80.897745,
+                "name": "Lake Norman Airport",
+                "regionName": "North America",
+                "stateCode": "NC",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/14A?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "14A",
+            "requestedCode": "14A"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/14A/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Scobey",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/8U3?codeType=fs",
+                "elevationFeet": 2501,
+                "faa": "8U3",
+                "fs": "8U3",
+                "latitude": 49.00025,
+                "localTime": "2014-07-26T09:50:54.355",
+                "longitude": -105.4055,
+                "name": "Scobey Border Stn/East Poplar*",
+                "regionName": "North America",
+                "stateCode": "MT",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/8U3?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "8U3",
+            "requestedCode": "8U3"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/8U3/dep"
+    }
+}

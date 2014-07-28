@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mildenhall",
+                "cityCode": "MHZ",
+                "classification": 5,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MHZ?codeType=fs",
+                "elevationFeet": 33,
+                "fs": "MHZ",
+                "iata": "MHZ",
+                "icao": "EGUN",
+                "latitude": 52.366667,
+                "localTime": "2014-07-27T17:12:02.004",
+                "longitude": 0.483333,
+                "name": "Mildenhall Airport",
+                "regionName": "Europe",
+                "stateCode": "EN",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MHZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MHZ",
+            "requestedCode": "MHZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MHZ/dep"
+    }
+}

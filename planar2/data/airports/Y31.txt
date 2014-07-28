@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "West Branch",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/Y31?codeType=fs",
+                "elevationFeet": 882,
+                "faa": "Y31",
+                "fs": "Y31",
+                "latitude": 44.34825,
+                "localTime": "2014-07-26T12:23:40.945",
+                "longitude": -84.298056,
+                "name": "West Branch Community",
+                "regionName": "North America",
+                "stateCode": "MI",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/Y31?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "Y31",
+            "requestedCode": "Y31"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/Y31/dep"
+    }
+}

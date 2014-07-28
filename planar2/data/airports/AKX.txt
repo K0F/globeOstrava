@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Aktyubinsk",
+                "cityCode": "AKX",
+                "classification": 4,
+                "countryCode": "KZ",
+                "countryName": "Kazakhstan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AKX?codeType=fs",
+                "elevationFeet": 738,
+                "fs": "AKX",
+                "iata": "AKX",
+                "icao": "UATT",
+                "latitude": 50.249336,
+                "localTime": "2014-07-27T21:37:31.427",
+                "longitude": 57.211403,
+                "name": "Aktyubinsk Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Aqtobe",
+                "utcOffsetHours": 5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AKX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AKX",
+            "requestedCode": "AKX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AKX/dep"
+    }
+}

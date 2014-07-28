@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Samburu",
+                "cityCode": "UAS",
+                "classification": 4,
+                "countryCode": "KE",
+                "countryName": "Kenya",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UAS?codeType=fs",
+                "elevationFeet": 3295,
+                "fs": "UAS",
+                "iata": "UAS",
+                "icao": "HKSB",
+                "latitude": 0.466667,
+                "localTime": "2014-07-27T18:52:09.297",
+                "longitude": 37.55,
+                "name": "Samburu Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Nairobi",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UAS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UAS",
+            "requestedCode": "UAS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UAS/dep"
+    }
+}

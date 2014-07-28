@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cleveland",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/6R3?codeType=fs",
+                "elevationFeet": 151,
+                "faa": "6R3",
+                "fs": "6R3",
+                "latitude": 30.414306,
+                "localTime": "2014-07-26T10:46:25.368",
+                "longitude": -95.080139,
+                "name": "Cleveland Municipal",
+                "regionName": "North America",
+                "stateCode": "TX",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/6R3?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "6R3",
+            "requestedCode": "6R3"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/6R3/dep"
+    }
+}

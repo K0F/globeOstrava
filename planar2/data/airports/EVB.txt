@@ -1,0 +1,23 @@
+{
+    "appendix": {},
+    "error": {
+        "errorCode": "BAD_AIRPORT_CODE",
+        "errorId": "97d20221-fa05-4d63-aa7c-b8e914d586a8",
+        "errorMessage": "The given airport code was invalid. Invalid airport code: 'EVB'",
+        "httpStatusCode": 400
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "error": "BAD_AIRPORT_CODE",
+            "requestedCode": "EVB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {},
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {},
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/EVB/dep"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Daggett",
+                "cityCode": "DAG",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DAG?codeType=fs",
+                "elevationFeet": 1927,
+                "faa": "DAG",
+                "fs": "DAG",
+                "iata": "DAG",
+                "icao": "KDAG",
+                "latitude": 34.25,
+                "localTime": "2014-07-26T08:57:02.794",
+                "longitude": -117.333333,
+                "name": "Barstow-Daggett Airport",
+                "regionName": "North America",
+                "stateCode": "CA",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DAG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DAG",
+            "requestedCode": "DAG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DAG/dep"
+    }
+}

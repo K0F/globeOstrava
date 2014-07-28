@@ -1,0 +1,23 @@
+{
+    "appendix": {},
+    "error": {
+        "errorCode": "BAD_AIRPORT_CODE",
+        "errorId": "2be6fdd7-2b9f-4e24-b8f8-1c577e0e3d6e",
+        "errorMessage": "The given airport code was invalid. Invalid airport code: '4KA'",
+        "httpStatusCode": 400
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "error": "BAD_AIRPORT_CODE",
+            "requestedCode": "4KA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {},
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {},
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/4KA/dep"
+    }
+}

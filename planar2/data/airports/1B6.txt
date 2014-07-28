@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Hopedale",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/1B6?codeType=fs",
+                "elevationFeet": 269,
+                "faa": "1B6",
+                "fs": "1B6",
+                "latitude": 42.164861,
+                "localTime": "2014-07-26T11:30:50.927",
+                "longitude": -71.600889,
+                "name": "Hopedale Industrial Park",
+                "regionName": "North America",
+                "stateCode": "MA",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/1B6?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "1B6",
+            "requestedCode": "1B6"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/1B6/dep"
+    }
+}

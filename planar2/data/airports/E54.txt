@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bowie",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/E54?codeType=fs",
+                "elevationFeet": 3737,
+                "faa": "E54",
+                "fs": "E54",
+                "latitude": 32.359083,
+                "localTime": "2014-07-26T08:07:31.602",
+                "longitude": -109.531194,
+                "name": "Bowie",
+                "regionName": "North America",
+                "stateCode": "AZ",
+                "timeZoneRegionName": "America/Phoenix",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/E54?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "E54",
+            "requestedCode": "E54"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/E54/dep"
+    }
+}

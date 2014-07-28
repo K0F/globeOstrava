@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Yalinga",
+                "cityCode": "AIG",
+                "classification": 5,
+                "countryCode": "CF",
+                "countryName": "Central African Republic",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AIG?codeType=fs",
+                "elevationFeet": 1522,
+                "fs": "AIG",
+                "iata": "AIG",
+                "icao": "FEFY",
+                "latitude": 6.516667,
+                "localTime": "2014-07-26T16:12:01.801",
+                "longitude": 23.25,
+                "name": "Yalinga Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Bangui",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AIG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AIG",
+            "requestedCode": "AIG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AIG/dep"
+    }
+}

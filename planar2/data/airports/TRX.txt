@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Trenton",
+                "cityCode": "TRX",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TRX?codeType=fs",
+                "elevationFeet": 757,
+                "faa": "TRX",
+                "fs": "TRX",
+                "iata": "TRX",
+                "icao": "KTRX",
+                "latitude": 40.083333,
+                "localTime": "2014-07-26T10:22:36.826",
+                "longitude": -93.616667,
+                "name": "Trenton Memorial Airport",
+                "regionName": "North America",
+                "stateCode": "MO",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TRX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TRX",
+            "requestedCode": "TRX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TRX/dep"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Aljouf",
+                "cityCode": "AJO",
+                "classification": 5,
+                "countryCode": "YE",
+                "countryName": "Republic of Yemen",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AJO?codeType=fs",
+                "fs": "AJO",
+                "iata": "AJO",
+                "latitude": 15.716667,
+                "localTime": "2014-07-26T18:12:05.699",
+                "longitude": 44.25,
+                "name": "Aljouf Airport",
+                "regionName": "Middle East",
+                "timeZoneRegionName": "Asia/Aden",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AJO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AJO",
+            "requestedCode": "AJO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AJO/dep"
+    }
+}

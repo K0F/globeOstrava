@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rijeka",
+                "cityCode": "RJK",
+                "classification": 4,
+                "countryCode": "HR",
+                "countryName": "Croatia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RJK?codeType=fs",
+                "elevationFeet": 279,
+                "fs": "RJK",
+                "iata": "RJK",
+                "icao": "LDRI",
+                "latitude": 45.215833,
+                "localTime": "2014-07-27T18:18:57.624",
+                "longitude": 14.568333,
+                "name": "Rijeka Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Zagreb",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RJK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RJK",
+            "requestedCode": "RJK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RJK/dep"
+    }
+}

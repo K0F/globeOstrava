@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Perugia",
+                "cityCode": "PEG",
+                "classification": 4,
+                "countryCode": "IT",
+                "countryName": "Italy",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PEG?codeType=fs",
+                "elevationFeet": 692,
+                "fs": "PEG",
+                "iata": "PEG",
+                "icao": "LIRZ",
+                "latitude": 43.133333,
+                "localTime": "2014-07-27T18:22:42.183",
+                "longitude": 12.366667,
+                "name": "Sant Egidio Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Rome",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PEG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PEG",
+            "requestedCode": "PEG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PEG/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Naperville",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LL10?codeType=fs",
+                "elevationFeet": 708,
+                "faa": "LL10",
+                "fs": "LL10",
+                "icao": "LL10",
+                "latitude": 41.758667,
+                "localTime": "2014-07-26T10:59:26.181",
+                "longitude": -88.228,
+                "name": "Naper Aero Club",
+                "regionName": "North America",
+                "stateCode": "IL",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LL10?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LL10",
+            "requestedCode": "LL10"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LL10/dep"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "appendix": {},
+    "error": {
+        "errorCode": "BAD_AIRPORT_CODE",
+        "errorId": "409815a8-c23c-40c9-a089-e85c86d2a3e4",
+        "errorMessage": "The given airport code was invalid. Invalid airport code: 'Q14'",
+        "httpStatusCode": 400
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "error": "BAD_AIRPORT_CODE",
+            "requestedCode": "Q14"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {},
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {},
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/Q14/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mountain Home",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/U76?codeType=fs",
+                "elevationFeet": 3164,
+                "faa": "U76",
+                "fs": "U76",
+                "latitude": 43.262528,
+                "localTime": "2014-07-26T10:19:04.486",
+                "longitude": -115.845944,
+                "name": "Mountain Home Municipal",
+                "regionName": "North America",
+                "stateCode": "ID",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/U76?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "U76",
+            "requestedCode": "U76"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/U76/dep"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "appendix": {},
+    "error": {
+        "errorCode": "BAD_AIRPORT_CODE",
+        "errorId": "bab5298c-91f9-4e9d-9481-2974efbaceed",
+        "errorMessage": "The given airport code was invalid. Invalid airport code: 'FCI'",
+        "httpStatusCode": 400
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "error": "BAD_AIRPORT_CODE",
+            "requestedCode": "FCI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {},
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {},
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/FCI/dep"
+    }
+}

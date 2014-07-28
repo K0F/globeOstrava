@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Joliet",
+                "cityCode": "JOT",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/JOT?codeType=fs",
+                "elevationFeet": 581,
+                "faa": "JOT",
+                "fs": "JOT",
+                "iata": "JOT",
+                "icao": "KJOT",
+                "latitude": 41.533333,
+                "localTime": "2014-07-26T10:58:05.227",
+                "longitude": -88.083333,
+                "name": "Joliet Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "IL",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/JOT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "JOT",
+            "requestedCode": "JOT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/JOT/dep"
+    }
+}

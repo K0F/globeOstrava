@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": false,
+                "city": "Mohanbari",
+                "cityCode": "MOH",
+                "classification": 5,
+                "countryCode": "IN",
+                "countryName": "India",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MOH?codeType=fs",
+                "elevationFeet": 367,
+                "fs": "MOH",
+                "iata": "MOH",
+                "latitude": 27.483889,
+                "localTime": "2014-07-27T22:09:13.600",
+                "longitude": 95.020833,
+                "name": "Mohanbari Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kolkata",
+                "utcOffsetHours": 5.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MOH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MOH",
+            "requestedCode": "MOH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MOH/dep"
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "4U",
+                "iata": "4U",
+                "icao": "GWI",
+                "name": "Germanwings"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Heraklion",
+                "cityCode": "HER",
+                "classification": 4,
+                "countryCode": "GR",
+                "countryName": "Greece",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HER?codeType=fs",
+                "elevationFeet": 115,
+                "fs": "HER",
+                "iata": "HER",
+                "icao": "LGIR",
+                "latitude": 35.33663,
+                "localTime": "2014-07-27T19:21:18.587",
+                "longitude": 25.174193,
+                "name": "N. Kazantzakis Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Athens",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HER?codeType=fs"
+            },
+            {
+                "active": true,
+                "city": "Dusseldorf",
+                "cityCode": "DUS",
+                "classification": 1,
+                "countryCode": "DE",
+                "countryName": "Germany",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DUS?codeType=fs",
+                "elevationFeet": 147,
+                "fs": "DUS",
+                "iata": "DUS",
+                "icao": "EDDL",
+                "latitude": 51.278327,
+                "localTime": "2014-07-27T18:21:18.632",
+                "longitude": 6.76558,
+                "name": "Dusseldorf International Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Berlin",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DUS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "DUS",
+            "bearing": 325.64603370333646,
+            "carrierFsCode": "4U",
+            "delayMinutes": 51,
+            "departureAirportFsCode": "HER",
+            "departureDate": {
+                "dateLocal": "2014-07-27T16:55:00.000",
+                "dateUtc": "2014-07-27T13:55:00.000Z"
+            },
+            "equipment": "319",
+            "flightId": 410422772,
+            "flightNumber": "9671",
+            "heading": 331.918713551643,
+            "positions": [
+                {
+                    "altitudeFt": 14175,
+                    "date": "2014-07-27T13:58:14.000Z",
+                    "lat": 35.8065,
+                    "lon": 24.9079,
+                    "source": "AirNav",
+                    "speedMph": 451
+                },
+                {
+                    "altitudeFt": 13875,
+                    "date": "2014-07-27T13:58:00.000Z",
+                    "lat": 35.8065,
+                    "lon": 24.9079,
+                    "source": "AirNav",
+                    "speedMph": 449
+                },
+                {
+                    "altitudeFt": 9750,
+                    "date": "2014-07-27T13:55:44.000Z",
+                    "lat": 35.5796,
+                    "lon": 25.0725,
+                    "source": "AirNav",
+                    "speedMph": 315
+                },
+                {
+                    "altitudeFt": 5375,
+                    "date": "2014-07-27T13:53:44.000Z",
+                    "lat": 35.4684,
+                    "lon": 25.1232,
+                    "source": "AirNav"
+                },
+                {
+                    "altitudeFt": 1795,
+                    "date": "2014-07-27T13:52:57.000Z",
+                    "lat": 35.3632,
+                    "lon": 25.1464,
+                    "source": "AirNav",
+                    "speedMph": 283
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "HER",
+            "requestedCode": "HER"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HER/dep"
+    }
+}

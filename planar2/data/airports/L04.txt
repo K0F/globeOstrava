@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Holtville",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/L04?codeType=fs",
+                "elevationFeet": 52,
+                "faa": "L04",
+                "fs": "L04",
+                "latitude": 32.840499,
+                "localTime": "2014-07-26T05:39:57.752",
+                "longitude": -115.269745,
+                "name": "Holtville Airport",
+                "regionName": "North America",
+                "stateCode": "CA",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/L04?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "L04",
+            "requestedCode": "L04"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/L04/dep"
+    }
+}

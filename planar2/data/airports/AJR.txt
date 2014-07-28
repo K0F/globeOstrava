@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Arvidsjaur",
+                "cityCode": "AJR",
+                "classification": 4,
+                "countryCode": "SE",
+                "countryName": "Sweden",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AJR?codeType=fs",
+                "elevationFeet": 1245,
+                "fs": "AJR",
+                "iata": "AJR",
+                "icao": "ESNX",
+                "latitude": 65.591389,
+                "localTime": "2014-07-26T17:12:06.673",
+                "longitude": 19.285556,
+                "name": "Arvidsjaur Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Stockholm",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AJR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AJR",
+            "requestedCode": "AJR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AJR/dep"
+    }
+}

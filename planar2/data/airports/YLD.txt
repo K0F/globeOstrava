@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Chapleau",
+                "cityCode": "YLD",
+                "classification": 5,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YLD?codeType=fs",
+                "elevationFeet": 1465,
+                "fs": "YLD",
+                "iata": "YLD",
+                "icao": "CYLD",
+                "latitude": 47.819444,
+                "localTime": "2014-07-27T12:05:27.035",
+                "longitude": -83.352778,
+                "name": "Chapleau Airport",
+                "regionName": "North America",
+                "stateCode": "ON",
+                "timeZoneRegionName": "America/Toronto",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YLD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YLD",
+            "requestedCode": "YLD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YLD/dep"
+    }
+}

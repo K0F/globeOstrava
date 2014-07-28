@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Hamburg",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/4G2?codeType=fs",
+                "elevationFeet": 745,
+                "faa": "4G2",
+                "fs": "4G2",
+                "latitude": 42.700183,
+                "localTime": "2014-07-26T11:41:16.321",
+                "longitude": -79.914867,
+                "name": "Hamburg Inc Airport",
+                "regionName": "North America",
+                "stateCode": "NY",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/4G2?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "4G2",
+            "requestedCode": "4G2"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/4G2/dep"
+    }
+}

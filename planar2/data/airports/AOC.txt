@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Altenburg",
+                "cityCode": "AOC",
+                "classification": 4,
+                "countryCode": "DE",
+                "countryName": "Germany",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AOC?codeType=fs",
+                "elevationFeet": 641,
+                "fs": "AOC",
+                "iata": "AOC",
+                "icao": "EDAC",
+                "latitude": 50.983333,
+                "localTime": "2014-07-26T17:12:14.733",
+                "longitude": 12.45,
+                "name": "Altenburg Nobitz Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Berlin",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AOC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AOC",
+            "requestedCode": "AOC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AOC/dep"
+    }
+}

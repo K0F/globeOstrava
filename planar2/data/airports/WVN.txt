@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Wilhelmshaven",
+                "cityCode": "WVN",
+                "classification": 5,
+                "countryCode": "DE",
+                "countryName": "Germany",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/WVN?codeType=fs",
+                "elevationFeet": 16,
+                "fs": "WVN",
+                "iata": "WVN",
+                "icao": "EDWI",
+                "latitude": 53.533333,
+                "localTime": "2014-07-27T18:10:05.258",
+                "longitude": 8.116667,
+                "name": "Wilhelmshaven Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Berlin",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/WVN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "WVN",
+            "requestedCode": "WVN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/WVN/dep"
+    }
+}

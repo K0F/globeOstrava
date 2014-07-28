@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saint Nazaire",
+                "cityCode": "SNR",
+                "classification": 4,
+                "countryCode": "FR",
+                "countryName": "France",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SNR?codeType=fs",
+                "elevationFeet": 8,
+                "fs": "SNR",
+                "iata": "SNR",
+                "icao": "LFRZ",
+                "latitude": 47.312047,
+                "localTime": "2014-07-27T18:21:00.422",
+                "longitude": -2.153864,
+                "name": "Montoir Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Paris",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SNR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SNR",
+            "requestedCode": "SNR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SNR/dep"
+    }
+}

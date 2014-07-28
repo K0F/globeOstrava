@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bhairawa",
+                "cityCode": "BWA",
+                "classification": 4,
+                "countryCode": "NP",
+                "countryName": "Nepal",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BWA?codeType=fs",
+                "elevationFeet": 358,
+                "fs": "BWA",
+                "iata": "BWA",
+                "icao": "VNBW",
+                "latitude": 27.504167,
+                "localTime": "2014-07-27T22:24:53.001",
+                "longitude": 83.42,
+                "name": "Bhairawa Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kathmandu",
+                "utcOffsetHours": 5.75,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BWA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BWA",
+            "requestedCode": "BWA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BWA/dep"
+    }
+}

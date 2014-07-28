@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Burley",
+                "cityCode": "BYI",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BYI?codeType=fs",
+                "elevationFeet": 4150,
+                "faa": "BYI",
+                "fs": "BYI",
+                "iata": "BYI",
+                "icao": "KBYI",
+                "latitude": 42.541389,
+                "localTime": "2014-07-26T10:24:37.482",
+                "longitude": -113.774167,
+                "name": "Burley Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "ID",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BYI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BYI",
+            "requestedCode": "BYI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BYI/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bandar Seri Begawan",
+                "cityCode": "BWN",
+                "classification": 3,
+                "countryCode": "BN",
+                "countryName": "Brunei Darussalam",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BWN?codeType=fs",
+                "elevationFeet": 73,
+                "fs": "BWN",
+                "iata": "BWN",
+                "icao": "WBSB",
+                "latitude": 4.945197,
+                "localTime": "2014-07-27T23:53:28.370",
+                "longitude": 114.93375,
+                "name": "Brunei International Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Brunei",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BWN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BWN",
+            "requestedCode": "BWN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BWN/dep"
+    }
+}

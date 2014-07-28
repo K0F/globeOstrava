@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cashmere",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/8S2?codeType=fs",
+                "elevationFeet": 853,
+                "faa": "8S2",
+                "fs": "8S2",
+                "latitude": 47.648472,
+                "localTime": "2014-07-26T08:50:44.974",
+                "longitude": -120.498028,
+                "name": "Cashmere-Dryden",
+                "regionName": "North America",
+                "stateCode": "WA",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/8S2?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "8S2",
+            "requestedCode": "8S2"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/8S2/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Killdeer",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/9Y1?codeType=fs",
+                "elevationFeet": 2256,
+                "faa": "9Y1",
+                "fs": "9Y1",
+                "latitude": 47.477917,
+                "localTime": "2014-07-26T09:52:47.678",
+                "longitude": -102.807417,
+                "name": "Weydahl",
+                "regionName": "North America",
+                "stateCode": "ND",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/9Y1?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "9Y1",
+            "requestedCode": "9Y1"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/9Y1/dep"
+    }
+}

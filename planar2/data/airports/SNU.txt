@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Santa Clara",
+                "cityCode": "SNU",
+                "classification": 4,
+                "countryCode": "CU",
+                "countryName": "Cuba",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SNU?codeType=fs",
+                "elevationFeet": 360,
+                "fs": "SNU",
+                "iata": "SNU",
+                "icao": "MUSC",
+                "latitude": 22.491944,
+                "localTime": "2014-07-27T12:26:57.995",
+                "longitude": -79.941944,
+                "name": "Santa Clara Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Havana",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SNU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SNU",
+            "requestedCode": "SNU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SNU/dep"
+    }
+}

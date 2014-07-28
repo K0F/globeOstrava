@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Volgograd",
+                "cityCode": "VOG",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VOG?codeType=fs",
+                "elevationFeet": 482,
+                "fs": "VOG",
+                "iata": "VOG",
+                "icao": "URWW",
+                "latitude": 48.792,
+                "localTime": "2014-07-27T20:38:03.816",
+                "longitude": 44.354805,
+                "name": "Volgograd Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Moscow",
+                "utcOffsetHours": 4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VOG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "VOG",
+            "requestedCode": "VOG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/VOG/dep"
+    }
+}

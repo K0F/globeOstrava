@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Benghazi",
+                "cityCode": "BEN",
+                "classification": 3,
+                "countryCode": "LY",
+                "countryName": "Libya",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BEN?codeType=fs",
+                "elevationFeet": 433,
+                "fs": "BEN",
+                "iata": "BEN",
+                "icao": "HLLB",
+                "latitude": 32.085423,
+                "localTime": "2014-07-27T18:18:14.392",
+                "longitude": 20.264891,
+                "name": "Benina International Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Tripoli",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BEN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BEN",
+            "requestedCode": "BEN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BEN/dep"
+    }
+}

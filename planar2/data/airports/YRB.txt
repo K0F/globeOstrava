@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Resolute",
+                "cityCode": "YRB",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YRB?codeType=fs",
+                "elevationFeet": 171,
+                "fs": "YRB",
+                "iata": "YRB",
+                "icao": "CYRB",
+                "latitude": 74.716667,
+                "localTime": "2014-07-27T11:06:14.589",
+                "longitude": -94.966667,
+                "name": "Resolute Bay Airport",
+                "regionName": "North America",
+                "stateCode": "NU",
+                "timeZoneRegionName": "America/Winnipeg",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YRB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YRB",
+            "requestedCode": "YRB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YRB/dep"
+    }
+}

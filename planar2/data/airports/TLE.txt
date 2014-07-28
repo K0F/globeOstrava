@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tulear",
+                "cityCode": "TLE",
+                "classification": 4,
+                "countryCode": "MG",
+                "countryName": "Madagascar",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TLE?codeType=fs",
+                "elevationFeet": 30,
+                "fs": "TLE",
+                "iata": "TLE",
+                "icao": "FMST",
+                "latitude": -23.389722,
+                "localTime": "2014-07-27T19:15:36.331",
+                "longitude": 43.724167,
+                "name": "Tulear Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Indian/Antananarivo",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TLE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TLE",
+            "requestedCode": "TLE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TLE/dep"
+    }
+}

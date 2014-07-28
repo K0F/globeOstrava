@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mayport",
+                "cityCode": "NRB",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NRB?codeType=fs",
+                "elevationFeet": 9,
+                "faa": "NRB",
+                "fs": "NRB",
+                "iata": "NRB",
+                "icao": "KNRB",
+                "latitude": 30.39151,
+                "localTime": "2014-07-26T09:17:49.162",
+                "longitude": -81.418771,
+                "name": "Mayport Naval Station",
+                "regionName": "North America",
+                "stateCode": "FL",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NRB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NRB",
+            "requestedCode": "NRB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NRB/dep"
+    }
+}

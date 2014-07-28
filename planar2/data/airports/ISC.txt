@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Isles Of Scilly",
+                "cityCode": "ISC",
+                "classification": 4,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ISC?codeType=fs",
+                "elevationFeet": 116,
+                "fs": "ISC",
+                "iata": "ISC",
+                "icao": "EGHE",
+                "latitude": 49.913333,
+                "localTime": "2014-07-27T16:49:22.249",
+                "longitude": -6.291667,
+                "name": "St. Mary's Airport",
+                "regionName": "Europe",
+                "stateCode": "EN",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ISC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ISC",
+            "requestedCode": "ISC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ISC/dep"
+    }
+}

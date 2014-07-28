@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Anvik",
+                "cityCode": "ANV",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ANV?codeType=fs",
+                "elevationFeet": 309,
+                "faa": "PANV",
+                "fs": "ANV",
+                "iata": "ANV",
+                "icao": "PANV",
+                "latitude": 62.647778,
+                "localTime": "2014-07-26T04:37:50.604",
+                "longitude": -160.188889,
+                "name": "Anvik Airport",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ANV?codeType=fs",
+                "weatherZone": "AKZ215"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ANV",
+            "requestedCode": "PANV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PANV/dep"
+    }
+}

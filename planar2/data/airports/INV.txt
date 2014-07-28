@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Inverness",
+                "cityCode": "INV",
+                "classification": 4,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/INV?codeType=fs",
+                "elevationFeet": 31,
+                "fs": "INV",
+                "iata": "INV",
+                "icao": "EGPE",
+                "latitude": 57.539346,
+                "localTime": "2014-07-27T17:11:38.539",
+                "longitude": -4.063738,
+                "name": "Inverness Airport",
+                "regionName": "Europe",
+                "stateCode": "SC",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/INV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "INV",
+            "requestedCode": "INV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/INV/dep"
+    }
+}

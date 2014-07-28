@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Jamestown",
+                "cityCode": "JHW",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/JHW?codeType=fs",
+                "elevationFeet": 1724,
+                "faa": "JHW",
+                "fs": "JHW",
+                "iata": "JHW",
+                "icao": "KJHW",
+                "latitude": 42.150556,
+                "localTime": "2014-07-27T11:52:11.275",
+                "longitude": -79.258056,
+                "name": "Jamestown Airport",
+                "postalCode": "14733",
+                "regionName": "North America",
+                "stateCode": "NY",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/JHW?codeType=fs",
+                "weatherZone": "NYZ019"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "JHW",
+            "requestedCode": "JHW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/JHW/dep"
+    }
+}

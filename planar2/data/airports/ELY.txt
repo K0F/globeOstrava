@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ely",
+                "cityCode": "ELY",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ELY?codeType=fs",
+                "elevationFeet": 6259,
+                "faa": "ELY",
+                "fs": "ELY",
+                "iata": "ELY",
+                "icao": "KELY",
+                "latitude": 39.301944,
+                "localTime": "2014-07-26T09:31:43.911",
+                "longitude": -114.841944,
+                "name": "Yelland Airport",
+                "regionName": "North America",
+                "stateCode": "NV",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ELY?codeType=fs",
+                "weatherZone": "NVZ035"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ELY",
+            "requestedCode": "ELY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ELY/dep"
+    }
+}

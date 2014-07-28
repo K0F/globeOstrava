@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Donetsk",
+                "cityCode": "DOK",
+                "classification": 4,
+                "countryCode": "UA",
+                "countryName": "Ukraine",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DOK?codeType=fs",
+                "elevationFeet": 791,
+                "fs": "DOK",
+                "iata": "DOK",
+                "icao": "UKCC",
+                "latitude": 48.083333,
+                "localTime": "2014-07-27T19:37:50.355",
+                "longitude": 37.75,
+                "name": "Donetsk Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Kiev",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DOK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DOK",
+            "requestedCode": "DOK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DOK/dep"
+    }
+}

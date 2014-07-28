@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Miramichi",
+                "cityCode": "YCH",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YCH?codeType=fs",
+                "elevationFeet": 76,
+                "fs": "YCH",
+                "iata": "YCH",
+                "icao": "CYCH",
+                "latitude": 47.012714,
+                "localTime": "2014-07-27T13:04:38.729",
+                "longitude": -65.437869,
+                "name": "Miramichi Airport",
+                "regionName": "North America",
+                "stateCode": "NB",
+                "timeZoneRegionName": "America/Halifax",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YCH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YCH",
+            "requestedCode": "YCH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YCH/dep"
+    }
+}

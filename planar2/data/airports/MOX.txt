@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Morris",
+                "cityCode": "MOX",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MOX?codeType=fs",
+                "elevationFeet": 1130,
+                "faa": "MOX",
+                "fs": "MOX",
+                "iata": "MOX",
+                "icao": "KMOX",
+                "latitude": 45.583333,
+                "localTime": "2014-07-26T07:47:19.770",
+                "longitude": -95.916667,
+                "name": "Morris Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "MN",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MOX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MOX",
+            "requestedCode": "MOX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MOX/dep"
+    }
+}

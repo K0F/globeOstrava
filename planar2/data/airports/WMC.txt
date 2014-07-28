@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Winnemucca",
+                "cityCode": "WMC",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/WMC?codeType=fs",
+                "elevationFeet": 4306,
+                "faa": "WMC",
+                "fs": "WMC",
+                "iata": "WMC",
+                "icao": "KWMC",
+                "latitude": 40.902872,
+                "localTime": "2014-07-26T09:26:47.983",
+                "longitude": -117.806109,
+                "name": "Winnemucca Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "NV",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/WMC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "WMC",
+            "requestedCode": "WMC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/WMC/dep"
+    }
+}

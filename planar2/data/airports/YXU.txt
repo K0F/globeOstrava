@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "London",
+                "cityCode": "YXU",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YXU?codeType=fs",
+                "elevationFeet": 912,
+                "fs": "YXU",
+                "iata": "YXU",
+                "icao": "CYXU",
+                "latitude": 43.028018,
+                "localTime": "2014-07-27T12:07:06.906",
+                "longitude": -81.149651,
+                "name": "Metropolitan Area Airport",
+                "regionName": "North America",
+                "stateCode": "ON",
+                "timeZoneRegionName": "America/Toronto",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YXU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YXU",
+            "requestedCode": "YXU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YXU/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Aviano",
+                "cityCode": "AVB",
+                "classification": 4,
+                "countryCode": "IT",
+                "countryName": "Italy",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AVB?codeType=fs",
+                "elevationFeet": 364,
+                "fs": "AVB",
+                "iata": "AVB",
+                "icao": "LIPA",
+                "latitude": 46.033333,
+                "localTime": "2014-07-27T18:22:16.866",
+                "longitude": 12.6,
+                "name": "Aviano Air Base",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Rome",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AVB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AVB",
+            "requestedCode": "AVB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AVB/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Yap, Caroline Islands",
+                "cityCode": "YAP",
+                "classification": 4,
+                "countryCode": "FM",
+                "countryName": "Micronesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YAP?codeType=fs",
+                "elevationFeet": 91,
+                "fs": "YAP",
+                "iata": "YAP",
+                "icao": "PTYA",
+                "latitude": 9.497715,
+                "localTime": "2014-07-28T02:30:33.507",
+                "longitude": 138.08673,
+                "name": "Yap Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Chuuk",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YAP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YAP",
+            "requestedCode": "YAP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YAP/dep"
+    }
+}

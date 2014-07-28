@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Jonkoping",
+                "cityCode": "JKG",
+                "classification": 4,
+                "countryCode": "SE",
+                "countryName": "Sweden",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/JKG?codeType=fs",
+                "elevationFeet": 741,
+                "fs": "JKG",
+                "iata": "JKG",
+                "icao": "ESGJ",
+                "latitude": 57.750101,
+                "localTime": "2014-07-27T18:13:34.174",
+                "longitude": 14.070497,
+                "name": "Axamo Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Stockholm",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/JKG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "JKG",
+            "requestedCode": "JKG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/JKG/dep"
+    }
+}

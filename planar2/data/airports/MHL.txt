@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Marshall",
+                "cityCode": "MHL",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MHL?codeType=fs",
+                "elevationFeet": 779,
+                "faa": "MHL",
+                "fs": "MHL",
+                "iata": "MHL",
+                "icao": "KMHL",
+                "latitude": 39.116667,
+                "localTime": "2014-07-26T06:03:38.101",
+                "longitude": -93.2,
+                "name": "Memorial Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "MO",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MHL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MHL",
+            "requestedCode": "MHL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MHL/dep"
+    }
+}

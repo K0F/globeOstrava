@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bonaire",
+                "cityCode": "BON",
+                "classification": 4,
+                "countryCode": "BQ",
+                "countryName": "Caribbean Netherlands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BON?codeType=fs",
+                "elevationFeet": 20,
+                "fs": "BON",
+                "iata": "BON",
+                "icao": "TNCB",
+                "latitude": 12.133403,
+                "localTime": "2014-07-27T12:37:07.552",
+                "longitude": -68.276873,
+                "name": "Flamingo International Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Curacao",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BON?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BON",
+            "requestedCode": "BON"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BON/dep"
+    }
+}

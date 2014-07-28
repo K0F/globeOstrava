@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sparta",
+                "cityCode": "SAR",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SAR?codeType=fs",
+                "elevationFeet": 538,
+                "faa": "SAR",
+                "fs": "SAR",
+                "iata": "SAR",
+                "icao": "KSAR",
+                "latitude": 38.133333,
+                "localTime": "2014-07-26T10:58:28.418",
+                "longitude": -89.7,
+                "name": "Sparta Community Airport",
+                "regionName": "North America",
+                "stateCode": "IL",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SAR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SAR",
+            "requestedCode": "SAR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SAR/dep"
+    }
+}

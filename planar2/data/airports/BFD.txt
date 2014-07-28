@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bradford",
+                "cityCode": "BFD",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BFD?codeType=fs",
+                "elevationFeet": 2143,
+                "faa": "BFD",
+                "fs": "BFD",
+                "iata": "BFD",
+                "icao": "KBFD",
+                "latitude": 41.802222,
+                "localTime": "2014-07-26T08:36:43.024",
+                "longitude": -78.639444,
+                "name": "Bradford Airport",
+                "postalCode": "16738",
+                "regionName": "North America",
+                "stateCode": "PA",
+                "street1": "Star Route",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BFD?codeType=fs",
+                "weatherZone": "PAZ005"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BFD",
+            "requestedCode": "BFD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BFD/dep"
+    }
+}

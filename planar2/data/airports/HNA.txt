@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Hanamaki",
+                "cityCode": "HNA",
+                "classification": 4,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HNA?codeType=fs",
+                "elevationFeet": 295,
+                "fs": "HNA",
+                "iata": "HNA",
+                "icao": "RJSI",
+                "latitude": 39.426926,
+                "localTime": "2014-07-28T01:31:31.539",
+                "longitude": 141.130767,
+                "name": "Hanamaki Airport",
+                "regionName": "Asia",
+                "street1": "Oshu Highway (Rikuu Highway)",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HNA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HNA",
+            "requestedCode": "HNA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HNA/dep"
+    }
+}

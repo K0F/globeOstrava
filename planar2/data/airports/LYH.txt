@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lynchburg",
+                "cityCode": "LYH",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LYH?codeType=fs",
+                "elevationFeet": 938,
+                "faa": "LYH",
+                "fs": "LYH",
+                "iata": "LYH",
+                "icao": "KLYH",
+                "latitude": 37.326944,
+                "localTime": "2014-07-26T07:04:43.230",
+                "longitude": -79.201111,
+                "name": "Preston-Glenn Field",
+                "postalCode": "24502",
+                "regionName": "North America",
+                "stateCode": "VA",
+                "street1": "4308 Wards Road, Suite 100",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LYH?codeType=fs",
+                "weatherZone": "VAZ045"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LYH",
+            "requestedCode": "LYH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LYH/dep"
+    }
+}

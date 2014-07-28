@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Toussus-le-Noble",
+                "cityCode": "TNF",
+                "classification": 5,
+                "countryCode": "FR",
+                "countryName": "France",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TNF?codeType=fs",
+                "elevationFeet": 538,
+                "fs": "TNF",
+                "iata": "TNF",
+                "icao": "LFPN",
+                "latitude": 48.750833,
+                "localTime": "2014-07-27T18:20:38.290",
+                "longitude": 2.113056,
+                "name": "Toussus-le-Noble Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Paris",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TNF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TNF",
+            "requestedCode": "TNF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TNF/dep"
+    }
+}

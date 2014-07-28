@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Marcala",
+                "cityCode": "MRJ",
+                "classification": 5,
+                "countryCode": "HN",
+                "countryName": "Honduras",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MRJ?codeType=fs",
+                "fs": "MRJ",
+                "iata": "MRJ",
+                "latitude": 14.163611,
+                "localTime": "2014-07-26T06:43:14.041",
+                "longitude": -88.033333,
+                "name": "Marcala Airport",
+                "regionName": "Central America",
+                "timeZoneRegionName": "America/Tegucigalpa",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MRJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MRJ",
+            "requestedCode": "MRJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MRJ/dep"
+    }
+}

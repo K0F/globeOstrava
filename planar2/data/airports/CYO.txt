@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cayo Largo Del Sur",
+                "cityCode": "CYO",
+                "classification": 4,
+                "countryCode": "CU",
+                "countryName": "Cuba",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CYO?codeType=fs",
+                "elevationFeet": 8,
+                "fs": "CYO",
+                "iata": "CYO",
+                "icao": "MUCL",
+                "latitude": 21.616667,
+                "localTime": "2014-07-26T11:14:31.909",
+                "longitude": -81.516667,
+                "name": "Cayo Largo Del Sur Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Havana",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CYO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CYO",
+            "requestedCode": "CYO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CYO/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Marianske Lazne",
+                "cityCode": "MKA",
+                "classification": 5,
+                "countryCode": "CZ",
+                "countryName": "Czech Republic",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MKA?codeType=fs",
+                "elevationFeet": 1768,
+                "fs": "MKA",
+                "iata": "MKA",
+                "icao": "LKMR",
+                "latitude": 49.983333,
+                "localTime": "2014-07-26T17:18:32.448",
+                "longitude": 12.716667,
+                "name": "Marianske Lazne Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Prague",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MKA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MKA",
+            "requestedCode": "MKA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MKA/dep"
+    }
+}

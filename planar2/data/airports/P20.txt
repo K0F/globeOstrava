@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Parker",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/P20?codeType=fs",
+                "elevationFeet": 452,
+                "faa": "P20",
+                "fs": "P20",
+                "latitude": 34.156389,
+                "localTime": "2014-07-26T08:24:49.790",
+                "longitude": -114.312222,
+                "name": "Avi Suquilla",
+                "regionName": "North America",
+                "stateCode": "AZ",
+                "timeZoneRegionName": "America/Phoenix",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/P20?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "P20",
+            "requestedCode": "P20"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/P20/dep"
+    }
+}

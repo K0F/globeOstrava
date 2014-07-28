@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Fuyuan County",
+                "classification": 4,
+                "countryCode": "CN",
+                "countryName": "China",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/FYJ?codeType=fs",
+                "elevationFeet": 190,
+                "fs": "FYJ",
+                "iata": "FYJ",
+                "latitude": 48.19722,
+                "localTime": "2014-07-26T23:16:06.673",
+                "longitude": 134.36333,
+                "name": "Fuyuan Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Shanghai",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/FYJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "FYJ",
+            "requestedCode": "FYJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/FYJ/dep"
+    }
+}

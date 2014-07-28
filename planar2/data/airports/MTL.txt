@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Maitland",
+                "cityCode": "MTL",
+                "classification": 5,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MTL?codeType=fs",
+                "elevationFeet": 75,
+                "fs": "MTL",
+                "iata": "MTL",
+                "icao": "YMND",
+                "latitude": -32.733333,
+                "localTime": "2014-07-28T02:27:26.409",
+                "longitude": 151.55,
+                "name": "Maitland Airport",
+                "regionName": "Oceania",
+                "stateCode": "NSW",
+                "timeZoneRegionName": "Australia/Sydney",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MTL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MTL",
+            "requestedCode": "MTL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MTL/dep"
+    }
+}

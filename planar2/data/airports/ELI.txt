@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Elim",
+                "cityCode": "ELI",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ELI?codeType=fs",
+                "elevationFeet": 200,
+                "faa": "ELI",
+                "fs": "ELI",
+                "iata": "ELI",
+                "latitude": 64.613611,
+                "localTime": "2014-07-26T04:36:42.017",
+                "longitude": -162.270278,
+                "name": "Elim Airport",
+                "postalCode": "99739",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ELI?codeType=fs",
+                "weatherZone": "AKZ212"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ELI",
+            "requestedCode": "ELI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ELI/dep"
+    }
+}

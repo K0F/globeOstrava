@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Gassim",
+                "cityCode": "ELQ",
+                "classification": 4,
+                "countryCode": "SA",
+                "countryName": "Saudi Arabia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ELQ?codeType=fs",
+                "elevationFeet": 2126,
+                "fs": "ELQ",
+                "iata": "ELQ",
+                "icao": "OEGS",
+                "latitude": 26.305029,
+                "localTime": "2014-07-27T19:28:47.877",
+                "longitude": 43.768178,
+                "name": "Gassim Airport",
+                "regionName": "Middle East",
+                "timeZoneRegionName": "Asia/Riyadh",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ELQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ELQ",
+            "requestedCode": "ELQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ELQ/dep"
+    }
+}

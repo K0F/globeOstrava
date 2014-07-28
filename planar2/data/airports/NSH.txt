@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Now Shahr",
+                "cityCode": "NSH",
+                "classification": 4,
+                "countryCode": "IR",
+                "countryName": "Iran",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NSH?codeType=fs",
+                "fs": "NSH",
+                "iata": "NSH",
+                "latitude": 36.666667,
+                "localTime": "2014-07-27T20:21:41.846",
+                "longitude": 51.5,
+                "name": "Now Shahr Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Tehran",
+                "utcOffsetHours": 4.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NSH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NSH",
+            "requestedCode": "NSH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NSH/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Stornoway, Outer Stat Hebrides",
+                "cityCode": "SYY",
+                "classification": 4,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SYY?codeType=fs",
+                "elevationFeet": 25,
+                "fs": "SYY",
+                "iata": "SYY",
+                "icao": "EGPO",
+                "latitude": 58.213626,
+                "localTime": "2014-07-27T17:11:51.319",
+                "longitude": -6.321995,
+                "name": "Stornoway Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SYY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SYY",
+            "requestedCode": "SYY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SYY/dep"
+    }
+}

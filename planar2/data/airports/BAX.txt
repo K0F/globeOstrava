@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Barnaul",
+                "cityCode": "BAX",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BAX?codeType=fs",
+                "elevationFeet": 837,
+                "fs": "BAX",
+                "iata": "BAX",
+                "icao": "UNBB",
+                "latitude": 53.361086,
+                "localTime": "2014-07-26T22:12:42.073",
+                "longitude": 83.547643,
+                "name": "Barnaul Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Omsk",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BAX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BAX",
+            "requestedCode": "BAX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BAX/dep"
+    }
+}

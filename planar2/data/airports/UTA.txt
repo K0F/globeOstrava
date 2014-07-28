@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mutare",
+                "cityCode": "UTA",
+                "classification": 5,
+                "countryCode": "ZW",
+                "countryName": "Zimbabwe",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UTA?codeType=fs",
+                "elevationFeet": 3410,
+                "fs": "UTA",
+                "iata": "UTA",
+                "icao": "FVMU",
+                "latitude": -18.966667,
+                "localTime": "2014-07-26T18:31:23.139",
+                "longitude": 32.666667,
+                "name": "Mutare Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Harare",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UTA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UTA",
+            "requestedCode": "UTA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UTA/dep"
+    }
+}

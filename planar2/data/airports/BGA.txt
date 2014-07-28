@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bucaramanga",
+                "cityCode": "BGA",
+                "classification": 4,
+                "countryCode": "CO",
+                "countryName": "Colombia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BGA?codeType=fs",
+                "elevationFeet": 3896,
+                "fs": "BGA",
+                "iata": "BGA",
+                "icao": "SKBG",
+                "latitude": 7.128045,
+                "localTime": "2014-07-27T11:34:58.693",
+                "longitude": -73.181394,
+                "name": "Palo Negro Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Bogota",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BGA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BGA",
+            "requestedCode": "BGA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BGA/dep"
+    }
+}

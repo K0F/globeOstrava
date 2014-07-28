@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mombasa",
+                "cityCode": "MBA",
+                "classification": 3,
+                "countryCode": "KE",
+                "countryName": "Kenya",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MBA?codeType=fs",
+                "elevationFeet": 196,
+                "fs": "MBA",
+                "iata": "MBA",
+                "icao": "HKMO",
+                "latitude": -4.0327,
+                "localTime": "2014-07-27T19:18:09.303",
+                "longitude": 39.603247,
+                "name": "Moi International Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Nairobi",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MBA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MBA",
+            "requestedCode": "MBA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MBA/dep"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Santa Paula",
+                "cityCode": "SZP",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SZP?codeType=fs",
+                "elevationFeet": 245,
+                "faa": "SZP",
+                "fs": "SZP",
+                "iata": "SZP",
+                "icao": "KSZP",
+                "latitude": 34.35,
+                "localTime": "2014-07-26T06:19:17.907",
+                "longitude": -119.066667,
+                "name": "Santa Paula Airport",
+                "regionName": "North America",
+                "stateCode": "CA",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SZP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SZP",
+            "requestedCode": "SZP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SZP/dep"
+    }
+}

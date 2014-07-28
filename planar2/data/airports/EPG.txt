@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Weeping Water",
+                "cityCode": "EPG",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/EPG?codeType=fs",
+                "elevationFeet": 1183,
+                "faa": "EPG",
+                "fs": "EPG",
+                "iata": "EPG",
+                "icao": "KEPG",
+                "latitude": 40.866667,
+                "localTime": "2014-07-26T11:21:45.002",
+                "longitude": -96.133333,
+                "name": "Browns Airport",
+                "regionName": "North America",
+                "stateCode": "NE",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/EPG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "EPG",
+            "requestedCode": "EPG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/EPG/dep"
+    }
+}

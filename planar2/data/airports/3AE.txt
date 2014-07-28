@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Anderson",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/3AE?codeType=fs",
+                "elevationFeet": 910,
+                "faa": "3AE",
+                "fs": "3AE",
+                "latitude": 40.15875,
+                "localTime": "2014-07-26T11:36:57.510",
+                "longitude": -85.816417,
+                "name": "Ace",
+                "regionName": "North America",
+                "stateCode": "IN",
+                "timeZoneRegionName": "America/Indiana/Indianapolis",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/3AE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "3AE",
+            "requestedCode": "3AE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/3AE/dep"
+    }
+}

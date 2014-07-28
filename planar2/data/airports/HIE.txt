@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Whitefield",
+                "cityCode": "HIE",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HIE?codeType=fs",
+                "elevationFeet": 1074,
+                "faa": "HIE",
+                "fs": "HIE",
+                "iata": "HIE",
+                "icao": "KHIE",
+                "latitude": 44.365833,
+                "localTime": "2014-07-26T11:16:53.333",
+                "longitude": -71.548611,
+                "name": "Whitefield Regional Airport",
+                "regionName": "North America",
+                "stateCode": "NH",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HIE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HIE",
+            "requestedCode": "HIE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HIE/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Trondheim",
+                "cityCode": "TRD",
+                "classification": 2,
+                "countryCode": "NO",
+                "countryName": "Norway",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TRD?codeType=fs",
+                "elevationFeet": 14,
+                "fs": "TRD",
+                "iata": "TRD",
+                "icao": "ENVA",
+                "latitude": 63.454285,
+                "localTime": "2014-07-27T18:13:17.422",
+                "longitude": 10.917863,
+                "name": "Trondheim Airport Vaernes",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Oslo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TRD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TRD",
+            "requestedCode": "TRD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TRD/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Addis Ababa",
+                "cityCode": "ADD",
+                "classification": 3,
+                "countryCode": "ET",
+                "countryName": "Ethiopia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ADD?codeType=fs",
+                "elevationFeet": 7625,
+                "fs": "ADD",
+                "iata": "ADD",
+                "icao": "HAAB",
+                "latitude": 8.983759,
+                "localTime": "2014-07-27T19:17:43.699",
+                "longitude": 38.795899,
+                "name": "Addis Ababa Bole International Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Addis_Ababa",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ADD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ADD",
+            "requestedCode": "ADD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ADD/dep"
+    }
+}

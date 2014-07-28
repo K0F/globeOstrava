@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Aberdeen",
+                "cityCode": "ABZ",
+                "classification": 2,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ABZ?codeType=fs",
+                "elevationFeet": 215,
+                "fs": "ABZ",
+                "iata": "ABZ",
+                "icao": "EGPD",
+                "latitude": 57.200253,
+                "localTime": "2014-07-27T17:11:37.482",
+                "longitude": -2.204186,
+                "name": "Aberdeen International Airport",
+                "regionName": "Europe",
+                "stateCode": "SC",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ABZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ABZ",
+            "requestedCode": "ABZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ABZ/dep"
+    }
+}

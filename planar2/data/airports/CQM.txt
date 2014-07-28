@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": false,
+                "city": "Ciudad Real",
+                "classification": 5,
+                "countryCode": "ES",
+                "countryName": "Spain and Canary Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CQM?codeType=fs",
+                "elevationFeet": 2064,
+                "fs": "CQM",
+                "iata": "CQM",
+                "icao": "LERL",
+                "latitude": 38.858684,
+                "localTime": "2014-07-26T17:14:21.043",
+                "longitude": -3.974536,
+                "name": "Ciudad Real Airport",
+                "regionName": "Europe",
+                "stateCode": "SP",
+                "timeZoneRegionName": "Europe/Madrid",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CQM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CQM",
+            "requestedCode": "CQM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CQM/dep"
+    }
+}

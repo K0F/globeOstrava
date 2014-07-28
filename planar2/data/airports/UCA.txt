@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Utica",
+                "cityCode": "UCA",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UCA?codeType=fs",
+                "elevationFeet": 743,
+                "faa": "UCA",
+                "fs": "UCA",
+                "iata": "UCA",
+                "icao": "KUCA",
+                "latitude": 43.141389,
+                "localTime": "2014-07-26T11:27:38.857",
+                "longitude": -75.380278,
+                "name": "Oneida County Airport",
+                "postalCode": "13424",
+                "regionName": "North America",
+                "stateCode": "NY",
+                "street1": "5900 Airport Road, Suite 207",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UCA?codeType=fs",
+                "weatherZone": "NYZ037"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UCA",
+            "requestedCode": "UCA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UCA/dep"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mountain Village",
+                "cityCode": "MOU",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MOU?codeType=fs",
+                "elevationFeet": 335,
+                "faa": "MOU",
+                "fs": "MOU",
+                "iata": "MOU",
+                "latitude": 62.089444,
+                "localTime": "2014-07-26T04:36:14.886",
+                "longitude": -163.716667,
+                "name": "Mountain Village Airport",
+                "postalCode": "99632",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MOU?codeType=fs",
+                "weatherZone": "AKZ214"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MOU",
+            "requestedCode": "MOU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MOU/dep"
+    }
+}

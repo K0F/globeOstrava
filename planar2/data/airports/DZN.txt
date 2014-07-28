@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Zhezkazgan",
+                "cityCode": "DZN",
+                "classification": 4,
+                "countryCode": "KZ",
+                "countryName": "Kazakhstan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DZN?codeType=fs",
+                "elevationFeet": 1250,
+                "fs": "DZN",
+                "iata": "DZN",
+                "icao": "UAKD",
+                "latitude": 47.7,
+                "localTime": "2014-07-27T21:49:07.094",
+                "longitude": 67.733333,
+                "name": "Zhezhazgan Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Qyzylorda",
+                "utcOffsetHours": 6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DZN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DZN",
+            "requestedCode": "DZN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DZN/dep"
+    }
+}

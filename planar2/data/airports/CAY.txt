@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cayenne",
+                "cityCode": "CAY",
+                "classification": 4,
+                "countryCode": "GF",
+                "countryName": "French Guiana",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CAY?codeType=fs",
+                "elevationFeet": 26,
+                "fs": "CAY",
+                "iata": "CAY",
+                "icao": "SOCA",
+                "latitude": 4.816667,
+                "localTime": "2014-07-27T13:35:50.287",
+                "longitude": -52.366667,
+                "name": "Felix Eboue Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Cayenne",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CAY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CAY",
+            "requestedCode": "CAY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CAY/dep"
+    }
+}

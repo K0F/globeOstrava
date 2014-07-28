@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Nuuk",
+                "cityCode": "GOH",
+                "classification": 4,
+                "countryCode": "GL",
+                "countryName": "Greenland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GOH?codeType=fs",
+                "elevationFeet": 283,
+                "fs": "GOH",
+                "iata": "GOH",
+                "icao": "BGGH",
+                "latitude": 64.181944,
+                "localTime": "2014-07-27T14:04:10.547",
+                "longitude": -51.725,
+                "name": "Nuuk Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Godthab",
+                "utcOffsetHours": -2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GOH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GOH",
+            "requestedCode": "GOH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GOH/dep"
+    }
+}

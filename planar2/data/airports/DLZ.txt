@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dalanzadgad",
+                "cityCode": "DLZ",
+                "classification": 4,
+                "countryCode": "MN",
+                "countryName": "Mongolia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DLZ?codeType=fs",
+                "elevationFeet": 4787,
+                "fs": "DLZ",
+                "iata": "DLZ",
+                "icao": "ZMDZ",
+                "latitude": 43.966667,
+                "localTime": "2014-07-27T00:26:03.306",
+                "longitude": 104.683333,
+                "name": "Dalanzadgad Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Ulaanbaatar",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DLZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DLZ",
+            "requestedCode": "DLZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DLZ/dep"
+    }
+}

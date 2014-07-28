@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kastoria",
+                "cityCode": "KSO",
+                "classification": 4,
+                "countryCode": "GR",
+                "countryName": "Greece",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KSO?codeType=fs",
+                "elevationFeet": 2183,
+                "fs": "KSO",
+                "iata": "KSO",
+                "icao": "LGKA",
+                "latitude": 40.450833,
+                "localTime": "2014-07-27T19:21:19.648",
+                "longitude": 21.273333,
+                "name": "Aristoteles Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Athens",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KSO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KSO",
+            "requestedCode": "KSO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KSO/dep"
+    }
+}

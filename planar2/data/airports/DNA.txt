@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Okinawa",
+                "cityCode": "OKA",
+                "classification": 4,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DNA?codeType=fs",
+                "elevationFeet": 146,
+                "fs": "DNA",
+                "iata": "DNA",
+                "icao": "RODN",
+                "latitude": 26.35,
+                "localTime": "2014-07-28T01:31:54.301",
+                "longitude": 127.766667,
+                "name": "Kadena Air Force Base",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DNA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DNA",
+            "requestedCode": "DNA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DNA/dep"
+    }
+}

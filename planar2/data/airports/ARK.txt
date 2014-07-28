@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Arusha",
+                "cityCode": "ARK",
+                "classification": 4,
+                "countryCode": "TZ",
+                "countryName": "United Republic of Tanzania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ARK?codeType=fs",
+                "elevationFeet": 4550,
+                "fs": "ARK",
+                "iata": "ARK",
+                "icao": "HTAR",
+                "latitude": -3.366667,
+                "localTime": "2014-07-27T19:18:29.626",
+                "longitude": 36.683333,
+                "name": "Arusha Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Dar_es_Salaam",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ARK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ARK",
+            "requestedCode": "ARK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ARK/dep"
+    }
+}

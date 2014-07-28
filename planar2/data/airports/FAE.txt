@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Faroe Islands",
+                "cityCode": "FAE",
+                "classification": 4,
+                "countryCode": "FO",
+                "countryName": "Faroe Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/FAE?codeType=fs",
+                "elevationFeet": 280,
+                "fs": "FAE",
+                "iata": "FAE",
+                "icao": "EKVG",
+                "latitude": 62.066667,
+                "localTime": "2014-07-27T17:12:37.610",
+                "longitude": -7.266667,
+                "name": "Vagar Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Atlantic/Faroe",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/FAE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "FAE",
+            "requestedCode": "FAE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/FAE/dep"
+    }
+}

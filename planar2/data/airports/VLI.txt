@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Port Vila",
+                "cityCode": "VLI",
+                "classification": 4,
+                "countryCode": "VU",
+                "countryName": "Vanuatu",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VLI?codeType=fs",
+                "elevationFeet": 69,
+                "fs": "VLI",
+                "iata": "VLI",
+                "icao": "NVVV",
+                "latitude": -17.701853,
+                "localTime": "2014-07-28T03:27:54.383",
+                "longitude": 168.319503,
+                "name": "Bauerfield Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Efate",
+                "utcOffsetHours": 11.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VLI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "VLI",
+            "requestedCode": "VLI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/VLI/dep"
+    }
+}

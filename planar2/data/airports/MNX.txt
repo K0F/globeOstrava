@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Manicore",
+                "cityCode": "MNX",
+                "classification": 5,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MNX?codeType=fs",
+                "elevationFeet": 174,
+                "fs": "MNX",
+                "iata": "MNX",
+                "icao": "SBMY",
+                "latitude": -5.816667,
+                "localTime": "2014-07-27T12:33:48.292",
+                "longitude": -61.283333,
+                "name": "Manicore Airport",
+                "regionName": "South America",
+                "stateCode": "AM",
+                "timeZoneRegionName": "America/Porto_Velho",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MNX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MNX",
+            "requestedCode": "MNX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MNX/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Goldsworthy",
+                "cityCode": "GLY",
+                "classification": 5,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GLY?codeType=fs",
+                "fs": "GLY",
+                "iata": "GLY",
+                "latitude": -20.083333,
+                "localTime": "2014-07-26T23:16:21.960",
+                "longitude": 119.666667,
+                "name": "Goldsworthy Airport",
+                "regionName": "Oceania",
+                "stateCode": "WA",
+                "timeZoneRegionName": "Australia/Perth",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GLY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GLY",
+            "requestedCode": "GLY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GLY/dep"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Araraquara",
+                "cityCode": "AQA",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AQA?codeType=fs",
+                "elevationFeet": 2389,
+                "fs": "AQA",
+                "iata": "AQA",
+                "icao": "SBAQ",
+                "latitude": -21.806642,
+                "localTime": "2014-07-27T12:48:49.411",
+                "longitude": -48.136911,
+                "name": "Araraquara Airport",
+                "regionName": "South America",
+                "stateCode": "SP",
+                "timeZoneRegionName": "America/Sao_Paulo",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AQA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AQA",
+            "requestedCode": "AQA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AQA/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Chenega",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/0353?codeType=fs",
+                "elevationFeet": 72,
+                "faa": "0353",
+                "fs": "0353",
+                "latitude": 60.173056,
+                "localTime": "2014-07-26T05:27:41.803",
+                "longitude": -148.068889,
+                "name": "Chenega Bay",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "Pacific/Honolulu",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/0353?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "0353",
+            "requestedCode": "0353"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/0353/dep"
+    }
+}

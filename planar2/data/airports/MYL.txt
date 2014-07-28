@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mc Call",
+                "cityCode": "MYL",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MYL?codeType=fs",
+                "elevationFeet": 5021,
+                "faa": "MYL",
+                "fs": "MYL",
+                "iata": "MYL",
+                "icao": "KMYL",
+                "latitude": 44.916667,
+                "localTime": "2014-07-26T10:29:11.795",
+                "longitude": -116.1,
+                "name": "Mc Call Airport",
+                "regionName": "North America",
+                "stateCode": "ID",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MYL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MYL",
+            "requestedCode": "MYL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MYL/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Balikesir",
+                "cityCode": "BZI",
+                "classification": 5,
+                "countryCode": "TR",
+                "countryName": "Turkey",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BZI?codeType=fs",
+                "elevationFeet": 325,
+                "fs": "BZI",
+                "iata": "BZI",
+                "icao": "LTBF",
+                "latitude": 39.617222,
+                "localTime": "2014-07-27T19:24:17.213",
+                "longitude": 27.927778,
+                "name": "Balikesir Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Istanbul",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BZI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BZI",
+            "requestedCode": "BZI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BZI/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Makhachkala",
+                "cityCode": "MCX",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MCX?codeType=fs",
+                "elevationFeet": 13,
+                "fs": "MCX",
+                "iata": "MCX",
+                "icao": "URML",
+                "latitude": 42.820948,
+                "localTime": "2014-07-26T19:18:22.342",
+                "longitude": 47.656107,
+                "name": "Makhachkala Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Moscow",
+                "utcOffsetHours": 4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MCX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MCX",
+            "requestedCode": "MCX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MCX/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mocimboa da Praia",
+                "cityCode": "MZB",
+                "classification": 4,
+                "countryCode": "MZ",
+                "countryName": "Mozambique",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MZB?codeType=fs",
+                "elevationFeet": 86,
+                "fs": "MZB",
+                "iata": "MZB",
+                "icao": "FQMP",
+                "latitude": -11.360261,
+                "localTime": "2014-07-27T18:16:04.837",
+                "longitude": 40.356075,
+                "name": "Mocimboa da Praia Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Maputo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MZB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MZB",
+            "requestedCode": "MZB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MZB/dep"
+    }
+}

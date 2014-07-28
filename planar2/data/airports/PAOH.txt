@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Hoonah",
+                "cityCode": "HNH",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HNH?codeType=fs",
+                "elevationFeet": 30,
+                "faa": "PAOH",
+                "fs": "HNH",
+                "iata": "HNH",
+                "icao": "PAOH",
+                "latitude": 58.098056,
+                "localTime": "2014-07-26T04:35:44.750",
+                "longitude": -135.403333,
+                "name": "Hoonah Airport",
+                "postalCode": "99829",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HNH?codeType=fs",
+                "weatherZone": "AKZ021"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HNH",
+            "requestedCode": "PAOH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PAOH/dep"
+    }
+}

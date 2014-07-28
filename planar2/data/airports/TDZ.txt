@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Toledo",
+                "cityCode": "TOL",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TDZ?codeType=fs",
+                "elevationFeet": 620,
+                "faa": "TDZ",
+                "fs": "TDZ",
+                "iata": "TDZ",
+                "icao": "KTDZ",
+                "latitude": 41.564558,
+                "localTime": "2014-07-26T11:22:10.862",
+                "longitude": -83.480257,
+                "name": "Toledo Executive Airport",
+                "regionName": "North America",
+                "stateCode": "OH",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TDZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TDZ",
+            "requestedCode": "TDZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TDZ/dep"
+    }
+}

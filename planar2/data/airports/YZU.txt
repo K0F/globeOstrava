@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Whitecourt",
+                "cityCode": "YZU",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YZU?codeType=fs",
+                "elevationFeet": 2567,
+                "fs": "YZU",
+                "iata": "YZU",
+                "icao": "CYZU",
+                "latitude": 54.15,
+                "localTime": "2014-07-27T10:07:50.611",
+                "longitude": -115.783333,
+                "name": "Whitecourt Airport",
+                "regionName": "North America",
+                "stateCode": "AB",
+                "timeZoneRegionName": "America/Edmonton",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YZU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YZU",
+            "requestedCode": "YZU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YZU/dep"
+    }
+}

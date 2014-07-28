@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Churchill",
+                "cityCode": "YYQ",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YYQ?codeType=fs",
+                "elevationFeet": 94,
+                "fs": "YYQ",
+                "iata": "YYQ",
+                "icao": "CYYQ",
+                "latitude": 58.748191,
+                "localTime": "2014-07-27T11:07:25.062",
+                "longitude": -94.074497,
+                "name": "Churchill Airport",
+                "regionName": "North America",
+                "stateCode": "MB",
+                "timeZoneRegionName": "America/Winnipeg",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YYQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YYQ",
+            "requestedCode": "YYQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YYQ/dep"
+    }
+}

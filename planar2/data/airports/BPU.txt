@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Beppu",
+                "cityCode": "BPU",
+                "classification": 5,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BPU?codeType=fs",
+                "fs": "BPU",
+                "iata": "BPU",
+                "latitude": 33.25,
+                "localTime": "2014-07-28T00:52:24.159",
+                "longitude": 131.5,
+                "name": "Beppu Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BPU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BPU",
+            "requestedCode": "BPU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BPU/dep"
+    }
+}

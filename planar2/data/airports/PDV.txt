@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Plovdiv",
+                "cityCode": "PDV",
+                "classification": 4,
+                "countryCode": "BG",
+                "countryName": "Bulgaria",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PDV?codeType=fs",
+                "elevationFeet": 597,
+                "fs": "PDV",
+                "iata": "PDV",
+                "icao": "LBPD",
+                "latitude": 42.3,
+                "localTime": "2014-07-27T19:18:48.788",
+                "longitude": 24.716667,
+                "name": "Plovdiv Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Sofia",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PDV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PDV",
+            "requestedCode": "PDV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PDV/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Brno",
+                "cityCode": "BRQ",
+                "classification": 4,
+                "countryCode": "CZ",
+                "countryName": "Czech Republic",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BRQ?codeType=fs",
+                "elevationFeet": 777,
+                "fs": "BRQ",
+                "iata": "BRQ",
+                "icao": "LKTB",
+                "latitude": 49.15,
+                "localTime": "2014-07-27T18:22:51.936",
+                "longitude": 16.7,
+                "name": "Turany Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Prague",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BRQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BRQ",
+            "requestedCode": "BRQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BRQ/dep"
+    }
+}

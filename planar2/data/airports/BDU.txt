@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bardufoss",
+                "cityCode": "BDU",
+                "classification": 4,
+                "countryCode": "NO",
+                "countryName": "Norway",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BDU?codeType=fs",
+                "elevationFeet": 260,
+                "fs": "BDU",
+                "iata": "BDU",
+                "icao": "ENDU",
+                "latitude": 69.056111,
+                "localTime": "2014-07-27T18:12:51.456",
+                "longitude": 18.54,
+                "name": "Bardufoss Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Oslo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BDU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BDU",
+            "requestedCode": "BDU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BDU/dep"
+    }
+}

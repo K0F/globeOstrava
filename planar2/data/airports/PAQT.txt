@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Nuiqsut",
+                "cityCode": "NUI",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NUI?codeType=fs",
+                "elevationFeet": 38,
+                "faa": "PAQT",
+                "fs": "NUI",
+                "iata": "NUI",
+                "icao": "PAQT",
+                "latitude": 70.209722,
+                "localTime": "2014-07-26T03:03:33.138",
+                "longitude": -151.005556,
+                "name": "Nuiqsut Airport",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NUI?codeType=fs",
+                "weatherZone": "AKZ203"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NUI",
+            "requestedCode": "PAQT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PAQT/dep"
+    }
+}

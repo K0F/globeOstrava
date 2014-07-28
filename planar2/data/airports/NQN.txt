@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Neuquen",
+                "cityCode": "NQN",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NQN?codeType=fs",
+                "elevationFeet": 896,
+                "fs": "NQN",
+                "iata": "NQN",
+                "icao": "SAZN",
+                "latitude": -38.95,
+                "localTime": "2014-07-27T13:32:56.490",
+                "longitude": -68.152222,
+                "name": "Neuquen Airport",
+                "regionName": "South America",
+                "stateCode": "NE",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NQN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NQN",
+            "requestedCode": "NQN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NQN/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kendallville",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/C62?codeType=fs",
+                "elevationFeet": 1005,
+                "faa": "C62",
+                "fs": "C62",
+                "latitude": 41.527167,
+                "localTime": "2014-07-26T11:53:30.346",
+                "longitude": -85.358083,
+                "name": "Kendallville Municipal",
+                "regionName": "North America",
+                "stateCode": "IN",
+                "timeZoneRegionName": "America/Indiana/Indianapolis",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/C62?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "C62",
+            "requestedCode": "C62"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/C62/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Queenstown",
+                "cityCode": "UTW",
+                "classification": 5,
+                "countryCode": "ZA",
+                "countryName": "South Africa",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UTW?codeType=fs",
+                "elevationFeet": 3637,
+                "fs": "UTW",
+                "iata": "UTW",
+                "icao": "FAQT",
+                "latitude": -31.866667,
+                "localTime": "2014-07-27T18:14:26.551",
+                "longitude": 26.866667,
+                "name": "Queenstown Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Johannesburg",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UTW?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UTW",
+            "requestedCode": "UTW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UTW/dep"
+    }
+}

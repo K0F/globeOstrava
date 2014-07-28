@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kandla",
+                "cityCode": "IXY",
+                "classification": 4,
+                "countryCode": "IN",
+                "countryName": "India",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IXY?codeType=fs",
+                "elevationFeet": 95,
+                "fs": "IXY",
+                "iata": "IXY",
+                "icao": "VAKE",
+                "latitude": 23.111111,
+                "localTime": "2014-07-27T22:08:37.355",
+                "longitude": 70.104167,
+                "name": "Kandla Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kolkata",
+                "utcOffsetHours": 5.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IXY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IXY",
+            "requestedCode": "IXY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IXY/dep"
+    }
+}

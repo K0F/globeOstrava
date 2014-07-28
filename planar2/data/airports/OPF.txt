@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Miami",
+                "cityCode": "MIA",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OPF?codeType=fs",
+                "elevationFeet": 6,
+                "faa": "OPF",
+                "fs": "OPF",
+                "iata": "OPF",
+                "icao": "KOPF",
+                "latitude": 25.90856,
+                "localTime": "2014-07-26T07:03:28.148",
+                "longitude": -80.274424,
+                "name": "Opa-locka Executive Airport",
+                "regionName": "North America",
+                "stateCode": "FL",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OPF?codeType=fs",
+                "weatherZone": "FLZ074"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OPF",
+            "requestedCode": "OPF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OPF/dep"
+    }
+}

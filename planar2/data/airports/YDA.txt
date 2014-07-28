@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dawson City",
+                "cityCode": "YDA",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YDA?codeType=fs",
+                "elevationFeet": 1214,
+                "fs": "YDA",
+                "iata": "YDA",
+                "icao": "CYDA",
+                "latitude": 64.041667,
+                "localTime": "2014-07-27T09:04:46.175",
+                "longitude": -139.120833,
+                "name": "Dawson City Airport",
+                "regionName": "North America",
+                "stateCode": "YT",
+                "timeZoneRegionName": "America/Vancouver",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YDA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YDA",
+            "requestedCode": "YDA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YDA/dep"
+    }
+}

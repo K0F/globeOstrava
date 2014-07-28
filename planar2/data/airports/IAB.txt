@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Wichita",
+                "cityCode": "ICT",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IAB?codeType=fs",
+                "elevationFeet": 1371,
+                "faa": "IAB",
+                "fs": "IAB",
+                "iata": "IAB",
+                "icao": "KIAB",
+                "latitude": 37.681139,
+                "localTime": "2014-07-26T11:24:26.676",
+                "longitude": -97.276167,
+                "name": "McConnell Air Force Base",
+                "regionName": "North America",
+                "stateCode": "KS",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IAB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IAB",
+            "requestedCode": "IAB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IAB/dep"
+    }
+}

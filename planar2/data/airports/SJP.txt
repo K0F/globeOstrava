@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sao Jose Do Rio Preto",
+                "cityCode": "SJP",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SJP?codeType=fs",
+                "elevationFeet": 1782,
+                "fs": "SJP",
+                "iata": "SJP",
+                "icao": "SBSR",
+                "latitude": -20.816667,
+                "localTime": "2014-07-27T13:34:11.183",
+                "longitude": -49.416667,
+                "name": "Sao Jose Do Rio Preto Airport",
+                "regionName": "South America",
+                "stateCode": "SP",
+                "timeZoneRegionName": "America/Sao_Paulo",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SJP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SJP",
+            "requestedCode": "SJP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SJP/dep"
+    }
+}

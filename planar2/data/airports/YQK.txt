@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kenora",
+                "cityCode": "YQK",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YQK?codeType=fs",
+                "elevationFeet": 1332,
+                "fs": "YQK",
+                "iata": "YQK",
+                "icao": "CYQK",
+                "latitude": 49.7875,
+                "localTime": "2014-07-27T11:06:01.446",
+                "longitude": -94.358333,
+                "name": "Kenora Airport",
+                "regionName": "North America",
+                "stateCode": "ON",
+                "timeZoneRegionName": "America/Winnipeg",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YQK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YQK",
+            "requestedCode": "YQK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YQK/dep"
+    }
+}

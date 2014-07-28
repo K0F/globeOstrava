@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Canarana",
+                "cityCode": "CQA",
+                "classification": 5,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CQA?codeType=fs",
+                "elevationFeet": 1296,
+                "fs": "CQA",
+                "iata": "CQA",
+                "icao": "SWEK",
+                "latitude": -13.574167,
+                "localTime": "2014-07-26T11:14:19.076",
+                "longitude": -52.270278,
+                "name": "Canarana Airport",
+                "regionName": "South America",
+                "stateCode": "MT",
+                "timeZoneRegionName": "America/Campo_Grande",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CQA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CQA",
+            "requestedCode": "CQA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CQA/dep"
+    }
+}

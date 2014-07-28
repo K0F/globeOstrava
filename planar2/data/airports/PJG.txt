@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Panjgur",
+                "cityCode": "PJG",
+                "classification": 4,
+                "countryCode": "PK",
+                "countryName": "Pakistan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PJG?codeType=fs",
+                "elevationFeet": 3100,
+                "fs": "PJG",
+                "iata": "PJG",
+                "icao": "OPPG",
+                "latitude": 26.966667,
+                "localTime": "2014-07-27T21:29:56.871",
+                "longitude": 64.1,
+                "name": "Panjgur Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Karachi",
+                "utcOffsetHours": 5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PJG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PJG",
+            "requestedCode": "PJG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PJG/dep"
+    }
+}

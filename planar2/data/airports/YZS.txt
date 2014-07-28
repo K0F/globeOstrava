@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Coral Harbour",
+                "cityCode": "YZS",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YZS?codeType=fs",
+                "elevationFeet": 210,
+                "fs": "YZS",
+                "iata": "YZS",
+                "icao": "CYZS",
+                "latitude": 64.2,
+                "localTime": "2014-07-27T11:04:45.084",
+                "longitude": -83.366667,
+                "name": "Coral Harbour Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "NU",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Atikokan",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YZS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YZS",
+            "requestedCode": "YZS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YZS/dep"
+    }
+}

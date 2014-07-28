@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Pituffik",
+                "cityCode": "THU",
+                "classification": 4,
+                "countryCode": "GL",
+                "countryName": "Greenland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/THU?codeType=fs",
+                "elevationFeet": 251,
+                "fs": "THU",
+                "iata": "THU",
+                "icao": "BGTL",
+                "latitude": 76.533333,
+                "localTime": "2014-07-27T13:04:12.589",
+                "longitude": -68.7,
+                "name": "Pituffik Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Thule",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/THU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "THU",
+            "requestedCode": "THU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/THU/dep"
+    }
+}

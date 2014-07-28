@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Brainerd",
+                "cityCode": "BRD",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BRD?codeType=fs",
+                "elevationFeet": 1226,
+                "faa": "BRD",
+                "fs": "BRD",
+                "iata": "BRD",
+                "icao": "KBRD",
+                "latitude": 46.397222,
+                "localTime": "2014-07-26T07:35:41.755",
+                "longitude": -94.1375,
+                "name": "Crow Wing County Airport",
+                "postalCode": "56401",
+                "regionName": "North America",
+                "stateCode": "MN",
+                "street1": "2375 Airport Road Northeast",
+                "street2": "",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BRD?codeType=fs",
+                "weatherZone": "MNZ034"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BRD",
+            "requestedCode": "BRD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BRD/dep"
+    }
+}

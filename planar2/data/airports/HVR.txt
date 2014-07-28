@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Havre",
+                "cityCode": "HVR",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HVR?codeType=fs",
+                "elevationFeet": 2590,
+                "faa": "HVR",
+                "fs": "HVR",
+                "iata": "HVR",
+                "icao": "KHVR",
+                "latitude": 48.544444,
+                "localTime": "2014-07-27T09:55:17.092",
+                "longitude": -109.761111,
+                "name": "Havre City County Airport",
+                "regionName": "North America",
+                "stateCode": "MT",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HVR?codeType=fs",
+                "weatherZone": "MTZ011"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HVR",
+            "requestedCode": "HVR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HVR/dep"
+    }
+}

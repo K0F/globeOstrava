@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Roseburg",
+                "cityCode": "RBG",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RBG?codeType=fs",
+                "elevationFeet": 501,
+                "faa": "RBG",
+                "fs": "RBG",
+                "iata": "RBG",
+                "icao": "KRBG",
+                "latitude": 43.238827,
+                "localTime": "2014-07-26T09:27:04.284",
+                "longitude": -123.358013,
+                "name": "Roseburg Regional Airport",
+                "regionName": "North America",
+                "stateCode": "OR",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RBG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RBG",
+            "requestedCode": "RBG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RBG/dep"
+    }
+}

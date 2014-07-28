@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Amboin",
+                "cityCode": "AMG",
+                "classification": 5,
+                "countryCode": "PG",
+                "countryName": "Papua New Guinea",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AMG?codeType=fs",
+                "fs": "AMG",
+                "iata": "AMG",
+                "latitude": -4.616667,
+                "localTime": "2014-07-27T02:25:04.033",
+                "longitude": 143.7,
+                "name": "Amboin Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Pacific/Port_Moresby",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AMG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AMG",
+            "requestedCode": "AMG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AMG/dep"
+    }
+}

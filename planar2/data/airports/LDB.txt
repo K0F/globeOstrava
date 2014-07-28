@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Londrina",
+                "cityCode": "LDB",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LDB?codeType=fs",
+                "elevationFeet": 1867,
+                "fs": "LDB",
+                "iata": "LDB",
+                "icao": "SBLO",
+                "latitude": -23.328456,
+                "localTime": "2014-07-27T13:33:40.746",
+                "longitude": -51.137715,
+                "name": "Londrina Airport",
+                "regionName": "South America",
+                "stateCode": "PR",
+                "timeZoneRegionName": "America/Sao_Paulo",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LDB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LDB",
+            "requestedCode": "LDB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LDB/dep"
+    }
+}

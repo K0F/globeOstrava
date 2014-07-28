@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Owatonna",
+                "cityCode": "OWA",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OWA?codeType=fs",
+                "elevationFeet": 1145,
+                "faa": "OWA",
+                "fs": "OWA",
+                "iata": "OWA",
+                "icao": "KOWA",
+                "latitude": 44.1,
+                "localTime": "2014-07-26T10:19:56.255",
+                "longitude": -93.166667,
+                "name": "Owatonna Airport",
+                "regionName": "North America",
+                "stateCode": "MN",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OWA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OWA",
+            "requestedCode": "OWA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OWA/dep"
+    }
+}

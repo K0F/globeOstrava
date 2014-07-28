@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Aurangabad",
+                "cityCode": "IXU",
+                "classification": 4,
+                "countryCode": "IN",
+                "countryName": "India",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IXU?codeType=fs",
+                "elevationFeet": 1908,
+                "fs": "IXU",
+                "iata": "IXU",
+                "icao": "VAAU",
+                "latitude": 19.866464,
+                "localTime": "2014-07-27T22:08:25.495",
+                "longitude": 75.397207,
+                "name": "Chikkalthana Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kolkata",
+                "utcOffsetHours": 5.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IXU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IXU",
+            "requestedCode": "IXU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IXU/dep"
+    }
+}

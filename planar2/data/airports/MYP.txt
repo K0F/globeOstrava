@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mary",
+                "cityCode": "MYP",
+                "classification": 5,
+                "countryCode": "TM",
+                "countryName": "Turkmenistan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MYP?codeType=fs",
+                "fs": "MYP",
+                "iata": "MYP",
+                "latitude": 37.666667,
+                "localTime": "2014-07-27T21:31:57.648",
+                "longitude": 61.833333,
+                "name": "Mary Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Ashgabat",
+                "utcOffsetHours": 5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MYP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MYP",
+            "requestedCode": "MYP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MYP/dep"
+    }
+}

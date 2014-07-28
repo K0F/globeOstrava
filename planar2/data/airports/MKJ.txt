@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Makoua",
+                "cityCode": "MKJ",
+                "classification": 5,
+                "countryCode": "CG",
+                "countryName": "Congo",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MKJ?codeType=fs",
+                "elevationFeet": 2559,
+                "fs": "MKJ",
+                "iata": "MKJ",
+                "icao": "FCOM",
+                "latitude": -0.020278,
+                "localTime": "2014-07-26T16:18:36.490",
+                "longitude": 15.576667,
+                "name": "Makoua Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Brazzaville",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MKJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MKJ",
+            "requestedCode": "MKJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MKJ/dep"
+    }
+}

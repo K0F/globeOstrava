@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sampit",
+                "cityCode": "SMQ",
+                "classification": 4,
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SMQ?codeType=fs",
+                "elevationFeet": 35,
+                "fs": "SMQ",
+                "iata": "SMQ",
+                "icao": "WAOS",
+                "latitude": -2.502806,
+                "localTime": "2014-07-26T22:21:50.777",
+                "longitude": 112.979002,
+                "name": "H. Asan Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Jakarta",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SMQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SMQ",
+            "requestedCode": "SMQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SMQ/dep"
+    }
+}

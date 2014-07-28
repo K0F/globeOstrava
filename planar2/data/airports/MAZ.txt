@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mayaguez",
+                "cityCode": "MAZ",
+                "classification": 4,
+                "countryCode": "PR",
+                "countryName": "Puerto Rico",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MAZ?codeType=fs",
+                "elevationFeet": 29,
+                "fs": "MAZ",
+                "iata": "MAZ",
+                "icao": "TJMZ",
+                "latitude": 18.257778,
+                "localTime": "2014-07-27T12:36:58.872",
+                "longitude": -67.148889,
+                "name": "Eugenio M. De Hostos Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Puerto_Rico",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MAZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MAZ",
+            "requestedCode": "MAZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MAZ/dep"
+    }
+}

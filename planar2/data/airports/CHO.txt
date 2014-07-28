@@ -1,0 +1,345 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "EV",
+                "iata": "EV",
+                "icao": "ASQ",
+                "name": "ExpressJet"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Atlanta",
+                "cityCode": "ATL",
+                "classification": 1,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ATL?codeType=fs",
+                "elevationFeet": 1026,
+                "faa": "ATL",
+                "fs": "ATL",
+                "iata": "ATL",
+                "icao": "KATL",
+                "latitude": 33.640067,
+                "localTime": "2014-07-26T07:04:16.841",
+                "longitude": -84.44403,
+                "name": "Hartsfield-Jackson Atlanta International Airport",
+                "postalCode": "30320",
+                "regionName": "North America",
+                "stateCode": "GA",
+                "street1": "6000 N Terminal Parkway",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ATL?codeType=fs",
+                "weatherZone": "GAZ044"
+            },
+            {
+                "active": true,
+                "city": "Charlottesville",
+                "cityCode": "CHO",
+                "classification": 3,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CHO?codeType=fs",
+                "elevationFeet": 639,
+                "faa": "CHO",
+                "fs": "CHO",
+                "iata": "CHO",
+                "icao": "KCHO",
+                "latitude": 38.139415,
+                "localTime": "2014-07-26T07:04:16.817",
+                "longitude": -78.449279,
+                "name": "Albemarle Airport",
+                "postalCode": "22911",
+                "regionName": "North America",
+                "stateCode": "VA",
+                "street1": "201 Bowen Loop",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CHO?codeType=fs",
+                "weatherZone": "VAZ037"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "ATL",
+            "bearing": 227.90661506682457,
+            "carrierFsCode": "EV",
+            "departureAirportFsCode": "CHO",
+            "departureDate": {
+                "dateLocal": "2014-07-26T06:45:00.000",
+                "dateUtc": "2014-07-26T10:45:00.000Z"
+            },
+            "equipment": "CRJ2",
+            "flightId": 409927498,
+            "flightNumber": "5507",
+            "heading": 249.78714823772486,
+            "legacyRoute": "KCHO..MOL.DIRTY2.KATL/1159",
+            "positions": [
+                {
+                    "altitudeFt": 12100,
+                    "date": "2014-07-26T10:58:40.000Z",
+                    "lat": 37.9731,
+                    "lon": -78.8642,
+                    "source": "ASDI",
+                    "speedMph": 338
+                },
+                {
+                    "altitudeFt": 10200,
+                    "date": "2014-07-26T10:57:38.000Z",
+                    "lat": 38.0075,
+                    "lon": -78.7472,
+                    "source": "ASDI",
+                    "speedMph": 306
+                },
+                {
+                    "altitudeFt": 8000,
+                    "date": "2014-07-26T10:56:37.000Z",
+                    "lat": 38.0331,
+                    "lon": -78.6594,
+                    "source": "ASDI",
+                    "speedMph": 293
+                },
+                {
+                    "altitudeFt": 5400,
+                    "date": "2014-07-26T10:55:34.000Z",
+                    "lat": 38.0572,
+                    "lon": -78.5728,
+                    "source": "ASDI",
+                    "speedMph": 247
+                },
+                {
+                    "altitudeFt": 3800,
+                    "date": "2014-07-26T10:54:33.000Z",
+                    "lat": 38.0786,
+                    "lon": -78.5019,
+                    "source": "ASDI",
+                    "speedMph": 204
+                },
+                {
+                    "altitudeFt": 2600,
+                    "date": "2014-07-26T10:53:55.000Z",
+                    "lat": 38.1,
+                    "lon": -78.4667,
+                    "source": "ASDI",
+                    "speedMph": 184
+                },
+                {
+                    "altitudeFt": 2000,
+                    "date": "2014-07-26T10:53:31.000Z",
+                    "lat": 38.1139,
+                    "lon": -78.4647,
+                    "source": "ASDI",
+                    "speedMph": 168
+                }
+            ],
+            "waypoints": [
+                {
+                    "lat": 38.1333,
+                    "lon": -78.45
+                },
+                {
+                    "lat": 38.1,
+                    "lon": -78.5167
+                },
+                {
+                    "lat": 38.1,
+                    "lon": -78.55
+                },
+                {
+                    "lat": 38.0833,
+                    "lon": -78.6
+                },
+                {
+                    "lat": 38.0667,
+                    "lon": -78.6333
+                },
+                {
+                    "lat": 38.05,
+                    "lon": -78.6667
+                },
+                {
+                    "lat": 38.05,
+                    "lon": -78.6833
+                },
+                {
+                    "lat": 38.0333,
+                    "lon": -78.7167
+                },
+                {
+                    "lat": 37.9667,
+                    "lon": -78.9167
+                },
+                {
+                    "lat": 37.9,
+                    "lon": -79.1
+                },
+                {
+                    "lat": 37.8833,
+                    "lon": -79.1
+                },
+                {
+                    "lat": 37.8333,
+                    "lon": -79.1833
+                },
+                {
+                    "lat": 37.7667,
+                    "lon": -79.2667
+                },
+                {
+                    "lat": 37.6667,
+                    "lon": -79.4167
+                },
+                {
+                    "lat": 37.5333,
+                    "lon": -79.6
+                },
+                {
+                    "lat": 37.4667,
+                    "lon": -79.6833
+                },
+                {
+                    "lat": 37.35,
+                    "lon": -79.85
+                },
+                {
+                    "lat": 37.2,
+                    "lon": -80.05
+                },
+                {
+                    "lat": 37.1333,
+                    "lon": -80.1333
+                },
+                {
+                    "lat": 37.05,
+                    "lon": -80.2667
+                },
+                {
+                    "lat": 37.0167,
+                    "lon": -80.3
+                },
+                {
+                    "lat": 36.9667,
+                    "lon": -80.3667
+                },
+                {
+                    "lat": 36.95,
+                    "lon": -80.4
+                },
+                {
+                    "lat": 35.8167,
+                    "lon": -81.8833
+                },
+                {
+                    "lat": 35.5833,
+                    "lon": -82.1667
+                },
+                {
+                    "lat": 35.1833,
+                    "lon": -82.6833
+                },
+                {
+                    "lat": 35.0833,
+                    "lon": -82.7833
+                },
+                {
+                    "lat": 34.9833,
+                    "lon": -82.9167
+                },
+                {
+                    "lat": 34.6833,
+                    "lon": -83.2833
+                },
+                {
+                    "lat": 34.4667,
+                    "lon": -83.4833
+                },
+                {
+                    "lat": 34.3,
+                    "lon": -83.6333
+                },
+                {
+                    "lat": 34.0667,
+                    "lon": -83.8333
+                },
+                {
+                    "lat": 34.0,
+                    "lon": -83.9333
+                },
+                {
+                    "lat": 33.9667,
+                    "lon": -83.9667
+                },
+                {
+                    "lat": 33.9333,
+                    "lon": -83.9833
+                },
+                {
+                    "lat": 33.7167,
+                    "lon": -84.1333
+                },
+                {
+                    "lat": 33.7167,
+                    "lon": -84.2667
+                },
+                {
+                    "lat": 33.7167,
+                    "lon": -84.4333
+                },
+                {
+                    "lat": 33.7167,
+                    "lon": -84.55
+                },
+                {
+                    "lat": 33.7167,
+                    "lon": -84.7
+                },
+                {
+                    "lat": 33.7167,
+                    "lon": -84.8
+                },
+                {
+                    "lat": 33.7167,
+                    "lon": -84.7833
+                },
+                {
+                    "lat": 33.6667,
+                    "lon": -84.6
+                },
+                {
+                    "lat": 33.65,
+                    "lon": -84.5
+                },
+                {
+                    "lat": 33.6333,
+                    "lon": -84.4167
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "CHO",
+            "requestedCode": "CHO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CHO/dep"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Wausau",
+                "cityCode": "AUW",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CWA?codeType=fs",
+                "elevationFeet": 1277,
+                "faa": "CWA",
+                "fs": "CWA",
+                "iata": "CWA",
+                "icao": "KCWA",
+                "latitude": 44.784209,
+                "localTime": "2014-07-26T07:36:00.155",
+                "longitude": -89.672437,
+                "name": "Central Wisconsin Airport",
+                "postalCode": "54401",
+                "regionName": "North America",
+                "stateCode": "WI",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CWA?codeType=fs",
+                "weatherZone": "WIZ030"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CWA",
+            "requestedCode": "CWA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CWA/dep"
+    }
+}

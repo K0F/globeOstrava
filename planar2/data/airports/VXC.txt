@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lichinga",
+                "cityCode": "VXC",
+                "classification": 4,
+                "countryCode": "MZ",
+                "countryName": "Mozambique",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VXC?codeType=fs",
+                "elevationFeet": 4491,
+                "fs": "VXC",
+                "iata": "VXC",
+                "icao": "FQLC",
+                "latitude": -13.283333,
+                "localTime": "2014-07-27T18:16:02.831",
+                "longitude": 35.25,
+                "name": "Lichinga Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Maputo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VXC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "VXC",
+            "requestedCode": "VXC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/VXC/dep"
+    }
+}

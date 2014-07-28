@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tindouf",
+                "cityCode": "TIN",
+                "classification": 4,
+                "countryCode": "DZ",
+                "countryName": "Algeria",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TIN?codeType=fs",
+                "elevationFeet": 1445,
+                "fs": "TIN",
+                "iata": "TIN",
+                "icao": "DAOF",
+                "latitude": 27.701163,
+                "localTime": "2014-07-27T17:08:07.692",
+                "longitude": -8.163246,
+                "name": "Tindouf Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Algiers",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TIN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TIN",
+            "requestedCode": "TIN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TIN/dep"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Norwood",
+                "cityCode": "OWD",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OWD?codeType=fs",
+                "elevationFeet": 46,
+                "faa": "OWD",
+                "fs": "OWD",
+                "iata": "OWD",
+                "icao": "KOWD",
+                "latitude": 42.192124,
+                "localTime": "2014-07-26T12:26:04.273",
+                "longitude": -71.176789,
+                "name": "Norwood Memorial Airport",
+                "regionName": "North America",
+                "stateCode": "MA",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OWD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OWD",
+            "requestedCode": "OWD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OWD/dep"
+    }
+}

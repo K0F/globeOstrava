@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Shageluk",
+                "cityCode": "SHX",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SHX?codeType=fs",
+                "elevationFeet": 70,
+                "faa": "SHX",
+                "fs": "SHX",
+                "iata": "SHX",
+                "latitude": 62.695833,
+                "localTime": "2014-07-26T08:30:23.869",
+                "longitude": -159.566667,
+                "name": "Shageluk Airport",
+                "postalCode": "99665",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SHX?codeType=fs",
+                "weatherZone": "AKZ215"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SHX",
+            "requestedCode": "SHX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SHX/dep"
+    }
+}

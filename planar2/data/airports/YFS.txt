@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Fort Simpson",
+                "cityCode": "YFS",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YFS?codeType=fs",
+                "elevationFeet": 555,
+                "fs": "YFS",
+                "iata": "YFS",
+                "icao": "CYFS",
+                "latitude": 61.75,
+                "localTime": "2014-07-27T10:05:06.658",
+                "longitude": -121.233333,
+                "name": "Fort Simpson Airport",
+                "regionName": "North America",
+                "stateCode": "NT",
+                "timeZoneRegionName": "America/Edmonton",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YFS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YFS",
+            "requestedCode": "YFS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YFS/dep"
+    }
+}

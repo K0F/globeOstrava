@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Skiathos",
+                "cityCode": "JSI",
+                "classification": 4,
+                "countryCode": "GR",
+                "countryName": "Greece",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/JSI?codeType=fs",
+                "elevationFeet": 51,
+                "fs": "JSI",
+                "iata": "JSI",
+                "icao": "LGSK",
+                "latitude": 39.180556,
+                "localTime": "2014-07-27T19:21:38.184",
+                "longitude": 23.505556,
+                "name": "Skiathos Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Athens",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/JSI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "JSI",
+            "requestedCode": "JSI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/JSI/dep"
+    }
+}

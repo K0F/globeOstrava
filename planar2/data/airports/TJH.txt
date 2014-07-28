@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Toyooka",
+                "cityCode": "TJH",
+                "classification": 4,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TJH?codeType=fs",
+                "elevationFeet": 554,
+                "fs": "TJH",
+                "iata": "TJH",
+                "icao": "RJBT",
+                "latitude": 35.51366,
+                "localTime": "2014-07-28T00:54:07.602",
+                "longitude": 134.787674,
+                "name": "Tajima Airport",
+                "regionName": "Asia",
+                "street1": "1598 Iwai",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TJH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TJH",
+            "requestedCode": "TJH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TJH/dep"
+    }
+}

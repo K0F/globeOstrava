@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kaedi",
+                "cityCode": "KED",
+                "classification": 5,
+                "countryCode": "MR",
+                "countryName": "Mauritania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KED?codeType=fs",
+                "elevationFeet": 75,
+                "fs": "KED",
+                "iata": "KED",
+                "icao": "GQNK",
+                "latitude": 16.161389,
+                "localTime": "2014-07-27T16:17:30.846",
+                "longitude": -13.507778,
+                "name": "Kaedi Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Nouakchott",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KED?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KED",
+            "requestedCode": "KED"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KED/dep"
+    }
+}

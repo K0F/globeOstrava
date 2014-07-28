@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Brandon",
+                "cityCode": "YBR",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YBR?codeType=fs",
+                "elevationFeet": 1330,
+                "fs": "YBR",
+                "iata": "YBR",
+                "icao": "CYBR",
+                "latitude": 49.908687,
+                "localTime": "2014-07-27T11:04:34.621",
+                "longitude": -99.946773,
+                "name": "Brandon Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "MB",
+                "timeZoneRegionName": "America/Winnipeg",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YBR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YBR",
+            "requestedCode": "YBR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YBR/dep"
+    }
+}

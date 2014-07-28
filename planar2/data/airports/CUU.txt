@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Chihuahua",
+                "cityCode": "CUU",
+                "classification": 3,
+                "countryCode": "MX",
+                "countryName": "Mexico",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CUU?codeType=fs",
+                "elevationFeet": 4462,
+                "fs": "CUU",
+                "iata": "CUU",
+                "icao": "MMCU",
+                "latitude": 28.704048,
+                "localTime": "2014-07-27T10:25:20.322",
+                "longitude": -105.969523,
+                "name": "Gen Fierro Villalobos Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Mazatlan",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CUU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CUU",
+            "requestedCode": "CUU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CUU/dep"
+    }
+}

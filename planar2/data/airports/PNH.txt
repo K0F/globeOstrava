@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Phnom Penh",
+                "cityCode": "PNH",
+                "classification": 3,
+                "countryCode": "KH",
+                "countryName": "Cambodia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PNH?codeType=fs",
+                "elevationFeet": 40,
+                "fs": "PNH",
+                "iata": "PNH",
+                "icao": "VDPP",
+                "latitude": 11.546111,
+                "localTime": "2014-07-27T22:52:28.156",
+                "longitude": 104.847778,
+                "name": "Phnom Penh International Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Phnom_Penh",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PNH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PNH",
+            "requestedCode": "PNH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PNH/dep"
+    }
+}

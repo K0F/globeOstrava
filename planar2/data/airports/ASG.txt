@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ashburton",
+                "cityCode": "ASG",
+                "classification": 5,
+                "countryCode": "NZ",
+                "countryName": "New Zealand",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ASG?codeType=fs",
+                "elevationFeet": 298,
+                "fs": "ASG",
+                "iata": "ASG",
+                "icao": "NZAS",
+                "latitude": -43.9,
+                "localTime": "2014-07-27T04:26:32.265",
+                "longitude": 171.783333,
+                "name": "Ashburton Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Auckland",
+                "utcOffsetHours": 12.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ASG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ASG",
+            "requestedCode": "ASG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ASG/dep"
+    }
+}

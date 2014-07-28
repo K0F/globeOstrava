@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mafraq",
+                "cityCode": "OMF",
+                "classification": 5,
+                "countryCode": "JO",
+                "countryName": "Jordan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OMF?codeType=fs",
+                "fs": "OMF",
+                "iata": "OMF",
+                "latitude": 32.35,
+                "localTime": "2014-07-27T18:53:49.386",
+                "longitude": 36.25,
+                "name": "King Hussein Airport",
+                "regionName": "Middle East",
+                "timeZoneRegionName": "Asia/Amman",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OMF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OMF",
+            "requestedCode": "OMF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OMF/dep"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Wrigley",
+                "cityCode": "YWY",
+                "classification": 5,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YWY?codeType=fs",
+                "elevationFeet": 0,
+                "fs": "YWY",
+                "iata": "YWY",
+                "icao": "CYWY",
+                "latitude": 63.210556,
+                "localTime": "2014-07-27T10:06:55.007",
+                "longitude": -123.438611,
+                "name": "Wrigley Airport",
+                "regionName": "North America",
+                "stateCode": "NT",
+                "timeZoneRegionName": "America/Edmonton",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YWY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YWY",
+            "requestedCode": "YWY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YWY/dep"
+    }
+}

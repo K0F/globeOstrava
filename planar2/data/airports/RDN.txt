@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Redang",
+                "cityCode": "RDN",
+                "classification": 4,
+                "countryCode": "MY",
+                "countryName": "Malaysia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RDN?codeType=fs",
+                "fs": "RDN",
+                "iata": "RDN",
+                "latitude": 5.765278,
+                "localTime": "2014-07-27T23:52:39.247",
+                "longitude": 103.006944,
+                "name": "LTS Pulau Redang Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kuala_Lumpur",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RDN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RDN",
+            "requestedCode": "RDN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RDN/dep"
+    }
+}

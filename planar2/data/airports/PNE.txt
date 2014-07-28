@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Philadelphia",
+                "cityCode": "PHL",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PNE?codeType=fs",
+                "elevationFeet": 121,
+                "faa": "PNE",
+                "fs": "PNE",
+                "iata": "PNE",
+                "icao": "KPNE",
+                "latitude": 40.080278,
+                "localTime": "2014-07-26T08:34:49.892",
+                "longitude": -75.0125,
+                "name": "North Philadelphia Airport",
+                "regionName": "North America",
+                "stateCode": "PA",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PNE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PNE",
+            "requestedCode": "PNE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PNE/dep"
+    }
+}

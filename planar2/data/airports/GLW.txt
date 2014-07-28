@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Glasgow",
+                "cityCode": "GLW",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GLW?codeType=fs",
+                "elevationFeet": 715,
+                "faa": "GLW",
+                "fs": "GLW",
+                "iata": "GLW",
+                "icao": "KGLW",
+                "latitude": 37.0,
+                "localTime": "2014-07-26T10:16:25.057",
+                "longitude": -85.916667,
+                "name": "Glasgow Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "KY",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GLW?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GLW",
+            "requestedCode": "GLW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GLW/dep"
+    }
+}

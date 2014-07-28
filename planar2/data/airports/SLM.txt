@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Salamanca",
+                "cityCode": "SLM",
+                "classification": 4,
+                "countryCode": "ES",
+                "countryName": "Spain and Canary Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SLM?codeType=fs",
+                "elevationFeet": 2589,
+                "fs": "SLM",
+                "iata": "SLM",
+                "icao": "LESA",
+                "latitude": 40.951944,
+                "localTime": "2014-07-27T18:01:57.707",
+                "longitude": -5.501944,
+                "name": "Matacan Airport",
+                "regionName": "Europe",
+                "stateCode": "SP",
+                "timeZoneRegionName": "Europe/Madrid",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SLM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SLM",
+            "requestedCode": "SLM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SLM/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Maio",
+                "cityCode": "MMO",
+                "classification": 4,
+                "countryCode": "CV",
+                "countryName": "Cape Verde",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MMO?codeType=fs",
+                "elevationFeet": 36,
+                "fs": "MMO",
+                "iata": "MMO",
+                "icao": "GVMA",
+                "latitude": 15.25,
+                "localTime": "2014-07-27T15:17:40.560",
+                "longitude": -23.166667,
+                "name": "Vila Do Maio Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Atlantic/Cape_Verde",
+                "utcOffsetHours": -1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MMO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MMO",
+            "requestedCode": "MMO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MMO/dep"
+    }
+}

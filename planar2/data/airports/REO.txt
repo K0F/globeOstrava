@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rome",
+                "cityCode": "REO",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/REO?codeType=fs",
+                "elevationFeet": 4053,
+                "faa": "REO",
+                "fs": "REO",
+                "iata": "REO",
+                "icao": "KREO",
+                "latitude": 42.833333,
+                "localTime": "2014-07-26T08:20:58.432",
+                "longitude": -117.616667,
+                "name": "State Airport",
+                "regionName": "North America",
+                "stateCode": "OR",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/REO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "REO",
+            "requestedCode": "REO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/REO/dep"
+    }
+}

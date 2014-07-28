@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Valledupar",
+                "cityCode": "VUP",
+                "classification": 4,
+                "countryCode": "CO",
+                "countryName": "Colombia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VUP?codeType=fs",
+                "elevationFeet": 453,
+                "fs": "VUP",
+                "iata": "VUP",
+                "icao": "SKVP",
+                "latitude": 10.436667,
+                "localTime": "2014-07-27T11:35:35.392",
+                "longitude": -73.252778,
+                "name": "Valledupar Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Bogota",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VUP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "VUP",
+            "requestedCode": "VUP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/VUP/dep"
+    }
+}

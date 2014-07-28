@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Trelew",
+                "cityCode": "REL",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/REL?codeType=fs",
+                "elevationFeet": 140,
+                "fs": "REL",
+                "iata": "REL",
+                "icao": "SAVT",
+                "latitude": -43.233333,
+                "localTime": "2014-07-27T13:32:43.264",
+                "longitude": -65.323333,
+                "name": "Trelew Airport",
+                "regionName": "South America",
+                "stateCode": "CB",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/REL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "REL",
+            "requestedCode": "REL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/REL/dep"
+    }
+}

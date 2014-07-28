@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Oran",
+                "cityCode": "ORN",
+                "classification": 5,
+                "countryCode": "DZ",
+                "countryName": "Algeria",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TAF?codeType=fs",
+                "elevationFeet": 342,
+                "fs": "TAF",
+                "iata": "TAF",
+                "icao": "DAOL",
+                "latitude": 35.543502,
+                "localTime": "2014-07-27T17:08:09.671",
+                "longitude": -0.532687,
+                "name": "Tafaraoui Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Algiers",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TAF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TAF",
+            "requestedCode": "TAF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TAF/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Niamtougou",
+                "cityCode": "LRL",
+                "classification": 5,
+                "countryCode": "TG",
+                "countryName": "Togo",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LRL?codeType=fs",
+                "elevationFeet": 1513,
+                "fs": "LRL",
+                "iata": "LRL",
+                "icao": "DXNG",
+                "latitude": 9.833333,
+                "localTime": "2014-07-27T16:09:05.315",
+                "longitude": 1.133333,
+                "name": "Niamtougou Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Lome",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LRL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LRL",
+            "requestedCode": "LRL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LRL/dep"
+    }
+}

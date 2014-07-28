@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ulan-Ude",
+                "cityCode": "UUD",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UUD?codeType=fs",
+                "elevationFeet": 1690,
+                "fs": "UUD",
+                "iata": "UUD",
+                "icao": "UIUU",
+                "latitude": 51.833333,
+                "localTime": "2014-07-28T01:37:48.211",
+                "longitude": 107.5,
+                "name": "Ulan-Ude Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Irkutsk",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UUD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UUD",
+            "requestedCode": "UUD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UUD/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Playa Del Carmen",
+                "cityCode": "PCM",
+                "classification": 5,
+                "countryCode": "MX",
+                "countryName": "Mexico",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PCM?codeType=fs",
+                "elevationFeet": 35,
+                "fs": "PCM",
+                "iata": "PCM",
+                "latitude": 20.622147,
+                "localTime": "2014-07-26T07:40:50.204",
+                "longitude": -87.082018,
+                "name": "Playa Del Carmen Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Mexico_City",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PCM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PCM",
+            "requestedCode": "PCM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PCM/dep"
+    }
+}

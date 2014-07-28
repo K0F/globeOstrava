@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Midway Island",
+                "cityCode": "MDY",
+                "classification": 5,
+                "countryCode": "UM",
+                "countryName": "US Minor Outlying Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MDY?codeType=fs",
+                "elevationFeet": 13,
+                "fs": "MDY",
+                "iata": "MDY",
+                "icao": "PMDY",
+                "latitude": 28.2,
+                "localTime": "2014-07-27T05:30:28.179",
+                "longitude": -177.383333,
+                "name": "Sand Island Field",
+                "regionName": "North America",
+                "timeZoneRegionName": "Pacific/Midway",
+                "utcOffsetHours": -11.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MDY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MDY",
+            "requestedCode": "MDY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MDY/dep"
+    }
+}

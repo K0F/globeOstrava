@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Narrandera",
+                "cityCode": "NRA",
+                "classification": 4,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NRA?codeType=fs",
+                "elevationFeet": 473,
+                "fs": "NRA",
+                "iata": "NRA",
+                "icao": "YNAR",
+                "latitude": -34.705644,
+                "localTime": "2014-07-26T22:38:28.077",
+                "longitude": 146.511702,
+                "name": "Narrandera Airport",
+                "regionName": "Oceania",
+                "stateCode": "NSW",
+                "timeZoneRegionName": "Australia/Sydney",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NRA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NRA",
+            "requestedCode": "NRA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NRA/dep"
+    }
+}

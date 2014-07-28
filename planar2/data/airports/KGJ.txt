@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Karonga",
+                "cityCode": "KGJ",
+                "classification": 4,
+                "countryCode": "MW",
+                "countryName": "Malawi",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KGJ?codeType=fs",
+                "elevationFeet": 1765,
+                "fs": "KGJ",
+                "iata": "KGJ",
+                "icao": "FWKA",
+                "latitude": -9.957778,
+                "localTime": "2014-07-27T18:16:26.131",
+                "longitude": 33.892222,
+                "name": "Karonga Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Blantyre",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KGJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KGJ",
+            "requestedCode": "KGJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KGJ/dep"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Genting",
+                "cityCode": "GTB",
+                "classification": 5,
+                "countryCode": "MY",
+                "countryName": "Malaysia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GTB?codeType=fs",
+                "fs": "GTB",
+                "iata": "GTB",
+                "latitude": 2.116667,
+                "localTime": "2014-07-27T00:26:29.279",
+                "longitude": 111.7,
+                "name": "Genting Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kuala_Lumpur",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GTB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GTB",
+            "requestedCode": "GTB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GTB/dep"
+    }
+}

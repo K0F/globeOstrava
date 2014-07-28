@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Crossville",
+                "cityCode": "CSV",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CSV?codeType=fs",
+                "elevationFeet": 1881,
+                "faa": "CSV",
+                "fs": "CSV",
+                "iata": "CSV",
+                "icao": "KCSV",
+                "latitude": 35.951111,
+                "localTime": "2014-07-26T07:39:46.921",
+                "longitude": -85.084722,
+                "name": "Crossville Memorial Airport",
+                "regionName": "North America",
+                "stateCode": "TN",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CSV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CSV",
+            "requestedCode": "CSV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CSV/dep"
+    }
+}

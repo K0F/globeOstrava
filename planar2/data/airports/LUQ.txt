@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "San Luis",
+                "cityCode": "LUQ",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LUQ?codeType=fs",
+                "elevationFeet": 2329,
+                "fs": "LUQ",
+                "iata": "LUQ",
+                "icao": "SAOU",
+                "latitude": -33.274444,
+                "localTime": "2014-07-27T13:32:29.254",
+                "longitude": -66.358611,
+                "name": "San Luis Airport",
+                "regionName": "South America",
+                "stateCode": "SL",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LUQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LUQ",
+            "requestedCode": "LUQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LUQ/dep"
+    }
+}

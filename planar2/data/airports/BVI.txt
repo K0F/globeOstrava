@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Birdsville",
+                "cityCode": "BVI",
+                "classification": 4,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BVI?codeType=fs",
+                "elevationFeet": 157,
+                "fs": "BVI",
+                "iata": "BVI",
+                "icao": "YBDV",
+                "latitude": -25.898333,
+                "localTime": "2014-07-27T01:13:06.491",
+                "longitude": 139.343333,
+                "name": "Birdsville Airport",
+                "regionName": "Oceania",
+                "stateCode": "QLD",
+                "timeZoneRegionName": "Australia/Brisbane",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BVI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BVI",
+            "requestedCode": "BVI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BVI/dep"
+    }
+}

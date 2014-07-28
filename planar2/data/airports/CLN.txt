@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Carolina",
+                "cityCode": "CLN",
+                "classification": 5,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CLN?codeType=fs",
+                "elevationFeet": 565,
+                "fs": "CLN",
+                "iata": "CLN",
+                "icao": "SBCI",
+                "latitude": -7.333333,
+                "localTime": "2014-07-27T13:33:12.871",
+                "longitude": -47.45,
+                "name": "Carolina Airport",
+                "regionName": "South America",
+                "stateCode": "MA",
+                "timeZoneRegionName": "America/Belem",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CLN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CLN",
+            "requestedCode": "CLN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CLN/dep"
+    }
+}

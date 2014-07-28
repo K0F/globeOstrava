@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Maricopa",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/A39?codeType=fs",
+                "elevationFeet": 1290,
+                "faa": "A39",
+                "fs": "A39",
+                "latitude": 33.066667,
+                "localTime": "2014-07-26T08:53:03.672",
+                "longitude": -111.955556,
+                "name": "Grande Valley",
+                "regionName": "North America",
+                "stateCode": "AZ",
+                "timeZoneRegionName": "America/Phoenix",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/A39?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "A39",
+            "requestedCode": "A39"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/A39/dep"
+    }
+}

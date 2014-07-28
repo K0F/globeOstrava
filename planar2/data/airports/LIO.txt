@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Limon",
+                "cityCode": "LIO",
+                "classification": 5,
+                "countryCode": "CR",
+                "countryName": "Costa Rica",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LIO?codeType=fs",
+                "elevationFeet": 7,
+                "fs": "LIO",
+                "iata": "LIO",
+                "icao": "MRLM",
+                "latitude": 9.955833,
+                "localTime": "2014-07-27T10:26:35.812",
+                "longitude": -83.021111,
+                "name": "Limon Airport",
+                "regionName": "Central America",
+                "timeZoneRegionName": "America/Costa_Rica",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LIO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LIO",
+            "requestedCode": "LIO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LIO/dep"
+    }
+}

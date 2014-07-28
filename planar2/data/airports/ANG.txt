@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Angouleme",
+                "cityCode": "ANG",
+                "classification": 4,
+                "countryCode": "FR",
+                "countryName": "France",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ANG?codeType=fs",
+                "elevationFeet": 407,
+                "fs": "ANG",
+                "iata": "ANG",
+                "icao": "LFBU",
+                "latitude": 45.727359,
+                "localTime": "2014-07-27T18:19:40.164",
+                "longitude": 0.218923,
+                "name": "Brie-Champniers Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Paris",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ANG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ANG",
+            "requestedCode": "ANG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ANG/dep"
+    }
+}

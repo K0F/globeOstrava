@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Fort Chipewyan",
+                "cityCode": "YPY",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YPY?codeType=fs",
+                "elevationFeet": 752,
+                "fs": "YPY",
+                "iata": "YPY",
+                "icao": "CYPY",
+                "latitude": 58.767989,
+                "localTime": "2014-07-27T10:05:55.116",
+                "longitude": -111.114062,
+                "name": "Fort Chipewyan Airport",
+                "regionName": "North America",
+                "stateCode": "AB",
+                "timeZoneRegionName": "America/Edmonton",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YPY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YPY",
+            "requestedCode": "YPY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YPY/dep"
+    }
+}

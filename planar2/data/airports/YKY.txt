@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kindersley",
+                "cityCode": "YKY",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YKY?codeType=fs",
+                "elevationFeet": 2269,
+                "fs": "YKY",
+                "iata": "YKY",
+                "icao": "CYKY",
+                "latitude": 51.517606,
+                "localTime": "2014-07-27T10:02:57.922",
+                "longitude": -109.178106,
+                "name": "Kindersley Regional Airport",
+                "regionName": "North America",
+                "stateCode": "SK",
+                "timeZoneRegionName": "America/Regina",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YKY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YKY",
+            "requestedCode": "YKY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YKY/dep"
+    }
+}

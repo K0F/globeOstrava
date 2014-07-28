@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dumai",
+                "cityCode": "DUM",
+                "classification": 5,
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DUM?codeType=fs",
+                "fs": "DUM",
+                "iata": "DUM",
+                "latitude": 1.583333,
+                "localTime": "2014-07-27T23:00:16.875",
+                "longitude": 101.466667,
+                "name": "Pinang Kampai Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Jakarta",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DUM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DUM",
+            "requestedCode": "DUM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DUM/dep"
+    }
+}

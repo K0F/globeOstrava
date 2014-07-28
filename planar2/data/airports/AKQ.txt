@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Astraksetra",
+                "cityCode": "AKQ",
+                "classification": 5,
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AKQ?codeType=fs",
+                "fs": "AKQ",
+                "iata": "AKQ",
+                "latitude": -4.616667,
+                "localTime": "2014-07-26T22:12:08.691",
+                "longitude": 105.233333,
+                "name": "Gunung Batin Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Jakarta",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AKQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AKQ",
+            "requestedCode": "AKQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AKQ/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kigoma",
+                "cityCode": "TKQ",
+                "classification": 4,
+                "countryCode": "TZ",
+                "countryName": "United Republic of Tanzania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TKQ?codeType=fs",
+                "elevationFeet": 2700,
+                "fs": "TKQ",
+                "iata": "TKQ",
+                "icao": "HTKA",
+                "latitude": -4.885,
+                "localTime": "2014-07-27T18:46:20.802",
+                "longitude": 29.67,
+                "name": "Kigoma Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Dar_es_Salaam",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TKQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TKQ",
+            "requestedCode": "TKQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TKQ/dep"
+    }
+}

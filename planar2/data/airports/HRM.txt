@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Hassi R'Mel",
+                "cityCode": "HRM",
+                "classification": 4,
+                "countryCode": "DZ",
+                "countryName": "Algeria",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HRM?codeType=fs",
+                "elevationFeet": 2506,
+                "fs": "HRM",
+                "iata": "HRM",
+                "latitude": 33.933663,
+                "localTime": "2014-07-27T17:08:05.713",
+                "longitude": 3.301419,
+                "name": "Tilrempt Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Algiers",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HRM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HRM",
+            "requestedCode": "HRM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HRM/dep"
+    }
+}

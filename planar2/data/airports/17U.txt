@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Eagle Mountain",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/17U?codeType=fs",
+                "elevationFeet": 4845,
+                "faa": "17U",
+                "fs": "17U",
+                "latitude": 40.387444,
+                "localTime": "2014-07-26T08:30:29.180",
+                "longitude": -112.05975,
+                "name": "Garn",
+                "regionName": "North America",
+                "stateCode": "UT",
+                "timeZoneRegionName": "America/Phoenix",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/17U?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "17U",
+            "requestedCode": "17U"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/17U/dep"
+    }
+}

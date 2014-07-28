@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Puerto Suarez",
+                "cityCode": "PSZ",
+                "classification": 4,
+                "countryCode": "BO",
+                "countryName": "Bolivia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PSZ?codeType=fs",
+                "elevationFeet": 435,
+                "fs": "PSZ",
+                "iata": "PSZ",
+                "icao": "SLPS",
+                "latitude": -18.980472,
+                "localTime": "2014-07-27T12:35:42.790",
+                "longitude": -57.823839,
+                "name": "Puerto Suarez Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/La_Paz",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PSZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PSZ",
+            "requestedCode": "PSZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PSZ/dep"
+    }
+}

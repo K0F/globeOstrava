@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Selebi-Phikwe",
+                "cityCode": "PKW",
+                "classification": 5,
+                "countryCode": "BW",
+                "countryName": "Botswana",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PKW?codeType=fs",
+                "elevationFeet": 2925,
+                "fs": "PKW",
+                "iata": "PKW",
+                "icao": "FBSP",
+                "latitude": -22.05,
+                "localTime": "2014-07-27T18:14:39.835",
+                "longitude": 27.816667,
+                "name": "Selebi-Phikwe Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Gaborone",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PKW?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PKW",
+            "requestedCode": "PKW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PKW/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Huatulco",
+                "cityCode": "HUX",
+                "classification": 4,
+                "countryCode": "MX",
+                "countryName": "Mexico",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HUX?codeType=fs",
+                "elevationFeet": 468,
+                "fs": "HUX",
+                "iata": "HUX",
+                "icao": "MMBT",
+                "latitude": 15.768333,
+                "localTime": "2014-07-27T11:25:12.906",
+                "longitude": -96.235556,
+                "name": "Huatulco Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Mexico_City",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HUX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HUX",
+            "requestedCode": "HUX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HUX/dep"
+    }
+}

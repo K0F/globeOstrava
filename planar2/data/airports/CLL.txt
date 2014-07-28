@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "College Station",
+                "cityCode": "CLL",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CLL?codeType=fs",
+                "elevationFeet": 321,
+                "faa": "CLL",
+                "fs": "CLL",
+                "iata": "CLL",
+                "icao": "KCLL",
+                "latitude": 30.593842,
+                "localTime": "2014-07-26T11:30:13.412",
+                "longitude": -96.366818,
+                "name": "Easterwood Field",
+                "postalCode": "77845",
+                "regionName": "North America",
+                "stateCode": "TX",
+                "street1": "1, McKenzie Terminal Boulevard",
+                "street2": "",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CLL?codeType=fs",
+                "weatherZone": "TXZ196"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CLL",
+            "requestedCode": "CLL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CLL/dep"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Repulse Bay",
+                "cityCode": "YUT",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YUT?codeType=fs",
+                "elevationFeet": 80,
+                "fs": "YUT",
+                "iata": "YUT",
+                "icao": "CYUT",
+                "latitude": 66.533333,
+                "localTime": "2014-07-27T11:06:41.721",
+                "longitude": -86.25,
+                "name": "Repulse Bay Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "NU",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Winnipeg",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YUT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YUT",
+            "requestedCode": "YUT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YUT/dep"
+    }
+}

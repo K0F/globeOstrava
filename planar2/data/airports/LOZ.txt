@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "London",
+                "cityCode": "LOZ",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LOZ?codeType=fs",
+                "elevationFeet": 1212,
+                "faa": "LOZ",
+                "fs": "LOZ",
+                "iata": "LOZ",
+                "icao": "KLOZ",
+                "latitude": 37.087222,
+                "localTime": "2014-07-26T12:25:31.793",
+                "longitude": -84.076944,
+                "name": "Corbin-London Airport",
+                "regionName": "North America",
+                "stateCode": "KY",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LOZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LOZ",
+            "requestedCode": "LOZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LOZ/dep"
+    }
+}

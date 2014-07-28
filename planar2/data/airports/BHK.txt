@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bukhara",
+                "cityCode": "BHK",
+                "classification": 4,
+                "countryCode": "UZ",
+                "countryName": "Uzbekistan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BHK?codeType=fs",
+                "elevationFeet": 751,
+                "fs": "BHK",
+                "iata": "BHK",
+                "icao": "UTSB",
+                "latitude": 39.760369,
+                "localTime": "2014-07-26T17:41:48.875",
+                "longitude": 64.474792,
+                "name": "Bukhara Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Tashkent",
+                "utcOffsetHours": 5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BHK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BHK",
+            "requestedCode": "BHK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BHK/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kos",
+                "cityCode": "KGS",
+                "classification": 4,
+                "countryCode": "GR",
+                "countryName": "Greece",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KGS?codeType=fs",
+                "elevationFeet": 409,
+                "fs": "KGS",
+                "iata": "KGS",
+                "icao": "LGKO",
+                "latitude": 36.793056,
+                "localTime": "2014-07-27T19:21:23.709",
+                "longitude": 27.095278,
+                "name": "Kos Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Athens",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KGS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KGS",
+            "requestedCode": "KGS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KGS/dep"
+    }
+}

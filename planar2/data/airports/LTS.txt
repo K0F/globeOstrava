@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Altus",
+                "cityCode": "LTS",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LTS?codeType=fs",
+                "elevationFeet": 1358,
+                "faa": "LTS",
+                "fs": "LTS",
+                "iata": "LTS",
+                "icao": "KLTS",
+                "latitude": 34.658354,
+                "localTime": "2014-07-26T07:42:35.339",
+                "longitude": -99.269343,
+                "name": "Altus Air Force Base",
+                "regionName": "North America",
+                "stateCode": "OK",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LTS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LTS",
+            "requestedCode": "LTS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LTS/dep"
+    }
+}

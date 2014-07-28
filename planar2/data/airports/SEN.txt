@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Southend",
+                "cityCode": "SEN",
+                "classification": 4,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SEN?codeType=fs",
+                "elevationFeet": 48,
+                "fs": "SEN",
+                "iata": "SEN",
+                "icao": "EGMC",
+                "latitude": 51.572778,
+                "localTime": "2014-07-27T17:11:18.667",
+                "longitude": 0.701389,
+                "name": "London Southend Airport",
+                "regionName": "Europe",
+                "stateCode": "EN",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SEN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SEN",
+            "requestedCode": "SEN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SEN/dep"
+    }
+}

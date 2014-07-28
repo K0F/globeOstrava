@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cardiff",
+                "cityCode": "CWL",
+                "classification": 4,
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CWL?codeType=fs",
+                "elevationFeet": 220,
+                "fs": "CWL",
+                "iata": "CWL",
+                "icao": "EGFF",
+                "latitude": 51.398768,
+                "localTime": "2014-07-27T16:53:30.409",
+                "longitude": -3.339075,
+                "name": "Cardiff-Wales Airport",
+                "regionName": "Europe",
+                "stateCode": "WL",
+                "timeZoneRegionName": "Europe/London",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CWL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CWL",
+            "requestedCode": "CWL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CWL/dep"
+    }
+}

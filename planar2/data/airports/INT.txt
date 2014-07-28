@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Winston-Salem",
+                "cityCode": "INT",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/INT?codeType=fs",
+                "elevationFeet": 969,
+                "faa": "INT",
+                "fs": "INT",
+                "iata": "INT",
+                "icao": "KINT",
+                "latitude": 36.135278,
+                "localTime": "2014-07-26T07:05:31.849",
+                "longitude": -80.225556,
+                "name": "Smith-Reynolds Airport",
+                "postalCode": "27115",
+                "regionName": "North America",
+                "stateCode": "NC",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/INT?codeType=fs",
+                "weatherZone": "NCZ021"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "INT",
+            "requestedCode": "INT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/INT/dep"
+    }
+}

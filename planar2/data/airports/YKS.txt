@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Yakutsk",
+                "cityCode": "YKS",
+                "classification": 3,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YKS?codeType=fs",
+                "elevationFeet": 325,
+                "fs": "YKS",
+                "iata": "YKS",
+                "icao": "UEEE",
+                "latitude": 62.085607,
+                "localTime": "2014-07-28T02:37:33.528",
+                "longitude": 129.750067,
+                "name": "Yakutsk Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Yakutsk",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YKS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YKS",
+            "requestedCode": "YKS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YKS/dep"
+    }
+}

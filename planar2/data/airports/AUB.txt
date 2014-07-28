@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Itauba",
+                "cityCode": "AUB",
+                "classification": 5,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AUB?codeType=fs",
+                "fs": "AUB",
+                "iata": "AUB",
+                "latitude": -5.766667,
+                "localTime": "2014-07-27T11:55:04.090",
+                "longitude": -63.35,
+                "name": "Itauba Airport",
+                "regionName": "South America",
+                "stateCode": "MT",
+                "timeZoneRegionName": "America/Campo_Grande",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AUB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AUB",
+            "requestedCode": "AUB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AUB/dep"
+    }
+}

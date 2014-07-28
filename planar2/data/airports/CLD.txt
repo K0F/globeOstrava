@@ -1,0 +1,52 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Carlsbad",
+                "cityCode": "SAN",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CLD?codeType=fs",
+                "elevationFeet": 318,
+                "faa": "CRQ",
+                "fs": "CLD",
+                "iata": "CLD",
+                "icao": "KCRQ",
+                "latitude": 33.129808,
+                "localTime": "2014-07-27T08:48:21.720",
+                "longitude": -117.274394,
+                "name": "McClellan-Palomar Airport",
+                "postalCode": "92008",
+                "regionName": "North America",
+                "stateCode": "CA",
+                "street1": "2198 Palomar Airport Road",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CLD?codeType=fs",
+                "weatherZone": "CAZ043"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CLD",
+            "requestedCode": "CLD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CLD/dep"
+    }
+}

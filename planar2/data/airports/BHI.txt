@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bahia Blanca",
+                "cityCode": "BHI",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BHI?codeType=fs",
+                "elevationFeet": 246,
+                "fs": "BHI",
+                "iata": "BHI",
+                "icao": "SAZB",
+                "latitude": -38.730556,
+                "localTime": "2014-07-27T13:32:54.377",
+                "longitude": -62.150556,
+                "name": "Comandante Airport",
+                "regionName": "South America",
+                "stateCode": "BA",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BHI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BHI",
+            "requestedCode": "BHI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BHI/dep"
+    }
+}

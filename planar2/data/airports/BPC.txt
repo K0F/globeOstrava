@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bamenda",
+                "cityCode": "BPC",
+                "classification": 5,
+                "countryCode": "CM",
+                "countryName": "Cameroon",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BPC?codeType=fs",
+                "elevationFeet": 4065,
+                "fs": "BPC",
+                "iata": "BPC",
+                "icao": "FKKV",
+                "latitude": 5.916667,
+                "localTime": "2014-07-27T17:14:59.151",
+                "longitude": 10.15,
+                "name": "Bamenda Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Douala",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BPC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BPC",
+            "requestedCode": "BPC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BPC/dep"
+    }
+}

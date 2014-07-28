@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mount Cavenagh",
+                "cityCode": "MKV",
+                "classification": 5,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MKV?codeType=fs",
+                "fs": "MKV",
+                "iata": "MKV",
+                "latitude": -25.966667,
+                "localTime": "2014-07-26T22:14:06.768",
+                "longitude": 133.25,
+                "name": "Mt. Cavenagh Airport",
+                "regionName": "Oceania",
+                "stateCode": "NT",
+                "timeZoneRegionName": "Australia/Darwin",
+                "utcOffsetHours": 9.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MKV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MKV",
+            "requestedCode": "MKV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MKV/dep"
+    }
+}

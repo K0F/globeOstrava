@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Goroka",
+                "cityCode": "GKA",
+                "classification": 4,
+                "countryCode": "PG",
+                "countryName": "Papua New Guinea",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GKA?codeType=fs",
+                "elevationFeet": 5208,
+                "fs": "GKA",
+                "iata": "GKA",
+                "icao": "AYGA",
+                "latitude": -6.075244,
+                "localTime": "2014-07-28T01:51:53.546",
+                "longitude": 145.392933,
+                "name": "Goroka Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Pacific/Port_Moresby",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GKA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GKA",
+            "requestedCode": "GKA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GKA/dep"
+    }
+}

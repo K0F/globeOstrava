@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saskatoon",
+                "cityCode": "YXE",
+                "classification": 3,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YXE?codeType=fs",
+                "elevationFeet": 1653,
+                "fs": "YXE",
+                "iata": "YXE",
+                "icao": "CYXE",
+                "latitude": 52.169703,
+                "localTime": "2014-07-27T10:06:58.032",
+                "longitude": -106.690366,
+                "name": "Saskatoon Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "SK",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Regina",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YXE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YXE",
+            "requestedCode": "YXE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YXE/dep"
+    }
+}

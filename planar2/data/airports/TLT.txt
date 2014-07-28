@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tuluksak",
+                "cityCode": "TLT",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TLT?codeType=fs",
+                "elevationFeet": 30,
+                "faa": "TLT",
+                "fs": "TLT",
+                "iata": "TLT",
+                "latitude": 61.098889,
+                "localTime": "2014-07-27T07:51:50.542",
+                "longitude": -160.964722,
+                "name": "Tuluksak Airport",
+                "postalCode": "99679",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TLT?codeType=fs",
+                "weatherZone": "AKZ155"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TLT",
+            "requestedCode": "TLT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TLT/dep"
+    }
+}

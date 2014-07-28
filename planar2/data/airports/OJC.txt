@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kansas City",
+                "cityCode": "MKC",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OJC?codeType=fs",
+                "elevationFeet": 1096,
+                "faa": "OJC",
+                "fs": "OJC",
+                "iata": "OJC",
+                "icao": "KOJC",
+                "latitude": 38.85,
+                "localTime": "2014-07-26T11:26:05.277",
+                "longitude": -94.733333,
+                "name": "Johnson Executive Airport",
+                "regionName": "North America",
+                "stateCode": "MO",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OJC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OJC",
+            "requestedCode": "OJC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OJC/dep"
+    }
+}

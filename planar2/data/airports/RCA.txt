@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rapid City",
+                "cityCode": "RAP",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RCA?codeType=fs",
+                "elevationFeet": 3202,
+                "faa": "RCA",
+                "fs": "RCA",
+                "iata": "RCA",
+                "icao": "KRCA",
+                "latitude": 44.143477,
+                "localTime": "2014-07-26T10:22:20.656",
+                "longitude": -103.09464,
+                "name": "Ellsworth Air Force Base",
+                "regionName": "North America",
+                "stateCode": "SD",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RCA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RCA",
+            "requestedCode": "RCA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RCA/dep"
+    }
+}

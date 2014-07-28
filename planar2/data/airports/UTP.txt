@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Utapao",
+                "cityCode": "UTP",
+                "classification": 4,
+                "countryCode": "TH",
+                "countryName": "Thailand",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UTP?codeType=fs",
+                "elevationFeet": 59,
+                "fs": "UTP",
+                "iata": "UTP",
+                "icao": "VTBU",
+                "latitude": 12.683333,
+                "localTime": "2014-07-27T23:40:10.494",
+                "longitude": 101.016667,
+                "name": "Utapao Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Bangkok",
+                "utcOffsetHours": 7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UTP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UTP",
+            "requestedCode": "UTP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UTP/dep"
+    }
+}

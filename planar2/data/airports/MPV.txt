@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Berlin",
+                "cityCode": "MPV",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MPV?codeType=fs",
+                "elevationFeet": 1132,
+                "faa": "MPV",
+                "fs": "MPV",
+                "iata": "MPV",
+                "icao": "KMPV",
+                "latitude": 44.202842,
+                "localTime": "2014-07-26T12:25:06.986",
+                "longitude": -72.563806,
+                "name": "Edward F. Knapp State Airport",
+                "regionName": "North America",
+                "stateCode": "VT",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MPV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MPV",
+            "requestedCode": "MPV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MPV/dep"
+    }
+}

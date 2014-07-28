@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Fajardo",
+                "cityCode": "FAJ",
+                "classification": 5,
+                "countryCode": "PR",
+                "countryName": "Puerto Rico",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/FAJ?codeType=fs",
+                "elevationFeet": 37,
+                "fs": "FAJ",
+                "iata": "FAJ",
+                "icao": "TJFA",
+                "latitude": 18.31237,
+                "localTime": "2014-07-27T12:36:56.782",
+                "longitude": -65.65819,
+                "name": "Diego Jimenez Torres Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Puerto_Rico",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/FAJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "FAJ",
+            "requestedCode": "FAJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/FAJ/dep"
+    }
+}

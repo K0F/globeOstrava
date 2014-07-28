@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bage",
+                "cityCode": "BGX",
+                "classification": 5,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BGX?codeType=fs",
+                "elevationFeet": 600,
+                "fs": "BGX",
+                "iata": "BGX",
+                "icao": "SBBG",
+                "latitude": -31.398611,
+                "localTime": "2014-07-27T13:33:02.114",
+                "longitude": -54.1125,
+                "name": "Bage Airport",
+                "regionName": "South America",
+                "stateCode": "RS",
+                "timeZoneRegionName": "America/Sao_Paulo",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BGX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BGX",
+            "requestedCode": "BGX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BGX/dep"
+    }
+}

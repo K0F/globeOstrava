@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Aruba",
+                "cityCode": "AUA",
+                "classification": 3,
+                "countryCode": "AW",
+                "countryName": "Aruba",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AUA?codeType=fs",
+                "elevationFeet": 60,
+                "fs": "AUA",
+                "iata": "AUA",
+                "icao": "TNCA",
+                "latitude": 12.502222,
+                "localTime": "2014-07-27T12:37:06.515",
+                "longitude": -70.013889,
+                "name": "Reina Beatrix Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Aruba",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AUA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "AUA",
+            "requestedCode": "AUA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/AUA/dep"
+    }
+}

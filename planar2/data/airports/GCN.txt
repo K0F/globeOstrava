@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Grand Canyon",
+                "cityCode": "GCN",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GCN?codeType=fs",
+                "elevationFeet": 6606,
+                "faa": "GCN",
+                "fs": "GCN",
+                "iata": "GCN",
+                "icao": "KGCN",
+                "latitude": 35.951944,
+                "localTime": "2014-07-26T09:28:06.476",
+                "longitude": -112.1475,
+                "name": "Grand Canyon National Park Airport",
+                "postalCode": "86023",
+                "regionName": "North America",
+                "stateCode": "AZ",
+                "timeZoneRegionName": "America/Phoenix",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GCN?codeType=fs",
+                "weatherZone": "AZZ007"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GCN",
+            "requestedCode": "GCN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GCN/dep"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Watertown",
+                "cityCode": "ART",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ART?codeType=fs",
+                "elevationFeet": 325,
+                "faa": "ART",
+                "fs": "ART",
+                "iata": "ART",
+                "icao": "KART",
+                "latitude": 43.990833,
+                "localTime": "2014-07-26T07:03:58.932",
+                "longitude": -76.021389,
+                "name": "Watertown Airport",
+                "regionName": "North America",
+                "stateCode": "NY",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ART?codeType=fs",
+                "weatherZone": "NYZ007"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ART",
+            "requestedCode": "ART"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ART/dep"
+    }
+}

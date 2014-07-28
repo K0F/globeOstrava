@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lampedusa",
+                "cityCode": "LMP",
+                "classification": 4,
+                "countryCode": "IT",
+                "countryName": "Italy",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LMP?codeType=fs",
+                "elevationFeet": 72,
+                "fs": "LMP",
+                "iata": "LMP",
+                "icao": "LICD",
+                "latitude": 35.5,
+                "localTime": "2014-07-27T18:21:53.869",
+                "longitude": 12.616667,
+                "name": "Lampedusa Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Rome",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LMP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LMP",
+            "requestedCode": "LMP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LMP/dep"
+    }
+}

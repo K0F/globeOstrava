@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Murmansk",
+                "cityCode": "MMK",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MMK?codeType=fs",
+                "elevationFeet": 266,
+                "fs": "MMK",
+                "iata": "MMK",
+                "icao": "ULMM",
+                "latitude": 68.785092,
+                "localTime": "2014-07-27T19:52:54.266",
+                "longitude": 32.759155,
+                "name": "Murmansk Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Moscow",
+                "utcOffsetHours": 4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MMK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MMK",
+            "requestedCode": "MMK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MMK/dep"
+    }
+}

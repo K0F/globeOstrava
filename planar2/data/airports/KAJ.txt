@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kajaani",
+                "cityCode": "KAJ",
+                "classification": 4,
+                "countryCode": "FI",
+                "countryName": "Finland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KAJ?codeType=fs",
+                "elevationFeet": 483,
+                "fs": "KAJ",
+                "iata": "KAJ",
+                "icao": "EFKI",
+                "latitude": 64.277778,
+                "localTime": "2014-07-27T19:10:25.207",
+                "longitude": 27.688889,
+                "name": "Kajaani Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Helsinki",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KAJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KAJ",
+            "requestedCode": "KAJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KAJ/dep"
+    }
+}

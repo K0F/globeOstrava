@@ -1,0 +1,191 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "KL",
+                "iata": "KL",
+                "icao": "KLM",
+                "name": "KLM"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Amsterdam",
+                "cityCode": "AMS",
+                "classification": 1,
+                "countryCode": "NL",
+                "countryName": "Netherlands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AMS?codeType=fs",
+                "elevationFeet": -11,
+                "fs": "AMS",
+                "iata": "AMS",
+                "icao": "EHAM",
+                "latitude": 52.309069,
+                "localTime": "2014-07-27T18:19:30.887",
+                "longitude": 4.763385,
+                "name": "Amsterdam Airport Schiphol",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Amsterdam",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AMS?codeType=fs"
+            },
+            {
+                "active": true,
+                "city": "Bordeaux",
+                "cityCode": "BOD",
+                "classification": 3,
+                "countryCode": "FR",
+                "countryName": "France",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BOD?codeType=fs",
+                "elevationFeet": 162,
+                "fs": "BOD",
+                "iata": "BOD",
+                "icao": "LFBD",
+                "latitude": 44.83102,
+                "localTime": "2014-07-27T18:19:30.867",
+                "longitude": -0.70217,
+                "name": "Bordeaux Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Paris",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BOD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "AMS",
+            "bearing": 24.505593332680128,
+            "carrierFsCode": "KL",
+            "delayMinutes": 7,
+            "departureAirportFsCode": "BOD",
+            "departureDate": {
+                "dateLocal": "2014-07-27T16:55:00.000",
+                "dateUtc": "2014-07-27T14:55:00.000Z"
+            },
+            "equipment": "737",
+            "flightId": 410397206,
+            "flightNumber": "1318",
+            "heading": 25.18768606372408,
+            "positions": [
+                {
+                    "altitudeFt": 22550,
+                    "date": "2014-07-27T15:29:12.000Z",
+                    "lat": 45.3881,
+                    "lon": -0.4689,
+                    "source": "AirNav",
+                    "speedMph": 512
+                },
+                {
+                    "altitudeFt": 21775,
+                    "date": "2014-07-27T15:28:25.000Z",
+                    "lat": 45.3613,
+                    "lon": -0.4878,
+                    "source": "AirNav",
+                    "speedMph": 510
+                },
+                {
+                    "altitudeFt": 20375,
+                    "date": "2014-07-27T15:27:55.000Z",
+                    "lat": 45.2591,
+                    "lon": -0.5557,
+                    "source": "AirNav",
+                    "speedMph": 500
+                },
+                {
+                    "altitudeFt": 17975,
+                    "date": "2014-07-27T15:27:08.000Z",
+                    "lat": 45.2119,
+                    "lon": -0.587,
+                    "source": "AirNav",
+                    "speedMph": 489
+                },
+                {
+                    "altitudeFt": 17300,
+                    "date": "2014-07-27T15:26:45.000Z",
+                    "lat": 45.1753,
+                    "lon": -0.6116,
+                    "source": "AirNav",
+                    "speedMph": 481
+                },
+                {
+                    "date": "2014-07-27T15:26:12.000Z",
+                    "lat": 45.0796,
+                    "lon": -0.6749,
+                    "source": "AirNav",
+                    "speedMph": 459
+                },
+                {
+                    "date": "2014-07-27T15:25:44.000Z",
+                    "lat": 45.0585,
+                    "lon": -0.6893,
+                    "source": "AirNav",
+                    "speedMph": 457
+                },
+                {
+                    "date": "2014-07-27T15:25:12.000Z",
+                    "lat": 44.9967,
+                    "lon": -0.7309,
+                    "source": "AirNav",
+                    "speedMph": 435
+                },
+                {
+                    "date": "2014-07-27T15:24:38.000Z",
+                    "lat": 44.9373,
+                    "lon": -0.7703,
+                    "source": "AirNav",
+                    "speedMph": 387
+                },
+                {
+                    "date": "2014-07-27T15:24:24.000Z",
+                    "lat": 44.9241,
+                    "lon": -0.7788,
+                    "source": "AirNav",
+                    "speedMph": 361
+                },
+                {
+                    "date": "2014-07-27T15:23:55.000Z",
+                    "lat": 44.912,
+                    "lon": -0.786,
+                    "source": "AirNav",
+                    "speedMph": 336
+                },
+                {
+                    "date": "2014-07-27T15:23:46.000Z",
+                    "lat": 44.8962,
+                    "lon": -0.7958,
+                    "source": "AirNav",
+                    "speedMph": 325
+                },
+                {
+                    "date": "2014-07-27T15:23:13.000Z",
+                    "lat": 44.8603,
+                    "lon": -0.8186,
+                    "source": "AirNav",
+                    "speedMph": 317
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "BOD",
+            "requestedCode": "BOD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BOD/dep"
+    }
+}

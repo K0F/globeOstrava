@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mont Joli",
+                "cityCode": "YYY",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YYY?codeType=fs",
+                "elevationFeet": 172,
+                "fs": "YYY",
+                "iata": "YYY",
+                "icao": "CYYY",
+                "latitude": 48.6,
+                "localTime": "2014-07-27T12:07:31.367",
+                "longitude": -68.2,
+                "name": "Mont Joli Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "QC",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Toronto",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YYY?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YYY",
+            "requestedCode": "YYY"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YYY/dep"
+    }
+}

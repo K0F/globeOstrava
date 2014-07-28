@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rurutu",
+                "cityCode": "RUR",
+                "classification": 4,
+                "countryCode": "PF",
+                "countryName": "French Polynesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RUR?codeType=fs",
+                "elevationFeet": 16,
+                "fs": "RUR",
+                "iata": "RUR",
+                "icao": "NTAR",
+                "latitude": -22.433333,
+                "localTime": "2014-07-27T06:27:30.639",
+                "longitude": -151.333333,
+                "name": "Rurutu Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Tahiti",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RUR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RUR",
+            "requestedCode": "RUR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RUR/dep"
+    }
+}

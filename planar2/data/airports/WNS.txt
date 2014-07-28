@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Nawabshah",
+                "cityCode": "WNS",
+                "classification": 4,
+                "countryCode": "PK",
+                "countryName": "Pakistan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/WNS?codeType=fs",
+                "elevationFeet": 93,
+                "fs": "WNS",
+                "iata": "WNS",
+                "icao": "OPNH",
+                "latitude": 26.219444,
+                "localTime": "2014-07-27T21:29:55.799",
+                "longitude": 68.392222,
+                "name": "Nawabshah Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Karachi",
+                "utcOffsetHours": 5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/WNS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "WNS",
+            "requestedCode": "WNS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/WNS/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sumbawa Besar",
+                "cityCode": "SWQ",
+                "classification": 4,
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SWQ?codeType=fs",
+                "elevationFeet": 30,
+                "fs": "SWQ",
+                "iata": "SWQ",
+                "icao": "WADS",
+                "latitude": -8.489621,
+                "localTime": "2014-07-27T23:47:01.337",
+                "longitude": 117.412168,
+                "name": "Brang Bidji Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Makassar",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SWQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SWQ",
+            "requestedCode": "SWQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SWQ/dep"
+    }
+}

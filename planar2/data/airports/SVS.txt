@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Stevens Village",
+                "cityCode": "SVS",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SVS?codeType=fs",
+                "elevationFeet": 310,
+                "faa": "SVS",
+                "fs": "SVS",
+                "iata": "SVS",
+                "latitude": 66.009444,
+                "localTime": "2014-07-26T08:31:49.049",
+                "longitude": -149.094167,
+                "name": "Stevens Village Airport",
+                "postalCode": "99774",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SVS?codeType=fs",
+                "weatherZone": "AKZ220"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SVS",
+            "requestedCode": "SVS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SVS/dep"
+    }
+}

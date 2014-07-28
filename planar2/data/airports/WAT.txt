@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Waterford",
+                "cityCode": "WAT",
+                "classification": 4,
+                "countryCode": "IE",
+                "countryName": "Ireland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/WAT?codeType=fs",
+                "elevationFeet": 119,
+                "fs": "WAT",
+                "iata": "WAT",
+                "icao": "EIWF",
+                "latitude": 52.188866,
+                "localTime": "2014-07-27T17:12:26.428",
+                "longitude": -7.080082,
+                "name": "Waterford Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Dublin",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/WAT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "WAT",
+            "requestedCode": "WAT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/WAT/dep"
+    }
+}

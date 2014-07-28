@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Odessa",
+                "cityCode": "ODS",
+                "classification": 4,
+                "countryCode": "UA",
+                "countryName": "Ukraine",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ODS?codeType=fs",
+                "elevationFeet": 171,
+                "fs": "ODS",
+                "iata": "ODS",
+                "icao": "UKOO",
+                "latitude": 46.441008,
+                "localTime": "2014-07-27T18:49:40.734",
+                "longitude": 30.676718,
+                "name": "Odessa-Central Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Kiev",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ODS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ODS",
+            "requestedCode": "ODS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ODS/dep"
+    }
+}

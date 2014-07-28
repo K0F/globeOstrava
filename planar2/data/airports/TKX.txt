@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Takaroa",
+                "cityCode": "TKX",
+                "classification": 4,
+                "countryCode": "PF",
+                "countryName": "French Polynesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TKX?codeType=fs",
+                "elevationFeet": 9,
+                "fs": "TKX",
+                "iata": "TKX",
+                "icao": "NTKR",
+                "latitude": -14.457749,
+                "localTime": "2014-07-26T05:22:16.802",
+                "longitude": -145.026392,
+                "name": "Takaroa Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Tahiti",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TKX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TKX",
+            "requestedCode": "TKX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TKX/dep"
+    }
+}

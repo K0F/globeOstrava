@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Aberdeen",
+                "cityCode": "ABR",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ABR?codeType=fs",
+                "elevationFeet": 1302,
+                "faa": "ABR",
+                "fs": "ABR",
+                "iata": "ABR",
+                "icao": "KABR",
+                "latitude": 45.4525,
+                "localTime": "2014-07-26T06:05:33.822",
+                "longitude": -98.426111,
+                "name": "Aberdeen Municipal Airport",
+                "postalCode": "57401",
+                "regionName": "North America",
+                "stateCode": "SD",
+                "street1": "4400 E. Hwy 12",
+                "street2": "",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ABR?codeType=fs",
+                "weatherZone": "SDZ006"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ABR",
+            "requestedCode": "ABR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ABR/dep"
+    }
+}

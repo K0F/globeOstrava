@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Oslo",
+                "cityCode": "OSL",
+                "classification": 3,
+                "countryCode": "NO",
+                "countryName": "Norway",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TRF?codeType=fs",
+                "elevationFeet": 286,
+                "fs": "TRF",
+                "iata": "TRF",
+                "icao": "ENTO",
+                "latitude": 59.178087,
+                "localTime": "2014-07-27T18:13:16.406",
+                "longitude": 10.251807,
+                "name": "Sandefjord Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Oslo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TRF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TRF",
+            "requestedCode": "TRF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TRF/dep"
+    }
+}

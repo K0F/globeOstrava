@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Patterson",
+                "cityCode": "PTN",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PTN?codeType=fs",
+                "elevationFeet": 9,
+                "faa": "PTN",
+                "fs": "PTN",
+                "iata": "PTN",
+                "icao": "KPTN",
+                "latitude": 29.708333,
+                "localTime": "2014-07-26T08:18:30.980",
+                "longitude": -91.3375,
+                "name": "Patterson Municipal Heliport",
+                "regionName": "North America",
+                "stateCode": "LA",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PTN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PTN",
+            "requestedCode": "PTN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PTN/dep"
+    }
+}

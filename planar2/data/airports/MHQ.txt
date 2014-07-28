@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mariehamn",
+                "cityCode": "MHQ",
+                "classification": 4,
+                "countryCode": "AX",
+                "countryName": "Aland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MHQ?codeType=fs",
+                "elevationFeet": 17,
+                "fs": "MHQ",
+                "iata": "MHQ",
+                "icao": "EFMA",
+                "latitude": 60.123333,
+                "localTime": "2014-07-27T19:10:31.223",
+                "longitude": 19.896667,
+                "name": "Mariehamn Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Helsinki",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MHQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MHQ",
+            "requestedCode": "MHQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MHQ/dep"
+    }
+}

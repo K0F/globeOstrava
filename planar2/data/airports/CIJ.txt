@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cobija",
+                "cityCode": "CIJ",
+                "classification": 4,
+                "countryCode": "BO",
+                "countryName": "Bolivia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CIJ?codeType=fs",
+                "elevationFeet": 889,
+                "fs": "CIJ",
+                "iata": "CIJ",
+                "icao": "SLCO",
+                "latitude": -11.026389,
+                "localTime": "2014-07-27T12:35:39.629",
+                "longitude": -68.752778,
+                "name": "E. Beltram Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/La_Paz",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CIJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CIJ",
+            "requestedCode": "CIJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CIJ/dep"
+    }
+}

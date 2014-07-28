@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Nantes",
+                "cityCode": "NTE",
+                "classification": 3,
+                "countryCode": "FR",
+                "countryName": "France",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NTE?codeType=fs",
+                "elevationFeet": 89,
+                "fs": "NTE",
+                "iata": "NTE",
+                "icao": "LFRS",
+                "latitude": 47.157623,
+                "localTime": "2014-07-27T18:20:56.389",
+                "longitude": -1.601402,
+                "name": "Nantes Atlantique Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Paris",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NTE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NTE",
+            "requestedCode": "NTE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NTE/dep"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Clarksdale",
+                "cityCode": "CKM",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CKM?codeType=fs",
+                "elevationFeet": 173,
+                "faa": "CKM",
+                "fs": "CKM",
+                "iata": "CKM",
+                "icao": "KCKM",
+                "latitude": 34.2,
+                "localTime": "2014-07-26T11:20:53.472",
+                "longitude": -90.583333,
+                "name": "Fletcher Field",
+                "regionName": "North America",
+                "stateCode": "MS",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CKM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CKM",
+            "requestedCode": "CKM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CKM/dep"
+    }
+}

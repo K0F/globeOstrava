@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Memphis",
+                "cityCode": "MEM",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NQA?codeType=fs",
+                "elevationFeet": 320,
+                "faa": "NQA",
+                "fs": "NQA",
+                "iata": "NQA",
+                "icao": "KNQA",
+                "latitude": 35.133333,
+                "localTime": "2014-07-26T08:17:51.140",
+                "longitude": -90.05,
+                "name": "Naval Air Station",
+                "regionName": "North America",
+                "stateCode": "TN",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NQA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NQA",
+            "requestedCode": "NQA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NQA/dep"
+    }
+}

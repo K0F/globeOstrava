@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "La Baie",
+                "cityCode": "YBG",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YBG?codeType=fs",
+                "elevationFeet": 522,
+                "fs": "YBG",
+                "iata": "YBG",
+                "icao": "CYBG",
+                "latitude": 48.322222,
+                "localTime": "2014-07-27T12:04:31.561",
+                "longitude": -70.988611,
+                "name": "Saguenay-Bagotville Airport",
+                "postalCode": "G7B 0E4",
+                "regionName": "North America",
+                "stateCode": "QC",
+                "street1": "7000, Chemin de l'Aeroport",
+                "street2": "",
+                "timeZoneRegionName": "America/Toronto",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YBG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YBG",
+            "requestedCode": "YBG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YBG/dep"
+    }
+}

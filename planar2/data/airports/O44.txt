@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lexington",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/O44?codeType=fs",
+                "elevationFeet": 1135,
+                "faa": "O44",
+                "fs": "O44",
+                "latitude": 35.172917,
+                "localTime": "2014-07-26T06:16:23.338",
+                "longitude": -97.364167,
+                "name": "Mc Caslin",
+                "regionName": "North America",
+                "stateCode": "OK",
+                "timeZoneRegionName": "Pacific/Honolulu",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/O44?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "O44",
+            "requestedCode": "O44"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/O44/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kunashir Island",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DEE?codeType=fs",
+                "elevationFeet": 652,
+                "fs": "DEE",
+                "iata": "DEE",
+                "icao": "UHSM",
+                "latitude": 43.958401,
+                "localTime": "2014-07-26T22:03:42.465",
+                "longitude": 145.682999,
+                "name": "Mendeleyevo Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Vladivostok",
+                "utcOffsetHours": 11.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DEE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DEE",
+            "requestedCode": "DEE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DEE/dep"
+    }
+}

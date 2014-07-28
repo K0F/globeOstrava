@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saint Thomas",
+                "cityCode": "STT",
+                "classification": 4,
+                "countryCode": "VI",
+                "countryName": "U.S. Virgin Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SPB?codeType=fs",
+                "fs": "SPB",
+                "iata": "SPB",
+                "latitude": 18.35,
+                "localTime": "2014-07-26T11:22:01.729",
+                "longitude": -64.916667,
+                "name": "St. Thomas Sea Plane Base",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/St_Thomas",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SPB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SPB",
+            "requestedCode": "SPB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SPB/dep"
+    }
+}

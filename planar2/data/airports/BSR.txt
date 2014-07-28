@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Basra",
+                "cityCode": "BSR",
+                "classification": 4,
+                "countryCode": "IQ",
+                "countryName": "Iraq",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BSR?codeType=fs",
+                "elevationFeet": 11,
+                "fs": "BSR",
+                "iata": "BSR",
+                "icao": "ORMM",
+                "latitude": 30.555556,
+                "localTime": "2014-07-27T19:30:09.792",
+                "longitude": 47.791389,
+                "name": "Basra International Airport",
+                "regionName": "Middle East",
+                "timeZoneRegionName": "Asia/Baghdad",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BSR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BSR",
+            "requestedCode": "BSR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BSR/dep"
+    }
+}

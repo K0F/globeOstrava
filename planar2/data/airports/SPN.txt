@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saipan",
+                "cityCode": "SPN",
+                "classification": 3,
+                "countryCode": "MP",
+                "countryName": "Northern Mariana Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SPN?codeType=fs",
+                "elevationFeet": 215,
+                "faa": "GSN",
+                "fs": "SPN",
+                "iata": "SPN",
+                "icao": "PGSN",
+                "latitude": 15.122178,
+                "localTime": "2014-07-28T02:30:20.682",
+                "longitude": 145.723257,
+                "name": "Saipan International Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Saipan",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SPN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SPN",
+            "requestedCode": "SPN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SPN/dep"
+    }
+}

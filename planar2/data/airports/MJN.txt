@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Majunga",
+                "cityCode": "MJN",
+                "classification": 4,
+                "countryCode": "MG",
+                "countryName": "Madagascar",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MJN?codeType=fs",
+                "elevationFeet": 87,
+                "fs": "MJN",
+                "iata": "MJN",
+                "icao": "FMNM",
+                "latitude": -15.665833,
+                "localTime": "2014-07-27T19:15:22.118",
+                "longitude": 46.353056,
+                "name": "Amborovy Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Indian/Antananarivo",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MJN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MJN",
+            "requestedCode": "MJN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MJN/dep"
+    }
+}

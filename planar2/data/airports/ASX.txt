@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ashland",
+                "cityCode": "ASX",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ASX?codeType=fs",
+                "elevationFeet": 826,
+                "faa": "ASX",
+                "fs": "ASX",
+                "iata": "ASX",
+                "icao": "KASX",
+                "latitude": 46.55,
+                "localTime": "2014-07-26T11:25:05.009",
+                "longitude": -90.916667,
+                "name": "Ashland Airport",
+                "regionName": "North America",
+                "stateCode": "WI",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ASX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ASX",
+            "requestedCode": "ASX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ASX/dep"
+    }
+}

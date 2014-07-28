@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "North Caicos",
+                "cityCode": "NCA",
+                "classification": 4,
+                "countryCode": "TC",
+                "countryName": "Turks and Caicos Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NCA?codeType=fs",
+                "elevationFeet": 10,
+                "fs": "NCA",
+                "iata": "NCA",
+                "icao": "MBNC",
+                "latitude": 21.933333,
+                "localTime": "2014-07-26T12:25:37.761",
+                "longitude": -71.983333,
+                "name": "North Caicos Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Grand_Turk",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NCA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NCA",
+            "requestedCode": "NCA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NCA/dep"
+    }
+}

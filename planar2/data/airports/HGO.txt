@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Korhogo",
+                "cityCode": "HGO",
+                "classification": 4,
+                "countryCode": "CI",
+                "countryName": "Cote d'Ivoire",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HGO?codeType=fs",
+                "elevationFeet": 1214,
+                "fs": "HGO",
+                "iata": "HGO",
+                "icao": "DIKO",
+                "latitude": 9.413889,
+                "localTime": "2014-07-27T16:08:30.858",
+                "longitude": -5.616667,
+                "name": "Korhogo Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Abidjan",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HGO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HGO",
+            "requestedCode": "HGO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HGO/dep"
+    }
+}

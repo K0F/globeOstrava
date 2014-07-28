@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sao Jose dos Campos",
+                "cityCode": "SJK",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SJK?codeType=fs",
+                "elevationFeet": 2102,
+                "fs": "SJK",
+                "iata": "SJK",
+                "icao": "SBSJ",
+                "latitude": -23.231623,
+                "localTime": "2014-07-27T13:34:09.000",
+                "longitude": -46.860303,
+                "name": "Professor Urbano Ernesto Stumpf Airport",
+                "regionName": "South America",
+                "stateCode": "SP",
+                "timeZoneRegionName": "America/Sao_Paulo",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SJK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SJK",
+            "requestedCode": "SJK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SJK/dep"
+    }
+}

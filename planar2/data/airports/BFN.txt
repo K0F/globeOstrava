@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bloemfontein",
+                "cityCode": "BFN",
+                "classification": 4,
+                "countryCode": "ZA",
+                "countryName": "South Africa",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BFN?codeType=fs",
+                "elevationFeet": 4418,
+                "fs": "BFN",
+                "iata": "BFN",
+                "icao": "FABL",
+                "latitude": -29.095853,
+                "localTime": "2014-07-27T18:14:15.284",
+                "longitude": 26.297516,
+                "name": "Bloemfontein International Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Johannesburg",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BFN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BFN",
+            "requestedCode": "BFN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BFN/dep"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Portage Creek",
+                "cityCode": "PCA",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PCA?codeType=fs",
+                "elevationFeet": 137,
+                "faa": "A14",
+                "fs": "PCA",
+                "iata": "PCA",
+                "icao": "PAOC",
+                "latitude": 58.901389,
+                "localTime": "2014-07-27T08:25:52.839",
+                "longitude": -157.701944,
+                "name": "Portage Creek Airport",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PCA?codeType=fs",
+                "weatherZone": "AKZ161"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PCA",
+            "requestedCode": "PCA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PCA/dep"
+    }
+}

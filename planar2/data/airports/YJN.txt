@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saint Jean",
+                "cityCode": "YJN",
+                "classification": 5,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YJN?codeType=fs",
+                "elevationFeet": 121,
+                "fs": "YJN",
+                "iata": "YJN",
+                "icao": "CYJN",
+                "latitude": 45.29758,
+                "localTime": "2014-07-27T12:05:24.988",
+                "longitude": -73.281293,
+                "name": "Saint Jean Airport",
+                "regionName": "North America",
+                "stateCode": "QC",
+                "timeZoneRegionName": "America/Toronto",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YJN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YJN",
+            "requestedCode": "YJN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YJN/dep"
+    }
+}

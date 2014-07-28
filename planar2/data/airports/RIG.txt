@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Rio Grande",
+                "cityCode": "RIG",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RIG?codeType=fs",
+                "elevationFeet": 27,
+                "fs": "RIG",
+                "iata": "RIG",
+                "icao": "SBRG",
+                "latitude": -32.083333,
+                "localTime": "2014-07-27T13:34:04.340",
+                "longitude": -52.166667,
+                "name": "Rio Grande Airport",
+                "regionName": "South America",
+                "stateCode": "RS",
+                "timeZoneRegionName": "America/Sao_Paulo",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RIG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RIG",
+            "requestedCode": "RIG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RIG/dep"
+    }
+}

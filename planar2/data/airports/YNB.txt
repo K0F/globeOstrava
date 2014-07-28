@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Yanbu",
+                "cityCode": "YNB",
+                "classification": 4,
+                "countryCode": "SA",
+                "countryName": "Saudi Arabia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YNB?codeType=fs",
+                "elevationFeet": 26,
+                "fs": "YNB",
+                "iata": "YNB",
+                "icao": "OEYN",
+                "latitude": 24.140733,
+                "localTime": "2014-07-27T19:29:08.520",
+                "longitude": 38.063019,
+                "name": "Yanbu Airport",
+                "regionName": "Middle East",
+                "timeZoneRegionName": "Asia/Riyadh",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YNB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YNB",
+            "requestedCode": "YNB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YNB/dep"
+    }
+}

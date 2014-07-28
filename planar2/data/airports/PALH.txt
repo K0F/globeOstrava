@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Anchorage",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PALH?codeType=fs",
+                "elevationFeet": 75,
+                "faa": "PALH",
+                "fs": "PALH",
+                "icao": "PALH",
+                "latitude": 61.182847,
+                "localTime": "2014-07-26T05:24:38.483",
+                "longitude": -149.964113,
+                "name": "Lake Hood Seaplane Base ",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "Pacific/Honolulu",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PALH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PALH",
+            "requestedCode": "PALH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PALH/dep"
+    }
+}

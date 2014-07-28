@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ouargla",
+                "cityCode": "OGX",
+                "classification": 4,
+                "countryCode": "DZ",
+                "countryName": "Algeria",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OGX?codeType=fs",
+                "elevationFeet": 492,
+                "fs": "OGX",
+                "iata": "OGX",
+                "icao": "DAUU",
+                "latitude": 31.916667,
+                "localTime": "2014-07-27T16:54:20.076",
+                "longitude": 5.4,
+                "name": "Ain Beida Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Algiers",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OGX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OGX",
+            "requestedCode": "OGX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OGX/dep"
+    }
+}

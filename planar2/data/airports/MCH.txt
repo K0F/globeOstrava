@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Machala",
+                "cityCode": "MCH",
+                "classification": 5,
+                "countryCode": "EC",
+                "countryName": "Ecuador",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MCH?codeType=fs",
+                "elevationFeet": 13,
+                "fs": "MCH",
+                "iata": "MCH",
+                "icao": "SEMH",
+                "latitude": -3.266667,
+                "localTime": "2014-07-27T11:34:47.786",
+                "longitude": -79.983333,
+                "name": "Machala Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Guayaquil",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MCH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MCH",
+            "requestedCode": "MCH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MCH/dep"
+    }
+}

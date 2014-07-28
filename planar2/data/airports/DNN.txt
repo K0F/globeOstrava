@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dalton",
+                "cityCode": "DNN",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DNN?codeType=fs",
+                "elevationFeet": 710,
+                "faa": "DNN",
+                "fs": "DNN",
+                "iata": "DNN",
+                "icao": "KDNN",
+                "latitude": 34.766667,
+                "localTime": "2014-07-26T11:14:50.362",
+                "longitude": -84.966667,
+                "name": "Dalton Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "GA",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DNN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DNN",
+            "requestedCode": "DNN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DNN/dep"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Winona",
+                "cityCode": "ONA",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ONA?codeType=fs",
+                "elevationFeet": 656,
+                "faa": "ONA",
+                "fs": "ONA",
+                "iata": "ONA",
+                "icao": "KONA",
+                "latitude": 44.076667,
+                "localTime": "2014-07-26T11:27:57.663",
+                "longitude": -91.706111,
+                "name": "Winona Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "MN",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ONA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ONA",
+            "requestedCode": "ONA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ONA/dep"
+    }
+}

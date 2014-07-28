@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Columbia",
+                "cityCode": "MRC",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MRC?codeType=fs",
+                "elevationFeet": 676,
+                "faa": "MRC",
+                "fs": "MRC",
+                "iata": "MRC",
+                "icao": "KMRC",
+                "latitude": 35.553375,
+                "localTime": "2014-07-26T07:40:52.180",
+                "longitude": -87.177436,
+                "name": "Maury County Airport",
+                "regionName": "North America",
+                "stateCode": "TN",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MRC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MRC",
+            "requestedCode": "MRC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MRC/dep"
+    }
+}

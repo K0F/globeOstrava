@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lilongwe",
+                "cityCode": "LLW",
+                "classification": 4,
+                "countryCode": "MW",
+                "countryName": "Malawi",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LLW?codeType=fs",
+                "elevationFeet": 4035,
+                "fs": "LLW",
+                "iata": "LLW",
+                "icao": "FWLI",
+                "latitude": -13.780039,
+                "localTime": "2014-07-27T18:16:27.151",
+                "longitude": 33.780199,
+                "name": "Lilongwe International Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Blantyre",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LLW?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LLW",
+            "requestedCode": "LLW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LLW/dep"
+    }
+}

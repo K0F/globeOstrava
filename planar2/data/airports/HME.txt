@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Hassi Messaoud",
+                "cityCode": "HME",
+                "classification": 4,
+                "countryCode": "DZ",
+                "countryName": "Algeria",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HME?codeType=fs",
+                "elevationFeet": 463,
+                "fs": "HME",
+                "iata": "HME",
+                "icao": "DAUH",
+                "latitude": 31.675303,
+                "localTime": "2014-07-27T17:08:17.661",
+                "longitude": 6.145436,
+                "name": "Oued Irara Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Algiers",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HME?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HME",
+            "requestedCode": "HME"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HME/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Noumea",
+                "cityCode": "NOU",
+                "classification": 4,
+                "countryCode": "NC",
+                "countryName": "New Caledonia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NOU?codeType=fs",
+                "elevationFeet": 52,
+                "fs": "NOU",
+                "iata": "NOU",
+                "icao": "NWWW",
+                "latitude": -22.016389,
+                "localTime": "2014-07-28T03:28:02.893",
+                "longitude": 166.216111,
+                "name": "Tontouta Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Noumea",
+                "utcOffsetHours": 11.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NOU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NOU",
+            "requestedCode": "NOU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NOU/dep"
+    }
+}

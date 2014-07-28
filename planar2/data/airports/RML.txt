@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Colombo",
+                "cityCode": "CMB",
+                "classification": 5,
+                "countryCode": "LK",
+                "countryName": "Sri Lanka",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RML?codeType=fs",
+                "elevationFeet": 22,
+                "fs": "RML",
+                "iata": "RML",
+                "icao": "VCCC",
+                "latitude": 6.819444,
+                "localTime": "2014-07-27T22:08:56.844",
+                "longitude": 79.8875,
+                "name": "Ratmalana Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Colombo",
+                "utcOffsetHours": 5.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RML?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RML",
+            "requestedCode": "RML"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RML/dep"
+    }
+}

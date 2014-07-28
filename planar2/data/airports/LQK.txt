@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Pickens",
+                "cityCode": "LQK",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LQK?codeType=fs",
+                "elevationFeet": 1013,
+                "faa": "LQK",
+                "fs": "LQK",
+                "iata": "LQK",
+                "icao": "KLQK",
+                "latitude": 34.883333,
+                "localTime": "2014-07-26T08:46:58.080",
+                "longitude": -82.7,
+                "name": "Pickens Airport",
+                "regionName": "North America",
+                "stateCode": "SC",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LQK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LQK",
+            "requestedCode": "LQK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LQK/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Craiova",
+                "cityCode": "CRA",
+                "classification": 4,
+                "countryCode": "RO",
+                "countryName": "Romania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CRA?codeType=fs",
+                "elevationFeet": 626,
+                "fs": "CRA",
+                "iata": "CRA",
+                "icao": "LRCV",
+                "latitude": 44.318889,
+                "localTime": "2014-07-27T19:23:39.507",
+                "longitude": 23.886389,
+                "name": "Craiova Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Bucharest",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CRA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CRA",
+            "requestedCode": "CRA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CRA/dep"
+    }
+}

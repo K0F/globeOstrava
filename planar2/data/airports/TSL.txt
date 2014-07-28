@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tamuin",
+                "cityCode": "TSL",
+                "classification": 5,
+                "countryCode": "MX",
+                "countryName": "Mexico",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TSL?codeType=fs",
+                "elevationFeet": 164,
+                "fs": "TSL",
+                "iata": "TSL",
+                "icao": "MMTN",
+                "latitude": 21.983333,
+                "localTime": "2014-07-27T11:26:09.166",
+                "longitude": -98.75,
+                "name": "Tamuin Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Mexico_City",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TSL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TSL",
+            "requestedCode": "TSL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TSL/dep"
+    }
+}

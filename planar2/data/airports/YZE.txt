@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Gore Bay",
+                "cityCode": "YZE",
+                "classification": 5,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YZE?codeType=fs",
+                "elevationFeet": 635,
+                "fs": "YZE",
+                "iata": "YZE",
+                "icao": "CYZE",
+                "latitude": 45.885278,
+                "localTime": "2014-07-27T12:07:44.599",
+                "longitude": -82.567778,
+                "name": "Gore Bay Airport",
+                "regionName": "North America",
+                "stateCode": "ON",
+                "timeZoneRegionName": "America/Toronto",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YZE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YZE",
+            "requestedCode": "YZE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YZE/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Thisted",
+                "cityCode": "TED",
+                "classification": 5,
+                "countryCode": "DK",
+                "countryName": "Denmark",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TED?codeType=fs",
+                "elevationFeet": 23,
+                "fs": "TED",
+                "iata": "TED",
+                "icao": "EKTS",
+                "latitude": 57.072222,
+                "localTime": "2014-07-27T18:12:36.581",
+                "longitude": 8.703333,
+                "name": "Thisted Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Copenhagen",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TED?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TED",
+            "requestedCode": "TED"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TED/dep"
+    }
+}

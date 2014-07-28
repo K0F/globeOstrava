@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Arad",
+                "cityCode": "ARW",
+                "classification": 4,
+                "countryCode": "RO",
+                "countryName": "Romania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ARW?codeType=fs",
+                "elevationFeet": 352,
+                "fs": "ARW",
+                "iata": "ARW",
+                "icao": "LRAR",
+                "latitude": 46.183333,
+                "localTime": "2014-07-27T19:23:33.183",
+                "longitude": 21.266667,
+                "name": "Arad Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Bucharest",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ARW?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ARW",
+            "requestedCode": "ARW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ARW/dep"
+    }
+}

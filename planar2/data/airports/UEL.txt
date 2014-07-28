@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Quelimane",
+                "cityCode": "UEL",
+                "classification": 4,
+                "countryCode": "MZ",
+                "countryName": "Mozambique",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UEL?codeType=fs",
+                "elevationFeet": 36,
+                "fs": "UEL",
+                "iata": "UEL",
+                "icao": "FQQL",
+                "latitude": -17.847222,
+                "localTime": "2014-07-27T18:16:08.888",
+                "longitude": 36.865556,
+                "name": "Quelimane Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Maputo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UEL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UEL",
+            "requestedCode": "UEL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UEL/dep"
+    }
+}

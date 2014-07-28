@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bazaruto Island",
+                "cityCode": "BZB",
+                "classification": 5,
+                "countryCode": "MZ",
+                "countryName": "Mozambique",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BZB?codeType=fs",
+                "fs": "BZB",
+                "iata": "BZB",
+                "latitude": -21.534722,
+                "localTime": "2014-07-27T18:00:11.512",
+                "longitude": 35.491667,
+                "name": "Bazaruto Island Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Maputo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BZB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BZB",
+            "requestedCode": "BZB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BZB/dep"
+    }
+}

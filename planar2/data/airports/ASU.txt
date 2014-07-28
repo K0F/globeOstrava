@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Asuncion",
+                "cityCode": "ASU",
+                "classification": 4,
+                "countryCode": "PY",
+                "countryName": "Paraguay",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ASU?codeType=fs",
+                "elevationFeet": 292,
+                "fs": "ASU",
+                "iata": "ASU",
+                "icao": "SGAS",
+                "latitude": -25.241795,
+                "localTime": "2014-07-27T12:34:55.474",
+                "longitude": -57.513795,
+                "name": "Silvio Pettirossi Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Asuncion",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ASU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ASU",
+            "requestedCode": "ASU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ASU/dep"
+    }
+}

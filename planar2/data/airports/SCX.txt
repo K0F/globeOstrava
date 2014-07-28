@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Salina Cruz",
+                "cityCode": "SCX",
+                "classification": 4,
+                "countryCode": "MX",
+                "countryName": "Mexico",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SCX?codeType=fs",
+                "elevationFeet": 1545,
+                "fs": "SCX",
+                "iata": "SCX",
+                "icao": "MM57",
+                "latitude": 16.166667,
+                "localTime": "2014-07-27T10:53:56.670",
+                "longitude": -95.2,
+                "name": "Salina Cruz Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Mexico_City",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SCX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SCX",
+            "requestedCode": "SCX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SCX/dep"
+    }
+}

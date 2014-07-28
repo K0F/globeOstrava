@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Buffalo Narrows",
+                "cityCode": "YVT",
+                "classification": 5,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YVT?codeType=fs",
+                "elevationFeet": 1444,
+                "fs": "YVT",
+                "iata": "YVT",
+                "icao": "CYVT",
+                "latitude": 55.866667,
+                "localTime": "2014-07-27T09:52:45.473",
+                "longitude": -108.466667,
+                "name": "Buffalo Narrows Airport",
+                "regionName": "North America",
+                "stateCode": "SK",
+                "timeZoneRegionName": "America/Regina",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YVT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YVT",
+            "requestedCode": "YVT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YVT/dep"
+    }
+}

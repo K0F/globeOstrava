@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lanzhou",
+                "cityCode": "LHW",
+                "classification": 3,
+                "countryCode": "CN",
+                "countryName": "China",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LHW?codeType=fs",
+                "elevationFeet": 5028,
+                "fs": "LHW",
+                "iata": "LHW",
+                "icao": "ZLAN",
+                "latitude": 36.033333,
+                "localTime": "2014-07-26T23:06:31.150",
+                "longitude": 103.866667,
+                "name": "Lanzhou Airport",
+                "regionName": "Asia",
+                "street1": "Paihong Rd.",
+                "timeZoneRegionName": "Asia/Shanghai",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LHW?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LHW",
+            "requestedCode": "LHW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LHW/dep"
+    }
+}

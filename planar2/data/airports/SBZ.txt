@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sibiu",
+                "cityCode": "SBZ",
+                "classification": 4,
+                "countryCode": "RO",
+                "countryName": "Romania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SBZ?codeType=fs",
+                "elevationFeet": 1496,
+                "fs": "SBZ",
+                "iata": "SBZ",
+                "icao": "LRSB",
+                "latitude": 45.789757,
+                "localTime": "2014-07-27T19:23:43.926",
+                "longitude": 24.093529,
+                "name": "Sibiu Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Bucharest",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SBZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SBZ",
+            "requestedCode": "SBZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SBZ/dep"
+    }
+}

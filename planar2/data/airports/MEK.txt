@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Meknes",
+                "cityCode": "MEK",
+                "classification": 5,
+                "countryCode": "MA",
+                "countryName": "Morocco",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MEK?codeType=fs",
+                "fs": "MEK",
+                "iata": "MEK",
+                "latitude": 33.883333,
+                "localTime": "2014-07-27T16:17:07.614",
+                "longitude": -5.533333,
+                "name": "Meknes Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Casablanca",
+                "utcOffsetHours": 0.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MEK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MEK",
+            "requestedCode": "MEK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MEK/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Puente Genil",
+                "cityCode": "GEN",
+                "classification": 5,
+                "countryCode": "ES",
+                "countryName": "Spain and Canary Islands",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GEN?codeType=fs",
+                "fs": "GEN",
+                "iata": "GEN",
+                "latitude": 37.383333,
+                "localTime": "2014-07-27T18:32:06.177",
+                "longitude": -4.766667,
+                "name": "Puente Genil Airport",
+                "regionName": "Europe",
+                "stateCode": "SP",
+                "timeZoneRegionName": "Europe/Madrid",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GEN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GEN",
+            "requestedCode": "GEN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GEN/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Puerto Plata",
+                "cityCode": "POP",
+                "classification": 4,
+                "countryCode": "DO",
+                "countryName": "Dominican Republic",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/POP?codeType=fs",
+                "elevationFeet": 16,
+                "fs": "POP",
+                "iata": "POP",
+                "icao": "MDPP",
+                "latitude": 19.754942,
+                "localTime": "2014-07-27T12:24:51.541",
+                "longitude": -70.56315,
+                "name": "La Union Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Santo_Domingo",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/POP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "POP",
+            "requestedCode": "POP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/POP/dep"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Faro",
+                "cityCode": "ZFA",
+                "classification": 5,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ZFA?codeType=fs",
+                "elevationFeet": 2351,
+                "fs": "ZFA",
+                "iata": "ZFA",
+                "icao": "CZFA",
+                "latitude": 63.216667,
+                "localTime": "2014-07-27T09:07:54.649",
+                "longitude": -133.366667,
+                "name": "Faro Airport",
+                "regionName": "North America",
+                "stateCode": "YT",
+                "timeZoneRegionName": "America/Vancouver",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ZFA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ZFA",
+            "requestedCode": "ZFA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ZFA/dep"
+    }
+}

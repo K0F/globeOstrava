@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Roswell",
+                "cityCode": "ROW",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ROW?codeType=fs",
+                "elevationFeet": 3671,
+                "faa": "ROW",
+                "fs": "ROW",
+                "iata": "ROW",
+                "icao": "KROW",
+                "latitude": 33.299722,
+                "localTime": "2014-07-26T05:05:29.828",
+                "longitude": -104.53,
+                "name": "Industrial Airport",
+                "regionName": "North America",
+                "stateCode": "NM",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ROW?codeType=fs",
+                "weatherZone": "NMZ538"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ROW",
+            "requestedCode": "ROW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ROW/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dire Dawa",
+                "cityCode": "DIR",
+                "classification": 4,
+                "countryCode": "ET",
+                "countryName": "Ethiopia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DIR?codeType=fs",
+                "elevationFeet": 3827,
+                "fs": "DIR",
+                "iata": "DIR",
+                "icao": "HADR",
+                "latitude": 9.61338,
+                "localTime": "2014-07-27T19:17:46.818",
+                "longitude": 41.857994,
+                "name": "Aba Tenna D Yilma Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Addis_Ababa",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DIR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DIR",
+            "requestedCode": "DIR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DIR/dep"
+    }
+}

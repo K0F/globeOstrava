@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Spokane",
+                "cityCode": "GEG",
+                "classification": 2,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GEG?codeType=fs",
+                "elevationFeet": 2372,
+                "faa": "GEG",
+                "fs": "GEG",
+                "iata": "GEG",
+                "icao": "KGEG",
+                "latitude": 47.625147,
+                "localTime": "2014-07-26T04:04:07.391",
+                "longitude": -117.537638,
+                "name": "Spokane International Airport",
+                "postalCode": "99224",
+                "regionName": "North America",
+                "stateCode": "WA",
+                "street1": "9000 West Airport Drive",
+                "street2": "",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GEG?codeType=fs",
+                "weatherZone": "WAZ036"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GEG",
+            "requestedCode": "GEG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GEG/dep"
+    }
+}

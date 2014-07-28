@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Baracoa",
+                "cityCode": "BCA",
+                "classification": 4,
+                "countryCode": "CU",
+                "countryName": "Cuba",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BCA?codeType=fs",
+                "elevationFeet": 33,
+                "fs": "BCA",
+                "iata": "BCA",
+                "icao": "MUBA",
+                "latitude": 20.35,
+                "localTime": "2014-07-27T12:26:44.435",
+                "longitude": -74.5,
+                "name": "Baracoa Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Havana",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BCA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BCA",
+            "requestedCode": "BCA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BCA/dep"
+    }
+}

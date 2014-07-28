@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cururupu",
+                "cityCode": "CPU",
+                "classification": 5,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CPU?codeType=fs",
+                "fs": "CPU",
+                "iata": "CPU",
+                "latitude": -1.8,
+                "localTime": "2014-07-26T12:14:18.119",
+                "longitude": -44.866667,
+                "name": "Cururupu Airport",
+                "regionName": "South America",
+                "stateCode": "MA",
+                "timeZoneRegionName": "America/Belem",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CPU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CPU",
+            "requestedCode": "CPU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CPU/dep"
+    }
+}

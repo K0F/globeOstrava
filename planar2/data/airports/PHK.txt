@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Pahokee",
+                "cityCode": "PHK",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PHK?codeType=fs",
+                "elevationFeet": 18,
+                "faa": "PHK",
+                "fs": "PHK",
+                "iata": "PHK",
+                "icao": "KPHK",
+                "latitude": 26.816667,
+                "localTime": "2014-07-26T09:18:20.100",
+                "longitude": -80.666667,
+                "name": "Palm Beach County Glades Airport",
+                "regionName": "North America",
+                "stateCode": "FL",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PHK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PHK",
+            "requestedCode": "PHK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PHK/dep"
+    }
+}

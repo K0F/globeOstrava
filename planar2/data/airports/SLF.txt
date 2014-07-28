@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sulayel",
+                "cityCode": "SLF",
+                "classification": 5,
+                "countryCode": "SA",
+                "countryName": "Saudi Arabia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SLF?codeType=fs",
+                "fs": "SLF",
+                "iata": "SLF",
+                "latitude": 20.466667,
+                "localTime": "2014-07-27T19:29:03.197",
+                "longitude": 45.616667,
+                "name": "Sulayel Airport",
+                "regionName": "Middle East",
+                "timeZoneRegionName": "Asia/Riyadh",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SLF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SLF",
+            "requestedCode": "SLF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SLF/dep"
+    }
+}

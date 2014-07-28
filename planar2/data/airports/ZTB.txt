@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tete-A-La Baleine",
+                "cityCode": "ZTB",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ZTB?codeType=fs",
+                "fs": "ZTB",
+                "iata": "ZTB",
+                "latitude": 50.716667,
+                "localTime": "2014-07-27T11:48:38.199",
+                "longitude": -59.333333,
+                "name": "Tete-A-La Baleine Airport",
+                "regionName": "North America",
+                "stateCode": "QC",
+                "timeZoneRegionName": "America/Blanc-Sablon",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ZTB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ZTB",
+            "requestedCode": "ZTB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ZTB/dep"
+    }
+}

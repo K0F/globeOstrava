@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Oita",
+                "cityCode": "OIT",
+                "classification": 3,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OIT?codeType=fs",
+                "elevationFeet": 17,
+                "fs": "OIT",
+                "iata": "OIT",
+                "icao": "RJFO",
+                "latitude": 33.477237,
+                "localTime": "2014-07-28T01:31:10.010",
+                "longitude": 131.732362,
+                "name": "Oita Airport",
+                "regionName": "Asia",
+                "street1": "3286-14 Musashimachi Itoharu",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OIT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OIT",
+            "requestedCode": "OIT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OIT/dep"
+    }
+}

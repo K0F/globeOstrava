@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sundsvall",
+                "cityCode": "SDL",
+                "classification": 4,
+                "countryCode": "SE",
+                "countryName": "Sweden",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SDL?codeType=fs",
+                "elevationFeet": 13,
+                "fs": "SDL",
+                "iata": "SDL",
+                "icao": "ESNN",
+                "latitude": 62.521647,
+                "localTime": "2014-07-26T14:43:15.024",
+                "longitude": 17.438147,
+                "name": "Sundsvall/Harnosand Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Stockholm",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SDL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SDL",
+            "requestedCode": "SDL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SDL/dep"
+    }
+}

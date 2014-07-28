@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kanpur",
+                "cityCode": "KNU",
+                "classification": 4,
+                "countryCode": "IN",
+                "countryName": "India",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KNU?codeType=fs",
+                "elevationFeet": 410,
+                "fs": "KNU",
+                "iata": "KNU",
+                "icao": "VIKA",
+                "latitude": 26.402778,
+                "localTime": "2014-07-27T22:09:38.312",
+                "longitude": 80.4125,
+                "name": "Kanpur Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kolkata",
+                "utcOffsetHours": 5.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KNU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KNU",
+            "requestedCode": "KNU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KNU/dep"
+    }
+}

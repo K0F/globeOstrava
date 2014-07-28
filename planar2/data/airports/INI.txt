@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Nis",
+                "cityCode": "INI",
+                "classification": 4,
+                "countryCode": "RS",
+                "countryName": "Republic of Serbia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/INI?codeType=fs",
+                "elevationFeet": 646,
+                "fs": "INI",
+                "iata": "INI",
+                "icao": "LYNI",
+                "latitude": 43.333889,
+                "localTime": "2014-07-27T17:54:02.625",
+                "longitude": 21.851667,
+                "name": "Nis Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Belgrade",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/INI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "INI",
+            "requestedCode": "INI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/INI/dep"
+    }
+}

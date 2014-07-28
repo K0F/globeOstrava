@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Provideniya",
+                "cityCode": "PVS",
+                "classification": 4,
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PVS?codeType=fs",
+                "elevationFeet": 71,
+                "fs": "PVS",
+                "iata": "PVS",
+                "icao": "UHMD",
+                "latitude": 64.383333,
+                "localTime": "2014-07-28T04:37:38.799",
+                "longitude": -173.243333,
+                "name": "Provideniya Bay Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Kamchatka",
+                "utcOffsetHours": 12.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PVS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PVS",
+            "requestedCode": "PVS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PVS/dep"
+    }
+}

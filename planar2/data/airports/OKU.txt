@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mokuti Lodge",
+                "cityCode": "OKU",
+                "classification": 5,
+                "countryCode": "NA",
+                "countryName": "Namibia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OKU?codeType=fs",
+                "elevationFeet": 3650,
+                "fs": "OKU",
+                "iata": "OKU",
+                "icao": "FYMO",
+                "latitude": -18.808333,
+                "localTime": "2014-07-27T16:55:38.487",
+                "longitude": 17.05,
+                "name": "Mokuti Lodge Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Windhoek",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OKU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OKU",
+            "requestedCode": "OKU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OKU/dep"
+    }
+}

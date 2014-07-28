@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Villa Dolores",
+                "cityCode": "VDR",
+                "classification": 5,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VDR?codeType=fs",
+                "elevationFeet": 1854,
+                "fs": "VDR",
+                "iata": "VDR",
+                "icao": "SAOD",
+                "latitude": -31.941111,
+                "localTime": "2014-07-27T13:32:28.134",
+                "longitude": -65.142222,
+                "name": "Villa Dolores Airport",
+                "regionName": "South America",
+                "stateCode": "CD",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VDR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "VDR",
+            "requestedCode": "VDR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/VDR/dep"
+    }
+}

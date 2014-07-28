@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Isiro",
+                "cityCode": "IRP",
+                "classification": 4,
+                "countryCode": "CD",
+                "countryName": "The Democratic Republic of The Congo",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IRP?codeType=fs",
+                "elevationFeet": 2477,
+                "fs": "IRP",
+                "iata": "IRP",
+                "icao": "FZJH",
+                "latitude": 2.8275,
+                "localTime": "2014-07-27T18:16:40.324",
+                "longitude": 27.588333,
+                "name": "Matari Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Lubumbashi",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IRP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IRP",
+            "requestedCode": "IRP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IRP/dep"
+    }
+}

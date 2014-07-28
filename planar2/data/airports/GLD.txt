@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Goodland",
+                "cityCode": "GLD",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GLD?codeType=fs",
+                "elevationFeet": 3656,
+                "faa": "GLD",
+                "fs": "GLD",
+                "iata": "GLD",
+                "icao": "KGLD",
+                "latitude": 39.370278,
+                "localTime": "2014-07-26T10:27:18.363",
+                "longitude": -101.699444,
+                "name": "Goodland Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "KS",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GLD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GLD",
+            "requestedCode": "GLD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GLD/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Chatham Island",
+                "cityCode": "CHT",
+                "classification": 4,
+                "countryCode": "NZ",
+                "countryName": "New Zealand",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CHT?codeType=fs",
+                "elevationFeet": 43,
+                "fs": "CHT",
+                "iata": "CHT",
+                "icao": "NZCI",
+                "latitude": -43.8,
+                "localTime": "2014-07-27T03:58:57.745",
+                "longitude": -176.35,
+                "name": "Karewa Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Chatham",
+                "utcOffsetHours": 12.75,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CHT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CHT",
+            "requestedCode": "CHT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CHT/dep"
+    }
+}

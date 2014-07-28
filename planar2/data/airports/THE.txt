@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Teresina",
+                "cityCode": "THE",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/THE?codeType=fs",
+                "elevationFeet": 219,
+                "fs": "THE",
+                "iata": "THE",
+                "icao": "SBTE",
+                "latitude": -5.06335,
+                "localTime": "2014-07-27T12:53:08.483",
+                "longitude": -42.821085,
+                "name": "Teresina Airport",
+                "regionName": "South America",
+                "stateCode": "PI",
+                "timeZoneRegionName": "America/Belem",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/THE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "THE",
+            "requestedCode": "THE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/THE/dep"
+    }
+}

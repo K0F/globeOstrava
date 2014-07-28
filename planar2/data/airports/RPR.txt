@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Raipur",
+                "cityCode": "RPR",
+                "classification": 4,
+                "countryCode": "IN",
+                "countryName": "India",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RPR?codeType=fs",
+                "elevationFeet": 1027,
+                "fs": "RPR",
+                "iata": "RPR",
+                "icao": "VARP",
+                "latitude": 21.184561,
+                "localTime": "2014-07-27T22:08:49.160",
+                "longitude": 81.739751,
+                "name": "Raipur Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kolkata",
+                "utcOffsetHours": 5.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RPR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "RPR",
+            "requestedCode": "RPR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/RPR/dep"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Port Harcourt",
+                "cityCode": "PHC",
+                "classification": 4,
+                "countryCode": "NG",
+                "countryName": "Nigeria",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PHG?codeType=fs",
+                "elevationFeet": 54,
+                "fs": "PHG",
+                "iata": "PHG",
+                "latitude": 4.844412,
+                "localTime": "2014-07-26T16:20:11.075",
+                "longitude": 7.019821,
+                "name": "Port Harcourt City Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Lagos",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PHG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PHG",
+            "requestedCode": "PHG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PHG/dep"
+    }
+}

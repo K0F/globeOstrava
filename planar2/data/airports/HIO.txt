@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Hillsboro",
+                "cityCode": "HIO",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HIO?codeType=fs",
+                "elevationFeet": 204,
+                "faa": "HIO",
+                "fs": "HIO",
+                "iata": "HIO",
+                "icao": "KHIO",
+                "latitude": 45.516667,
+                "localTime": "2014-07-26T09:27:32.434",
+                "longitude": -122.983333,
+                "name": "Portland Hillsboro Airport",
+                "regionName": "North America",
+                "stateCode": "OR",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HIO?codeType=fs",
+                "weatherZone": "ORZ006"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HIO",
+            "requestedCode": "HIO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HIO/dep"
+    }
+}

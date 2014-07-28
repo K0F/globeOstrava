@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mohenjo Daro",
+                "cityCode": "MJD",
+                "classification": 4,
+                "countryCode": "PK",
+                "countryName": "Pakistan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MJD?codeType=fs",
+                "elevationFeet": 167,
+                "fs": "MJD",
+                "iata": "MJD",
+                "icao": "OPMJ",
+                "latitude": 27.336389,
+                "localTime": "2014-07-27T21:29:53.693",
+                "longitude": 68.141667,
+                "name": "Mohenjo Daro Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Karachi",
+                "utcOffsetHours": 5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MJD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MJD",
+            "requestedCode": "MJD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MJD/dep"
+    }
+}

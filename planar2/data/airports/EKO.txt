@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Elko",
+                "cityCode": "EKO",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/EKO?codeType=fs",
+                "elevationFeet": 5140,
+                "faa": "EKO",
+                "fs": "EKO",
+                "iata": "EKO",
+                "icao": "KEKO",
+                "latitude": 40.823889,
+                "localTime": "2014-07-26T09:30:41.498",
+                "longitude": -115.789722,
+                "name": "Elko Airport",
+                "postalCode": "89801",
+                "regionName": "North America",
+                "stateCode": "NV",
+                "street1": "1751 College Avenue",
+                "street2": "",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/EKO?codeType=fs",
+                "weatherZone": "NVZ032"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "EKO",
+            "requestedCode": "EKO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/EKO/dep"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Terrace",
+                "cityCode": "YXT",
+                "classification": 4,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/YXT?codeType=fs",
+                "elevationFeet": 713,
+                "fs": "YXT",
+                "iata": "YXT",
+                "icao": "CYXT",
+                "latitude": 54.465556,
+                "localTime": "2014-07-27T09:07:05.879",
+                "longitude": -128.574444,
+                "name": "Terrace Airport",
+                "postalCode": "",
+                "regionName": "North America",
+                "stateCode": "BC",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Vancouver",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/YXT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "YXT",
+            "requestedCode": "YXT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/YXT/dep"
+    }
+}

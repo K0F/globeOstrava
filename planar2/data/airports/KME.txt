@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kamembe",
+                "cityCode": "KME",
+                "classification": 4,
+                "countryCode": "RW",
+                "countryName": "Rwanda",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KME?codeType=fs",
+                "elevationFeet": 5220,
+                "fs": "KME",
+                "iata": "KME",
+                "icao": "HRZA",
+                "latitude": -2.466667,
+                "localTime": "2014-07-27T18:18:21.158",
+                "longitude": 28.916667,
+                "name": "Kamembe Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Kigali",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KME?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KME",
+            "requestedCode": "KME"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KME/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Nuku Hiva",
+                "cityCode": "NHV",
+                "classification": 4,
+                "countryCode": "PF",
+                "countryName": "French Polynesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NHV?codeType=fs",
+                "elevationFeet": 220,
+                "fs": "NHV",
+                "iata": "NHV",
+                "icao": "NTMD",
+                "latitude": -8.795214,
+                "localTime": "2014-07-27T06:57:45.957",
+                "longitude": -140.222224,
+                "name": "Nuku Hiva Airport",
+                "regionName": "Oceania",
+                "timeZoneRegionName": "Pacific/Marquesas",
+                "utcOffsetHours": -9.5,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NHV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NHV",
+            "requestedCode": "NHV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NHV/dep"
+    }
+}

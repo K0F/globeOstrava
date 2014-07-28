@@ -1,0 +1,52 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Fayetteville",
+                "cityCode": "FYV",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/FYV?codeType=fs",
+                "elevationFeet": 1251,
+                "faa": "FYV",
+                "fs": "FYV",
+                "iata": "FYV",
+                "icao": "KFYV",
+                "latitude": 36.003611,
+                "localTime": "2014-07-27T10:55:20.126",
+                "longitude": -94.17,
+                "name": "Fayetteville Municipal Airport (Drake Field)",
+                "postalCode": "72701",
+                "regionName": "North America",
+                "stateCode": "AR",
+                "street1": "4500 South School Avenue, Suite F",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/FYV?codeType=fs",
+                "weatherZone": "ARZ010"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "FYV",
+            "requestedCode": "FYV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/FYV/dep"
+    }
+}

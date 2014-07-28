@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Farmington",
+                "cityCode": "FMN",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/FMN?codeType=fs",
+                "elevationFeet": 5506,
+                "faa": "FMN",
+                "fs": "FMN",
+                "iata": "FMN",
+                "icao": "KFMN",
+                "latitude": 36.741111,
+                "localTime": "2014-07-26T05:05:30.840",
+                "longitude": -108.229167,
+                "name": "Farmington Municipal Airport",
+                "postalCode": "87401",
+                "regionName": "North America",
+                "stateCode": "NM",
+                "street1": "800, Municipal Drive",
+                "street2": "",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/FMN?codeType=fs",
+                "weatherZone": "NMZ501"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "FMN",
+            "requestedCode": "FMN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/FMN/dep"
+    }
+}

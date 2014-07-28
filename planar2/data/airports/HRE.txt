@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Harare",
+                "cityCode": "HRE",
+                "classification": 4,
+                "countryCode": "ZW",
+                "countryName": "Zimbabwe",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/HRE?codeType=fs",
+                "elevationFeet": 4901,
+                "fs": "HRE",
+                "iata": "HRE",
+                "icao": "FVHA",
+                "latitude": -17.918631,
+                "localTime": "2014-07-27T18:16:20.077",
+                "longitude": 31.099249,
+                "name": "Harare Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Harare",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/HRE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "HRE",
+            "requestedCode": "HRE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/HRE/dep"
+    }
+}

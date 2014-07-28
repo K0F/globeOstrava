@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Upolu Point",
+                "cityCode": "UPP",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UPP?codeType=fs",
+                "elevationFeet": 96,
+                "faa": "PHUP",
+                "fs": "UPP",
+                "iata": "UPP",
+                "icao": "PHUP",
+                "latitude": 20.268056,
+                "localTime": "2014-07-26T02:42:37.344",
+                "longitude": -155.8625,
+                "name": "Upolu Point Airport",
+                "regionName": "North America",
+                "stateCode": "HI",
+                "timeZoneRegionName": "Pacific/Honolulu",
+                "utcOffsetHours": -10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UPP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UPP",
+            "requestedCode": "PHUP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PHUP/dep"
+    }
+}

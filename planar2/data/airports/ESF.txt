@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Alexandria",
+                "cityCode": "AEX",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ESF?codeType=fs",
+                "elevationFeet": 112,
+                "faa": "ESF",
+                "fs": "ESF",
+                "iata": "ESF",
+                "icao": "KESF",
+                "latitude": 31.395,
+                "localTime": "2014-07-26T11:22:27.498",
+                "longitude": -92.296944,
+                "name": "Esler Field",
+                "regionName": "North America",
+                "stateCode": "LA",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ESF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ESF",
+            "requestedCode": "ESF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ESF/dep"
+    }
+}

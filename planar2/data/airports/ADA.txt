@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Adana",
+                "cityCode": "ADA",
+                "classification": 3,
+                "countryCode": "TR",
+                "countryName": "Turkey",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ADA?codeType=fs",
+                "elevationFeet": 65,
+                "fs": "ADA",
+                "iata": "ADA",
+                "icao": "LTAF",
+                "latitude": 36.985032,
+                "localTime": "2014-07-27T19:24:06.088",
+                "longitude": 35.29736,
+                "name": "Adana Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Istanbul",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ADA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ADA",
+            "requestedCode": "ADA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ADA/dep"
+    }
+}

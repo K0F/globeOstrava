@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Osan",
+                "cityCode": "OSN",
+                "classification": 4,
+                "countryCode": "KR",
+                "countryName": "Republic of Korea",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OSN?codeType=fs",
+                "elevationFeet": 27,
+                "fs": "OSN",
+                "iata": "OSN",
+                "icao": "RKSO",
+                "latitude": 37.088688,
+                "localTime": "2014-07-28T01:31:47.864",
+                "longitude": 127.030015,
+                "name": "Osan Air Base",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Seoul",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OSN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OSN",
+            "requestedCode": "OSN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OSN/dep"
+    }
+}

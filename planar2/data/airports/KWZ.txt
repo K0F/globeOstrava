@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kolwezi",
+                "cityCode": "KWZ",
+                "classification": 4,
+                "countryCode": "CD",
+                "countryName": "The Democratic Republic of The Congo",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KWZ?codeType=fs",
+                "elevationFeet": 4918,
+                "fs": "KWZ",
+                "iata": "KWZ",
+                "icao": "FZQM",
+                "latitude": -10.766667,
+                "localTime": "2014-07-27T18:16:46.870",
+                "longitude": 25.506944,
+                "name": "Kolwezi Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Lubumbashi",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KWZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KWZ",
+            "requestedCode": "KWZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KWZ/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "San Jose Del Gua",
+                "cityCode": "SJE",
+                "classification": 4,
+                "countryCode": "CO",
+                "countryName": "Colombia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SJE?codeType=fs",
+                "elevationFeet": 574,
+                "fs": "SJE",
+                "iata": "SJE",
+                "icao": "SKSJ",
+                "latitude": 2.583333,
+                "localTime": "2014-07-27T11:00:20.702",
+                "longitude": -72.666667,
+                "name": "San Jose Del Gua Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Bogota",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SJE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SJE",
+            "requestedCode": "SJE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SJE/dep"
+    }
+}

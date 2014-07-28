@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Carlsbad",
+                "cityCode": "CNM",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CNM?codeType=fs",
+                "elevationFeet": 3295,
+                "faa": "CNM",
+                "fs": "CNM",
+                "iata": "CNM",
+                "icao": "KCNM",
+                "latitude": 32.337222,
+                "localTime": "2014-07-26T05:03:32.141",
+                "longitude": -104.262778,
+                "name": "Carlsbad Airport",
+                "regionName": "North America",
+                "stateCode": "NM",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CNM?codeType=fs",
+                "weatherZone": "NMZ028"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CNM",
+            "requestedCode": "CNM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CNM/dep"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saginaw",
+                "cityCode": "MBS",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MBS?codeType=fs",
+                "elevationFeet": 668,
+                "faa": "MBS",
+                "fs": "MBS",
+                "iata": "MBS",
+                "icao": "KMBS",
+                "latitude": 43.53339,
+                "localTime": "2014-07-26T12:31:36.435",
+                "longitude": -84.090742,
+                "name": "Tri City Airport",
+                "postalCode": "48623",
+                "regionName": "North America",
+                "stateCode": "MI",
+                "street1": "8500 Garfield Road, Suite 101",
+                "street2": "",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MBS?codeType=fs",
+                "weatherZone": "MIZ053"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MBS",
+            "requestedCode": "MBS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MBS/dep"
+    }
+}

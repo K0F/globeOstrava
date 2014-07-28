@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Changsha",
+                "cityCode": "CSX",
+                "classification": 2,
+                "countryCode": "CN",
+                "countryName": "China",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CSX?codeType=fs",
+                "elevationFeet": 217,
+                "fs": "CSX",
+                "iata": "CSX",
+                "icao": "ZGHA",
+                "latitude": 28.193336,
+                "localTime": "2014-07-27T23:52:58.564",
+                "longitude": 113.214592,
+                "name": "Changsha Huanghua Airport",
+                "regionName": "Asia",
+                "street1": "Changsha Ave",
+                "timeZoneRegionName": "Asia/Shanghai",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CSX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CSX",
+            "requestedCode": "CSX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CSX/dep"
+    }
+}

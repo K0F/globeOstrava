@@ -1,0 +1,175 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "LH",
+                "iata": "LH",
+                "icao": "DLH",
+                "name": "Lufthansa"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Munich",
+                "cityCode": "MUC",
+                "classification": 1,
+                "countryCode": "DE",
+                "countryName": "Germany",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MUC?codeType=fs",
+                "elevationFeet": 1486,
+                "fs": "MUC",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "latitude": 48.353005,
+                "localTime": "2014-07-27T17:54:17.082",
+                "longitude": 11.790143,
+                "name": "Franz Josef Strauss Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Berlin",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MUC?codeType=fs"
+            },
+            {
+                "active": true,
+                "city": "Bremen",
+                "cityCode": "BRE",
+                "classification": 3,
+                "countryCode": "DE",
+                "countryName": "Germany",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BRE?codeType=fs",
+                "elevationFeet": 13,
+                "fs": "BRE",
+                "iata": "BRE",
+                "icao": "EDDW",
+                "latitude": 53.052971,
+                "localTime": "2014-07-27T17:54:17.058",
+                "longitude": 8.785352,
+                "name": "Bremen Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Berlin",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BRE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "MUC",
+            "bearing": 169.52883283076702,
+            "carrierFsCode": "LH",
+            "delayMinutes": 10,
+            "departureAirportFsCode": "BRE",
+            "departureDate": {
+                "dateLocal": "2014-07-27T16:55:00.000",
+                "dateUtc": "2014-07-27T14:55:00.000Z"
+            },
+            "equipment": "319",
+            "flightId": 410398760,
+            "flightNumber": "2113",
+            "heading": 145.25287083852012,
+            "positions": [
+                {
+                    "altitudeFt": 35000,
+                    "date": "2014-07-27T15:39:20.000Z",
+                    "lat": 51.2445,
+                    "lon": 10.9871,
+                    "source": "AirNav",
+                    "speedMph": 467
+                },
+                {
+                    "altitudeFt": 33650,
+                    "date": "2014-07-27T15:37:07.000Z",
+                    "lat": 51.4636,
+                    "lon": 10.7446,
+                    "source": "AirNav",
+                    "speedMph": 464
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-27T15:33:28.000Z",
+                    "lat": 51.8166,
+                    "lon": 10.3479,
+                    "source": "AirNav",
+                    "speedMph": 486
+                },
+                {
+                    "altitudeFt": 27975,
+                    "date": "2014-07-27T15:31:26.000Z",
+                    "lat": 51.9961,
+                    "lon": 10.1433,
+                    "source": "AirNav",
+                    "speedMph": 478
+                },
+                {
+                    "altitudeFt": 27975,
+                    "date": "2014-07-27T15:29:57.000Z",
+                    "lat": 52.144,
+                    "lon": 9.9729,
+                    "source": "AirNav",
+                    "speedMph": 478
+                },
+                {
+                    "altitudeFt": 26300,
+                    "date": "2014-07-27T15:28:51.000Z",
+                    "lat": 52.2381,
+                    "lon": 9.8639,
+                    "source": "AirNav",
+                    "speedMph": 478
+                },
+                {
+                    "altitudeFt": 24600,
+                    "date": "2014-07-27T15:27:47.000Z",
+                    "lat": 52.3348,
+                    "lon": 9.749,
+                    "source": "AirNav",
+                    "speedMph": 474
+                },
+                {
+                    "altitudeFt": 18175,
+                    "date": "2014-07-27T15:24:02.000Z",
+                    "lat": 52.6347,
+                    "lon": 9.2768,
+                    "source": "AirNav",
+                    "speedMph": 442
+                },
+                {
+                    "altitudeFt": 3800,
+                    "date": "2014-07-27T15:19:02.000Z",
+                    "lat": 52.9672,
+                    "lon": 8.7612,
+                    "source": "AirNav",
+                    "speedMph": 308
+                },
+                {
+                    "altitudeFt": 1775,
+                    "date": "2014-07-27T15:17:37.000Z",
+                    "lat": 53.0295,
+                    "lon": 8.7451,
+                    "source": "AirNav",
+                    "speedMph": 170
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "BRE",
+            "requestedCode": "BRE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BRE/dep"
+    }
+}

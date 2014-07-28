@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Alamosa",
+                "cityCode": "ALS",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ALS?codeType=fs",
+                "elevationFeet": 7539,
+                "faa": "ALS",
+                "fs": "ALS",
+                "iata": "ALS",
+                "icao": "KALS",
+                "latitude": 37.436667,
+                "localTime": "2014-07-26T06:38:00.553",
+                "longitude": -105.866667,
+                "name": "Alamosa Municipal Airport",
+                "postalCode": "81101",
+                "regionName": "North America",
+                "stateCode": "CO",
+                "street1": "",
+                "street2": "",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ALS?codeType=fs",
+                "weatherZone": "COZ063"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ALS",
+            "requestedCode": "ALS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ALS/dep"
+    }
+}

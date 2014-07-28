@@ -1,0 +1,53 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kenai",
+                "cityCode": "ENA",
+                "classification": 3,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ENA?codeType=fs",
+                "elevationFeet": 97,
+                "faa": "PAEN",
+                "fs": "ENA",
+                "iata": "ENA",
+                "icao": "PAEN",
+                "latitude": 60.565207,
+                "localTime": "2014-07-26T04:36:20.113",
+                "longitude": -151.246448,
+                "name": "Kenai Airport",
+                "postalCode": "99611",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "street1": "305 North Willow, Suite 200",
+                "street2": "",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ENA?codeType=fs",
+                "weatherZone": "AKZ121"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ENA",
+            "requestedCode": "PAEN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PAEN/dep"
+    }
+}

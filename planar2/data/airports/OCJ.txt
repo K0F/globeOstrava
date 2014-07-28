@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ocho Rios",
+                "cityCode": "OCJ",
+                "classification": 5,
+                "countryCode": "JM",
+                "countryName": "Jamaica",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OCJ?codeType=fs",
+                "elevationFeet": 90,
+                "fs": "OCJ",
+                "iata": "OCJ",
+                "icao": "MKBS",
+                "latitude": 18.400556,
+                "localTime": "2014-07-27T11:25:03.686",
+                "longitude": -76.969722,
+                "name": "Boscobel Airport",
+                "regionName": "Caribbean",
+                "timeZoneRegionName": "America/Jamaica",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OCJ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OCJ",
+            "requestedCode": "OCJ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OCJ/dep"
+    }
+}

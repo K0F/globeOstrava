@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Goshen",
+                "cityCode": "GSH",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GSH?codeType=fs",
+                "elevationFeet": 827,
+                "faa": "GSH",
+                "fs": "GSH",
+                "iata": "GSH",
+                "icao": "KGSH",
+                "latitude": 41.583333,
+                "localTime": "2014-07-26T11:57:34.610",
+                "longitude": -85.833333,
+                "name": "Goshen Airport",
+                "regionName": "North America",
+                "stateCode": "IN",
+                "timeZoneRegionName": "America/Indiana/Indianapolis",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GSH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GSH",
+            "requestedCode": "GSH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GSH/dep"
+    }
+}

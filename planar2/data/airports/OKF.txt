@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Okaukuejo",
+                "cityCode": "OKF",
+                "classification": 5,
+                "countryCode": "NA",
+                "countryName": "Namibia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OKF?codeType=fs",
+                "elevationFeet": 3820,
+                "fs": "OKF",
+                "iata": "OKF",
+                "icao": "FYOO",
+                "latitude": -19.166667,
+                "localTime": "2014-07-27T16:54:08.798",
+                "longitude": 16.0,
+                "name": "Okaukuejo Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Windhoek",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OKF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OKF",
+            "requestedCode": "OKF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OKF/dep"
+    }
+}

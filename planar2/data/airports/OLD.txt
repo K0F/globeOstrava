@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Old Town",
+                "cityCode": "OLD",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OLD?codeType=fs",
+                "elevationFeet": 126,
+                "faa": "OLD",
+                "fs": "OLD",
+                "iata": "OLD",
+                "icao": "KOLD",
+                "latitude": 44.933333,
+                "localTime": "2014-07-26T11:19:40.470",
+                "longitude": -68.65,
+                "name": "Old Town Airport",
+                "regionName": "North America",
+                "stateCode": "ME",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OLD?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OLD",
+            "requestedCode": "OLD"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OLD/dep"
+    }
+}

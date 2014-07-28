@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Phaplu",
+                "cityCode": "PPL",
+                "classification": 4,
+                "countryCode": "NP",
+                "countryName": "Nepal",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PPL?codeType=fs",
+                "fs": "PPL",
+                "iata": "PPL",
+                "latitude": 27.516667,
+                "localTime": "2014-07-27T21:39:12.963",
+                "longitude": 86.6,
+                "name": "Phaplu Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kathmandu",
+                "utcOffsetHours": 5.75,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PPL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PPL",
+            "requestedCode": "PPL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PPL/dep"
+    }
+}

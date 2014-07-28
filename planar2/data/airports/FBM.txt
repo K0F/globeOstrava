@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lubumbashi",
+                "cityCode": "FBM",
+                "classification": 4,
+                "countryCode": "CD",
+                "countryName": "The Democratic Republic of The Congo",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/FBM?codeType=fs",
+                "elevationFeet": 4295,
+                "fs": "FBM",
+                "iata": "FBM",
+                "icao": "FZQA",
+                "latitude": -11.590833,
+                "localTime": "2014-07-27T18:16:45.671",
+                "longitude": 27.529167,
+                "name": "Luano",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Lubumbashi",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/FBM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "FBM",
+            "requestedCode": "FBM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/FBM/dep"
+    }
+}

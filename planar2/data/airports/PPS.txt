@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Puerto Princesa",
+                "cityCode": "PPS",
+                "classification": 4,
+                "countryCode": "PH",
+                "countryName": "Philippines",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PPS?codeType=fs",
+                "elevationFeet": 20,
+                "fs": "PPS",
+                "iata": "PPS",
+                "icao": "RPVP",
+                "latitude": 9.740198,
+                "localTime": "2014-07-28T00:32:10.495",
+                "longitude": 118.756739,
+                "name": "Puerto Princesa Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Manila",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PPS?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "PPS",
+            "requestedCode": "PPS"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/PPS/dep"
+    }
+}

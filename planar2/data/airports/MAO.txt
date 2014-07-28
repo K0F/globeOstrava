@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Manaus",
+                "cityCode": "MAO",
+                "classification": 3,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MAO?codeType=fs",
+                "elevationFeet": 278,
+                "fs": "MAO",
+                "iata": "MAO",
+                "icao": "SBEG",
+                "latitude": -3.031327,
+                "localTime": "2014-07-26T11:18:20.252",
+                "longitude": -60.046092,
+                "name": "Eduardo Gomes International Airport",
+                "regionName": "South America",
+                "stateCode": "AM",
+                "timeZoneRegionName": "America/Porto_Velho",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MAO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MAO",
+            "requestedCode": "MAO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MAO/dep"
+    }
+}

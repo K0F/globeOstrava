@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Big Piney",
+                "cityCode": "BPI",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BPI?codeType=fs",
+                "elevationFeet": 6990,
+                "faa": "BPI",
+                "fs": "BPI",
+                "iata": "BPI",
+                "icao": "KBPI",
+                "latitude": 42.533333,
+                "localTime": "2014-07-26T10:20:38.220",
+                "longitude": -110.116667,
+                "name": "Big Piney-Marbleton Airport",
+                "regionName": "North America",
+                "stateCode": "WY",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BPI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BPI",
+            "requestedCode": "BPI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BPI/dep"
+    }
+}

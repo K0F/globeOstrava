@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dillon",
+                "cityCode": "DLL",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DLL?codeType=fs",
+                "elevationFeet": 976,
+                "faa": "DLC",
+                "fs": "DLL",
+                "iata": "DLL",
+                "icao": "KDLC",
+                "latitude": 34.416667,
+                "localTime": "2014-07-26T12:23:36.000",
+                "longitude": -79.366667,
+                "name": "Dillon Airport",
+                "regionName": "North America",
+                "stateCode": "SC",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DLL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DLL",
+            "requestedCode": "DLL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DLL/dep"
+    }
+}

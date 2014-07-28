@@ -1,0 +1,920 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "AJI",
+                "iata": "7Z",
+                "icao": "AJI",
+                "name": "Ameristar Jet Charter"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Shreveport",
+                "cityCode": "SHV",
+                "classification": 3,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SHV?codeType=fs",
+                "elevationFeet": 258,
+                "faa": "SHV",
+                "fs": "SHV",
+                "iata": "SHV",
+                "icao": "KSHV",
+                "latitude": 32.454707,
+                "localTime": "2014-07-26T11:27:26.469",
+                "longitude": -93.828383,
+                "name": "Shreveport Regional Airport",
+                "postalCode": "71109",
+                "regionName": "North America",
+                "stateCode": "LA",
+                "street1": "5103 Hollywood Avenue, Suite 300",
+                "street2": "",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SHV?codeType=fs",
+                "weatherZone": "LAZ001"
+            },
+            {
+                "active": true,
+                "city": "Lafayette",
+                "cityCode": "LAF",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LAF?codeType=fs",
+                "elevationFeet": 606,
+                "faa": "LAF",
+                "fs": "LAF",
+                "iata": "LAF",
+                "icao": "KLAF",
+                "latitude": 40.411944,
+                "localTime": "2014-07-26T12:27:26.453",
+                "longitude": -86.933611,
+                "name": "Purdue University Airport",
+                "postalCode": "47906",
+                "regionName": "North America",
+                "stateCode": "IN",
+                "street1": "Terminal Building, Room 201",
+                "timeZoneRegionName": "America/Indiana/Indianapolis",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LAF?codeType=fs",
+                "weatherZone": "INZ029"
+            }
+        ]
+    },
+    "flightTracks": [
+        {
+            "arrivalAirportFsCode": "SHV",
+            "bearing": 214.6267503633841,
+            "carrierFsCode": "AJI",
+            "delayMinutes": 2,
+            "departureAirportFsCode": "LAF",
+            "departureDate": {
+                "dateLocal": "2014-07-26T12:01:00.000",
+                "dateUtc": "2014-07-26T16:01:00.000Z"
+            },
+            "equipment": "FA20",
+            "flightId": 411360877,
+            "flightNumber": "614",
+            "heading": 223.85581541622355,
+            "legacyRoute": "LAF./.4007N/8705W..ENL..ARG.J137.LIT..SHV/1722",
+            "positions": [
+                {
+                    "altitudeFt": 27900,
+                    "date": "2014-07-26T16:21:11.000Z",
+                    "lat": 38.7333,
+                    "lon": -88.7897,
+                    "source": "ASDI",
+                    "speedMph": 467
+                },
+                {
+                    "altitudeFt": 27900,
+                    "date": "2014-07-26T16:21:09.000Z",
+                    "lat": 38.7342,
+                    "lon": -88.7856,
+                    "source": "ASDI",
+                    "speedMph": 472
+                },
+                {
+                    "altitudeFt": 27900,
+                    "date": "2014-07-26T16:20:54.000Z",
+                    "lat": 38.7492,
+                    "lon": -88.7669,
+                    "source": "ASDI",
+                    "speedMph": 472
+                },
+                {
+                    "altitudeFt": 27900,
+                    "date": "2014-07-26T16:20:09.000Z",
+                    "lat": 38.815,
+                    "lon": -88.6864,
+                    "source": "ASDI",
+                    "speedMph": 461
+                },
+                {
+                    "altitudeFt": 27900,
+                    "date": "2014-07-26T16:20:08.000Z",
+                    "lat": 38.8183,
+                    "lon": -88.6839,
+                    "source": "ASDI",
+                    "speedMph": 460
+                },
+                {
+                    "altitudeFt": 27900,
+                    "date": "2014-07-26T16:19:52.000Z",
+                    "lat": 38.8339,
+                    "lon": -88.6661,
+                    "source": "ASDI",
+                    "speedMph": 463
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:19:51.000Z",
+                    "lat": 38.8475,
+                    "lon": -88.6506,
+                    "source": "ASDI",
+                    "speedMph": 459
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:19:07.000Z",
+                    "lat": 38.8989,
+                    "lon": -88.5894,
+                    "source": "ASDI",
+                    "speedMph": 451
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:19:04.000Z",
+                    "lat": 38.8961,
+                    "lon": -88.5886,
+                    "source": "ASDI",
+                    "speedMph": 452
+                },
+                {
+                    "altitudeFt": 27900,
+                    "date": "2014-07-26T16:18:50.000Z",
+                    "lat": 38.9331,
+                    "lon": -88.5453,
+                    "source": "ASDI",
+                    "speedMph": 438
+                },
+                {
+                    "altitudeFt": 27900,
+                    "date": "2014-07-26T16:18:49.000Z",
+                    "lat": 38.9369,
+                    "lon": -88.5428,
+                    "source": "ASDI",
+                    "speedMph": 440
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:18:05.000Z",
+                    "lat": 38.9769,
+                    "lon": -88.4858,
+                    "source": "ASDI",
+                    "speedMph": 426
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:18:03.000Z",
+                    "lat": 38.9919,
+                    "lon": -88.4689,
+                    "source": "ASDI",
+                    "speedMph": 422
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:17:49.000Z",
+                    "lat": 39.01,
+                    "lon": -88.4483,
+                    "source": "ASDI",
+                    "speedMph": 418
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:17:47.000Z",
+                    "lat": 39.0139,
+                    "lon": -88.4461,
+                    "source": "ASDI",
+                    "speedMph": 425
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:17:03.000Z",
+                    "lat": 39.0558,
+                    "lon": -88.3964,
+                    "source": "ASDI",
+                    "speedMph": 404
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:17:02.000Z",
+                    "lat": 39.0703,
+                    "lon": -88.3797,
+                    "source": "ASDI",
+                    "speedMph": 402
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:16:47.000Z",
+                    "lat": 39.0881,
+                    "lon": -88.3592,
+                    "source": "ASDI",
+                    "speedMph": 393
+                },
+                {
+                    "altitudeFt": 28000,
+                    "date": "2014-07-26T16:16:45.000Z",
+                    "lat": 39.0922,
+                    "lon": -88.3572,
+                    "source": "ASDI",
+                    "speedMph": 396
+                },
+                {
+                    "altitudeFt": 27800,
+                    "date": "2014-07-26T16:16:01.000Z",
+                    "lat": 39.1447,
+                    "lon": -88.2931,
+                    "source": "ASDI",
+                    "speedMph": 391
+                },
+                {
+                    "altitudeFt": 27800,
+                    "date": "2014-07-26T16:15:59.000Z",
+                    "lat": 39.1433,
+                    "lon": -88.2947,
+                    "source": "ASDI",
+                    "speedMph": 392
+                },
+                {
+                    "altitudeFt": 27600,
+                    "date": "2014-07-26T16:15:45.000Z",
+                    "lat": 39.1597,
+                    "lon": -88.275,
+                    "source": "ASDI",
+                    "speedMph": 390
+                },
+                {
+                    "altitudeFt": 27600,
+                    "date": "2014-07-26T16:15:43.000Z",
+                    "lat": 39.1642,
+                    "lon": -88.2725,
+                    "source": "ASDI",
+                    "speedMph": 391
+                },
+                {
+                    "altitudeFt": 27000,
+                    "date": "2014-07-26T16:14:59.000Z",
+                    "lat": 39.2164,
+                    "lon": -88.2119,
+                    "source": "ASDI",
+                    "speedMph": 384
+                },
+                {
+                    "altitudeFt": 27000,
+                    "date": "2014-07-26T16:14:58.000Z",
+                    "lat": 39.215,
+                    "lon": -88.2117,
+                    "source": "ASDI",
+                    "speedMph": 387
+                },
+                {
+                    "altitudeFt": 26900,
+                    "date": "2014-07-26T16:14:43.000Z",
+                    "lat": 39.2319,
+                    "lon": -88.1922,
+                    "source": "ASDI",
+                    "speedMph": 385
+                },
+                {
+                    "altitudeFt": 26800,
+                    "date": "2014-07-26T16:14:41.000Z",
+                    "lat": 39.2361,
+                    "lon": -88.19,
+                    "source": "ASDI",
+                    "speedMph": 388
+                },
+                {
+                    "altitudeFt": 26200,
+                    "date": "2014-07-26T16:13:54.000Z",
+                    "lat": 39.2856,
+                    "lon": -88.1294,
+                    "source": "ASDI",
+                    "speedMph": 377
+                },
+                {
+                    "altitudeFt": 26100,
+                    "date": "2014-07-26T16:13:41.000Z",
+                    "lat": 39.3014,
+                    "lon": -88.1103,
+                    "source": "ASDI",
+                    "speedMph": 375
+                },
+                {
+                    "altitudeFt": 26000,
+                    "date": "2014-07-26T16:13:39.000Z",
+                    "lat": 39.3114,
+                    "lon": -88.1017,
+                    "source": "ASDI",
+                    "speedMph": 377
+                },
+                {
+                    "altitudeFt": 25500,
+                    "date": "2014-07-26T16:12:53.000Z",
+                    "lat": 39.3547,
+                    "lon": -88.0483,
+                    "source": "ASDI",
+                    "speedMph": 373
+                },
+                {
+                    "altitudeFt": 25200,
+                    "date": "2014-07-26T16:12:39.000Z",
+                    "lat": 39.3775,
+                    "lon": -88.02,
+                    "source": "ASDI",
+                    "speedMph": 372
+                },
+                {
+                    "altitudeFt": 25200,
+                    "date": "2014-07-26T16:12:37.000Z",
+                    "lat": 39.3803,
+                    "lon": -88.0222,
+                    "source": "ASDI",
+                    "speedMph": 368
+                },
+                {
+                    "altitudeFt": 24600,
+                    "date": "2014-07-26T16:11:52.000Z",
+                    "lat": 39.4342,
+                    "lon": -87.9528,
+                    "source": "ASDI",
+                    "speedMph": 377
+                },
+                {
+                    "altitudeFt": 24500,
+                    "date": "2014-07-26T16:11:38.000Z",
+                    "lat": 39.4436,
+                    "lon": -87.9417,
+                    "source": "ASDI",
+                    "speedMph": 376
+                },
+                {
+                    "altitudeFt": 24500,
+                    "date": "2014-07-26T16:11:34.000Z",
+                    "lat": 39.4458,
+                    "lon": -87.9428,
+                    "source": "ASDI",
+                    "speedMph": 372
+                },
+                {
+                    "altitudeFt": 23400,
+                    "date": "2014-07-26T16:10:49.000Z",
+                    "lat": 39.4986,
+                    "lon": -87.8739,
+                    "source": "ASDI",
+                    "speedMph": 395
+                },
+                {
+                    "altitudeFt": 23200,
+                    "date": "2014-07-26T16:10:36.000Z",
+                    "lat": 39.5072,
+                    "lon": -87.8614,
+                    "source": "ASDI",
+                    "speedMph": 392
+                },
+                {
+                    "altitudeFt": 23200,
+                    "date": "2014-07-26T16:10:32.000Z",
+                    "lat": 39.5092,
+                    "lon": -87.8625,
+                    "source": "ASDI",
+                    "speedMph": 389
+                },
+                {
+                    "altitudeFt": 21800,
+                    "date": "2014-07-26T16:09:47.000Z",
+                    "lat": 39.5642,
+                    "lon": -87.7919,
+                    "source": "ASDI",
+                    "speedMph": 425
+                },
+                {
+                    "altitudeFt": 21600,
+                    "date": "2014-07-26T16:09:34.000Z",
+                    "lat": 39.5728,
+                    "lon": -87.7781,
+                    "source": "ASDI",
+                    "speedMph": 423
+                },
+                {
+                    "altitudeFt": 21300,
+                    "date": "2014-07-26T16:09:30.000Z",
+                    "lat": 39.5881,
+                    "lon": -87.7608,
+                    "source": "ASDI",
+                    "speedMph": 426
+                },
+                {
+                    "altitudeFt": 20100,
+                    "date": "2014-07-26T16:08:44.000Z",
+                    "lat": 39.6308,
+                    "lon": -87.6967,
+                    "source": "ASDI",
+                    "speedMph": 440
+                },
+                {
+                    "altitudeFt": 20000,
+                    "date": "2014-07-26T16:08:32.000Z",
+                    "lat": 39.6394,
+                    "lon": -87.6828,
+                    "source": "ASDI",
+                    "speedMph": 438
+                },
+                {
+                    "altitudeFt": 19000,
+                    "date": "2014-07-26T16:07:43.000Z",
+                    "lat": 39.7067,
+                    "lon": -87.5967,
+                    "source": "ASDI",
+                    "speedMph": 422
+                },
+                {
+                    "altitudeFt": 19000,
+                    "date": "2014-07-26T16:07:30.000Z",
+                    "lat": 39.7314,
+                    "lon": -87.5661,
+                    "source": "ASDI",
+                    "speedMph": 417
+                },
+                {
+                    "altitudeFt": 19000,
+                    "date": "2014-07-26T16:06:39.000Z",
+                    "lat": 39.7842,
+                    "lon": -87.5003,
+                    "source": "ASDI",
+                    "speedMph": 387
+                },
+                {
+                    "altitudeFt": 19000,
+                    "date": "2014-07-26T16:06:37.000Z",
+                    "lat": 39.7933,
+                    "lon": -87.4914,
+                    "source": "ASDI",
+                    "speedMph": 395
+                },
+                {
+                    "altitudeFt": 18900,
+                    "date": "2014-07-26T16:06:29.000Z",
+                    "lat": 39.8058,
+                    "lon": -87.4719,
+                    "source": "ASDI",
+                    "speedMph": 382
+                },
+                {
+                    "altitudeFt": 18800,
+                    "date": "2014-07-26T16:05:37.000Z",
+                    "lat": 39.8658,
+                    "lon": -87.3964,
+                    "source": "ASDI",
+                    "speedMph": 361
+                },
+                {
+                    "altitudeFt": 18800,
+                    "date": "2014-07-26T16:05:34.000Z",
+                    "lat": 39.8622,
+                    "lon": -87.4033,
+                    "source": "ASDI",
+                    "speedMph": 366
+                },
+                {
+                    "altitudeFt": 18700,
+                    "date": "2014-07-26T16:05:27.000Z",
+                    "lat": 39.8725,
+                    "lon": -87.3847,
+                    "source": "ASDI",
+                    "speedMph": 358
+                },
+                {
+                    "altitudeFt": 17700,
+                    "date": "2014-07-26T16:04:37.000Z",
+                    "lat": 39.9311,
+                    "lon": -87.3156,
+                    "source": "ASDI",
+                    "speedMph": 346
+                },
+                {
+                    "altitudeFt": 17600,
+                    "date": "2014-07-26T16:04:32.000Z",
+                    "lat": 39.9394,
+                    "lon": -87.3072,
+                    "source": "ASDI",
+                    "speedMph": 346
+                },
+                {
+                    "altitudeFt": 17600,
+                    "date": "2014-07-26T16:04:25.000Z",
+                    "lat": 39.9367,
+                    "lon": -87.3064,
+                    "source": "ASDI",
+                    "speedMph": 346
+                },
+                {
+                    "altitudeFt": 16500,
+                    "date": "2014-07-26T16:03:35.000Z",
+                    "lat": 39.9928,
+                    "lon": -87.2375,
+                    "source": "ASDI",
+                    "speedMph": 333
+                },
+                {
+                    "altitudeFt": 16400,
+                    "date": "2014-07-26T16:03:30.000Z",
+                    "lat": 40.0003,
+                    "lon": -87.2308,
+                    "source": "ASDI",
+                    "speedMph": 335
+                },
+                {
+                    "altitudeFt": 16400,
+                    "date": "2014-07-26T16:03:23.000Z",
+                    "lat": 39.9986,
+                    "lon": -87.23,
+                    "source": "ASDI",
+                    "speedMph": 332
+                },
+                {
+                    "altitudeFt": 15200,
+                    "date": "2014-07-26T16:02:32.000Z",
+                    "lat": 40.0514,
+                    "lon": -87.1617,
+                    "source": "ASDI",
+                    "speedMph": 325
+                },
+                {
+                    "altitudeFt": 15100,
+                    "date": "2014-07-26T16:02:28.000Z",
+                    "lat": 40.0586,
+                    "lon": -87.155,
+                    "source": "ASDI",
+                    "speedMph": 319
+                },
+                {
+                    "altitudeFt": 15100,
+                    "date": "2014-07-26T16:02:21.000Z",
+                    "lat": 40.0556,
+                    "lon": -87.1544,
+                    "source": "ASDI",
+                    "speedMph": 323
+                },
+                {
+                    "altitudeFt": 13700,
+                    "date": "2014-07-26T16:01:29.000Z",
+                    "lat": 40.1083,
+                    "lon": -87.0883,
+                    "source": "ASDI",
+                    "speedMph": 306
+                },
+                {
+                    "altitudeFt": 13600,
+                    "date": "2014-07-26T16:01:27.000Z",
+                    "lat": 40.1136,
+                    "lon": -87.0831,
+                    "source": "ASDI",
+                    "speedMph": 308
+                },
+                {
+                    "altitudeFt": 13400,
+                    "date": "2014-07-26T16:01:19.000Z",
+                    "lat": 40.1236,
+                    "lon": -87.0661,
+                    "source": "ASDI",
+                    "speedMph": 298
+                },
+                {
+                    "altitudeFt": 12300,
+                    "date": "2014-07-26T16:00:28.000Z",
+                    "lat": 40.1639,
+                    "lon": -87.0172,
+                    "source": "ASDI",
+                    "speedMph": 281
+                },
+                {
+                    "altitudeFt": 12300,
+                    "date": "2014-07-26T16:00:24.000Z",
+                    "lat": 40.1672,
+                    "lon": -87.0142,
+                    "source": "ASDI",
+                    "speedMph": 293
+                },
+                {
+                    "altitudeFt": 12000,
+                    "date": "2014-07-26T16:00:17.000Z",
+                    "lat": 40.1772,
+                    "lon": -86.9978,
+                    "source": "ASDI",
+                    "speedMph": 275
+                },
+                {
+                    "altitudeFt": 10600,
+                    "date": "2014-07-26T15:59:25.000Z",
+                    "lat": 40.2147,
+                    "lon": -86.9547,
+                    "source": "ASDI",
+                    "speedMph": 267
+                },
+                {
+                    "altitudeFt": 10600,
+                    "date": "2014-07-26T15:59:22.000Z",
+                    "lat": 40.2189,
+                    "lon": -86.9489,
+                    "source": "ASDI",
+                    "speedMph": 259
+                },
+                {
+                    "altitudeFt": 10300,
+                    "date": "2014-07-26T15:59:16.000Z",
+                    "lat": 40.2281,
+                    "lon": -86.9347,
+                    "source": "ASDI",
+                    "speedMph": 245
+                },
+                {
+                    "date": "2014-07-26T15:58:19.000Z",
+                    "lat": 40.2728,
+                    "lon": -86.8814,
+                    "source": "ASDI",
+                    "speedMph": 239
+                },
+                {
+                    "altitudeFt": 8600,
+                    "date": "2014-07-26T15:58:14.000Z",
+                    "lat": 40.2728,
+                    "lon": -86.8792,
+                    "source": "ASDI",
+                    "speedMph": 245
+                },
+                {
+                    "altitudeFt": 6100,
+                    "date": "2014-07-26T15:57:17.000Z",
+                    "lat": 40.3169,
+                    "lon": -86.8319,
+                    "source": "ASDI",
+                    "speedMph": 254
+                },
+                {
+                    "altitudeFt": 6100,
+                    "date": "2014-07-26T15:57:12.000Z",
+                    "lat": 40.3156,
+                    "lon": -86.8308,
+                    "source": "ASDI",
+                    "speedMph": 266
+                },
+                {
+                    "altitudeFt": 4400,
+                    "date": "2014-07-26T15:56:27.000Z",
+                    "lat": 40.3453,
+                    "lon": -86.7953,
+                    "source": "ASDI",
+                    "speedMph": 278
+                },
+                {
+                    "altitudeFt": 3500,
+                    "date": "2014-07-26T15:56:15.000Z",
+                    "lat": 40.3569,
+                    "lon": -86.7778,
+                    "source": "ASDI",
+                    "speedMph": 311
+                },
+                {
+                    "altitudeFt": 3500,
+                    "date": "2014-07-26T15:56:10.000Z",
+                    "lat": 40.3561,
+                    "lon": -86.7769,
+                    "source": "ASDI",
+                    "speedMph": 311
+                },
+                {
+                    "altitudeFt": 3000,
+                    "date": "2014-07-26T15:55:26.000Z",
+                    "lat": 40.3969,
+                    "lon": -86.8069,
+                    "source": "ASDI",
+                    "speedMph": 292
+                },
+                {
+                    "altitudeFt": 1800,
+                    "date": "2014-07-26T15:54:19.000Z",
+                    "lat": 40.4081,
+                    "lon": -86.9031,
+                    "source": "ASDI",
+                    "speedMph": 225
+                }
+            ],
+            "waypoints": [
+                {
+                    "lat": 40.4,
+                    "lon": -86.9333
+                },
+                {
+                    "lat": 40.3333,
+                    "lon": -87.0167
+                },
+                {
+                    "lat": 40.25,
+                    "lon": -87.0333
+                },
+                {
+                    "lat": 40.1667,
+                    "lon": -87.0667
+                },
+                {
+                    "lat": 40.1667,
+                    "lon": -87.0667
+                },
+                {
+                    "lat": 40.15,
+                    "lon": -87.0667
+                },
+                {
+                    "lat": 40.1167,
+                    "lon": -87.0833
+                },
+                {
+                    "lat": 40.05,
+                    "lon": -87.1333
+                },
+                {
+                    "lat": 40.0,
+                    "lon": -87.2167
+                },
+                {
+                    "lat": 39.9333,
+                    "lon": -87.2833
+                },
+                {
+                    "lat": 39.8833,
+                    "lon": -87.3667
+                },
+                {
+                    "lat": 39.7167,
+                    "lon": -87.5667
+                },
+                {
+                    "lat": 39.5833,
+                    "lon": -87.7167
+                },
+                {
+                    "lat": 39.4833,
+                    "lon": -87.85
+                },
+                {
+                    "lat": 39.4333,
+                    "lon": -87.9167
+                },
+                {
+                    "lat": 39.2667,
+                    "lon": -88.1167
+                },
+                {
+                    "lat": 39.25,
+                    "lon": -88.15
+                },
+                {
+                    "lat": 38.7167,
+                    "lon": -88.7833
+                },
+                {
+                    "lat": 38.4167,
+                    "lon": -89.15
+                },
+                {
+                    "lat": 37.25,
+                    "lon": -90.0667
+                },
+                {
+                    "lat": 36.9,
+                    "lon": -90.35
+                },
+                {
+                    "lat": 36.1,
+                    "lon": -90.95
+                },
+                {
+                    "lat": 35.5667,
+                    "lon": -91.4
+                },
+                {
+                    "lat": 35.1167,
+                    "lon": -91.7833
+                },
+                {
+                    "lat": 34.6667,
+                    "lon": -92.1667
+                },
+                {
+                    "lat": 34.3833,
+                    "lon": -92.3833
+                },
+                {
+                    "lat": 34.15,
+                    "lon": -92.5667
+                },
+                {
+                    "lat": 33.9167,
+                    "lon": -92.7333
+                },
+                {
+                    "lat": 33.8333,
+                    "lon": -92.8
+                },
+                {
+                    "lat": 33.7333,
+                    "lon": -92.8667
+                },
+                {
+                    "lat": 33.7333,
+                    "lon": -92.8667
+                },
+                {
+                    "lat": 33.6833,
+                    "lon": -92.9
+                },
+                {
+                    "lat": 33.6667,
+                    "lon": -92.9167
+                },
+                {
+                    "lat": 33.5,
+                    "lon": -93.05
+                },
+                {
+                    "lat": 33.2,
+                    "lon": -93.2667
+                },
+                {
+                    "lat": 33.1167,
+                    "lon": -93.3333
+                },
+                {
+                    "lat": 33.1167,
+                    "lon": -93.3333
+                },
+                {
+                    "lat": 32.9833,
+                    "lon": -93.4333
+                },
+                {
+                    "lat": 32.9667,
+                    "lon": -93.4333
+                },
+                {
+                    "lat": 32.7833,
+                    "lon": -93.5667
+                },
+                {
+                    "lat": 32.65,
+                    "lon": -93.6667
+                },
+                {
+                    "lat": 32.6167,
+                    "lon": -93.6833
+                },
+                {
+                    "lat": 32.5667,
+                    "lon": -93.7167
+                },
+                {
+                    "lat": 32.5,
+                    "lon": -93.7667
+                },
+                {
+                    "lat": 32.4333,
+                    "lon": -93.8167
+                }
+            ]
+        }
+    ],
+    "request": {
+        "airport": {
+            "fsCode": "LAF",
+            "requestedCode": "LAF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LAF/dep"
+    }
+}

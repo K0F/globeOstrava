@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Berlevag",
+                "cityCode": "BVG",
+                "classification": 4,
+                "countryCode": "NO",
+                "countryName": "Norway",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BVG?codeType=fs",
+                "elevationFeet": 42,
+                "fs": "BVG",
+                "iata": "BVG",
+                "icao": "ENBV",
+                "latitude": 70.866667,
+                "localTime": "2014-07-27T17:54:33.045",
+                "longitude": 29.0,
+                "name": "Berlevag Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Oslo",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BVG?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BVG",
+            "requestedCode": "BVG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BVG/dep"
+    }
+}

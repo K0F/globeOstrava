@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Libreville",
+                "cityCode": "LBV",
+                "classification": 4,
+                "countryCode": "GA",
+                "countryName": "Gabon",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LBV?codeType=fs",
+                "elevationFeet": 39,
+                "fs": "LBV",
+                "iata": "LBV",
+                "icao": "FOOL",
+                "latitude": 0.456963,
+                "localTime": "2014-07-27T17:15:56.703",
+                "longitude": 9.409852,
+                "name": "Libreville Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Libreville",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LBV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LBV",
+            "requestedCode": "LBV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LBV/dep"
+    }
+}

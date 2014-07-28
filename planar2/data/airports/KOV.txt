@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kokshetau",
+                "cityCode": "KOV",
+                "classification": 4,
+                "countryCode": "KZ",
+                "countryName": "Kazakhstan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KOV?codeType=fs",
+                "fs": "KOV",
+                "iata": "KOV",
+                "latitude": 53.316667,
+                "localTime": "2014-07-27T21:51:00.662",
+                "longitude": 69.4,
+                "name": "Kokshetau Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Qyzylorda",
+                "utcOffsetHours": 6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KOV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KOV",
+            "requestedCode": "KOV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KOV/dep"
+    }
+}

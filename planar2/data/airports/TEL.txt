@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Telupid",
+                "cityCode": "TEL",
+                "classification": 5,
+                "countryCode": "MY",
+                "countryName": "Malaysia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TEL?codeType=fs",
+                "fs": "TEL",
+                "iata": "TEL",
+                "latitude": 5.583333,
+                "localTime": "2014-07-26T23:22:17.829",
+                "longitude": 117.116667,
+                "name": "Telupid Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kuala_Lumpur",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TEL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TEL",
+            "requestedCode": "TEL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TEL/dep"
+    }
+}

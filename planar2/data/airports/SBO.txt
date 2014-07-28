@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Salina",
+                "cityCode": "SBO",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SBO?codeType=fs",
+                "elevationFeet": 327,
+                "faa": "44U",
+                "fs": "SBO",
+                "iata": "SBO",
+                "latitude": 39.029167,
+                "localTime": "2014-07-26T10:24:30.613",
+                "longitude": -111.8375,
+                "name": "Salina Airport",
+                "regionName": "North America",
+                "stateCode": "UT",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SBO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SBO",
+            "requestedCode": "SBO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SBO/dep"
+    }
+}

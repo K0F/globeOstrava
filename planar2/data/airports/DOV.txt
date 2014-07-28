@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dover-Cheswold",
+                "cityCode": "DOV",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DOV?codeType=fs",
+                "elevationFeet": 30,
+                "faa": "DOV",
+                "fs": "DOV",
+                "iata": "DOV",
+                "icao": "KDOV",
+                "latitude": 39.128611,
+                "localTime": "2014-07-26T12:24:39.434",
+                "longitude": -75.464167,
+                "name": "Dover Air Force Base",
+                "regionName": "North America",
+                "stateCode": "DE",
+                "timeZoneRegionName": "America/New_York",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DOV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DOV",
+            "requestedCode": "DOV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DOV/dep"
+    }
+}

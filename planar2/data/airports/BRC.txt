@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "San Carlos de Bariloche",
+                "cityCode": "BRC",
+                "classification": 4,
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BRC?codeType=fs",
+                "elevationFeet": 2774,
+                "fs": "BRC",
+                "iata": "BRC",
+                "icao": "SAZS",
+                "latitude": -41.145965,
+                "localTime": "2014-07-27T13:32:58.664",
+                "longitude": -71.161085,
+                "name": "San Carlos de Bariloche International Airport",
+                "regionName": "South America",
+                "stateCode": "RN",
+                "timeZoneRegionName": "America/Argentina/Buenos_Aires",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BRC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BRC",
+            "requestedCode": "BRC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BRC/dep"
+    }
+}

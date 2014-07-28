@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Shimkent",
+                "cityCode": "CIT",
+                "classification": 4,
+                "countryCode": "KZ",
+                "countryName": "Kazakhstan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CIT?codeType=fs",
+                "elevationFeet": 1385,
+                "fs": "CIT",
+                "iata": "CIT",
+                "icao": "UAII",
+                "latitude": 42.3,
+                "localTime": "2014-07-27T22:37:26.140",
+                "longitude": 69.6,
+                "name": "Shimkent Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Qyzylorda",
+                "utcOffsetHours": 6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CIT?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CIT",
+            "requestedCode": "CIT"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CIT/dep"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sheldon Point",
+                "cityCode": "SXP",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SXP?codeType=fs",
+                "elevationFeet": 12,
+                "faa": "SXP",
+                "fs": "SXP",
+                "iata": "SXP",
+                "latitude": 62.533333,
+                "localTime": "2014-07-26T03:04:37.194",
+                "longitude": -164.833333,
+                "name": "Sheldon Sea Plane Base",
+                "postalCode": "99666",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SXP?codeType=fs",
+                "weatherZone": "AKZ214"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SXP",
+            "requestedCode": "SXP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SXP/dep"
+    }
+}

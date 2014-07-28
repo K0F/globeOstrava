@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mullen",
+                "cityCode": "MHN",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MHN?codeType=fs",
+                "elevationFeet": 3260,
+                "faa": "MHN",
+                "fs": "MHN",
+                "iata": "MHN",
+                "icao": "KMHN",
+                "latitude": 42.05,
+                "localTime": "2014-07-26T09:18:31.450",
+                "longitude": -101.016667,
+                "name": "Mullen Airport",
+                "regionName": "North America",
+                "stateCode": "NE",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MHN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MHN",
+            "requestedCode": "MHN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MHN/dep"
+    }
+}

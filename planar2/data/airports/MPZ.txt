@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Mount Pleasant",
+                "cityCode": "MPZ",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MPZ?codeType=fs",
+                "elevationFeet": 734,
+                "faa": "MPZ",
+                "fs": "MPZ",
+                "iata": "MPZ",
+                "icao": "KMPZ",
+                "latitude": 40.966667,
+                "localTime": "2014-07-26T10:18:59.244",
+                "longitude": -91.55,
+                "name": "Mount Pleasant Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "IA",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MPZ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MPZ",
+            "requestedCode": "MPZ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MPZ/dep"
+    }
+}

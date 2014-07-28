@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sebha",
+                "cityCode": "SEB",
+                "classification": 4,
+                "countryCode": "LY",
+                "countryName": "Libya",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SEB?codeType=fs",
+                "elevationFeet": 1427,
+                "fs": "SEB",
+                "iata": "SEB",
+                "icao": "HLLS",
+                "latitude": 27.016667,
+                "localTime": "2014-07-27T18:18:16.014",
+                "longitude": 14.4625,
+                "name": "Sebha Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Tripoli",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SEB?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SEB",
+            "requestedCode": "SEB"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SEB/dep"
+    }
+}

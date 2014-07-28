@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Scone",
+                "cityCode": "NSO",
+                "classification": 5,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NSO?codeType=fs",
+                "elevationFeet": 745,
+                "fs": "NSO",
+                "iata": "NSO",
+                "icao": "YSCO",
+                "latitude": -32.036111,
+                "localTime": "2014-07-28T02:30:23.909",
+                "longitude": 150.8325,
+                "name": "Scone Airport",
+                "regionName": "Oceania",
+                "stateCode": "NSW",
+                "timeZoneRegionName": "Australia/Sydney",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NSO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NSO",
+            "requestedCode": "NSO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NSO/dep"
+    }
+}

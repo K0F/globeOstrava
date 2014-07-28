@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tulcan",
+                "cityCode": "TUA",
+                "classification": 4,
+                "countryCode": "EC",
+                "countryName": "Ecuador",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TUA?codeType=fs",
+                "elevationFeet": 9679,
+                "fs": "TUA",
+                "iata": "TUA",
+                "icao": "SETU",
+                "latitude": 0.8,
+                "localTime": "2014-07-27T11:34:54.425",
+                "longitude": -77.716667,
+                "name": "Tulcan Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Guayaquil",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TUA?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TUA",
+            "requestedCode": "TUA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TUA/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Tawau",
+                "cityCode": "TWU",
+                "classification": 4,
+                "countryCode": "MY",
+                "countryName": "Malaysia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TWU?codeType=fs",
+                "elevationFeet": 81,
+                "fs": "TWU",
+                "iata": "TWU",
+                "icao": "WBKW",
+                "latitude": 4.26275,
+                "localTime": "2014-07-27T23:52:06.326",
+                "longitude": 117.884866,
+                "name": "Tawau Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Kuala_Lumpur",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TWU?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TWU",
+            "requestedCode": "TWU"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TWU/dep"
+    }
+}

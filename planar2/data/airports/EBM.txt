@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "El Borma",
+                "cityCode": "EBM",
+                "classification": 5,
+                "countryCode": "TN",
+                "countryName": "Tunisia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/EBM?codeType=fs",
+                "elevationFeet": 827,
+                "fs": "EBM",
+                "iata": "EBM",
+                "icao": "DTTR",
+                "latitude": 31.716667,
+                "localTime": "2014-07-27T17:09:02.281",
+                "longitude": 9.266667,
+                "name": "El Borma Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Tunis",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/EBM?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "EBM",
+            "requestedCode": "EBM"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/EBM/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Dhaka",
+                "cityCode": "DAC",
+                "classification": 2,
+                "countryCode": "BD",
+                "countryName": "Bangladesh",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DAC?codeType=fs",
+                "elevationFeet": 27,
+                "fs": "DAC",
+                "iata": "DAC",
+                "icao": "VGHS",
+                "latitude": 23.848649,
+                "localTime": "2014-07-27T22:39:26.769",
+                "longitude": 90.405874,
+                "name": "Hazrat Shahjalal International Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Dhaka",
+                "utcOffsetHours": 6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DAC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "DAC",
+            "requestedCode": "DAC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/DAC/dep"
+    }
+}

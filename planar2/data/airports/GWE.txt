@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Gweru",
+                "cityCode": "GWE",
+                "classification": 5,
+                "countryCode": "ZW",
+                "countryName": "Zimbabwe",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GWE?codeType=fs",
+                "elevationFeet": 4660,
+                "fs": "GWE",
+                "iata": "GWE",
+                "icao": "FVGW",
+                "latitude": -19.435833,
+                "localTime": "2014-07-27T18:16:23.156",
+                "longitude": 29.861111,
+                "name": "Gweru Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Harare",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GWE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GWE",
+            "requestedCode": "GWE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GWE/dep"
+    }
+}

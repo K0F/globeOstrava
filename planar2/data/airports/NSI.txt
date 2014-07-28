@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Yaounde",
+                "cityCode": "YAO",
+                "classification": 4,
+                "countryCode": "CM",
+                "countryName": "Cameroon",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NSI?codeType=fs",
+                "elevationFeet": 2276,
+                "fs": "NSI",
+                "iata": "NSI",
+                "icao": "FKYS",
+                "latitude": 3.702222,
+                "localTime": "2014-07-26T16:19:28.513",
+                "longitude": 11.550278,
+                "name": "Nsimalen Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Douala",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NSI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NSI",
+            "requestedCode": "NSI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NSI/dep"
+    }
+}

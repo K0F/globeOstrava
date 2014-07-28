@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Silva Bay",
+                "cityCode": "SYF",
+                "classification": 5,
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SYF?codeType=fs",
+                "fs": "SYF",
+                "iata": "SYF",
+                "latitude": 49.15,
+                "localTime": "2014-07-26T08:22:09.783",
+                "longitude": -123.697222,
+                "name": "Silva Bay Airport",
+                "regionName": "North America",
+                "stateCode": "BC",
+                "timeZoneRegionName": "America/Vancouver",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SYF?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SYF",
+            "requestedCode": "SYF"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SYF/dep"
+    }
+}

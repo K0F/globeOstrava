@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Iringa",
+                "cityCode": "IRI",
+                "classification": 5,
+                "countryCode": "TZ",
+                "countryName": "United Republic of Tanzania",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IRI?codeType=fs",
+                "elevationFeet": 4678,
+                "fs": "IRI",
+                "iata": "IRI",
+                "icao": "HTIR",
+                "latitude": -7.670556,
+                "localTime": "2014-07-27T19:18:33.729",
+                "longitude": 35.750278,
+                "name": "Nduli Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Dar_es_Salaam",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IRI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "IRI",
+            "requestedCode": "IRI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/IRI/dep"
+    }
+}

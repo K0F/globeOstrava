@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Narsarsuaq",
+                "cityCode": "UAK",
+                "classification": 4,
+                "countryCode": "GL",
+                "countryName": "Greenland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UAK?codeType=fs",
+                "elevationFeet": 112,
+                "fs": "UAK",
+                "iata": "UAK",
+                "icao": "BGBW",
+                "latitude": 61.166667,
+                "localTime": "2014-07-27T14:04:09.552",
+                "longitude": -45.316667,
+                "name": "Narsarsuaq Airport",
+                "regionName": "North America",
+                "timeZoneRegionName": "America/Godthab",
+                "utcOffsetHours": -2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UAK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "UAK",
+            "requestedCode": "UAK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/UAK/dep"
+    }
+}

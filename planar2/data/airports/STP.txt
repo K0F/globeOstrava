@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Saint Paul",
+                "cityCode": "STP",
+                "classification": 3,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/STP?codeType=fs",
+                "elevationFeet": 705,
+                "faa": "STP",
+                "fs": "STP",
+                "iata": "STP",
+                "icao": "KSTP",
+                "latitude": 44.933333,
+                "localTime": "2014-07-26T07:34:17.042",
+                "longitude": -93.066667,
+                "name": "St. Paul Downtown Airport",
+                "regionName": "North America",
+                "stateCode": "MN",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/STP?codeType=fs",
+                "weatherZone": "MNZ070"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "STP",
+            "requestedCode": "STP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/STP/dep"
+    }
+}

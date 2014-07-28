@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Sartaneja",
+                "cityCode": "SJX",
+                "classification": 5,
+                "countryCode": "BZ",
+                "countryName": "Belize",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SJX?codeType=fs",
+                "fs": "SJX",
+                "iata": "SJX",
+                "latitude": 18.3,
+                "localTime": "2014-07-26T09:21:42.662",
+                "longitude": -88.333333,
+                "name": "Sartaneja Airport",
+                "regionName": "Central America",
+                "timeZoneRegionName": "America/Belize",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SJX?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "SJX",
+            "requestedCode": "SJX"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/SJX/dep"
+    }
+}

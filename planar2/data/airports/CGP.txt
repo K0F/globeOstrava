@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Chittagong",
+                "cityCode": "CGP",
+                "classification": 3,
+                "countryCode": "BD",
+                "countryName": "Bangladesh",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CGP?codeType=fs",
+                "elevationFeet": 12,
+                "fs": "CGP",
+                "iata": "CGP",
+                "icao": "VGEG",
+                "latitude": 22.245202,
+                "localTime": "2014-07-27T22:39:20.444",
+                "longitude": 91.815159,
+                "name": "Patenga Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Dhaka",
+                "utcOffsetHours": 6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CGP?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CGP",
+            "requestedCode": "CGP"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CGP/dep"
+    }
+}

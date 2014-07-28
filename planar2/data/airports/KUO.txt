@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kuopio",
+                "cityCode": "KUO",
+                "classification": 4,
+                "countryCode": "FI",
+                "countryName": "Finland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KUO?codeType=fs",
+                "elevationFeet": 323,
+                "fs": "KUO",
+                "iata": "KUO",
+                "icao": "EFKU",
+                "latitude": 63.008908,
+                "localTime": "2014-07-27T19:10:29.219",
+                "longitude": 27.788696,
+                "name": "Kuopio Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Helsinki",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KUO?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KUO",
+            "requestedCode": "KUO"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KUO/dep"
+    }
+}

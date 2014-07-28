@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Marshall",
+                "cityCode": "MLL",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MLL?codeType=fs",
+                "elevationFeet": 90,
+                "faa": "MLL",
+                "fs": "MLL",
+                "iata": "MLL",
+                "latitude": 61.865833,
+                "localTime": "2014-07-26T04:37:41.992",
+                "longitude": -162.068889,
+                "name": "Marshall Airport",
+                "postalCode": "99585",
+                "regionName": "North America",
+                "stateCode": "AK",
+                "timeZoneRegionName": "America/Anchorage",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MLL?codeType=fs",
+                "weatherZone": "AKZ215"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MLL",
+            "requestedCode": "MLL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MLL/dep"
+    }
+}

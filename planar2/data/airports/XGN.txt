@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Xangongo",
+                "cityCode": "XGN",
+                "classification": 5,
+                "countryCode": "AO",
+                "countryName": "Angola",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/XGN?codeType=fs",
+                "elevationFeet": 3636,
+                "fs": "XGN",
+                "iata": "XGN",
+                "icao": "FNXA",
+                "latitude": -16.75,
+                "localTime": "2014-07-27T17:15:48.620",
+                "longitude": 14.972222,
+                "name": "Xangongo Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Luanda",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/XGN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "XGN",
+            "requestedCode": "XGN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/XGN/dep"
+    }
+}

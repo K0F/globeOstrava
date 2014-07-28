@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Jolo",
+                "cityCode": "JOL",
+                "classification": 4,
+                "countryCode": "PH",
+                "countryName": "Philippines",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/JOL?codeType=fs",
+                "elevationFeet": 69,
+                "fs": "JOL",
+                "iata": "JOL",
+                "icao": "RPMJ",
+                "latitude": 6.053552,
+                "localTime": "2014-07-27T23:46:52.019",
+                "longitude": 121.00653,
+                "name": "Jolo Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Manila",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/JOL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "JOL",
+            "requestedCode": "JOL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/JOL/dep"
+    }
+}

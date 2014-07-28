@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Kitale",
+                "cityCode": "KTL",
+                "classification": 4,
+                "countryCode": "KE",
+                "countryName": "Kenya",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KTL?codeType=fs",
+                "elevationFeet": 6070,
+                "fs": "KTL",
+                "iata": "KTL",
+                "icao": "HKKT",
+                "latitude": 0.974111,
+                "localTime": "2014-07-27T18:52:05.332",
+                "longitude": 34.959246,
+                "name": "Kitale Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Nairobi",
+                "utcOffsetHours": 3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KTL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "KTL",
+            "requestedCode": "KTL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/KTL/dep"
+    }
+}

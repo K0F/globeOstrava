@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Cazombo",
+                "cityCode": "CAV",
+                "classification": 5,
+                "countryCode": "AO",
+                "countryName": "Angola",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CAV?codeType=fs",
+                "fs": "CAV",
+                "iata": "CAV",
+                "latitude": -11.9,
+                "localTime": "2014-07-26T16:13:46.604",
+                "longitude": 22.866667,
+                "name": "Cazombo Airport",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Luanda",
+                "utcOffsetHours": 1.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CAV?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "CAV",
+            "requestedCode": "CAV"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/CAV/dep"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Montes Claros",
+                "cityCode": "MOC",
+                "classification": 4,
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MOC?codeType=fs",
+                "elevationFeet": 2190,
+                "fs": "MOC",
+                "iata": "MOC",
+                "icao": "SBMK",
+                "latitude": -16.707778,
+                "localTime": "2014-07-27T13:33:45.028",
+                "longitude": -43.817222,
+                "name": "Montes Claros Airport",
+                "regionName": "South America",
+                "stateCode": "MG",
+                "timeZoneRegionName": "America/Sao_Paulo",
+                "utcOffsetHours": -3.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MOC?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MOC",
+            "requestedCode": "MOC"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MOC/dep"
+    }
+}

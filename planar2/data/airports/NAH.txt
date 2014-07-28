@@ -1,0 +1,45 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Naha",
+                "cityCode": "NAH",
+                "classification": 4,
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NAH?codeType=fs",
+                "fs": "NAH",
+                "iata": "NAH",
+                "latitude": 3.716667,
+                "localTime": "2014-07-28T00:40:09.457",
+                "longitude": 125.366667,
+                "name": "Naha Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Makassar",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NAH?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "NAH",
+            "requestedCode": "NAH"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/NAH/dep"
+    }
+}

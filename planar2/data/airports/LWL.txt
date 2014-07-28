@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Wells",
+                "cityCode": "LWL",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LWL?codeType=fs",
+                "elevationFeet": 5772,
+                "faa": "LWL",
+                "fs": "LWL",
+                "iata": "LWL",
+                "icao": "KLWL",
+                "latitude": 41.116667,
+                "localTime": "2014-07-26T08:18:17.112",
+                "longitude": -114.966667,
+                "name": "Harriet Field",
+                "regionName": "North America",
+                "stateCode": "NV",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -7.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LWL?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LWL",
+            "requestedCode": "LWL"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LWL/dep"
+    }
+}

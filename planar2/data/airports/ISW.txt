@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Wisconsin Rapids",
+                "cityCode": "ISW",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ISW?codeType=fs",
+                "elevationFeet": 1021,
+                "faa": "ISW",
+                "fs": "ISW",
+                "iata": "ISW",
+                "icao": "KISW",
+                "latitude": 44.360278,
+                "localTime": "2014-07-26T10:17:36.926",
+                "longitude": -89.838889,
+                "name": "Alexander Field",
+                "regionName": "North America",
+                "stateCode": "WI",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ISW?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ISW",
+            "requestedCode": "ISW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ISW/dep"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Monbetsu",
+                "cityCode": "MBE",
+                "classification": 4,
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MBE?codeType=fs",
+                "elevationFeet": 58,
+                "fs": "MBE",
+                "iata": "MBE",
+                "icao": "RJEB",
+                "latitude": 44.266667,
+                "localTime": "2014-07-28T01:30:59.252",
+                "longitude": 143.383333,
+                "name": "Monbetsu Airport",
+                "regionName": "Asia",
+                "street1": "19 Komukai",
+                "timeZoneRegionName": "Asia/Tokyo",
+                "utcOffsetHours": 9.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MBE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "MBE",
+            "requestedCode": "MBE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/MBE/dep"
+    }
+}

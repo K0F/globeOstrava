@@ -1,0 +1,48 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Taiyuan",
+                "cityCode": "TYN",
+                "classification": 2,
+                "countryCode": "CN",
+                "countryName": "China",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TYN?codeType=fs",
+                "elevationFeet": 2575,
+                "fs": "TYN",
+                "iata": "TYN",
+                "icao": "ZBYN",
+                "latitude": 37.754996,
+                "localTime": "2014-07-27T23:48:43.353",
+                "longitude": 112.62585,
+                "name": "Taiyuan Wusu International Airport",
+                "regionName": "Asia",
+                "street1": "Airport Special Line",
+                "timeZoneRegionName": "Asia/Shanghai",
+                "utcOffsetHours": 8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TYN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "TYN",
+            "requestedCode": "TYN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/TYN/dep"
+    }
+}

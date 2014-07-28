@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Gdansk",
+                "cityCode": "GDN",
+                "classification": 3,
+                "countryCode": "PL",
+                "countryName": "Poland",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GDN?codeType=fs",
+                "elevationFeet": 488,
+                "fs": "GDN",
+                "iata": "GDN",
+                "icao": "EPGD",
+                "latitude": 54.380979,
+                "localTime": "2014-07-27T18:13:19.505",
+                "longitude": 18.468654,
+                "name": "Rebiechowo Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Warsaw",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GDN?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "GDN",
+            "requestedCode": "GDN"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/GDN/dep"
+    }
+}

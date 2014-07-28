@@ -1,0 +1,46 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Bolwarra",
+                "cityCode": "BCK",
+                "classification": 5,
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BCK?codeType=fs",
+                "fs": "BCK",
+                "iata": "BCK",
+                "latitude": -17.4,
+                "localTime": "2014-07-27T01:12:44.083",
+                "longitude": 144.166667,
+                "name": "Bolwarra Airport",
+                "regionName": "Oceania",
+                "stateCode": "QLD",
+                "timeZoneRegionName": "Australia/Brisbane",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BCK?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BCK",
+            "requestedCode": "BCK"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BCK/dep"
+    }
+}

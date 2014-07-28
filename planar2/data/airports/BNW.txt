@@ -1,0 +1,49 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Boone",
+                "cityCode": "BNW",
+                "classification": 5,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BNW?codeType=fs",
+                "elevationFeet": 1160,
+                "faa": "BNW",
+                "fs": "BNW",
+                "iata": "BNW",
+                "icao": "KBNW",
+                "latitude": 42.066667,
+                "localTime": "2014-07-26T10:13:04.508",
+                "longitude": -93.883333,
+                "name": "Boone Airport",
+                "regionName": "North America",
+                "stateCode": "IA",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BNW?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "BNW",
+            "requestedCode": "BNW"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/BNW/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Lae",
+                "cityCode": "LAE",
+                "classification": 4,
+                "countryCode": "PG",
+                "countryName": "Papua New Guinea",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LAE?codeType=fs",
+                "elevationFeet": 230,
+                "fs": "LAE",
+                "iata": "LAE",
+                "icao": "AYNZ",
+                "latitude": -6.562694,
+                "localTime": "2014-07-28T01:50:34.015",
+                "longitude": 146.727569,
+                "name": "Nadzab Airport",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Pacific/Port_Moresby",
+                "utcOffsetHours": 10.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LAE?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LAE",
+            "requestedCode": "LAE"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LAE/dep"
+    }
+}

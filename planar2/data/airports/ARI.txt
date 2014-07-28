@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Arica",
+                "cityCode": "ARI",
+                "classification": 4,
+                "countryCode": "CL",
+                "countryName": "Chile",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ARI?codeType=fs",
+                "elevationFeet": 166,
+                "fs": "ARI",
+                "iata": "ARI",
+                "icao": "SCAR",
+                "latitude": -18.349765,
+                "localTime": "2014-07-27T12:34:21.095",
+                "longitude": -70.335559,
+                "name": "Chacalluta Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Santiago",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ARI?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "ARI",
+            "requestedCode": "ARI"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/ARI/dep"
+    }
+}

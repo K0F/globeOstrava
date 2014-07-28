@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Ostrava",
+                "cityCode": "OSR",
+                "classification": 4,
+                "countryCode": "CZ",
+                "countryName": "Czech Republic",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OSR?codeType=fs",
+                "elevationFeet": 844,
+                "fs": "OSR",
+                "iata": "OSR",
+                "icao": "LKMT",
+                "latitude": 49.695517,
+                "localTime": "2014-07-27T18:22:47.907",
+                "longitude": 18.121285,
+                "name": "Mosnov Airport",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Prague",
+                "utcOffsetHours": 2.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OSR?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "OSR",
+            "requestedCode": "OSR"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/OSR/dep"
+    }
+}

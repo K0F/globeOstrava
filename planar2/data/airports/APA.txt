@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Denver",
+                "cityCode": "DEN",
+                "classification": 3,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/APA?codeType=fs",
+                "elevationFeet": 5831,
+                "faa": "APA",
+                "fs": "APA",
+                "iata": "APA",
+                "icao": "KAPA",
+                "latitude": 39.572123,
+                "localTime": "2014-07-26T06:37:19.992",
+                "longitude": -104.848713,
+                "name": "Centennial Airport",
+                "regionName": "North America",
+                "stateCode": "CO",
+                "timeZoneRegionName": "America/Denver",
+                "utcOffsetHours": -6.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/APA?codeType=fs",
+                "weatherZone": "COZ040"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "APA",
+            "requestedCode": "APA"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/APA/dep"
+    }
+}

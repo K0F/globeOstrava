@@ -1,0 +1,50 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Enid",
+                "cityCode": "WDG",
+                "classification": 4,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/WDG?codeType=fs",
+                "elevationFeet": 1167,
+                "faa": "WDG",
+                "fs": "WDG",
+                "iata": "WDG",
+                "icao": "KWDG",
+                "latitude": 36.383611,
+                "localTime": "2014-07-26T11:26:15.159",
+                "longitude": -97.790833,
+                "name": "Enid Woodring Municipal Airport",
+                "regionName": "North America",
+                "stateCode": "OK",
+                "timeZoneRegionName": "America/Chicago",
+                "utcOffsetHours": -5.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/WDG?codeType=fs",
+                "weatherZone": "OKZ012"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "WDG",
+            "requestedCode": "WDG"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/WDG/dep"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "appendix": {
+        "airports": [
+            {
+                "active": true,
+                "city": "Los Angeles",
+                "cityCode": "LSQ",
+                "classification": 5,
+                "countryCode": "CL",
+                "countryName": "Chile",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LSQ?codeType=fs",
+                "elevationFeet": 374,
+                "fs": "LSQ",
+                "iata": "LSQ",
+                "icao": "SCGE",
+                "latitude": -37.3975,
+                "localTime": "2014-07-27T12:34:31.426",
+                "longitude": -72.422778,
+                "name": "Los Angeles Airport",
+                "regionName": "South America",
+                "timeZoneRegionName": "America/Santiago",
+                "utcOffsetHours": -4.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LSQ?codeType=fs"
+            }
+        ]
+    },
+    "flightTracks": [],
+    "request": {
+        "airport": {
+            "fsCode": "LSQ",
+            "requestedCode": "LSQ"
+        },
+        "codeType": {},
+        "extendedOptions": {},
+        "includeFlightPlan": {
+            "interpreted": true,
+            "requested": "true"
+        },
+        "maxFlights": {},
+        "maxPositionAgeMinutes": {},
+        "maxPositions": {
+            "interpreted": 999999,
+            "requested": "999999"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/tracks/LSQ/dep"
+    }
+}
