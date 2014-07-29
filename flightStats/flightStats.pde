@@ -1,137 +1,40 @@
 JSONObject json;
 
 ArrayList tracks;
-ArrayList planes;
-
-int NUM_PLANES = 10000;
 
 String filenames[];
 
-PImage shadow, diffuse;
-
-boolean render = true;
+boolean render = false;
 
 void setup() {
-  size(1920,1080);
+  size(1920/2,1080/2);
 
   smooth();
 
   readAll();
 
-  planes = new ArrayList();
-
-
-  shadow = loadImage("shade2.png");
-  diffuse = loadImage("The-globe-at-night.jpg");
-  diffuse.filter(GRAY);
-
-  for(int i = 0 ; i < NUM_PLANES;i++){
-    planes.add(new Plane());
-  }
-
-  background(0);
+  //tracks = new ArrayList();
+  //parseFile("PRG.txt");
 
 }
 
 void draw(){
-
-  image(diffuse,0,0,width,height);
-
-  //  fill(0,15);
-  //  rect(0,0,width,height);
+  readAll();
+  background(0);
 
   noFill();
-  strokeWeight(1);
-  stroke(255,5);
-
-  /*
-     for(Object o:tracks){
-     Track tmp = (Track)o;
-     tmp.plot();
-     }*/
-
-  image(shadow,width-(frameCount%width),0,width,height);
-  image(shadow,width-(frameCount%width+width),0,width,height);
-
-/*
-  for(int i = 0 ; i < planes.size();i++){
-    try{
-      Plane tmp = (Plane)planes.get(i);
-      tmp.plot();
-    }catch(Exception e){
-      println("weird error");}
+  stroke(255,15);
+  for(Object o:tracks){
+    Track tmp = (Track)o;
+    tmp.plot();
   }
-*/
 
-/*
   if(frameCount==1){
     save("screenshot.png");
   }
-*/
+
   if(render)
-    saveFrame("/home/kof/render/airplanesShade/air#####.png");
-
-}
-
-
-class Plane{
-  Track route;
-  float speed;
-  PVector pos,vel;
-  int current;
-  PVector target;
-  ArrayList trail; 
-
-  Plane(){
-    route = (Track)tracks.get((int)random(tracks.size()));
-    pos = (PVector)route.waypoints.get(0);
-    target = new PVector(pos.x,pos.y);
-    vel = new PVector(0,0);
-    trail = new ArrayList();
-
-    try{
-      target = (PVector)route.waypoints.get(1);
-    }catch(Exception e){ 
-      planes.remove(this);
-      ;}
-  }
-
-  void move(){
-
-    pos.add(vel);
-    vel = new PVector(target.x-pos.x,target.y-pos.y);
-    vel.normalize();
-    vel.mult(0.1);
-    vel.x *= 1/cos(pos.y/(height+0.0));
-    
-    if(frameCount%5==0);
-    trail.add(new PVector(pos.x,pos.y));
-
-    if(dist(pos.x,pos.y,target.x,target.y)<1){
-      current++;
-      if(current<route.waypoints.size()){
-        target = (PVector)route.waypoints.get(current);
-      }else{
-        planes.add(new Plane());
-        planes.remove(this);
-
-      }
-
-    }
-  }
-
-  void plot(){
-    move();
-    point(pos.x,pos.y);
-    for(int i = 1 ; i < trail.size();i++){
-
-      PVector a = (PVector)trail.get(i-1);
-      PVector b = (PVector)trail.get(i);
-      line(a.x,a.y,b.x,b.y);
-
-    }
-  }
-
+    saveFrame("/home/kof/render/airplanes/air#####.png");
 
 }
 
@@ -158,7 +61,7 @@ class Track{
 void readAll(){
   tracks = new ArrayList();
 
-  java.io.File folder = new java.io.File(dataPath("airports"));
+  java.io.File folder = new java.io.File(dataPath(""));
 
   java.io.FilenameFilter txtFilter = new java.io.FilenameFilter() {
     public boolean accept(File dir, String name) {
@@ -173,7 +76,7 @@ void readAll(){
   // display the filenames
   for (int i = 0; i < filenames.length; i++) {
     //println("parsing "+filenames[i]);
-    parseFile("airports/"+filenames[i]);
+    parseFile(filenames[i]);
   }
 }
 
