@@ -3,7 +3,7 @@ JSONObject json;
 ArrayList tracks;
 ArrayList planes;
 
-int NUM_PLANES = 10000;
+int NUM_PLANES = 1000;
 
 String filenames[];
 
@@ -35,8 +35,9 @@ void setup() {
 
 void draw(){
 
-  image(diffuse,0,0,width,height);
+  // image(diffuse,0,0,width,height);
 
+  background(55);
   //  fill(0,15);
   //  rect(0,0,width,height);
 
@@ -53,7 +54,6 @@ void draw(){
   image(shadow,width-(frameCount%width),0,width,height);
   image(shadow,width-(frameCount%width+width),0,width,height);
 
-/*
   for(int i = 0 ; i < planes.size();i++){
     try{
       Plane tmp = (Plane)planes.get(i);
@@ -61,13 +61,12 @@ void draw(){
     }catch(Exception e){
       println("weird error");}
   }
-*/
 
-/*
-  if(frameCount==1){
-    save("screenshot.png");
-  }
-*/
+  /*
+     if(frameCount==1){
+     save("screenshot.png");
+     }
+   */
   if(render)
     saveFrame("/home/kof/render/airplanesShade/air#####.png");
 
@@ -81,6 +80,9 @@ class Plane{
   int current;
   PVector target;
   ArrayList trail; 
+  int timer = 255;
+  boolean alive = true;
+
 
   Plane(){
     route = (Track)tracks.get((int)random(tracks.size()));
@@ -88,7 +90,6 @@ class Plane{
     target = new PVector(pos.x,pos.y);
     vel = new PVector(0,0);
     trail = new ArrayList();
-
     try{
       target = (PVector)route.waypoints.get(1);
     }catch(Exception e){ 
@@ -103,26 +104,39 @@ class Plane{
     vel.normalize();
     vel.mult(0.1);
     vel.x *= 1/cos(pos.y/(height+0.0));
-    
+
     if(frameCount%5==0);
     trail.add(new PVector(pos.x,pos.y));
 
-    if(dist(pos.x,pos.y,target.x,target.y)<1){
+
+    if(trail.size()>TAIL_LENGTH)
+      trail.remove(0);
+
+    if(ailve && dist(pos.x,pos.y,target.x,target.y)<1){
       current++;
       if(current<route.waypoints.size()){
         target = (PVector)route.waypoints.get(current);
       }else{
+        alive = false;
+      }
+    }
+
+
+    if(!alive){
+      timer--;
+      if(timer<=0){
         planes.add(new Plane());
         planes.remove(this);
 
-      }
 
+      }
     }
   }
 
   void plot(){
     move();
-    point(pos.x,pos.y);
+    //point(pos.x,pos.y);
+    stroke(255,timer/10.0);
     for(int i = 1 ; i < trail.size();i++){
 
       PVector a = (PVector)trail.get(i-1);
