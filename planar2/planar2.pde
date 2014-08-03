@@ -9,6 +9,8 @@ String filenames[];
 
 PImage shadow, diffuse;
 
+int TAIL_LENGTH = 500;
+
 boolean render = true;
 
 void setup() {
@@ -136,9 +138,9 @@ class Plane{
   void plot(){
     move();
     //point(pos.x,pos.y);
-    stroke(255,timer/10.0);
     for(int i = 1 ; i < trail.size();i++){
 
+      stroke(255,timer/10.0*norm(i,trail.size(),0));
       PVector a = (PVector)trail.get(i-1);
       PVector b = (PVector)trail.get(i);
       line(a.x,a.y,b.x,b.y);
