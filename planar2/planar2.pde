@@ -9,12 +9,12 @@ String filenames[];
 
 PImage shadow, diffuse;
 
-int TAIL_LENGTH = 500;
+int TAIL_LENGTH = 750;
 
 boolean render = true;
 
 void setup() {
-  size(1920,1080);
+  size(1280/2,720/2,P2D);
 
   smooth();
 
@@ -44,8 +44,8 @@ void draw(){
   //  rect(0,0,width,height);
 
   noFill();
-  strokeWeight(1);
-  stroke(255,5);
+  //strokeWeight(1);
+  //stroke(255,5);
 
   /*
      for(Object o:tracks){
@@ -53,8 +53,8 @@ void draw(){
      tmp.plot();
      }*/
 
-  image(shadow,width-(frameCount%width),0,width,height);
-  image(shadow,width-(frameCount%width+width),0,width,height);
+  image(shadow,width-((round(frameCount/5.0))%width),0,width,height);
+  image(shadow,width-((round(frameCount/5.0))%width+width),0,width,height);
 
   for(int i = 0 ; i < planes.size();i++){
     try{
@@ -77,12 +77,12 @@ void draw(){
 
 class Plane{
   Track route;
-  float speed;
+  float speed = 0.025;
   PVector pos,vel;
   int current;
   PVector target;
   ArrayList trail; 
-  int timer = 255;
+  float timer = 0;
   boolean alive = true;
 
 
@@ -104,33 +104,32 @@ class Plane{
     pos.add(vel);
     vel = new PVector(target.x-pos.x,target.y-pos.y);
     vel.normalize();
-    vel.mult(0.1);
-    vel.x *= 1/cos(pos.y/(height+0.0));
-
-    if(frameCount%5==0);
-    trail.add(new PVector(pos.x,pos.y));
+    vel.mult(speed);
+    //vel.x *= 1/cos(pos.y/(height+0.0));
 
 
-    if(trail.size()>TAIL_LENGTH)
+    if(trail.size()>TAIL_LENGTH){
       trail.remove(0);
+    }else if(frameCount%5==0){
+    trail.add(new PVector(pos.x,pos.y));
+    }
 
-    if(ailve && dist(pos.x,pos.y,target.x,target.y)<1){
-      current++;
+
+    if(alive && dist(pos.x,pos.y,target.x,target.y)<1){
       if(current<route.waypoints.size()){
         target = (PVector)route.waypoints.get(current);
       }else{
         alive = false;
       }
+      current++;
     }
 
 
     if(!alive){
-      timer--;
-      if(timer<=0){
+      timer++;
+      if(timer>1000){
         planes.add(new Plane());
         planes.remove(this);
-
-
       }
     }
   }
@@ -139,16 +138,12 @@ class Plane{
     move();
     //point(pos.x,pos.y);
     for(int i = 1 ; i < trail.size();i++){
-
-      stroke(255,timer/10.0*norm(i,trail.size(),0));
+      stroke(255,(norm(i,trail.size(),0)*10.0)/(1+timer/100.0) );
       PVector a = (PVector)trail.get(i-1);
       PVector b = (PVector)trail.get(i);
       line(a.x,a.y,b.x,b.y);
-
     }
   }
-
-
 }
 
 class Track{
