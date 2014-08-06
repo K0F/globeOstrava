@@ -3,7 +3,7 @@ JSONObject json;
 ArrayList tracks;
 ArrayList planes;
 
-int NUM_PLANES = 1000;
+int NUM_PLANES = 5000;
 
 String filenames[];
 
@@ -14,7 +14,7 @@ int TAIL_LENGTH = 750;
 boolean render = true;
 
 void setup() {
-  size(1280/2,720/2,P2D);
+  size(1280,720,P2D);
 
   smooth();
 
@@ -25,7 +25,7 @@ void setup() {
 
   shadow = loadImage("shade2.png");
   diffuse = loadImage("The-globe-at-night.jpg");
-  diffuse.filter(GRAY);
+//  diffuse.filter(GRAY);
 
   for(int i = 0 ; i < NUM_PLANES;i++){
     planes.add(new Plane());
@@ -37,9 +37,9 @@ void setup() {
 
 void draw(){
 
-  // image(diffuse,0,0,width,height);
+  image(diffuse,0,0,width,height);
 
-  background(55);
+  //background(55);
   //  fill(0,15);
   //  rect(0,0,width,height);
 
@@ -53,8 +53,10 @@ void draw(){
      tmp.plot();
      }*/
 
-  image(shadow,width-((round(frameCount/5.0))%width),0,width,height);
-  image(shadow,width-((round(frameCount/5.0))%width+width),0,width,height);
+  tint(255,200);
+  image(shadow,width-((round(frameCount/5.0))%width),height*0.2*-1,width,height*2);
+  image(shadow,width-((round(frameCount/5.0))%width+width),height*0.2*-1,width,height*2);
+  noTint();
 
   for(int i = 0 ; i < planes.size();i++){
     try{
@@ -77,7 +79,7 @@ void draw(){
 
 class Plane{
   Track route;
-  float speed = 0.025;
+  float speed = 0.05;
   PVector pos,vel;
   int current;
   PVector target;
@@ -128,6 +130,7 @@ class Plane{
     if(!alive){
       timer++;
       if(timer>1000){
+      
         planes.add(new Plane());
         planes.remove(this);
       }
@@ -138,7 +141,7 @@ class Plane{
     move();
     //point(pos.x,pos.y);
     for(int i = 1 ; i < trail.size();i++){
-      stroke(255,(norm(i,trail.size(),0)*10.0)/(1+timer/100.0) );
+      stroke(255,(norm(i,trail.size(),0)*15.0)/(1+timer/100.0) );
       PVector a = (PVector)trail.get(i-1);
       PVector b = (PVector)trail.get(i);
       line(a.x,a.y,b.x,b.y);
