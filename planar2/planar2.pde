@@ -12,7 +12,7 @@ PImage shadow,day,night;
 int TAIL_LENGTH = 100;
 
 boolean render = false;
-int FRAME_OFFSET = 1000;
+int REC_OFFSET = 1000;
 
 int fr =0;
 PGraphics maska,diffuse1,diffuse2;
@@ -22,6 +22,8 @@ void setup() {
   size(1280,720);
 
   smooth();
+
+  textFont(createFont("Semplice Regular",8));
 
   readAll();
 
@@ -36,7 +38,7 @@ void setup() {
   maska = createGraphics(width,height,JAVA2D);
   diffuse1 = createGraphics(width,height,JAVA2D);
   diffuse2 = createGraphics(width,height,JAVA2D);
-  
+
   diffuse1.beginDraw();
   diffuse1.image(day,0,0,width,height);
   diffuse1.endDraw();
@@ -44,7 +46,7 @@ void setup() {
   diffuse2.beginDraw();
   diffuse2.image(night,0,0,width,height);
   diffuse2.endDraw();
-//  diffuse.filter(GRAY);
+  //  diffuse.filter(GRAY);
 
   for(int i = 0 ; i < NUM_PLANES;i++){
     planes.add(new Plane());
@@ -70,25 +72,32 @@ void draw(){
      Track tmp = (Track)o;
      tmp.plot();
      }*/
-  
-  image(diffuse1,0,0);
 
-  maska.beginDraw();
-  maska.image(shadow,width-((round(frameCount/5.0))%width),height*0.2*-1,width,height*2);
-  maska.image(shadow,width-((round(frameCount/5.0))%width+width),height*0.2*-1,width,height*2);
-  maska.endDraw();
 
-  diffuse2.beginDraw();
-  diffuse2.image(night,0,0,width,height);
-  diffuse2.endDraw();
+  if(frameCount>=REC_OFFSET){
 
-  PImage tmp1 = diffuse2.get();
-  PImage tmp2 = maska.get();
+    image(diffuse1,0,0);
 
-  tmp1.mask(tmp2);
+    maska.beginDraw();
+    maska.image(shadow,width-((round(frameCount/5.0))%width),height*0.2*-1,width,height*2);
+    maska.image(shadow,width-((round(frameCount/5.0))%width+width),height*0.2*-1,width,height*2);
+    maska.endDraw();
 
-  image(tmp1,0,0);
-  
+    diffuse2.beginDraw();
+    diffuse2.image(night,0,0,width,height);
+    diffuse2.endDraw();
+
+    PImage tmp1 = diffuse2.get();
+    PImage tmp2 = maska.get();
+
+    tmp1.mask(tmp2);
+
+    image(tmp1,0,0);
+  }else{
+    background(0);
+    fill(255);
+    text("rewinding >> "+frameCount,10,10);
+  }
 
   for(int i = 0 ; i < planes.size();i++){
     try{
@@ -103,10 +112,11 @@ void draw(){
      save("screenshot.png");
      }
    */
-  if(render && fameCount>=FRAMEOFFSET){
+  if(render && frameCount>=REC_OFFSET){
     save("/home/kof/render/airplanesShade/air"+nf(fr,5)+".png");
     fr++;
   }
+
 }
 
 
@@ -146,7 +156,7 @@ class Plane{
     if(trail.size()>TAIL_LENGTH){
       trail.remove(0);
     }else if(frameCount%5==0){
-    trail.add(new PVector(pos.x,pos.y));
+      trail.add(new PVector(pos.x,pos.y));
     }
 
 
@@ -163,7 +173,7 @@ class Plane{
     if(!alive){
       timer++;
       if(timer>1000){
-      
+
         planes.add(new Plane());
         planes.remove(this);
       }
@@ -172,22 +182,22 @@ class Plane{
 
   void plot(){
     move();
-  
+
     if(frameCount>=REC_OFFSET){
-    noStroke();
-    fill(255,120);
-    rect(pos.x,pos.y,1.5,1.5);
- 
-    pushStyle();
-    strokeWeight(1.5);
-  //point(pos.x,pos.y);
-    for(int i = 1 ; i < trail.size();i++){
-      stroke(255,(norm(i,trail.size(),0)*25.0)/(1+timer/100.0) );
-      PVector a = (PVector)trail.get(i-1);
-      PVector b = (PVector)trail.get(i);
-      line(a.x,a.y,b.x,b.y);
-    }
-    popStyle();
+      noStroke();
+      fill(255,120);
+      rect(pos.x,pos.y,1.5,1.5);
+
+      pushStyle();
+      strokeWeight(1.33);
+      //point(pos.x,pos.y);
+      for(int i = 1 ; i < trail.size();i++){
+        stroke(255,(norm(i,trail.size(),0)*25.0)/(1+timer/100.0) );
+        PVector a = (PVector)trail.get(i-1);
+        PVector b = (PVector)trail.get(i);
+        line(a.x,a.y,b.x,b.y);
+      }
+      popStyle();
     }
   }
 }
@@ -200,7 +210,7 @@ class Track{
   }
 
   void plot(){
-    
+
     for(int i = 1;i<waypoints.size();i++){
       //stroke(lerpColor(#ff0000,#00ff00,i/(waypoints.size()+0.0)),50);
       PVector tmp1 = (PVector)waypoints.get(i-1);
