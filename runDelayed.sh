@@ -7,7 +7,7 @@ export DISPLAY=:0.0
 xset -dpms
 xset s off
 xset b off
-xdotool mousemove 1024 768
+xdotool mousemove 1920 1080
 cd ~/globeOstrava
 git commit -am "change @ production machine `date`"
 git pull
