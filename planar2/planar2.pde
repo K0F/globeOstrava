@@ -113,7 +113,7 @@ void draw(){
      }
    */
   if(render && frameCount>=REC_OFFSET){
-    save("/home/kof/render/airplanesShade/air"+nf(fr,5)+".png");
+    save("airplanesShade/air"+nf(fr,5)+".png");
     fr++;
   }
 
