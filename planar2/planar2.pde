@@ -9,7 +9,7 @@ String filenames[];
 
 PImage shadow,day,night;
 
-int TAIL_LENGTH = 100;
+int TAIL_LENGTH = 200;
 
 boolean render = true;
 int REC_OFFSET = 1000;
@@ -19,7 +19,7 @@ PGraphics maska,diffuse1,diffuse2;
 
 
 void setup() {
-  size(1920,1080,P2D);
+  size(1920,1080);
 
   smooth();
 
@@ -32,12 +32,12 @@ void setup() {
 
 
   shadow = loadImage("mask.png");
-  day = loadImage("diffuse_day.png");
-  night = loadImage("The-globe-at-night.jpg");
+  day = loadImage("day.jpg");
+  night = loadImage("night.jpg");
 
-  maska = createGraphics(width,height,P2D);
-  diffuse1 = createGraphics(width,height,P2D);
-  diffuse2 = createGraphics(width,height,P2D);
+  maska = createGraphics(width,height,JAVA2D);
+  diffuse1 = createGraphics(width,height,JAVA2D);
+  diffuse2 = createGraphics(width,height,JAVA2D);
 
   diffuse1.beginDraw();
   diffuse1.image(day,0,0,width,height);
@@ -100,12 +100,10 @@ void draw(){
      }
    */
   if(render && frameCount>=REC_OFFSET){
-<<<<<<< HEAD
-    save("airplanesShade/air"+nf(fr,5)+".png");
-=======
-    save("/home/kof/render/airplanesShade/air"+nf(fr,5)+".jpg");
->>>>>>> 6b7c2517a781ef72376b121ebd98d866a292182f
+    println(nf(fr,5));
+    save("airplanesShade/air"+nf(fr,5)+".jpg");
     fr++;
+
   }
 
 
@@ -186,10 +184,10 @@ class Plane{
       rect(pos.x,pos.y,2,2);
 
       pushStyle();
-      strokeWeight(2);
       //point(pos.x,pos.y);
       for(int i = 1 ; i < trail.size();i++){
-        stroke(255,(norm(i,0,trail.size())*25.0)/(1+timer/100.0) );
+      	strokeWeight( (exp(-i/10.0)*2.0) );
+        stroke(255,( (exp(-i/10.0)*45.0) / (1+timer/100.0) ));
         PVector a = (PVector)trail.get(i-1);
         PVector b = (PVector)trail.get(i);
         line(a.x,a.y,b.x,b.y);
