@@ -11,7 +11,7 @@ PImage shadow,day,night;
 
 int TAIL_LENGTH = 100;
 
-boolean render = false;
+boolean render = true;
 int REC_OFFSET = 1000;
 
 int fr =0;
@@ -19,7 +19,7 @@ PGraphics maska,diffuse1,diffuse2;
 
 
 void setup() {
-  size(1280,720);
+  size(1920,1080,P2D);
 
   smooth();
 
@@ -35,9 +35,9 @@ void setup() {
   day = loadImage("diffuse_day.png");
   night = loadImage("The-globe-at-night.jpg");
 
-  maska = createGraphics(width,height,JAVA2D);
-  diffuse1 = createGraphics(width,height,JAVA2D);
-  diffuse2 = createGraphics(width,height,JAVA2D);
+  maska = createGraphics(width,height,P2D);
+  diffuse1 = createGraphics(width,height,P2D);
+  diffuse2 = createGraphics(width,height,P2D);
 
   diffuse1.beginDraw();
   diffuse1.image(day,0,0,width,height);
@@ -59,24 +59,11 @@ void setup() {
 void draw(){
 
 
-  //background(55);
-  //  fill(0,15);
-  //  rect(0,0,width,height);
-
-  noFill();
-  //strokeWeight(1);
-  //stroke(255,5);
-
-  /*
-     for(Object o:tracks){
-     Track tmp = (Track)o;
-     tmp.plot();
-     }*/
 
 
   if(frameCount>=REC_OFFSET){
 
-    image(diffuse1,0,0);
+    background(diffuse1);
 
     maska.beginDraw();
     maska.image(shadow,width-((round(frameCount/5.0))%width),height*0.2*-1,width,height*2);
@@ -113,9 +100,14 @@ void draw(){
      }
    */
   if(render && frameCount>=REC_OFFSET){
-    save("/home/kof/render/airplanesShade/air"+nf(fr,5)+".png");
+    save("/home/kof/render/airplanesShade/air"+nf(fr,5)+".jpg");
     fr++;
   }
+
+
+  // jeden cyklus
+  if(fr==(1920*5))
+    exit();
 
 }
 
@@ -186,13 +178,14 @@ class Plane{
     if(frameCount>=REC_OFFSET){
       noStroke();
       fill(255,120);
-      rect(pos.x,pos.y,1.5,1.5);
+      rectMode(CENTER);
+      rect(pos.x,pos.y,2,2);
 
       pushStyle();
-      strokeWeight(1.33);
+      strokeWeight(2);
       //point(pos.x,pos.y);
       for(int i = 1 ; i < trail.size();i++){
-        stroke(255,(norm(i,trail.size(),0)*25.0)/(1+timer/100.0) );
+        stroke(255,(norm(i,0,trail.size())*25.0)/(1+timer/100.0) );
         PVector a = (PVector)trail.get(i-1);
         PVector b = (PVector)trail.get(i);
         line(a.x,a.y,b.x,b.y);
