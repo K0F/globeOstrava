@@ -9,7 +9,7 @@ String filenames[];
 
 PImage shadow,day,night;
 
-int TAIL_LENGTH = 200;
+int TAIL_LENGTH = 400;
 
 boolean render = true;
 int REC_OFFSET = 1000;
@@ -53,13 +53,11 @@ void setup() {
   }
 
   background(0);
-
 }
 
+
+
 void draw(){
-
-
-
 
   if(frameCount>=REC_OFFSET){
 
@@ -186,8 +184,8 @@ class Plane{
       pushStyle();
       //point(pos.x,pos.y);
       for(int i = 1 ; i < trail.size();i++){
-      	strokeWeight( (exp(-i/10.0)*2.0) );
-        stroke(255,( (exp(-i/10.0)*45.0) / (1+timer/100.0) ));
+      	strokeWeight( (exp(-i/80.0)*2.0) );
+        stroke(255,( (exp(-i/80.0)*45.0) / (1+timer/100.0) ));
         PVector a = (PVector)trail.get(i-1);
         PVector b = (PVector)trail.get(i);
         line(a.x,a.y,b.x,b.y);
