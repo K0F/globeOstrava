@@ -9,7 +9,7 @@ String filenames[];
 
 PImage shadow,day,night;
 
-int TAIL_LENGTH = 400;
+int TAIL_LENGTH = 800;
 
 boolean render = true;
 int REC_OFFSET = 1000;
@@ -32,7 +32,7 @@ void setup() {
 
 
   shadow = loadImage("mask.png");
-  day = loadImage("day.jpg");
+  day = loadImage("f_dayMap_3.jpg");
   night = loadImage("night.jpg");
 
   maska = createGraphics(width,height,JAVA2D);
@@ -59,7 +59,7 @@ void setup() {
 
 void draw(){
 
-  if(frameCount>=REC_OFFSET){
+  if(frameCount>=REC_OFFSET && frameCount%8==0){
 
     background(diffuse1);
 
@@ -81,7 +81,7 @@ void draw(){
   }else{
     background(0);
     fill(255);
-    text("rewinding >> "+frameCount,10,10);
+    text("rewinding >> "+frameCount,width/2,height/2);
   }
 
   for(int i = 0 ; i < planes.size();i++){
@@ -97,7 +97,7 @@ void draw(){
      save("screenshot.png");
      }
    */
-  if(render && frameCount>=REC_OFFSET){
+  if(render && frameCount>=REC_OFFSET && frameCount%8==0){
     println(nf(fr,5));
     save("airplanesShade/air"+nf(fr,5)+".jpg");
     fr++;
@@ -106,7 +106,7 @@ void draw(){
 
 
   // jeden cyklus
-  if(fr==(1920*5))
+  if(fr==(1920))
     exit();
 
 }
@@ -139,7 +139,12 @@ class Plane{
   void move(){
 
     pos.add(vel);
+    if(dist(pos.x,pos.y,target.x,target.y)>width/2){
+    vel = new PVector(pos.x-target.x,target.y-pos.y);
+    pos = new PVector(target.x,target.y);
+    }else{
     vel = new PVector(target.x-pos.x,target.y-pos.y);
+    }
     vel.normalize();
     vel.mult(speed);
     //vel.x *= 1/cos(pos.y/(height+0.0));
@@ -178,19 +183,20 @@ class Plane{
   void plot(){
     move();
 
-    if(frameCount>=REC_OFFSET){
+    if(frameCount>=REC_OFFSET && frameCount%8==0){
       noStroke();
-      fill(255,120);
+      fill(255,160);
       rectMode(CENTER);
       rect(pos.x,pos.y,2,2);
 
       pushStyle();
       //point(pos.x,pos.y);
       for(int i = 1 ; i < trail.size();i++){
-      	strokeWeight( (exp(-(trail.size()-i)/80.0)*2.0) );
-        stroke(255,( (exp(-(trail.size()-i)/80.0)*45.0) ));
+      	strokeWeight( (exp(-(trail.size()-i)/200.0)*2.0) );
+        stroke(lerpColor(#E3A718,#ffffff,(exp(-(trail.size()-i)/20.0))),( (exp(-(trail.size()-i)/200.0)*45.0) ));
         PVector a = (PVector)trail.get(i-1);
         PVector b = (PVector)trail.get(i);
+        if(dist(a.x,a.y,b.x,b.y)<width/2)
         line(a.x,a.y,b.x,b.y);
       }
       popStyle();
