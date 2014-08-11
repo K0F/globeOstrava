@@ -13,14 +13,15 @@ float min_lat = 90.0;
 float max_lat = -90.0;
 
 boolean DRAW_PLANES = true;
-int NUM_PLANES = 10000;
+int NUM_PLANES = 1000;
+int TRAIL_LENGTH = 400;
 
 /////////////////////////////////
 
 boolean RANDOM_DRAW = false;
 
 
-boolean render = true;
+boolean render = false;
 
 PGraphics airplanesLayer;
 PImage normalTexture;

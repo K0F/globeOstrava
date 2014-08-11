@@ -35,7 +35,7 @@ class Plane{
 
   void move(){
     try{
-      PVector dir = new PVector(B.x-pos.x,B.y-pos.y);
+      PVector dir = new PVector(1/cos((pos.y/height)*PI-HALF_PI) * (B.x-pos.x),B.y-pos.y);
       dir.normalize();
       dir.mult(speed);
       pos.add(dir);
@@ -54,10 +54,10 @@ class Plane{
   }
 
   void trace(){
-    if(frameCount%3==0)
+    if(frameCount%5==0)
     trace.add(new PVector(pos.x,pos.y,pos.z));
 
-    if(trace.size()>50/3){
+    if(trace.size()>TRAIL_LENGTH){
 
       trace.remove(0);
     }
