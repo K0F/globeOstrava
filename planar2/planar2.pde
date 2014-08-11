@@ -149,14 +149,17 @@ class Plane{
     vel.mult(speed);
     //vel.x *= 1/cos(pos.y/(height+0.0));
 
-
-    if(trail.size()>TAIL_LENGTH){
-      trail.remove(0);
-    }else if(frameCount%5==0){
+    if(frameCount%5==0){
       trail.add(new PVector(pos.x,pos.y));
     }
 
 
+
+    if(trail.size()>TAIL_LENGTH){
+      trail.remove(0);
+
+	}
+   
     if(alive && dist(pos.x,pos.y,target.x,target.y)<1){
       if(current<route.waypoints.size()){
         target = (PVector)route.waypoints.get(current);
@@ -169,7 +172,7 @@ class Plane{
 
     if(!alive){
       timer++;
-      if(timer>1000){
+      if(timer>200){
 
         planes.add(new Plane());
         planes.remove(this);
