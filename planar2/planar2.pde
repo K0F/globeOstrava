@@ -33,7 +33,7 @@ void setup() {
 
   shadow = loadImage("mask.png");
   day = loadImage("f_dayMap_3.jpg");
-  night = loadImage("night.jpg");
+  night = loadImage("f_nightMap_2.jpg");
 
   maska = createGraphics(width,height,JAVA2D);
   diffuse1 = createGraphics(width,height,JAVA2D);
@@ -172,7 +172,7 @@ class Plane{
 
     if(!alive){
       timer++;
-      if(timer>200){
+      if(timer>trail.size()){
 
         planes.add(new Plane());
         planes.remove(this);
@@ -193,7 +193,7 @@ class Plane{
       //point(pos.x,pos.y);
       for(int i = 1 ; i < trail.size();i++){
       	strokeWeight( (exp(-(trail.size()-i)/200.0)*2.0) );
-        stroke(lerpColor(#E3A718,#ffffff,(exp(-(trail.size()-i)/20.0))),( (exp(-(trail.size()-i)/200.0)*45.0) ));
+        stroke(lerpColor(#7FF6FF,#FFFFFF,(exp(-(trail.size()-i)/30.0))),( (exp(-(trail.size()-i)/200.0)*25.0) ));
         PVector a = (PVector)trail.get(i-1);
         PVector b = (PVector)trail.get(i);
         if(dist(a.x,a.y,b.x,b.y)<width/2)
