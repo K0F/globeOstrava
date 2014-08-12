@@ -106,7 +106,7 @@ void draw(){
 
 
   // jeden cyklus
-  if(fr==(1920))
+  if(fr>(int)(1920*5/8.0))
     exit();
 
 }
