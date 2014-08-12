@@ -193,7 +193,7 @@ class Plane{
       //point(pos.x,pos.y);
       for(int i = 1 ; i < trail.size();i++){
       	strokeWeight( (exp(-(trail.size()-i)/200.0)*2.0) );
-        stroke(lerpColor(#600F00,#FFFFFF,(exp(-(trail.size()-i)/30.0))),( (exp(-(trail.size()-i)/200.0)*25.0) ));
+        stroke(lerpColor(#7FF6FF,#FFFFFF,(exp(-(trail.size()-i)/30.0))),( (exp(-(trail.size()-i)/200.0)*25.0) ));
         PVector a = (PVector)trail.get(i-1);
         PVector b = (PVector)trail.get(i);
         if(dist(a.x,a.y,b.x,b.y)<width/2)
