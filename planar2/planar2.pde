@@ -18,7 +18,7 @@ int fr =0;
 PGraphics maska,diffuse1,diffuse2;
 
 
-color TRAIL_A = color(215, 25, 34);
+color TRAIL_A = color(255, 127, 10);
 color TRAIL_B = color(255, 255, 255);
 
 void setup() {
@@ -36,7 +36,7 @@ void setup() {
 
   shadow = loadImage("mask.png");
   day = loadImage("f_dayMap_3.jpg");
-  night = loadImage("f_nightMap_2.jpg");
+  night = loadImage("The-globe-at-night.jpg");
 
   maska = createGraphics(width,height,JAVA2D);
   diffuse1 = createGraphics(width,height,JAVA2D);
